@@ -1,0 +1,12 @@
+PODS:
+  - MMWormhole (1.1.0):
+    - MMWormhole/Core (= 1.1.0)
+  - MMWormhole/Core (1.1.0)
+
+DEPENDENCIES:
+  - MMWormhole (~> 1.1.0)
+
+SPEC CHECKSUMS:
+  MMWormhole: 4730c4481718c2677412bf998422dbe305aa38a7
+
+COCOAPODS: 0.35.0

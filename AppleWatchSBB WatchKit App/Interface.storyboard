@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6724" systemVersion="14A389" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="PXe-OE-Z2C">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3735"/>
+    </dependencies>
+    <scenes>
+        <!--Stations Interface Controller-->
+        <scene sceneID="BYE-7X-eUt">
+            <objects>
+                <controller id="PXe-OE-Z2C" customClass="StationsInterfaceController">
+                    <items>
+                        <table alignment="left" id="Hfh-km-tmm">
+                            <items>
+                                <tableRow identifier="Station" id="CAB-25-ynk" customClass="StationsRowController">
+                                    <group key="rootItem" width="1" alignment="left" id="Uf7-64-wei">
+                                        <items>
+                                            <label alignment="left" text="Label" id="ldz-5J-eoz">
+                                                <fontDescription key="font" type="system" pointSize="14"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="nameLabel" destination="ldz-5J-eoz" id="ZK0-kC-sn8"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="Hfh-km-tmm" id="v0d-oX-Jd1"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="259" y="323"/>
+        </scene>
+    </scenes>
+</document>
