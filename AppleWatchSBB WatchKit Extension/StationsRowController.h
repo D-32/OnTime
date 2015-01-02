@@ -12,5 +12,6 @@
 @interface StationsRowController : NSObject
 
 @property (weak, nonatomic) IBOutlet WKInterfaceLabel *nameLabel;
+@property (weak, nonatomic) IBOutlet WKInterfaceLabel *distanceLabel;
 
 @end

@@ -13,14 +13,19 @@
                         <table alignment="left" id="Hfh-km-tmm">
                             <items>
                                 <tableRow identifier="Station" id="CAB-25-ynk" customClass="StationsRowController">
-                                    <group key="rootItem" width="1" alignment="left" id="Uf7-64-wei">
+                                    <group key="rootItem" width="1" alignment="left" layout="vertical" id="Uf7-64-wei">
                                         <items>
-                                            <label alignment="left" text="Label" id="ldz-5J-eoz">
-                                                <fontDescription key="font" type="system" pointSize="14"/>
+                                            <label alignment="left" text="Name" id="ldz-5J-eoz">
+                                                <fontDescription key="font" type="system" pointSize="13"/>
+                                            </label>
+                                            <label alignment="left" text="Distance" id="0lM-9q-Eg8">
+                                                <fontDescription key="font" type="system" pointSize="11"/>
                                             </label>
                                         </items>
+                                        <edgeInsets key="margins" left="7" right="7" top="3" bottom="2"/>
                                     </group>
                                     <connections>
+                                        <outlet property="distanceLabel" destination="0lM-9q-Eg8" id="cYS-Pa-YHe"/>
                                         <outlet property="nameLabel" destination="ldz-5J-eoz" id="ZK0-kC-sn8"/>
                                     </connections>
                                 </tableRow>

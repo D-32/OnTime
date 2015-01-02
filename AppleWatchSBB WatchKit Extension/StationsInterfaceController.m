@@ -40,10 +40,19 @@
                                                NSData* data,
                                                NSError* error) {
                                
-                               NSError* jsonError;
-                               NSDictionary* json = [NSJSONSerialization JSONObjectWithData:data options:0 error:&jsonError];
-                               [self updateTableWithStations:[json objectForKey:@"stations"]];
-                               
+                               NSHTTPURLResponse* httpResponse = (NSHTTPURLResponse*)response;
+                               if (!error &&
+                                   httpResponse.statusCode >= 200 &&
+                                   httpResponse.statusCode <= 299 && data)
+                               {
+                                   NSError* jsonError;
+                                   NSDictionary* json = [NSJSONSerialization JSONObjectWithData:data
+                                                                                        options:0
+                                                                                          error:&jsonError];
+                                   if (!jsonError) {
+                                       [self updateTableWithStations:[json objectForKey:@"stations"]];
+                                   }
+                               }
                            }];
 }
 
@@ -51,7 +60,9 @@
     [self.table setNumberOfRows:stations.count withRowType:@"Station"];
     for (int i = 0; i < stations.count; i++) {
         StationsRowController *rowController = [self.table rowControllerAtIndex:i];
-        rowController.nameLabel.text = [[stations objectAtIndex:i] objectForKey:@"name"];
+        NSDictionary *station = [stations objectAtIndex:i];
+        rowController.nameLabel.text = [station objectForKey:@"name"];
+        rowController.distanceLabel.text = [NSString stringWithFormat:@"%.0fm", [[station objectForKey:@"distance"] doubleValue]];
     }
 }
 
