@@ -13,6 +13,8 @@
 		9A20AA7C1A55E97B00BB4DEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A20AA7A1A55E97B00BB4DEC /* Main.storyboard */; };
 		9A20AA7E1A55E97B00BB4DEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A20AA7D1A55E97B00BB4DEC /* Images.xcassets */; };
 		9A20AA811A55E97B00BB4DEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A20AA7F1A55E97B00BB4DEC /* LaunchScreen.xib */; };
+		9A48C90E1A58319C0061AE35 /* StopsInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A48C90D1A58319C0061AE35 /* StopsInterfaceController.m */; };
+		9A48C9111A5831AC0061AE35 /* StopsRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A48C9101A5831AC0061AE35 /* StopsRowController.m */; };
 		9A9398321A573E56009B85C8 /* StationsInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9398311A573E56009B85C8 /* StationsInterfaceController.m */; };
 		9A9398361A573EBF009B85C8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9398351A573EBF009B85C8 /* Interface.storyboard */; };
 		9A93983A1A574051009B85C8 /* StationsRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9398391A574051009B85C8 /* StationsRowController.m */; };
@@ -69,6 +71,10 @@
 		9A20AA7B1A55E97B00BB4DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A20AA7D1A55E97B00BB4DEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9A20AA801A55E97B00BB4DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9A48C90C1A58319C0061AE35 /* StopsInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopsInterfaceController.h; sourceTree = "<group>"; };
+		9A48C90D1A58319C0061AE35 /* StopsInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopsInterfaceController.m; sourceTree = "<group>"; };
+		9A48C90F1A5831AC0061AE35 /* StopsRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopsRowController.h; sourceTree = "<group>"; };
+		9A48C9101A5831AC0061AE35 /* StopsRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopsRowController.m; sourceTree = "<group>"; };
 		9A9398301A573E56009B85C8 /* StationsInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationsInterfaceController.h; sourceTree = "<group>"; };
 		9A9398311A573E56009B85C8 /* StationsInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationsInterfaceController.m; sourceTree = "<group>"; };
 		9A9398351A573EBF009B85C8 /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
@@ -176,6 +182,10 @@
 				9AB70DB71A576D7500E7E5F5 /* DeparturesInterfaceController.m */,
 				9AB70DB91A5770E000E7E5F5 /* DeparturesRowController.h */,
 				9AB70DBA1A5770E000E7E5F5 /* DeparturesRowController.m */,
+				9A48C90C1A58319C0061AE35 /* StopsInterfaceController.h */,
+				9A48C90D1A58319C0061AE35 /* StopsInterfaceController.m */,
+				9A48C90F1A5831AC0061AE35 /* StopsRowController.h */,
+				9A48C9101A5831AC0061AE35 /* StopsRowController.m */,
 				9AB381CA1A55ED4E00AB8AD0 /* Images.xcassets */,
 				9AB381C51A55ED4E00AB8AD0 /* Supporting Files */,
 			);
@@ -397,7 +407,9 @@
 				9AB70DBB1A5770E000E7E5F5 /* DeparturesRowController.m in Sources */,
 				9AA7E6EA1A5766E600698C7A /* MainInterfaceController.m in Sources */,
 				9AB70DB81A576D7500E7E5F5 /* DeparturesInterfaceController.m in Sources */,
+				9A48C9111A5831AC0061AE35 /* StopsRowController.m in Sources */,
 				9A93983A1A574051009B85C8 /* StationsRowController.m in Sources */,
+				9A48C90E1A58319C0061AE35 /* StopsInterfaceController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

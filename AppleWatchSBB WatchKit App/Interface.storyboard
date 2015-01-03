@@ -112,16 +112,44 @@
         <!--Stops-->
         <scene sceneID="jyI-Zi-gNC">
             <objects>
-                <controller identifier="Stops" id="brI-Uh-FKU">
+                <controller identifier="Stops" title="Stops" id="brI-Uh-FKU" customClass="StopsInterfaceController">
                     <items>
                         <table alignment="left" id="rFt-12-Uas">
                             <items>
-                                <tableRow id="euR-Hp-zzW">
-                                    <group key="rootItem" width="1" alignment="left" id="md2-Gd-uns"/>
+                                <tableRow identifier="Stop" selectable="NO" id="euR-Hp-zzW" customClass="StopsRowController">
+                                    <group key="rootItem" width="1" alignment="left" layout="vertical" id="md2-Gd-uns">
+                                        <items>
+                                            <label width="1" alignment="left" text="Name" id="ZCi-ya-wqf">
+                                                <fontDescription key="font" type="system" pointSize="13"/>
+                                            </label>
+                                            <group width="1" alignment="left" id="znG-ir-3o2">
+                                                <items>
+                                                    <label alignment="left" text="Track" id="PtC-GK-U0R">
+                                                        <fontDescription key="font" type="system" pointSize="11"/>
+                                                    </label>
+                                                    <label alignment="right" text="Ar" id="7KP-rm-x5o">
+                                                        <fontDescription key="font" type="system" pointSize="11"/>
+                                                    </label>
+                                                    <label alignment="right" text="De" id="Y9i-pN-zoA">
+                                                        <fontDescription key="font" type="system" pointSize="11"/>
+                                                    </label>
+                                                </items>
+                                            </group>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="arrivalLabel" destination="7KP-rm-x5o" id="WhU-Hl-UmR"/>
+                                        <outlet property="departureLabel" destination="Y9i-pN-zoA" id="5hi-uW-95U"/>
+                                        <outlet property="nameLabel" destination="ZCi-ya-wqf" id="WbY-Tu-Yee"/>
+                                        <outlet property="trackLabel" destination="PtC-GK-U0R" id="w5c-Sn-yXb"/>
+                                    </connections>
                                 </tableRow>
                             </items>
                         </table>
                     </items>
+                    <connections>
+                        <outlet property="table" destination="rFt-12-Uas" id="7Aq-nU-nzN"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="711" y="160"/>

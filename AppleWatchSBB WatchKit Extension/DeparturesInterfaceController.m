@@ -80,6 +80,11 @@
     }
 }
 
+- (id)contextForSegueWithIdentifier:(NSString *)segueIdentifier inTable:(WKInterfaceTable *)table rowIndex:(NSInteger)rowIndex {
+    NSDictionary *item = [_departures objectAtIndex:rowIndex];
+    return [item objectForKey:@"passList"];
+}
+
 @end
 
 
