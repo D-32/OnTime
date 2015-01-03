@@ -53,7 +53,7 @@
                                                                                         options:0
                                                                                           error:&jsonError];
                                    if (!jsonError) {
-                                       _stations = [json objectForKey:@"stations"];
+                                       _stations = json[@"stations"];
                                        [self updateTable];
                                    }
                                }
@@ -64,17 +64,17 @@
     [self.table setNumberOfRows:_stations.count withRowType:@"Station"];
     for (int i = 0; i < _stations.count; i++) {
         StationsRowController *rowController = [self.table rowControllerAtIndex:i];
-        NSDictionary *station = [_stations objectAtIndex:i];
-        rowController.nameLabel.text = [station objectForKey:@"name"];
-        rowController.distanceLabel.text = [NSString stringWithFormat:@"%.0fm", [[station objectForKey:@"distance"] doubleValue]];
+        NSDictionary *station = _stations[i];
+        rowController.nameLabel.text = station[@"name"];
+        rowController.distanceLabel.text = [NSString stringWithFormat:@"%.0fm", [station[@"distance"] doubleValue]];
     }
 }
 
 - (void)table:(WKInterfaceTable *)table didSelectRowAtIndex:(NSInteger)rowIndex {
     if ([_context isEqualToString:@"nearby"]) {
-        [self pushControllerWithName:@"Departures" context:[_stations objectAtIndex:rowIndex]];
+        [self pushControllerWithName:@"Departures" context:_stations[rowIndex]];
     } else if ([_context isEqualToString:@"getmehome"]) {
-        [self pushControllerWithName:@"Connections" context:[[_stations objectAtIndex:rowIndex] objectForKey:@"id"]];
+        [self pushControllerWithName:@"Connections" context:_stations[rowIndex][@"id"]];
     }
 }
 

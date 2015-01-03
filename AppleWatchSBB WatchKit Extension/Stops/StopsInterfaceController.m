@@ -22,25 +22,25 @@
     [self.table setNumberOfRows:stops.count withRowType:@"Stop"];
     for (int i = 0; i < stops.count; i++) {
         StopsRowController *rowController = [self.table rowControllerAtIndex:i];
-        NSDictionary *stop = [stops objectAtIndex:i];
-        rowController.nameLabel.text = [[stop objectForKey:@"station"] objectForKey:@"name"];
+        NSDictionary *stop = stops[i];
+        rowController.nameLabel.text = stop[@"station"][@"name"];
         
         NSRange range = {11, 5};
-        NSString *arrivalTime = [stop objectForKey:@"arrival"];
+        NSString *arrivalTime = stop[@"arrival"];
         NSString *arrival;
         if (![arrivalTime isKindOfClass:[NSNull class]]) {
             arrival = [arrivalTime substringWithRange:range];
         }
         rowController.arrivalLabel.text = arrival;
         
-        NSString *departureTime = [stop objectForKey:@"departure"];
+        NSString *departureTime = stop[@"departure"];
         NSString *departure;
         if (![departureTime isKindOfClass:[NSNull class]]) {
             departure = [departureTime substringWithRange:range];
         }
         rowController.departureLabel.text = departure;
         
-        rowController.trackLabel.text = [stop objectForKey:@"platform"];
+        rowController.trackLabel.text = stop[@"platform"];
     }
 }
 

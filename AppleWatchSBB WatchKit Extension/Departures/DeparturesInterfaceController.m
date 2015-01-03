@@ -28,7 +28,7 @@
 }
 
 - (void)loadDepartures {
-    NSString *url = [NSString stringWithFormat:@"http://transport.opendata.ch/v1/stationboard?id=%li&limit=20", (long)[[_station objectForKey:@"id"] integerValue]];
+    NSString *url = [NSString stringWithFormat:@"http://transport.opendata.ch/v1/stationboard?id=%li&limit=20",[_station[@"id"] integerValue]];
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:url]];
     [NSURLConnection sendAsynchronousRequest:request
                                        queue:[NSOperationQueue mainQueue]
@@ -46,7 +46,7 @@
                                                                                         options:0
                                                                                           error:&jsonError];
                                    if (!jsonError) {
-                                       _departures = [json objectForKey:@"stationboard"];
+                                       _departures = json[@"stationboard"];
                                        [self updateTable];
                                    }
                                }
@@ -57,29 +57,29 @@
     [self.table setNumberOfRows:_departures.count withRowType:@"Departure"];
     for (int i = 0; i < _departures.count; i++) {
         DeparturesRowController *rowController = [self.table rowControllerAtIndex:i];
-        NSDictionary *item = [_departures objectAtIndex:i];
-        NSString *name = [item objectForKey:@"name"];
+        NSDictionary *item = _departures[i];
+        NSString *name = item[@"name"];
         NSRange range = {11, 5};
-        NSString *time = [[[item objectForKey:@"stop"] objectForKey:@"departure"] substringWithRange:range];
-        NSString *destination = [item objectForKey:@"to"];
+        NSString *time = [item [@"stop"][@"departure"] substringWithRange:range];
+        NSString *destination = item[@"to"];
         rowController.timeLabel.text = time;
         rowController.nameLabel.text = name;
         rowController.destinationLabel.text = destination;
 
-        NSInteger categoryCode = [[item objectForKey:@"categoryCode"] integerValue];
+        NSInteger categoryCode = [item[@"categoryCode"] integerValue];
         [rowController.icon setImageNamed:[IconHelper imageNameForCode:categoryCode]];
     }
 }
 
 - (id)contextForSegueWithIdentifier:(NSString *)segueIdentifier inTable:(WKInterfaceTable *)table rowIndex:(NSInteger)rowIndex {
-    NSDictionary *item = [_departures objectAtIndex:rowIndex];
-    return [item objectForKey:@"passList"];
+    NSDictionary *item = _departures[rowIndex];
+    return item[@"passList"];
 }
 
 - (IBAction)menuMap {
     NSDictionary *coordinate = [_station objectForKey:@"coordinate"];
-    CLLocationDegrees latitude = [[coordinate objectForKey:@"x"] doubleValue];
-    CLLocationDegrees longitude = [[coordinate objectForKey:@"y"] doubleValue];
+    CLLocationDegrees latitude = [coordinate[@"x"] doubleValue];
+    CLLocationDegrees longitude = [coordinate[@"y"] doubleValue];
     CLLocation *location = [[CLLocation alloc] initWithLatitude:latitude longitude:longitude];
     [self presentControllerWithName:@"Map" context:location];
 }

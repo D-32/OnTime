@@ -44,7 +44,7 @@
                                                                                         options:0
                                                                                           error:&jsonError];
                                    if (!jsonError) {
-                                       _connections = [json objectForKey:@"connections"];
+                                       _connections = json[@"connections"];
                                        [self updateTable];
                                    }
                                }
@@ -65,7 +65,7 @@
 }
 
 - (id)contextForSegueWithIdentifier:(NSString *)segueIdentifier inTable:(WKInterfaceTable *)table rowIndex:(NSInteger)rowIndex {
-    return [_connections objectAtIndex:rowIndex];
+    return _connections[rowIndex];
 }
 
 @end

@@ -18,13 +18,12 @@
 
 - (void)awakeWithContext:(id)context {
     [super awakeWithContext:context];
-    NSArray *sections = [context objectForKey:@"sections"];
+    NSArray *sections = context[@"sections"];
     
     [self.table setNumberOfRows:sections.count withRowType:@"ConnectionDetail"];
     for (int i = 0; i < sections.count; i++) {
-    //for (NSInteger i = sections.count - 1; i >= 0; i--) {
         ConnectionDetailRowController *rowController = [self.table rowControllerAtIndex:i];
-        NSDictionary *section = [sections objectAtIndex:i];
+        NSDictionary *section = sections[i];
         
         NSDictionary *journey = section[@"journey"];
         NSDictionary *walk = section[@"walk"];

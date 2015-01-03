@@ -83,7 +83,7 @@
                                                         <fontDescription key="font" type="system" pointSize="13"/>
                                                     </label>
                                                     <separator alignment="left" id="6Xw-50-Rob"/>
-                                                    <label width="1" height="36" alignment="left" text="Destination" textAlignment="left" numberOfLines="2" id="U8J-k1-wx2">
+                                                    <label width="1" alignment="left" text="Destination" textAlignment="left" numberOfLines="2" id="U8J-k1-wx2">
                                                         <fontDescription key="font" type="system" pointSize="13"/>
                                                     </label>
                                                 </items>
