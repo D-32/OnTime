@@ -10,20 +10,20 @@
             <objects>
                 <controller identifier="Main" title="SBB" id="7i8-EH-URM" customClass="MainInterfaceController">
                     <items>
-                        <group width="1" alignment="left" layout="vertical" id="NWU-bp-kif">
-                            <items>
-                                <button width="1" alignment="left" title="Nearby" id="s5b-Dp-K1d">
-                                    <connections>
-                                        <segue destination="PXe-OE-Z2C" kind="push" id="seF-H6-mUB"/>
-                                    </connections>
-                                </button>
-                            </items>
-                        </group>
-                        <button width="1" alignment="left" title="Get Me Home" id="D2Q-PR-fCZ"/>
+                        <button width="1" alignment="left" title="Nearby" id="s5b-Dp-K1d">
+                            <connections>
+                                <segue destination="PXe-OE-Z2C" kind="push" identifier="nearby" id="39n-bC-LEc"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Get Me Home" id="D2Q-PR-fCZ">
+                            <connections>
+                                <segue destination="PXe-OE-Z2C" kind="push" identifier="getmehome" id="uei-mv-8cM"/>
+                            </connections>
+                        </button>
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="109" y="268"/>
+            <point key="canvasLocation" x="77" y="160"/>
         </scene>
         <!--Stations-->
         <scene sceneID="BYE-7X-eUt">
@@ -47,7 +47,6 @@
                                     <connections>
                                         <outlet property="distanceLabel" destination="0lM-9q-Eg8" id="cYS-Pa-YHe"/>
                                         <outlet property="nameLabel" destination="ldz-5J-eoz" id="ZK0-kC-sn8"/>
-                                        <segue destination="t0m-ap-8WE" kind="push" id="7Ma-9t-Uhf"/>
                                     </connections>
                                 </tableRow>
                             </items>
@@ -58,7 +57,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="390" y="268"/>
+            <point key="canvasLocation" x="305" y="160"/>
         </scene>
         <!--Departures-->
         <scene sceneID="Yhp-aC-HHK">
@@ -97,6 +96,7 @@
                                         <outlet property="icon" destination="rsT-x9-g8N" id="G83-8A-V9O"/>
                                         <outlet property="nameLabel" destination="ur9-ss-YUO" id="7mV-di-3Ww"/>
                                         <outlet property="timeLabel" destination="Bwp-yn-6oC" id="oaQ-Lw-Fxj"/>
+                                        <segue destination="brI-Uh-FKU" kind="push" id="OsM-7K-zao"/>
                                     </connections>
                                 </tableRow>
                             </items>
@@ -107,7 +107,27 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="618" y="268"/>
+            <point key="canvasLocation" x="496" y="160"/>
+        </scene>
+        <!--Stops-->
+        <scene sceneID="jyI-Zi-gNC">
+            <objects>
+                <controller identifier="Stops" id="brI-Uh-FKU">
+                    <items>
+                        <table alignment="left" id="rFt-12-Uas">
+                            <items>
+                                <tableRow id="euR-Hp-zzW">
+                                    <group key="rootItem" width="1" alignment="left" id="md2-Gd-uns"/>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="711" y="160"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="uei-mv-8cM"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -17,6 +17,7 @@
 
 
 @implementation StationsInterfaceController {
+    NSString *_context;
     CLLocationManager *_locationManager;
     CLLocation *_currentLocation;
     NSArray *_stations;
@@ -24,6 +25,7 @@
 
 - (void)awakeWithContext:(id)context {
     [super awakeWithContext:context];
+    _context = context;
 
     _locationManager = [[CLLocationManager alloc] init];
     _locationManager.delegate = self;
@@ -68,17 +70,10 @@
     }
 }
 
-- (void)willActivate {
-    [super willActivate];
-    
-}
-
-- (void)didDeactivate {
-    [super didDeactivate];
-}
-
-- (id)contextForSegueWithIdentifier:(NSString *)segueIdentifier inTable:(WKInterfaceTable *)table rowIndex:(NSInteger)rowIndex {
-    return [_stations objectAtIndex:rowIndex];
+- (void)table:(WKInterfaceTable *)table didSelectRowAtIndex:(NSInteger)rowIndex {
+    if ([_context isEqualToString:@"nearby"]) {
+        [self pushControllerWithName:@"Departures" context:[_stations objectAtIndex:rowIndex]];
+    }
 }
 
 #pragma mark - CLLocationManagerDelegate
