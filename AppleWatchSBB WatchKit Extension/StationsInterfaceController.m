@@ -17,8 +17,9 @@
 
 
 @implementation StationsInterfaceController {
-    CLLocationManager* _locationManager;
-    CLLocation* _currentLocation;
+    CLLocationManager *_locationManager;
+    CLLocation *_currentLocation;
+    NSArray *_stations;
 }
 
 - (void)awakeWithContext:(id)context {
@@ -50,17 +51,18 @@
                                                                                         options:0
                                                                                           error:&jsonError];
                                    if (!jsonError) {
-                                       [self updateTableWithStations:[json objectForKey:@"stations"]];
+                                       _stations = [json objectForKey:@"stations"];
+                                       [self updateTable];
                                    }
                                }
                            }];
 }
 
-- (void)updateTableWithStations:(NSArray *)stations {
-    [self.table setNumberOfRows:stations.count withRowType:@"Station"];
-    for (int i = 0; i < stations.count; i++) {
+- (void)updateTable {
+    [self.table setNumberOfRows:_stations.count withRowType:@"Station"];
+    for (int i = 0; i < _stations.count; i++) {
         StationsRowController *rowController = [self.table rowControllerAtIndex:i];
-        NSDictionary *station = [stations objectAtIndex:i];
+        NSDictionary *station = [_stations objectAtIndex:i];
         rowController.nameLabel.text = [station objectForKey:@"name"];
         rowController.distanceLabel.text = [NSString stringWithFormat:@"%.0fm", [[station objectForKey:@"distance"] doubleValue]];
     }
@@ -73,6 +75,10 @@
 
 - (void)didDeactivate {
     [super didDeactivate];
+}
+
+- (id)contextForSegueWithIdentifier:(NSString *)segueIdentifier inTable:(WKInterfaceTable *)table rowIndex:(NSInteger)rowIndex {
+    return [_stations objectAtIndex:rowIndex];
 }
 
 #pragma mark - CLLocationManagerDelegate

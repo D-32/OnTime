@@ -16,10 +16,13 @@
 		9A9398321A573E56009B85C8 /* StationsInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9398311A573E56009B85C8 /* StationsInterfaceController.m */; };
 		9A9398361A573EBF009B85C8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9398351A573EBF009B85C8 /* Interface.storyboard */; };
 		9A93983A1A574051009B85C8 /* StationsRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9398391A574051009B85C8 /* StationsRowController.m */; };
+		9AA7E6EA1A5766E600698C7A /* MainInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA7E6E91A5766E600698C7A /* MainInterfaceController.m */; };
 		9AB381CB1A55ED4E00AB8AD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB381CA1A55ED4E00AB8AD0 /* Images.xcassets */; };
 		9AB381CF1A55ED4E00AB8AD0 /* AppleWatchSBB WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 9AB381CE1A55ED4E00AB8AD0 /* AppleWatchSBB WatchKit App.app */; };
 		9AB381D91A55ED4E00AB8AD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB381D81A55ED4E00AB8AD0 /* Images.xcassets */; };
 		9AB381DC1A55ED4E00AB8AD0 /* AppleWatchSBB WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9AB381C31A55ED4E00AB8AD0 /* AppleWatchSBB WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9AB70DB81A576D7500E7E5F5 /* DeparturesInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB70DB71A576D7500E7E5F5 /* DeparturesInterfaceController.m */; };
+		9AB70DBB1A5770E000E7E5F5 /* DeparturesRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB70DBA1A5770E000E7E5F5 /* DeparturesRowController.m */; };
 		ACDEB86B46CD1F39E1CB0F81 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF5C617F75E0FF7A7F97C31 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -71,12 +74,18 @@
 		9A9398351A573EBF009B85C8 /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
 		9A9398381A574051009B85C8 /* StationsRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationsRowController.h; sourceTree = "<group>"; };
 		9A9398391A574051009B85C8 /* StationsRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationsRowController.m; sourceTree = "<group>"; };
+		9AA7E6E81A5766E600698C7A /* MainInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainInterfaceController.h; sourceTree = "<group>"; };
+		9AA7E6E91A5766E600698C7A /* MainInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainInterfaceController.m; sourceTree = "<group>"; };
 		9AB381C31A55ED4E00AB8AD0 /* AppleWatchSBB WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AppleWatchSBB WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB381C61A55ED4E00AB8AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AB381CA1A55ED4E00AB8AD0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9AB381CE1A55ED4E00AB8AD0 /* AppleWatchSBB WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleWatchSBB WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB381D41A55ED4E00AB8AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AB381D81A55ED4E00AB8AD0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9AB70DB61A576D7500E7E5F5 /* DeparturesInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeparturesInterfaceController.h; sourceTree = "<group>"; };
+		9AB70DB71A576D7500E7E5F5 /* DeparturesInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeparturesInterfaceController.m; sourceTree = "<group>"; };
+		9AB70DB91A5770E000E7E5F5 /* DeparturesRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeparturesRowController.h; sourceTree = "<group>"; };
+		9AB70DBA1A5770E000E7E5F5 /* DeparturesRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeparturesRowController.m; sourceTree = "<group>"; };
 		A92B56B601965C74DDC66BB8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		DFF5C617F75E0FF7A7F97C31 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -157,10 +166,16 @@
 		9AB381C41A55ED4E00AB8AD0 /* AppleWatchSBB WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				9AA7E6E81A5766E600698C7A /* MainInterfaceController.h */,
+				9AA7E6E91A5766E600698C7A /* MainInterfaceController.m */,
 				9A9398301A573E56009B85C8 /* StationsInterfaceController.h */,
 				9A9398311A573E56009B85C8 /* StationsInterfaceController.m */,
 				9A9398381A574051009B85C8 /* StationsRowController.h */,
 				9A9398391A574051009B85C8 /* StationsRowController.m */,
+				9AB70DB61A576D7500E7E5F5 /* DeparturesInterfaceController.h */,
+				9AB70DB71A576D7500E7E5F5 /* DeparturesInterfaceController.m */,
+				9AB70DB91A5770E000E7E5F5 /* DeparturesRowController.h */,
+				9AB70DBA1A5770E000E7E5F5 /* DeparturesRowController.m */,
 				9AB381CA1A55ED4E00AB8AD0 /* Images.xcassets */,
 				9AB381C51A55ED4E00AB8AD0 /* Supporting Files */,
 			);
@@ -379,6 +394,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A9398321A573E56009B85C8 /* StationsInterfaceController.m in Sources */,
+				9AB70DBB1A5770E000E7E5F5 /* DeparturesRowController.m in Sources */,
+				9AA7E6EA1A5766E600698C7A /* MainInterfaceController.m in Sources */,
+				9AB70DB81A576D7500E7E5F5 /* DeparturesInterfaceController.m in Sources */,
 				9A93983A1A574051009B85C8 /* StationsRowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
