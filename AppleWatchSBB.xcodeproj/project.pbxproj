@@ -13,6 +13,9 @@
 		9A20AA7C1A55E97B00BB4DEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A20AA7A1A55E97B00BB4DEC /* Main.storyboard */; };
 		9A20AA7E1A55E97B00BB4DEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A20AA7D1A55E97B00BB4DEC /* Images.xcassets */; };
 		9A20AA811A55E97B00BB4DEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A20AA7F1A55E97B00BB4DEC /* LaunchScreen.xib */; };
+		9A3464821A58680B00AB0C11 /* ConnectionDetailInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3464811A58680B00AB0C11 /* ConnectionDetailInterfaceController.m */; };
+		9A3464851A58682100AB0C11 /* ConnectionDetailRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3464841A58682100AB0C11 /* ConnectionDetailRowController.m */; };
+		9A3464891A586B3200AB0C11 /* IconHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3464881A586B3200AB0C11 /* IconHelper.m */; };
 		9A9398361A573EBF009B85C8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9398351A573EBF009B85C8 /* Interface.storyboard */; };
 		9AB381CB1A55ED4E00AB8AD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB381CA1A55ED4E00AB8AD0 /* Images.xcassets */; };
 		9AB381CF1A55ED4E00AB8AD0 /* AppleWatchSBB WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 9AB381CE1A55ED4E00AB8AD0 /* AppleWatchSBB WatchKit App.app */; };
@@ -74,6 +77,12 @@
 		9A20AA7B1A55E97B00BB4DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A20AA7D1A55E97B00BB4DEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9A20AA801A55E97B00BB4DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9A3464801A58680B00AB0C11 /* ConnectionDetailInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConnectionDetailInterfaceController.h; path = "AppleWatchSBB WatchKit Extension/ConnectionDetail/ConnectionDetailInterfaceController.h"; sourceTree = SOURCE_ROOT; };
+		9A3464811A58680B00AB0C11 /* ConnectionDetailInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConnectionDetailInterfaceController.m; path = "AppleWatchSBB WatchKit Extension/ConnectionDetail/ConnectionDetailInterfaceController.m"; sourceTree = SOURCE_ROOT; };
+		9A3464831A58682100AB0C11 /* ConnectionDetailRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConnectionDetailRowController.h; path = "AppleWatchSBB WatchKit Extension/ConnectionDetail/ConnectionDetailRowController.h"; sourceTree = SOURCE_ROOT; };
+		9A3464841A58682100AB0C11 /* ConnectionDetailRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConnectionDetailRowController.m; path = "AppleWatchSBB WatchKit Extension/ConnectionDetail/ConnectionDetailRowController.m"; sourceTree = SOURCE_ROOT; };
+		9A3464871A586B3200AB0C11 /* IconHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconHelper.h; sourceTree = "<group>"; };
+		9A3464881A586B3200AB0C11 /* IconHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconHelper.m; sourceTree = "<group>"; };
 		9A9398351A573EBF009B85C8 /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
 		9AB381C31A55ED4E00AB8AD0 /* AppleWatchSBB WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AppleWatchSBB WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB381C61A55ED4E00AB8AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -178,6 +187,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9A3464861A586B2A00AB0C11 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9A3464871A586B3200AB0C11 /* IconHelper.h */,
+				9A3464881A586B3200AB0C11 /* IconHelper.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		9AB381C41A55ED4E00AB8AD0 /* AppleWatchSBB WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +206,7 @@
 				9AFEAC201A58494C00BB6538 /* Map */,
 				9AFEAC231A58494C00BB6538 /* Stations */,
 				9AFEAC281A58494C00BB6538 /* Stops */,
+				9A3464861A586B2A00AB0C11 /* Helper */,
 				9AB381CA1A55ED4E00AB8AD0 /* Images.xcassets */,
 				9AB381C51A55ED4E00AB8AD0 /* Supporting Files */,
 			);
@@ -223,6 +242,10 @@
 		9AFEAC161A58494C00BB6538 /* ConnectionDetail */ = {
 			isa = PBXGroup;
 			children = (
+				9A3464801A58680B00AB0C11 /* ConnectionDetailInterfaceController.h */,
+				9A3464811A58680B00AB0C11 /* ConnectionDetailInterfaceController.m */,
+				9A3464831A58682100AB0C11 /* ConnectionDetailRowController.h */,
+				9A3464841A58682100AB0C11 /* ConnectionDetailRowController.m */,
 			);
 			name = ConnectionDetail;
 			path = Connection;
@@ -476,7 +499,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AFEAC371A5849A300BB6538 /* ConnectionsInterfaceController.m in Sources */,
+				9A3464851A58682100AB0C11 /* ConnectionDetailRowController.m in Sources */,
 				9AFEAC331A58494C00BB6538 /* StopsInterfaceController.m in Sources */,
+				9A3464891A586B3200AB0C11 /* IconHelper.m in Sources */,
 				9AFEAC3A1A5849B200BB6538 /* ConnectionsRowController.m in Sources */,
 				9AFEAC2D1A58494C00BB6538 /* DeparturesInterfaceController.m in Sources */,
 				9AFEAC321A58494C00BB6538 /* StationsRowController.m in Sources */,
@@ -485,6 +510,7 @@
 				9AFEAC2F1A58494C00BB6538 /* MainInterfaceController.m in Sources */,
 				9AFEAC301A58494C00BB6538 /* MapInterfaceController.m in Sources */,
 				9AFEAC2E1A58494C00BB6538 /* DeparturesRowController.m in Sources */,
+				9A3464821A58680B00AB0C11 /* ConnectionDetailInterfaceController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

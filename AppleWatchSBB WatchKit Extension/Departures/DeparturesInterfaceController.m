@@ -8,6 +8,7 @@
 
 #import "DeparturesInterfaceController.h"
 #import "DeparturesRowController.h"
+#import "IconHelper.h"
 
 @interface DeparturesInterfaceController()
 @property (weak, nonatomic) IBOutlet WKInterfaceTable *table;
@@ -66,17 +67,7 @@
         rowController.destinationLabel.text = destination;
 
         NSInteger categoryCode = [[item objectForKey:@"categoryCode"] integerValue];
-        if (categoryCode == 1 || categoryCode == 2 || categoryCode == 3 || categoryCode == 5 || categoryCode == 8) {
-            [rowController.icon setImageNamed:@"train"];
-        } else if (categoryCode == 6) {
-            [rowController.icon setImageNamed:@"bus"];
-        } else if (categoryCode == 9) {
-            [rowController.icon setImageNamed:@"tram"];
-        } else if (categoryCode == 4) {
-            [rowController.icon setImageNamed:@"ship"];
-        } else if (categoryCode == 7) {
-            [rowController.icon setImageNamed:@"cable"];
-        }
+        [rowController.icon setImageNamed:[IconHelper imageNameForCode:categoryCode]];
     }
 }
 

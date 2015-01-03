@@ -140,10 +140,10 @@
                                             </group>
                                             <group width="40" alignment="left" layout="vertical" id="0G1-yf-ydA">
                                                 <items>
-                                                    <label alignment="left" text="Time" id="9uQ-a7-yvB">
+                                                    <label alignment="right" text="Time" id="9uQ-a7-yvB">
                                                         <fontDescription key="font" type="system" pointSize="14"/>
                                                     </label>
-                                                    <label alignment="left" text="Time" id="h7m-Ur-pdw">
+                                                    <label alignment="right" text="Time" id="h7m-Ur-pdw">
                                                         <fontDescription key="font" type="system" pointSize="14"/>
                                                     </label>
                                                 </items>
@@ -171,16 +171,68 @@
         <!--Connection-->
         <scene sceneID="M9j-hK-LPu">
             <objects>
-                <controller identifier="Connection" title="Connection" id="fab-GJ-0oY">
+                <controller identifier="ConnectionDetail" title="Connection" id="fab-GJ-0oY" customClass="ConnectionDetailInterfaceController">
                     <items>
                         <table alignment="left" id="XfK-BP-2tc">
                             <items>
-                                <tableRow id="Ock-eM-DR6">
-                                    <group key="rootItem" width="1" alignment="left" id="MT7-GA-V01"/>
+                                <tableRow identifier="ConnectionDetail" selectable="NO" id="Ock-eM-DR6" customClass="ConnectionDetailRowController">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="MT7-GA-V01">
+                                        <items>
+                                            <group width="1" alignment="left" id="QOj-aP-MOG">
+                                                <items>
+                                                    <imageView width="24" height="24" alignment="left" id="T4x-7M-bTJ"/>
+                                                    <label alignment="left" verticalAlignment="center" text="Name" id="f3A-U6-ggs">
+                                                        <fontDescription key="font" type="system" pointSize="14"/>
+                                                    </label>
+                                                    <label alignment="right" verticalAlignment="center" text="0" id="m4Z-Cd-ayA">
+                                                        <fontDescription key="font" type="system" pointSize="14"/>
+                                                    </label>
+                                                </items>
+                                            </group>
+                                            <separator alignment="left" id="jAh-Lc-BEt"/>
+                                            <group width="1" alignment="left" id="dAy-lo-a8U">
+                                                <items>
+                                                    <group width="1" widthAdjustment="-40" alignment="left" layout="vertical" id="tsH-1F-QqI">
+                                                        <items>
+                                                            <label alignment="left" text="Departure" id="7Vw-SX-hys">
+                                                                <fontDescription key="font" type="system" pointSize="14"/>
+                                                            </label>
+                                                            <label alignment="left" text="Arrival" id="2VF-EU-T2V">
+                                                                <fontDescription key="font" type="system" pointSize="14"/>
+                                                            </label>
+                                                        </items>
+                                                    </group>
+                                                    <group width="40" alignment="left" layout="vertical" id="J7a-OK-PN4">
+                                                        <items>
+                                                            <label alignment="right" text="Time" id="mf5-F5-SLw">
+                                                                <fontDescription key="font" type="system" pointSize="14"/>
+                                                            </label>
+                                                            <label alignment="right" text="Time" id="v8v-uf-tL9">
+                                                                <fontDescription key="font" type="system" pointSize="14"/>
+                                                            </label>
+                                                        </items>
+                                                    </group>
+                                                </items>
+                                            </group>
+                                        </items>
+                                        <edgeInsets key="margins" left="8" right="8" top="10" bottom="5"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="arrivalNameLabel" destination="2VF-EU-T2V" id="Qxn-Ut-XsQ"/>
+                                        <outlet property="arrivalTimeLabel" destination="v8v-uf-tL9" id="yec-3S-h0z"/>
+                                        <outlet property="departureNameLabel" destination="7Vw-SX-hys" id="YrT-dB-eEb"/>
+                                        <outlet property="departureTimeLabel" destination="mf5-F5-SLw" id="Fcn-fe-9eG"/>
+                                        <outlet property="icon" destination="T4x-7M-bTJ" id="hoh-iV-Zd1"/>
+                                        <outlet property="nameLabel" destination="f3A-U6-ggs" id="UG5-RM-bHL"/>
+                                        <outlet property="trackLabel" destination="m4Z-Cd-ayA" id="MBR-gc-baS"/>
+                                    </connections>
                                 </tableRow>
                             </items>
                         </table>
                     </items>
+                    <connections>
+                        <outlet property="table" destination="XfK-BP-2tc" id="UrR-Ny-vUq"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="711" y="414"/>
