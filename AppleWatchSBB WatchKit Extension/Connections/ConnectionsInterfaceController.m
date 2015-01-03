@@ -16,11 +16,13 @@
 
 @implementation ConnectionsInterfaceController {
     NSArray *_connections;
+    NSDictionary *_station;
 }
 
 - (void)awakeWithContext:(id)context {
     [super awakeWithContext:context];
-    NSString *fromId = context;
+    _station = context;
+    NSString *fromId = _station[@"id"];
     NSString *toId = @"008501120";
     [self loadConnectionsFrom:fromId to:toId];
 }
@@ -67,5 +69,14 @@
 - (id)contextForSegueWithIdentifier:(NSString *)segueIdentifier inTable:(WKInterfaceTable *)table rowIndex:(NSInteger)rowIndex {
     return _connections[rowIndex];
 }
+
+- (IBAction)menuMap {
+    NSDictionary *coordinate = [_station objectForKey:@"coordinate"];
+    CLLocationDegrees latitude = [coordinate[@"x"] doubleValue];
+    CLLocationDegrees longitude = [coordinate[@"y"] doubleValue];
+    CLLocation *location = [[CLLocation alloc] initWithLatitude:latitude longitude:longitude];
+    [self presentControllerWithName:@"Map" context:location];
+}
+
 
 @end

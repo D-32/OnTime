@@ -23,7 +23,7 @@
 
 - (void)awakeWithContext:(id)context {
     [super awakeWithContext:context];
-    _station = (NSDictionary *)context;
+    _station = context;
     [self loadDepartures];
 }
 

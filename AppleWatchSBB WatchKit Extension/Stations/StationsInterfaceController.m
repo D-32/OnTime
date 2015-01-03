@@ -74,7 +74,7 @@
     if ([_context isEqualToString:@"nearby"]) {
         [self pushControllerWithName:@"Departures" context:_stations[rowIndex]];
     } else if ([_context isEqualToString:@"getmehome"]) {
-        [self pushControllerWithName:@"Connections" context:_stations[rowIndex][@"id"]];
+        [self pushControllerWithName:@"Connections" context:_stations[rowIndex]];
     }
 }
 

@@ -18,7 +18,7 @@
 
 - (void)awakeWithContext:(id)context {
     [super awakeWithContext:context];
-    NSArray *stops = (NSArray *)context;
+    NSArray *stops = context;
     [self.table setNumberOfRows:stops.count withRowType:@"Stop"];
     for (int i = 0; i < stops.count; i++) {
         StopsRowController *rowController = [self.table rowControllerAtIndex:i];

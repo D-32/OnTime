@@ -161,6 +161,15 @@
                             </items>
                         </table>
                     </items>
+                    <menu key="menu" id="PTF-uQ-Zf2">
+                        <items>
+                            <menuItem title="Map" image="map" id="3cX-qa-iV6">
+                                <connections>
+                                    <action selector="menuMap" destination="Cg4-Ts-sEA" id="5wn-DX-OHa"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
                     <connections>
                         <outlet property="table" destination="NAg-6d-OKO" id="Lg6-Dx-SjL"/>
                     </connections>
