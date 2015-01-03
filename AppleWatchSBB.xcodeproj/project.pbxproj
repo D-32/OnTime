@@ -26,6 +26,8 @@
 		9AFEAC321A58494C00BB6538 /* StationsRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFEAC271A58494C00BB6538 /* StationsRowController.m */; };
 		9AFEAC331A58494C00BB6538 /* StopsInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFEAC2A1A58494C00BB6538 /* StopsInterfaceController.m */; };
 		9AFEAC341A58494C00BB6538 /* StopsRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFEAC2C1A58494C00BB6538 /* StopsRowController.m */; };
+		9AFEAC371A5849A300BB6538 /* ConnectionsInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFEAC361A5849A300BB6538 /* ConnectionsInterfaceController.m */; };
+		9AFEAC3A1A5849B200BB6538 /* ConnectionsRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFEAC391A5849B200BB6538 /* ConnectionsRowController.m */; };
 		ACDEB86B46CD1F39E1CB0F81 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF5C617F75E0FF7A7F97C31 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -95,6 +97,10 @@
 		9AFEAC2A1A58494C00BB6538 /* StopsInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopsInterfaceController.m; sourceTree = "<group>"; };
 		9AFEAC2B1A58494C00BB6538 /* StopsRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopsRowController.h; sourceTree = "<group>"; };
 		9AFEAC2C1A58494C00BB6538 /* StopsRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopsRowController.m; sourceTree = "<group>"; };
+		9AFEAC351A5849A300BB6538 /* ConnectionsInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionsInterfaceController.h; sourceTree = "<group>"; };
+		9AFEAC361A5849A300BB6538 /* ConnectionsInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionsInterfaceController.m; sourceTree = "<group>"; };
+		9AFEAC381A5849B200BB6538 /* ConnectionsRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionsRowController.h; sourceTree = "<group>"; };
+		9AFEAC391A5849B200BB6538 /* ConnectionsRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionsRowController.m; sourceTree = "<group>"; };
 		A92B56B601965C74DDC66BB8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		DFF5C617F75E0FF7A7F97C31 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -175,7 +181,7 @@
 		9AB381C41A55ED4E00AB8AD0 /* AppleWatchSBB WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				9AFEAC161A58494C00BB6538 /* Connection */,
+				9AFEAC161A58494C00BB6538 /* ConnectionDetail */,
 				9AFEAC171A58494C00BB6538 /* Connections */,
 				9AFEAC181A58494C00BB6538 /* Departures */,
 				9AFEAC1D1A58494C00BB6538 /* Main */,
@@ -214,16 +220,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9AFEAC161A58494C00BB6538 /* Connection */ = {
+		9AFEAC161A58494C00BB6538 /* ConnectionDetail */ = {
 			isa = PBXGroup;
 			children = (
 			);
+			name = ConnectionDetail;
 			path = Connection;
 			sourceTree = "<group>";
 		};
 		9AFEAC171A58494C00BB6538 /* Connections */ = {
 			isa = PBXGroup;
 			children = (
+				9AFEAC351A5849A300BB6538 /* ConnectionsInterfaceController.h */,
+				9AFEAC361A5849A300BB6538 /* ConnectionsInterfaceController.m */,
+				9AFEAC381A5849B200BB6538 /* ConnectionsRowController.h */,
+				9AFEAC391A5849B200BB6538 /* ConnectionsRowController.m */,
 			);
 			path = Connections;
 			sourceTree = "<group>";
@@ -464,7 +475,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AFEAC371A5849A300BB6538 /* ConnectionsInterfaceController.m in Sources */,
 				9AFEAC331A58494C00BB6538 /* StopsInterfaceController.m in Sources */,
+				9AFEAC3A1A5849B200BB6538 /* ConnectionsRowController.m in Sources */,
 				9AFEAC2D1A58494C00BB6538 /* DeparturesInterfaceController.m in Sources */,
 				9AFEAC321A58494C00BB6538 /* StationsRowController.m in Sources */,
 				9AFEAC311A58494C00BB6538 /* StationsInterfaceController.m in Sources */,

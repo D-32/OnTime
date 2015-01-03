@@ -118,6 +118,73 @@
             </objects>
             <point key="canvasLocation" x="496" y="160"/>
         </scene>
+        <!--Connections-->
+        <scene sceneID="CQK-Sh-yqp">
+            <objects>
+                <controller identifier="Connections" title="Connections" id="Cg4-Ts-sEA" customClass="ConnectionsInterfaceController">
+                    <items>
+                        <table alignment="left" id="NAg-6d-OKO">
+                            <items>
+                                <tableRow identifier="Connection" id="lkC-iu-nh2" customClass="ConnectionsRowController">
+                                    <group key="rootItem" width="1" alignment="left" id="mge-SQ-0mJ">
+                                        <items>
+                                            <group width="1" widthAdjustment="-40" alignment="left" layout="vertical" id="1oo-0I-sgQ">
+                                                <items>
+                                                    <label alignment="left" text="Arrival" id="Pfl-Co-fjW">
+                                                        <fontDescription key="font" type="system" pointSize="14"/>
+                                                    </label>
+                                                    <label alignment="left" text="Departure" id="Wk0-di-TGZ">
+                                                        <fontDescription key="font" type="system" pointSize="14"/>
+                                                    </label>
+                                                </items>
+                                            </group>
+                                            <group width="40" alignment="left" layout="vertical" id="0G1-yf-ydA">
+                                                <items>
+                                                    <label alignment="left" text="Time" id="9uQ-a7-yvB">
+                                                        <fontDescription key="font" type="system" pointSize="14"/>
+                                                    </label>
+                                                    <label alignment="left" text="Time" id="h7m-Ur-pdw">
+                                                        <fontDescription key="font" type="system" pointSize="14"/>
+                                                    </label>
+                                                </items>
+                                            </group>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="arrivalNameLabel" destination="Pfl-Co-fjW" id="T7B-FB-nXK"/>
+                                        <outlet property="arrivalTimeLabel" destination="9uQ-a7-yvB" id="4kU-kp-EhG"/>
+                                        <outlet property="departureNameLabel" destination="Wk0-di-TGZ" id="wy3-pp-0gs"/>
+                                        <outlet property="departureTimeLabel" destination="h7m-Ur-pdw" id="ITW-vr-aDJ"/>
+                                        <segue destination="fab-GJ-0oY" kind="push" id="6Pz-V3-i5X"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="NAg-6d-OKO" id="Lg6-Dx-SjL"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="496" y="414"/>
+        </scene>
+        <!--Connection-->
+        <scene sceneID="M9j-hK-LPu">
+            <objects>
+                <controller identifier="Connection" title="Connection" id="fab-GJ-0oY">
+                    <items>
+                        <table alignment="left" id="XfK-BP-2tc">
+                            <items>
+                                <tableRow id="Ock-eM-DR6">
+                                    <group key="rootItem" width="1" alignment="left" id="MT7-GA-V01"/>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="711" y="414"/>
+        </scene>
         <!--Map-->
         <scene sceneID="HuM-9r-TfK">
             <objects>
@@ -130,7 +197,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="494" y="411"/>
+            <point key="canvasLocation" x="496" y="-92"/>
         </scene>
         <!--Stops-->
         <scene sceneID="jyI-Zi-gNC">

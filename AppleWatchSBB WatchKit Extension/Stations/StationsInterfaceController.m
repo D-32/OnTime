@@ -73,6 +73,8 @@
 - (void)table:(WKInterfaceTable *)table didSelectRowAtIndex:(NSInteger)rowIndex {
     if ([_context isEqualToString:@"nearby"]) {
         [self pushControllerWithName:@"Departures" context:[_stations objectAtIndex:rowIndex]];
+    } else if ([_context isEqualToString:@"getmehome"]) {
+        [self pushControllerWithName:@"Connections" context:[[_stations objectAtIndex:rowIndex] objectForKey:@"id"]];
     }
 }
 
