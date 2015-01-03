@@ -15,6 +15,7 @@
 		9A20AA811A55E97B00BB4DEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A20AA7F1A55E97B00BB4DEC /* LaunchScreen.xib */; };
 		9A48C90E1A58319C0061AE35 /* StopsInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A48C90D1A58319C0061AE35 /* StopsInterfaceController.m */; };
 		9A48C9111A5831AC0061AE35 /* StopsRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A48C9101A5831AC0061AE35 /* StopsRowController.m */; };
+		9A48C9141A583C1C0061AE35 /* MapInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A48C9131A583C1C0061AE35 /* MapInterfaceController.m */; };
 		9A9398321A573E56009B85C8 /* StationsInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9398311A573E56009B85C8 /* StationsInterfaceController.m */; };
 		9A9398361A573EBF009B85C8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9398351A573EBF009B85C8 /* Interface.storyboard */; };
 		9A93983A1A574051009B85C8 /* StationsRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9398391A574051009B85C8 /* StationsRowController.m */; };
@@ -75,6 +76,8 @@
 		9A48C90D1A58319C0061AE35 /* StopsInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopsInterfaceController.m; sourceTree = "<group>"; };
 		9A48C90F1A5831AC0061AE35 /* StopsRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopsRowController.h; sourceTree = "<group>"; };
 		9A48C9101A5831AC0061AE35 /* StopsRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopsRowController.m; sourceTree = "<group>"; };
+		9A48C9121A583C1C0061AE35 /* MapInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapInterfaceController.h; sourceTree = "<group>"; };
+		9A48C9131A583C1C0061AE35 /* MapInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapInterfaceController.m; sourceTree = "<group>"; };
 		9A9398301A573E56009B85C8 /* StationsInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationsInterfaceController.h; sourceTree = "<group>"; };
 		9A9398311A573E56009B85C8 /* StationsInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationsInterfaceController.m; sourceTree = "<group>"; };
 		9A9398351A573EBF009B85C8 /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
@@ -186,6 +189,8 @@
 				9A48C90D1A58319C0061AE35 /* StopsInterfaceController.m */,
 				9A48C90F1A5831AC0061AE35 /* StopsRowController.h */,
 				9A48C9101A5831AC0061AE35 /* StopsRowController.m */,
+				9A48C9121A583C1C0061AE35 /* MapInterfaceController.h */,
+				9A48C9131A583C1C0061AE35 /* MapInterfaceController.m */,
 				9AB381CA1A55ED4E00AB8AD0 /* Images.xcassets */,
 				9AB381C51A55ED4E00AB8AD0 /* Supporting Files */,
 			);
@@ -409,6 +414,7 @@
 				9AB70DB81A576D7500E7E5F5 /* DeparturesInterfaceController.m in Sources */,
 				9A48C9111A5831AC0061AE35 /* StopsRowController.m in Sources */,
 				9A93983A1A574051009B85C8 /* StationsRowController.m in Sources */,
+				9A48C9141A583C1C0061AE35 /* MapInterfaceController.m in Sources */,
 				9A48C90E1A58319C0061AE35 /* StopsInterfaceController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

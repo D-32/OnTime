@@ -102,12 +102,35 @@
                             </items>
                         </table>
                     </items>
+                    <menu key="menu" id="6PZ-NQ-mkC">
+                        <items>
+                            <menuItem title="Map" image="map" id="Jz6-KO-xX1">
+                                <connections>
+                                    <action selector="menuMap" destination="t0m-ap-8WE" id="b9F-r9-Bjp"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
                     <connections>
                         <outlet property="table" destination="mLz-pv-Xi3" id="QC7-jr-yIU"/>
                     </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="496" y="160"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="HuM-9r-TfK">
+            <objects>
+                <controller identifier="Map" title="Map" id="n9G-ka-iMI" customClass="MapInterfaceController">
+                    <items>
+                        <map alignment="left" id="3xj-Lt-MtM"/>
+                    </items>
+                    <connections>
+                        <outlet property="map" destination="3xj-Lt-MtM" id="LAn-P4-Pvr"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="494" y="411"/>
         </scene>
         <!--Stops-->
         <scene sceneID="jyI-Zi-gNC">

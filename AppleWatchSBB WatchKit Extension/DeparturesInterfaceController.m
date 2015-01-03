@@ -85,6 +85,14 @@
     return [item objectForKey:@"passList"];
 }
 
+- (IBAction)menuMap {
+    NSDictionary *coordinate = [_station objectForKey:@"coordinate"];
+    CLLocationDegrees latitude = [[coordinate objectForKey:@"x"] doubleValue];
+    CLLocationDegrees longitude = [[coordinate objectForKey:@"y"] doubleValue];
+    CLLocation *location = [[CLLocation alloc] initWithLatitude:latitude longitude:longitude];
+    [self presentControllerWithName:@"Map" context:location];
+}
+
 @end
 
 
