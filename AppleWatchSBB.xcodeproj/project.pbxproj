@@ -13,19 +13,19 @@
 		9A20AA7C1A55E97B00BB4DEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A20AA7A1A55E97B00BB4DEC /* Main.storyboard */; };
 		9A20AA7E1A55E97B00BB4DEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A20AA7D1A55E97B00BB4DEC /* Images.xcassets */; };
 		9A20AA811A55E97B00BB4DEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A20AA7F1A55E97B00BB4DEC /* LaunchScreen.xib */; };
-		9A48C90E1A58319C0061AE35 /* StopsInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A48C90D1A58319C0061AE35 /* StopsInterfaceController.m */; };
-		9A48C9111A5831AC0061AE35 /* StopsRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A48C9101A5831AC0061AE35 /* StopsRowController.m */; };
-		9A48C9141A583C1C0061AE35 /* MapInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A48C9131A583C1C0061AE35 /* MapInterfaceController.m */; };
-		9A9398321A573E56009B85C8 /* StationsInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9398311A573E56009B85C8 /* StationsInterfaceController.m */; };
 		9A9398361A573EBF009B85C8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9398351A573EBF009B85C8 /* Interface.storyboard */; };
-		9A93983A1A574051009B85C8 /* StationsRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9398391A574051009B85C8 /* StationsRowController.m */; };
-		9AA7E6EA1A5766E600698C7A /* MainInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA7E6E91A5766E600698C7A /* MainInterfaceController.m */; };
 		9AB381CB1A55ED4E00AB8AD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB381CA1A55ED4E00AB8AD0 /* Images.xcassets */; };
 		9AB381CF1A55ED4E00AB8AD0 /* AppleWatchSBB WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 9AB381CE1A55ED4E00AB8AD0 /* AppleWatchSBB WatchKit App.app */; };
 		9AB381D91A55ED4E00AB8AD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB381D81A55ED4E00AB8AD0 /* Images.xcassets */; };
 		9AB381DC1A55ED4E00AB8AD0 /* AppleWatchSBB WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9AB381C31A55ED4E00AB8AD0 /* AppleWatchSBB WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		9AB70DB81A576D7500E7E5F5 /* DeparturesInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB70DB71A576D7500E7E5F5 /* DeparturesInterfaceController.m */; };
-		9AB70DBB1A5770E000E7E5F5 /* DeparturesRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB70DBA1A5770E000E7E5F5 /* DeparturesRowController.m */; };
+		9AFEAC2D1A58494C00BB6538 /* DeparturesInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFEAC1A1A58494C00BB6538 /* DeparturesInterfaceController.m */; };
+		9AFEAC2E1A58494C00BB6538 /* DeparturesRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFEAC1C1A58494C00BB6538 /* DeparturesRowController.m */; };
+		9AFEAC2F1A58494C00BB6538 /* MainInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFEAC1F1A58494C00BB6538 /* MainInterfaceController.m */; };
+		9AFEAC301A58494C00BB6538 /* MapInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFEAC221A58494C00BB6538 /* MapInterfaceController.m */; };
+		9AFEAC311A58494C00BB6538 /* StationsInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFEAC251A58494C00BB6538 /* StationsInterfaceController.m */; };
+		9AFEAC321A58494C00BB6538 /* StationsRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFEAC271A58494C00BB6538 /* StationsRowController.m */; };
+		9AFEAC331A58494C00BB6538 /* StopsInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFEAC2A1A58494C00BB6538 /* StopsInterfaceController.m */; };
+		9AFEAC341A58494C00BB6538 /* StopsRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFEAC2C1A58494C00BB6538 /* StopsRowController.m */; };
 		ACDEB86B46CD1F39E1CB0F81 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF5C617F75E0FF7A7F97C31 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -72,29 +72,29 @@
 		9A20AA7B1A55E97B00BB4DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A20AA7D1A55E97B00BB4DEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9A20AA801A55E97B00BB4DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		9A48C90C1A58319C0061AE35 /* StopsInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopsInterfaceController.h; sourceTree = "<group>"; };
-		9A48C90D1A58319C0061AE35 /* StopsInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopsInterfaceController.m; sourceTree = "<group>"; };
-		9A48C90F1A5831AC0061AE35 /* StopsRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopsRowController.h; sourceTree = "<group>"; };
-		9A48C9101A5831AC0061AE35 /* StopsRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopsRowController.m; sourceTree = "<group>"; };
-		9A48C9121A583C1C0061AE35 /* MapInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapInterfaceController.h; sourceTree = "<group>"; };
-		9A48C9131A583C1C0061AE35 /* MapInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapInterfaceController.m; sourceTree = "<group>"; };
-		9A9398301A573E56009B85C8 /* StationsInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationsInterfaceController.h; sourceTree = "<group>"; };
-		9A9398311A573E56009B85C8 /* StationsInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationsInterfaceController.m; sourceTree = "<group>"; };
 		9A9398351A573EBF009B85C8 /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
-		9A9398381A574051009B85C8 /* StationsRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationsRowController.h; sourceTree = "<group>"; };
-		9A9398391A574051009B85C8 /* StationsRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationsRowController.m; sourceTree = "<group>"; };
-		9AA7E6E81A5766E600698C7A /* MainInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainInterfaceController.h; sourceTree = "<group>"; };
-		9AA7E6E91A5766E600698C7A /* MainInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainInterfaceController.m; sourceTree = "<group>"; };
 		9AB381C31A55ED4E00AB8AD0 /* AppleWatchSBB WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AppleWatchSBB WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB381C61A55ED4E00AB8AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AB381CA1A55ED4E00AB8AD0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9AB381CE1A55ED4E00AB8AD0 /* AppleWatchSBB WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleWatchSBB WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB381D41A55ED4E00AB8AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AB381D81A55ED4E00AB8AD0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		9AB70DB61A576D7500E7E5F5 /* DeparturesInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeparturesInterfaceController.h; sourceTree = "<group>"; };
-		9AB70DB71A576D7500E7E5F5 /* DeparturesInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeparturesInterfaceController.m; sourceTree = "<group>"; };
-		9AB70DB91A5770E000E7E5F5 /* DeparturesRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeparturesRowController.h; sourceTree = "<group>"; };
-		9AB70DBA1A5770E000E7E5F5 /* DeparturesRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeparturesRowController.m; sourceTree = "<group>"; };
+		9AFEAC191A58494C00BB6538 /* DeparturesInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeparturesInterfaceController.h; sourceTree = "<group>"; };
+		9AFEAC1A1A58494C00BB6538 /* DeparturesInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeparturesInterfaceController.m; sourceTree = "<group>"; };
+		9AFEAC1B1A58494C00BB6538 /* DeparturesRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeparturesRowController.h; sourceTree = "<group>"; };
+		9AFEAC1C1A58494C00BB6538 /* DeparturesRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeparturesRowController.m; sourceTree = "<group>"; };
+		9AFEAC1E1A58494C00BB6538 /* MainInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainInterfaceController.h; sourceTree = "<group>"; };
+		9AFEAC1F1A58494C00BB6538 /* MainInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainInterfaceController.m; sourceTree = "<group>"; };
+		9AFEAC211A58494C00BB6538 /* MapInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapInterfaceController.h; sourceTree = "<group>"; };
+		9AFEAC221A58494C00BB6538 /* MapInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapInterfaceController.m; sourceTree = "<group>"; };
+		9AFEAC241A58494C00BB6538 /* StationsInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationsInterfaceController.h; sourceTree = "<group>"; };
+		9AFEAC251A58494C00BB6538 /* StationsInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationsInterfaceController.m; sourceTree = "<group>"; };
+		9AFEAC261A58494C00BB6538 /* StationsRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationsRowController.h; sourceTree = "<group>"; };
+		9AFEAC271A58494C00BB6538 /* StationsRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationsRowController.m; sourceTree = "<group>"; };
+		9AFEAC291A58494C00BB6538 /* StopsInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopsInterfaceController.h; sourceTree = "<group>"; };
+		9AFEAC2A1A58494C00BB6538 /* StopsInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopsInterfaceController.m; sourceTree = "<group>"; };
+		9AFEAC2B1A58494C00BB6538 /* StopsRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopsRowController.h; sourceTree = "<group>"; };
+		9AFEAC2C1A58494C00BB6538 /* StopsRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopsRowController.m; sourceTree = "<group>"; };
 		A92B56B601965C74DDC66BB8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		DFF5C617F75E0FF7A7F97C31 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -175,22 +175,13 @@
 		9AB381C41A55ED4E00AB8AD0 /* AppleWatchSBB WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				9AA7E6E81A5766E600698C7A /* MainInterfaceController.h */,
-				9AA7E6E91A5766E600698C7A /* MainInterfaceController.m */,
-				9A9398301A573E56009B85C8 /* StationsInterfaceController.h */,
-				9A9398311A573E56009B85C8 /* StationsInterfaceController.m */,
-				9A9398381A574051009B85C8 /* StationsRowController.h */,
-				9A9398391A574051009B85C8 /* StationsRowController.m */,
-				9AB70DB61A576D7500E7E5F5 /* DeparturesInterfaceController.h */,
-				9AB70DB71A576D7500E7E5F5 /* DeparturesInterfaceController.m */,
-				9AB70DB91A5770E000E7E5F5 /* DeparturesRowController.h */,
-				9AB70DBA1A5770E000E7E5F5 /* DeparturesRowController.m */,
-				9A48C90C1A58319C0061AE35 /* StopsInterfaceController.h */,
-				9A48C90D1A58319C0061AE35 /* StopsInterfaceController.m */,
-				9A48C90F1A5831AC0061AE35 /* StopsRowController.h */,
-				9A48C9101A5831AC0061AE35 /* StopsRowController.m */,
-				9A48C9121A583C1C0061AE35 /* MapInterfaceController.h */,
-				9A48C9131A583C1C0061AE35 /* MapInterfaceController.m */,
+				9AFEAC161A58494C00BB6538 /* Connection */,
+				9AFEAC171A58494C00BB6538 /* Connections */,
+				9AFEAC181A58494C00BB6538 /* Departures */,
+				9AFEAC1D1A58494C00BB6538 /* Main */,
+				9AFEAC201A58494C00BB6538 /* Map */,
+				9AFEAC231A58494C00BB6538 /* Stations */,
+				9AFEAC281A58494C00BB6538 /* Stops */,
 				9AB381CA1A55ED4E00AB8AD0 /* Images.xcassets */,
 				9AB381C51A55ED4E00AB8AD0 /* Supporting Files */,
 			);
@@ -221,6 +212,71 @@
 				9AB381D41A55ED4E00AB8AD0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AFEAC161A58494C00BB6538 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
+		9AFEAC171A58494C00BB6538 /* Connections */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Connections;
+			sourceTree = "<group>";
+		};
+		9AFEAC181A58494C00BB6538 /* Departures */ = {
+			isa = PBXGroup;
+			children = (
+				9AFEAC191A58494C00BB6538 /* DeparturesInterfaceController.h */,
+				9AFEAC1A1A58494C00BB6538 /* DeparturesInterfaceController.m */,
+				9AFEAC1B1A58494C00BB6538 /* DeparturesRowController.h */,
+				9AFEAC1C1A58494C00BB6538 /* DeparturesRowController.m */,
+			);
+			path = Departures;
+			sourceTree = "<group>";
+		};
+		9AFEAC1D1A58494C00BB6538 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9AFEAC1E1A58494C00BB6538 /* MainInterfaceController.h */,
+				9AFEAC1F1A58494C00BB6538 /* MainInterfaceController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9AFEAC201A58494C00BB6538 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				9AFEAC211A58494C00BB6538 /* MapInterfaceController.h */,
+				9AFEAC221A58494C00BB6538 /* MapInterfaceController.m */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		9AFEAC231A58494C00BB6538 /* Stations */ = {
+			isa = PBXGroup;
+			children = (
+				9AFEAC241A58494C00BB6538 /* StationsInterfaceController.h */,
+				9AFEAC251A58494C00BB6538 /* StationsInterfaceController.m */,
+				9AFEAC261A58494C00BB6538 /* StationsRowController.h */,
+				9AFEAC271A58494C00BB6538 /* StationsRowController.m */,
+			);
+			path = Stations;
+			sourceTree = "<group>";
+		};
+		9AFEAC281A58494C00BB6538 /* Stops */ = {
+			isa = PBXGroup;
+			children = (
+				9AFEAC291A58494C00BB6538 /* StopsInterfaceController.h */,
+				9AFEAC2A1A58494C00BB6538 /* StopsInterfaceController.m */,
+				9AFEAC2B1A58494C00BB6538 /* StopsRowController.h */,
+				9AFEAC2C1A58494C00BB6538 /* StopsRowController.m */,
+			);
+			path = Stops;
 			sourceTree = "<group>";
 		};
 		D0055462371EF07AE2157A0F /* Pods */ = {
@@ -408,14 +464,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A9398321A573E56009B85C8 /* StationsInterfaceController.m in Sources */,
-				9AB70DBB1A5770E000E7E5F5 /* DeparturesRowController.m in Sources */,
-				9AA7E6EA1A5766E600698C7A /* MainInterfaceController.m in Sources */,
-				9AB70DB81A576D7500E7E5F5 /* DeparturesInterfaceController.m in Sources */,
-				9A48C9111A5831AC0061AE35 /* StopsRowController.m in Sources */,
-				9A93983A1A574051009B85C8 /* StationsRowController.m in Sources */,
-				9A48C9141A583C1C0061AE35 /* MapInterfaceController.m in Sources */,
-				9A48C90E1A58319C0061AE35 /* StopsInterfaceController.m in Sources */,
+				9AFEAC331A58494C00BB6538 /* StopsInterfaceController.m in Sources */,
+				9AFEAC2D1A58494C00BB6538 /* DeparturesInterfaceController.m in Sources */,
+				9AFEAC321A58494C00BB6538 /* StationsRowController.m in Sources */,
+				9AFEAC311A58494C00BB6538 /* StationsInterfaceController.m in Sources */,
+				9AFEAC341A58494C00BB6538 /* StopsRowController.m in Sources */,
+				9AFEAC2F1A58494C00BB6538 /* MainInterfaceController.m in Sources */,
+				9AFEAC301A58494C00BB6538 /* MapInterfaceController.m in Sources */,
+				9AFEAC2E1A58494C00BB6538 /* DeparturesRowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
