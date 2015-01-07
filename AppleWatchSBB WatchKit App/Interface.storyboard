@@ -20,6 +20,12 @@
                                 <segue destination="PXe-OE-Z2C" kind="push" identifier="getmehome" id="uei-mv-8cM"/>
                             </connections>
                         </button>
+                        <group width="1" alignment="left" verticalAlignment="bottom" layout="vertical" id="KEo-Fd-NjC">
+                            <items>
+                                <imageView width="1" alignment="left" verticalAlignment="bottom" image="train-" animationDuration="8" id="6eq-Rp-D9F"/>
+                            </items>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="2"/>
+                        </group>
                     </items>
                 </controller>
             </objects>

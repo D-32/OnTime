@@ -26,7 +26,7 @@
     _locationManager = [[CLLocationManager alloc] init];
     [_locationManager requestAlwaysAuthorization];
     
-    self.view.backgroundColor = [UIColor redColor];
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)didReceiveMemoryWarning {
