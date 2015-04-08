@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A05A6A11AD5BAFA00EE2651 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A05A6A01AD5BAFA00EE2651 /* MainViewController.m */; };
+		9A05A6A51AD5BC2200EE2651 /* AutocompleteTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A05A6A41AD5BC2200EE2651 /* AutocompleteTextfield.swift */; };
 		9A20AA731A55E97B00BB4DEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A20AA721A55E97B00BB4DEC /* main.m */; };
 		9A20AA761A55E97B00BB4DEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A20AA751A55E97B00BB4DEC /* AppDelegate.m */; };
-		9A20AA791A55E97B00BB4DEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A20AA781A55E97B00BB4DEC /* ViewController.m */; };
-		9A20AA7C1A55E97B00BB4DEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A20AA7A1A55E97B00BB4DEC /* Main.storyboard */; };
 		9A20AA7E1A55E97B00BB4DEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A20AA7D1A55E97B00BB4DEC /* Images.xcassets */; };
 		9A20AA811A55E97B00BB4DEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A20AA7F1A55E97B00BB4DEC /* LaunchScreen.xib */; };
 		9A4F11081ACC8EDA000A04B0 /* AppleWatchSBB WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 9A4F11071ACC8EDA000A04B0 /* AppleWatchSBB WatchKit App.app */; };
@@ -29,6 +29,7 @@
 		9A4F114B1ACC9051000A04B0 /* StationsRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F113A1ACC9051000A04B0 /* StationsRowController.m */; };
 		9A4F114C1ACC9051000A04B0 /* StopsInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F113D1ACC9051000A04B0 /* StopsInterfaceController.m */; };
 		9A4F114D1ACC9051000A04B0 /* StopsRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F113F1ACC9051000A04B0 /* StopsRowController.m */; };
+		9A5AB0E71AD5DC6100F52D75 /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5AB0E61AD5DC6100F52D75 /* Station.m */; };
 		ACDEB86B46CD1F39E1CB0F81 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF5C617F75E0FF7A7F97C31 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -65,14 +66,16 @@
 
 /* Begin PBXFileReference section */
 		4FEDAD7306539F28AF6C9DC3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		9A05A69F1AD5BAFA00EE2651 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		9A05A6A01AD5BAFA00EE2651 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		9A05A6A21AD5BB2500EE2651 /* AppleWatchSBB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppleWatchSBB-Prefix.pch"; sourceTree = "<group>"; };
+		9A05A6A41AD5BC2200EE2651 /* AutocompleteTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutocompleteTextfield.swift; sourceTree = "<group>"; };
+		9A05A6A61AD5BDEE00EE2651 /* SwiftBridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftBridging.h; sourceTree = "<group>"; };
 		9A20AA6D1A55E97B00BB4DEC /* AppleWatchSBB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleWatchSBB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A20AA711A55E97B00BB4DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A20AA721A55E97B00BB4DEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9A20AA741A55E97B00BB4DEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9A20AA751A55E97B00BB4DEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9A20AA771A55E97B00BB4DEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9A20AA781A55E97B00BB4DEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9A20AA7B1A55E97B00BB4DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A20AA7D1A55E97B00BB4DEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9A20AA801A55E97B00BB4DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9A4F10FC1ACC8EDA000A04B0 /* AppleWatchSBB WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AppleWatchSBB WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +107,8 @@
 		9A4F113D1ACC9051000A04B0 /* StopsInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopsInterfaceController.m; sourceTree = "<group>"; };
 		9A4F113E1ACC9051000A04B0 /* StopsRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopsRowController.h; sourceTree = "<group>"; };
 		9A4F113F1ACC9051000A04B0 /* StopsRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopsRowController.m; sourceTree = "<group>"; };
+		9A5AB0E51AD5DC6100F52D75 /* Station.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Station.h; sourceTree = "<group>"; };
+		9A5AB0E61AD5DC6100F52D75 /* Station.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Station.m; sourceTree = "<group>"; };
 		9A9398351A573EBF009B85C8 /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
 		9AB381C61A55ED4E00AB8AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AB381CA1A55ED4E00AB8AD0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -140,6 +145,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9A05A69D1AD5BAB400EE2651 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A05A69F1AD5BAFA00EE2651 /* MainViewController.h */,
+				9A05A6A01AD5BAFA00EE2651 /* MainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A05A69E1AD5BAB400EE2651 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				9A05A6A31AD5BC2200EE2651 /* AutocompleteTextfield */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		9A05A6A31AD5BC2200EE2651 /* AutocompleteTextfield */ = {
+			isa = PBXGroup;
+			children = (
+				9A05A6A41AD5BC2200EE2651 /* AutocompleteTextfield.swift */,
+			);
+			path = AutocompleteTextfield;
+			sourceTree = "<group>";
+		};
 		9A20AA641A55E97B00BB4DEC = {
 			isa = PBXGroup;
 			children = (
@@ -165,11 +195,11 @@
 		9A20AA6F1A55E97B00BB4DEC /* AppleWatchSBB */ = {
 			isa = PBXGroup;
 			children = (
+				9A05A69D1AD5BAB400EE2651 /* Controller */,
+				9A05A69E1AD5BAB400EE2651 /* Libs */,
+				9A5AB0E41AD5DC6100F52D75 /* Model */,
 				9A20AA741A55E97B00BB4DEC /* AppDelegate.h */,
 				9A20AA751A55E97B00BB4DEC /* AppDelegate.m */,
-				9A20AA771A55E97B00BB4DEC /* ViewController.h */,
-				9A20AA781A55E97B00BB4DEC /* ViewController.m */,
-				9A20AA7A1A55E97B00BB4DEC /* Main.storyboard */,
 				9A20AA7D1A55E97B00BB4DEC /* Images.xcassets */,
 				9A20AA7F1A55E97B00BB4DEC /* LaunchScreen.xib */,
 				9A20AA701A55E97B00BB4DEC /* Supporting Files */,
@@ -182,6 +212,8 @@
 			children = (
 				9A20AA711A55E97B00BB4DEC /* Info.plist */,
 				9A20AA721A55E97B00BB4DEC /* main.m */,
+				9A05A6A21AD5BB2500EE2651 /* AppleWatchSBB-Prefix.pch */,
+				9A05A6A61AD5BDEE00EE2651 /* SwiftBridging.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -266,6 +298,15 @@
 				9A4F113F1ACC9051000A04B0 /* StopsRowController.m */,
 			);
 			path = Stops;
+			sourceTree = "<group>";
+		};
+		9A5AB0E41AD5DC6100F52D75 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A5AB0E51AD5DC6100F52D75 /* Station.h */,
+				9A5AB0E61AD5DC6100F52D75 /* Station.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		9AB381C41A55ED4E00AB8AD0 /* AppleWatchSBB WatchKit Extension */ = {
@@ -423,7 +464,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A20AA7C1A55E97B00BB4DEC /* Main.storyboard in Resources */,
 				9A20AA811A55E97B00BB4DEC /* LaunchScreen.xib in Resources */,
 				9A20AA7E1A55E97B00BB4DEC /* Images.xcassets in Resources */,
 			);
@@ -485,8 +525,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A20AA791A55E97B00BB4DEC /* ViewController.m in Sources */,
 				9A20AA761A55E97B00BB4DEC /* AppDelegate.m in Sources */,
+				9A5AB0E71AD5DC6100F52D75 /* Station.m in Sources */,
+				9A05A6A51AD5BC2200EE2651 /* AutocompleteTextfield.swift in Sources */,
+				9A05A6A11AD5BAFA00EE2651 /* MainViewController.m in Sources */,
 				9A20AA731A55E97B00BB4DEC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -527,14 +569,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9A20AA7A1A55E97B00BB4DEC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9A20AA7B1A55E97B00BB4DEC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9A20AA7F1A55E97B00BB4DEC /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -565,10 +599,13 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "AppleWatchSBB/AppleWatchSBB-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -584,6 +621,8 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SHARED_PRECOMPS_DIR = "";
+				SWIFT_OBJC_BRIDGING_HEADER = AppleWatchSBB/SwiftBridging.h;
 			};
 			name = Debug;
 		};
@@ -606,9 +645,12 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				DEFINES_MODULE = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = "AppleWatchSBB/AppleWatchSBB-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -618,6 +660,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SHARED_PRECOMPS_DIR = "";
+				SWIFT_OBJC_BRIDGING_HEADER = AppleWatchSBB/SwiftBridging.h;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -732,6 +776,7 @@
 				9A4F11181ACC8EDB000A04B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A4F11191ACC8EDB000A04B0 /* Build configuration list for PBXNativeTarget "AppleWatchSBB WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -740,6 +785,7 @@
 				9A4F111B1ACC8EDB000A04B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

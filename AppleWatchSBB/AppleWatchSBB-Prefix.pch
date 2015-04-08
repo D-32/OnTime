@@ -1,0 +1,12 @@
+
+#import <Availability.h>
+
+#ifdef __OBJC__
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
+
+#define l10n(key) NSLocalizedString(key, nil)
+
+#endif
