@@ -107,6 +107,7 @@ import UIKit
   func setupTextField(){
     self.clearButtonMode = .Always
     self.addTarget(self, action: "textFieldDidChange", forControlEvents: .EditingChanged)
+    self.addTarget(self, action: "textFieldDidChange", forControlEvents: .EditingDidBegin)
   }
   
   func setupTableView(){
@@ -215,12 +216,14 @@ import UIKit
   }
   
   func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    tableView.deselectRowAtIndexPath(indexPath, animated: true)
     let cell = tableView.cellForRowAtIndexPath(indexPath)
     let text = cell?.textLabel?.text
     self.text = text
     
     autoCompleteDelegate?.didSelectAutocompleteText(text!, indexPath: indexPath)
     tableViewSetHidden(hideWhenSelected)
+    self.autoCompleteStrings = nil
   }
   
 }
