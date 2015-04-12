@@ -1,1 +1,0 @@
-PODS_MMWORMHOLE_OTHER_LDFLAGS = -framework "Foundation"

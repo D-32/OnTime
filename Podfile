@@ -1,4 +1,5 @@
 inhibit_all_warnings!
 source 'https://github.com/CocoaPods/Specs.git'
 
-pod 'MMWormhole', '~> 1.1.0'
+link_with 'AppleWatchSBB'
+pod 'SCLAlertView-Objective-C', '~> 0.7.0'

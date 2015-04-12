@@ -9,6 +9,7 @@
 #import "MainViewController.h"
 #import "AppleWatchSBB-Swift.h"
 #import "Station.h"
+#import <SCLAlertView-Objective-C/SCLAlertView.h>
 
 @interface MainViewController () <AutocompleteTextFieldDelegate, NSURLConnectionDelegate, NSURLConnectionDataDelegate>
 @end
@@ -21,10 +22,15 @@
     NSMutableData *_data;
     NSMutableArray* _stations;
     UIView *_container;
+    NSUserDefaults *_userDefaults;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    _userDefaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.dylanmarriott.applewatchsbb"];
+    NSString *stationId = [_userDefaults stringForKey:@"stationId"];
+    NSString *stationName = [_userDefaults stringForKey:@"stationName"];
     
     _bgImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bg"]];
     _bgImageView.contentMode = UIViewContentModeCenter;
@@ -69,7 +75,12 @@
     [_inputField setupTextField]; // << has to be done after adding it as a subview
     [_inputField setupTableView];
     _inputField.autocorrectionType = UITextAutocorrectionTypeNo;
-    [_inputField performSelector:@selector(becomeFirstResponder) withObject:nil afterDelay:1.0];
+    
+    if (stationId) {
+        _inputField.text = stationName;
+    } else {
+        [_inputField performSelector:@selector(becomeFirstResponder) withObject:nil afterDelay:1.0];
+    }
     
     self.view.backgroundColor = [UIColor blackColor];
 }
@@ -109,8 +120,14 @@
 #pragma mark - AutocompleteTextFieldDelegate
 - (void)didSelectAutocompleteText:(NSString *)text indexPath:(NSIndexPath *)indexPath {
     Station *station = _stations[indexPath.row];
-    NSLog(@"selected: %@", station);
     [_inputField resignFirstResponder];
+    [_userDefaults setObject:station.identifier forKey:@"stationId"];
+    [_userDefaults setObject:station.title forKey:@"stationName"];
+    [_userDefaults synchronize];
+    
+    SCLAlertView *alert = [[SCLAlertView alloc] init];
+    alert.showAnimationType = SlideInToCenter;
+    [alert showCustom:self image:[UIImage imageNamed:@"watch"] color:[UIColor colorWithRed:0.46 green:0.71 blue:0.19 alpha:1.00] title:l10n(@"Success") subTitle:@"Now open SBB Watch on your Apple Watch and travel safely." closeButtonTitle:@"Got It" duration:0];
 }
 
 - (void)autoCompleteTextFieldDidChange:(NSString *)text {
