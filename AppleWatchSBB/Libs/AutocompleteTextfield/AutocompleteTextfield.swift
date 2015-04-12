@@ -25,6 +25,7 @@ import UIKit
   :param: text the current text content of the textfield
   */
   optional func autoCompleteTextFieldDidChange(text:String)
+  optional func autoCompleteTextStartEditing()
 }
 
 @objc class AutocompleteTextfield:UITextField, UITableViewDataSource, UITableViewDelegate{
@@ -105,9 +106,9 @@ import UIKit
   }
   
   func setupTextField(){
-    self.clearButtonMode = .Always
+    self.clearButtonMode = .WhileEditing
     self.addTarget(self, action: "textFieldDidChange", forControlEvents: .EditingChanged)
-    self.addTarget(self, action: "textFieldDidChange", forControlEvents: .EditingDidBegin)
+    self.addTarget(self, action: "textFieldDidBegin", forControlEvents: .EditingDidBegin)
   }
   
   func setupTableView(){
@@ -168,6 +169,21 @@ import UIKit
       tableViewSetHidden(false)
     }
   }
+    
+  func textFieldDidBegin(){
+    if text.isEmpty{
+        autoCompleteStrings = nil
+    }
+    
+    hideWhenEmpty = hideWhenEmpty != nil ? hideWhenEmpty! : true
+    if hideWhenEmpty! {
+        tableViewSetHidden(text.isEmpty)
+    }
+    else{
+        tableViewSetHidden(false)
+    }
+    autoCompleteDelegate?.autoCompleteTextStartEditing!()
+  }
   
   //MARK: UITableViewDataSource
   func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -195,6 +211,10 @@ import UIKit
       cell?.textLabel?.text = autoCompleteStrings![indexPath.row]
     }
     cell?.backgroundColor = UIColor.clearColor()
+    var bgColorView = UIView()
+    bgColorView.backgroundColor = UIColor(red:1.0, green:1.0,blue:1.0,alpha:0.2)
+    bgColorView.layer.cornerRadius = 6
+    cell?.selectedBackgroundView = bgColorView
     
     return cell!
   }
