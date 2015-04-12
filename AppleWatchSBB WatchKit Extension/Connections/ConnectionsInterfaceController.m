@@ -22,8 +22,9 @@
 - (void)awakeWithContext:(id)context {
     [super awakeWithContext:context];
     _station = context;
+    NSUserDefaults *userDefaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.dylanmarriott.applewatchsbb"];
     NSString *fromId = _station[@"id"];
-    NSString *toId = @"008501120";
+    NSString *toId = [userDefaults objectForKey:@"stationId"];
     [self loadConnectionsFrom:fromId to:toId];
 }
 

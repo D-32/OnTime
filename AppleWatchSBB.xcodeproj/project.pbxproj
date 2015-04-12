@@ -13,39 +13,41 @@
 		9A20AA761A55E97B00BB4DEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A20AA751A55E97B00BB4DEC /* AppDelegate.m */; };
 		9A20AA7E1A55E97B00BB4DEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A20AA7D1A55E97B00BB4DEC /* Images.xcassets */; };
 		9A20AA811A55E97B00BB4DEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A20AA7F1A55E97B00BB4DEC /* LaunchScreen.xib */; };
-		9A4F11081ACC8EDA000A04B0 /* AppleWatchSBB WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 9A4F11071ACC8EDA000A04B0 /* AppleWatchSBB WatchKit App.app */; };
-		9A4F11151ACC8EDB000A04B0 /* AppleWatchSBB WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9A4F10FC1ACC8EDA000A04B0 /* AppleWatchSBB WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		9A4F11401ACC9051000A04B0 /* ConnectionDetailInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F111F1ACC9051000A04B0 /* ConnectionDetailInterfaceController.m */; };
-		9A4F11411ACC9051000A04B0 /* ConnectionDetailRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F11211ACC9051000A04B0 /* ConnectionDetailRowController.m */; };
-		9A4F11421ACC9051000A04B0 /* ConnectionsInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F11241ACC9051000A04B0 /* ConnectionsInterfaceController.m */; };
-		9A4F11431ACC9051000A04B0 /* ConnectionsRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F11261ACC9051000A04B0 /* ConnectionsRowController.m */; };
-		9A4F11441ACC9051000A04B0 /* DeparturesInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F11291ACC9051000A04B0 /* DeparturesInterfaceController.m */; };
-		9A4F11451ACC9051000A04B0 /* DeparturesRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F112B1ACC9051000A04B0 /* DeparturesRowController.m */; };
-		9A4F11461ACC9051000A04B0 /* IconHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F112E1ACC9051000A04B0 /* IconHelper.m */; };
-		9A4F11471ACC9051000A04B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4F112F1ACC9051000A04B0 /* Images.xcassets */; };
-		9A4F11481ACC9051000A04B0 /* MainInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F11321ACC9051000A04B0 /* MainInterfaceController.m */; };
-		9A4F11491ACC9051000A04B0 /* MapInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F11351ACC9051000A04B0 /* MapInterfaceController.m */; };
-		9A4F114A1ACC9051000A04B0 /* StationsInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F11381ACC9051000A04B0 /* StationsInterfaceController.m */; };
-		9A4F114B1ACC9051000A04B0 /* StationsRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F113A1ACC9051000A04B0 /* StationsRowController.m */; };
-		9A4F114C1ACC9051000A04B0 /* StopsInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F113D1ACC9051000A04B0 /* StopsInterfaceController.m */; };
-		9A4F114D1ACC9051000A04B0 /* StopsRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F113F1ACC9051000A04B0 /* StopsRowController.m */; };
+		9A3157A51ADAD9B2006FB9D8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3157A31ADAD9B2006FB9D8 /* Interface.storyboard */; };
 		9A5AB0E71AD5DC6100F52D75 /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5AB0E61AD5DC6100F52D75 /* Station.m */; };
+		9AACF73E1ADAD76C00EEAB18 /* AppleWatchSBB WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 9AACF73D1ADAD76B00EEAB18 /* AppleWatchSBB WatchKit App.app */; };
+		9AACF7481ADAD76C00EEAB18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AACF7471ADAD76C00EEAB18 /* Images.xcassets */; };
+		9AACF74B1ADAD76C00EEAB18 /* AppleWatchSBB WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9AACF7321ADAD76B00EEAB18 /* AppleWatchSBB WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9AACF7961ADAD7E400EEAB18 /* ConnectionDetailInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AACF7761ADAD7E400EEAB18 /* ConnectionDetailInterfaceController.m */; };
+		9AACF7971ADAD7E400EEAB18 /* ConnectionDetailRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AACF7781ADAD7E400EEAB18 /* ConnectionDetailRowController.m */; };
+		9AACF7981ADAD7E400EEAB18 /* ConnectionsInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AACF77B1ADAD7E400EEAB18 /* ConnectionsInterfaceController.m */; };
+		9AACF7991ADAD7E400EEAB18 /* ConnectionsRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AACF77D1ADAD7E400EEAB18 /* ConnectionsRowController.m */; };
+		9AACF79A1ADAD7E400EEAB18 /* DeparturesInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AACF7801ADAD7E400EEAB18 /* DeparturesInterfaceController.m */; };
+		9AACF79B1ADAD7E400EEAB18 /* DeparturesRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AACF7821ADAD7E400EEAB18 /* DeparturesRowController.m */; };
+		9AACF79C1ADAD7E400EEAB18 /* IconHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AACF7851ADAD7E400EEAB18 /* IconHelper.m */; };
+		9AACF79D1ADAD7E400EEAB18 /* MainInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AACF7881ADAD7E400EEAB18 /* MainInterfaceController.m */; };
+		9AACF79E1ADAD7E400EEAB18 /* MapInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AACF78B1ADAD7E400EEAB18 /* MapInterfaceController.m */; };
+		9AACF79F1ADAD7E400EEAB18 /* StationsInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AACF78E1ADAD7E400EEAB18 /* StationsInterfaceController.m */; };
+		9AACF7A01ADAD7E400EEAB18 /* StationsRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AACF7901ADAD7E400EEAB18 /* StationsRowController.m */; };
+		9AACF7A11ADAD7E400EEAB18 /* StopsInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AACF7931ADAD7E400EEAB18 /* StopsInterfaceController.m */; };
+		9AACF7A21ADAD7E400EEAB18 /* StopsRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AACF7951ADAD7E400EEAB18 /* StopsRowController.m */; };
+		9AACF7A41ADAD7F100EEAB18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AACF7A31ADAD7F100EEAB18 /* Images.xcassets */; };
 		ACDEB86B46CD1F39E1CB0F81 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF5C617F75E0FF7A7F97C31 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9A4F11091ACC8EDA000A04B0 /* PBXContainerItemProxy */ = {
+		9AACF73F1ADAD76C00EEAB18 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9A20AA651A55E97B00BB4DEC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9A4F11061ACC8EDA000A04B0;
+			remoteGlobalIDString = 9AACF73C1ADAD76B00EEAB18;
 			remoteInfo = "AppleWatchSBB WatchKit App";
 		};
-		9A4F11131ACC8EDB000A04B0 /* PBXContainerItemProxy */ = {
+		9AACF7491ADAD76C00EEAB18 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9A20AA651A55E97B00BB4DEC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9A4F10FB1ACC8EDA000A04B0;
+			remoteGlobalIDString = 9AACF7311ADAD76B00EEAB18;
 			remoteInfo = "AppleWatchSBB WatchKit Extension";
 		};
 /* End PBXContainerItemProxy section */
@@ -57,7 +59,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				9A4F11151ACC8EDB000A04B0 /* AppleWatchSBB WatchKit Extension.appex in Embed App Extensions */,
+				9AACF74B1ADAD76C00EEAB18 /* AppleWatchSBB WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,6 +68,7 @@
 
 /* Begin PBXFileReference section */
 		4FEDAD7306539F28AF6C9DC3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		9A02961C1ADAD82900C89BC9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A05A69F1AD5BAFA00EE2651 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		9A05A6A01AD5BAFA00EE2651 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		9A05A6A21AD5BB2500EE2651 /* AppleWatchSBB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppleWatchSBB-Prefix.pch"; sourceTree = "<group>"; };
@@ -78,44 +81,42 @@
 		9A20AA751A55E97B00BB4DEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9A20AA7D1A55E97B00BB4DEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9A20AA801A55E97B00BB4DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		9A4F10FC1ACC8EDA000A04B0 /* AppleWatchSBB WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AppleWatchSBB WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A4F11071ACC8EDA000A04B0 /* AppleWatchSBB WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleWatchSBB WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A4F111E1ACC9051000A04B0 /* ConnectionDetailInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionDetailInterfaceController.h; sourceTree = "<group>"; };
-		9A4F111F1ACC9051000A04B0 /* ConnectionDetailInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionDetailInterfaceController.m; sourceTree = "<group>"; };
-		9A4F11201ACC9051000A04B0 /* ConnectionDetailRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionDetailRowController.h; sourceTree = "<group>"; };
-		9A4F11211ACC9051000A04B0 /* ConnectionDetailRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionDetailRowController.m; sourceTree = "<group>"; };
-		9A4F11231ACC9051000A04B0 /* ConnectionsInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionsInterfaceController.h; sourceTree = "<group>"; };
-		9A4F11241ACC9051000A04B0 /* ConnectionsInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionsInterfaceController.m; sourceTree = "<group>"; };
-		9A4F11251ACC9051000A04B0 /* ConnectionsRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionsRowController.h; sourceTree = "<group>"; };
-		9A4F11261ACC9051000A04B0 /* ConnectionsRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionsRowController.m; sourceTree = "<group>"; };
-		9A4F11281ACC9051000A04B0 /* DeparturesInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeparturesInterfaceController.h; sourceTree = "<group>"; };
-		9A4F11291ACC9051000A04B0 /* DeparturesInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeparturesInterfaceController.m; sourceTree = "<group>"; };
-		9A4F112A1ACC9051000A04B0 /* DeparturesRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeparturesRowController.h; sourceTree = "<group>"; };
-		9A4F112B1ACC9051000A04B0 /* DeparturesRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeparturesRowController.m; sourceTree = "<group>"; };
-		9A4F112D1ACC9051000A04B0 /* IconHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconHelper.h; sourceTree = "<group>"; };
-		9A4F112E1ACC9051000A04B0 /* IconHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconHelper.m; sourceTree = "<group>"; };
-		9A4F112F1ACC9051000A04B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		9A4F11311ACC9051000A04B0 /* MainInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainInterfaceController.h; sourceTree = "<group>"; };
-		9A4F11321ACC9051000A04B0 /* MainInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainInterfaceController.m; sourceTree = "<group>"; };
-		9A4F11341ACC9051000A04B0 /* MapInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapInterfaceController.h; sourceTree = "<group>"; };
-		9A4F11351ACC9051000A04B0 /* MapInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapInterfaceController.m; sourceTree = "<group>"; };
-		9A4F11371ACC9051000A04B0 /* StationsInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationsInterfaceController.h; sourceTree = "<group>"; };
-		9A4F11381ACC9051000A04B0 /* StationsInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationsInterfaceController.m; sourceTree = "<group>"; };
-		9A4F11391ACC9051000A04B0 /* StationsRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationsRowController.h; sourceTree = "<group>"; };
-		9A4F113A1ACC9051000A04B0 /* StationsRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationsRowController.m; sourceTree = "<group>"; };
-		9A4F113C1ACC9051000A04B0 /* StopsInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopsInterfaceController.h; sourceTree = "<group>"; };
-		9A4F113D1ACC9051000A04B0 /* StopsInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopsInterfaceController.m; sourceTree = "<group>"; };
-		9A4F113E1ACC9051000A04B0 /* StopsRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopsRowController.h; sourceTree = "<group>"; };
-		9A4F113F1ACC9051000A04B0 /* StopsRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopsRowController.m; sourceTree = "<group>"; };
+		9A3157A41ADAD9B2006FB9D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		9A3157A61ADADA45006FB9D8 /* AppleWatchSBB WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "AppleWatchSBB WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		9A5AB0E51AD5DC6100F52D75 /* Station.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Station.h; sourceTree = "<group>"; };
 		9A5AB0E61AD5DC6100F52D75 /* Station.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Station.m; sourceTree = "<group>"; };
-		9A9398351A573EBF009B85C8 /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
-		9AB381C61A55ED4E00AB8AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9AB381CA1A55ED4E00AB8AD0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		9AB381D41A55ED4E00AB8AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9AB381D81A55ED4E00AB8AD0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9AACF7321ADAD76B00EEAB18 /* AppleWatchSBB WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AppleWatchSBB WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AACF73D1ADAD76B00EEAB18 /* AppleWatchSBB WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleWatchSBB WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AACF7431ADAD76C00EEAB18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AACF7471ADAD76C00EEAB18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9AACF7751ADAD7E400EEAB18 /* ConnectionDetailInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionDetailInterfaceController.h; sourceTree = "<group>"; };
+		9AACF7761ADAD7E400EEAB18 /* ConnectionDetailInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionDetailInterfaceController.m; sourceTree = "<group>"; };
+		9AACF7771ADAD7E400EEAB18 /* ConnectionDetailRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionDetailRowController.h; sourceTree = "<group>"; };
+		9AACF7781ADAD7E400EEAB18 /* ConnectionDetailRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionDetailRowController.m; sourceTree = "<group>"; };
+		9AACF77A1ADAD7E400EEAB18 /* ConnectionsInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionsInterfaceController.h; sourceTree = "<group>"; };
+		9AACF77B1ADAD7E400EEAB18 /* ConnectionsInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionsInterfaceController.m; sourceTree = "<group>"; };
+		9AACF77C1ADAD7E400EEAB18 /* ConnectionsRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionsRowController.h; sourceTree = "<group>"; };
+		9AACF77D1ADAD7E400EEAB18 /* ConnectionsRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionsRowController.m; sourceTree = "<group>"; };
+		9AACF77F1ADAD7E400EEAB18 /* DeparturesInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeparturesInterfaceController.h; sourceTree = "<group>"; };
+		9AACF7801ADAD7E400EEAB18 /* DeparturesInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeparturesInterfaceController.m; sourceTree = "<group>"; };
+		9AACF7811ADAD7E400EEAB18 /* DeparturesRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeparturesRowController.h; sourceTree = "<group>"; };
+		9AACF7821ADAD7E400EEAB18 /* DeparturesRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeparturesRowController.m; sourceTree = "<group>"; };
+		9AACF7841ADAD7E400EEAB18 /* IconHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconHelper.h; sourceTree = "<group>"; };
+		9AACF7851ADAD7E400EEAB18 /* IconHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconHelper.m; sourceTree = "<group>"; };
+		9AACF7871ADAD7E400EEAB18 /* MainInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainInterfaceController.h; sourceTree = "<group>"; };
+		9AACF7881ADAD7E400EEAB18 /* MainInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainInterfaceController.m; sourceTree = "<group>"; };
+		9AACF78A1ADAD7E400EEAB18 /* MapInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapInterfaceController.h; sourceTree = "<group>"; };
+		9AACF78B1ADAD7E400EEAB18 /* MapInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapInterfaceController.m; sourceTree = "<group>"; };
+		9AACF78D1ADAD7E400EEAB18 /* StationsInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationsInterfaceController.h; sourceTree = "<group>"; };
+		9AACF78E1ADAD7E400EEAB18 /* StationsInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationsInterfaceController.m; sourceTree = "<group>"; };
+		9AACF78F1ADAD7E400EEAB18 /* StationsRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationsRowController.h; sourceTree = "<group>"; };
+		9AACF7901ADAD7E400EEAB18 /* StationsRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationsRowController.m; sourceTree = "<group>"; };
+		9AACF7921ADAD7E400EEAB18 /* StopsInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopsInterfaceController.h; sourceTree = "<group>"; };
+		9AACF7931ADAD7E400EEAB18 /* StopsInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopsInterfaceController.m; sourceTree = "<group>"; };
+		9AACF7941ADAD7E400EEAB18 /* StopsRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopsRowController.h; sourceTree = "<group>"; };
+		9AACF7951ADAD7E400EEAB18 /* StopsRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopsRowController.m; sourceTree = "<group>"; };
+		9AACF7A31ADAD7F100EEAB18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9AC1AC6E1ADA89DB004B84EF /* AppleWatchSBB.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AppleWatchSBB.entitlements; sourceTree = "<group>"; };
-		9AC28E611ADA9E6B00D07881 /* AppleWatchSBB WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "AppleWatchSBB WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		A92B56B601965C74DDC66BB8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		DFF5C617F75E0FF7A7F97C31 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -129,7 +130,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A4F10F91ACC8EDA000A04B0 /* Frameworks */ = {
+		9AACF72F1ADAD76B00EEAB18 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -176,8 +177,8 @@
 			isa = PBXGroup;
 			children = (
 				9A20AA6F1A55E97B00BB4DEC /* AppleWatchSBB */,
-				9AB381C41A55ED4E00AB8AD0 /* AppleWatchSBB WatchKit Extension */,
-				9AB381D21A55ED4E00AB8AD0 /* AppleWatchSBB WatchKit App */,
+				9AACF7331ADAD76B00EEAB18 /* AppleWatchSBB WatchKit Extension */,
+				9AACF7411ADAD76C00EEAB18 /* AppleWatchSBB WatchKit App */,
 				9A20AA6E1A55E97B00BB4DEC /* Products */,
 				D0055462371EF07AE2157A0F /* Pods */,
 				8A218E1DD208E0426477AE7E /* Frameworks */,
@@ -188,8 +189,8 @@
 			isa = PBXGroup;
 			children = (
 				9A20AA6D1A55E97B00BB4DEC /* AppleWatchSBB.app */,
-				9A4F10FC1ACC8EDA000A04B0 /* AppleWatchSBB WatchKit Extension.appex */,
-				9A4F11071ACC8EDA000A04B0 /* AppleWatchSBB WatchKit App.app */,
+				9AACF7321ADAD76B00EEAB18 /* AppleWatchSBB WatchKit Extension.appex */,
+				9AACF73D1ADAD76B00EEAB18 /* AppleWatchSBB WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -221,88 +222,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9A4F111D1ACC9051000A04B0 /* ConnectionDetail */ = {
-			isa = PBXGroup;
-			children = (
-				9A4F111E1ACC9051000A04B0 /* ConnectionDetailInterfaceController.h */,
-				9A4F111F1ACC9051000A04B0 /* ConnectionDetailInterfaceController.m */,
-				9A4F11201ACC9051000A04B0 /* ConnectionDetailRowController.h */,
-				9A4F11211ACC9051000A04B0 /* ConnectionDetailRowController.m */,
-			);
-			path = ConnectionDetail;
-			sourceTree = "<group>";
-		};
-		9A4F11221ACC9051000A04B0 /* Connections */ = {
-			isa = PBXGroup;
-			children = (
-				9A4F11231ACC9051000A04B0 /* ConnectionsInterfaceController.h */,
-				9A4F11241ACC9051000A04B0 /* ConnectionsInterfaceController.m */,
-				9A4F11251ACC9051000A04B0 /* ConnectionsRowController.h */,
-				9A4F11261ACC9051000A04B0 /* ConnectionsRowController.m */,
-			);
-			path = Connections;
-			sourceTree = "<group>";
-		};
-		9A4F11271ACC9051000A04B0 /* Departures */ = {
-			isa = PBXGroup;
-			children = (
-				9A4F11281ACC9051000A04B0 /* DeparturesInterfaceController.h */,
-				9A4F11291ACC9051000A04B0 /* DeparturesInterfaceController.m */,
-				9A4F112A1ACC9051000A04B0 /* DeparturesRowController.h */,
-				9A4F112B1ACC9051000A04B0 /* DeparturesRowController.m */,
-			);
-			path = Departures;
-			sourceTree = "<group>";
-		};
-		9A4F112C1ACC9051000A04B0 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				9A4F112D1ACC9051000A04B0 /* IconHelper.h */,
-				9A4F112E1ACC9051000A04B0 /* IconHelper.m */,
-			);
-			path = Helper;
-			sourceTree = "<group>";
-		};
-		9A4F11301ACC9051000A04B0 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				9A4F11311ACC9051000A04B0 /* MainInterfaceController.h */,
-				9A4F11321ACC9051000A04B0 /* MainInterfaceController.m */,
-			);
-			path = Main;
-			sourceTree = "<group>";
-		};
-		9A4F11331ACC9051000A04B0 /* Map */ = {
-			isa = PBXGroup;
-			children = (
-				9A4F11341ACC9051000A04B0 /* MapInterfaceController.h */,
-				9A4F11351ACC9051000A04B0 /* MapInterfaceController.m */,
-			);
-			path = Map;
-			sourceTree = "<group>";
-		};
-		9A4F11361ACC9051000A04B0 /* Stations */ = {
-			isa = PBXGroup;
-			children = (
-				9A4F11371ACC9051000A04B0 /* StationsInterfaceController.h */,
-				9A4F11381ACC9051000A04B0 /* StationsInterfaceController.m */,
-				9A4F11391ACC9051000A04B0 /* StationsRowController.h */,
-				9A4F113A1ACC9051000A04B0 /* StationsRowController.m */,
-			);
-			path = Stations;
-			sourceTree = "<group>";
-		};
-		9A4F113B1ACC9051000A04B0 /* Stops */ = {
-			isa = PBXGroup;
-			children = (
-				9A4F113C1ACC9051000A04B0 /* StopsInterfaceController.h */,
-				9A4F113D1ACC9051000A04B0 /* StopsInterfaceController.m */,
-				9A4F113E1ACC9051000A04B0 /* StopsRowController.h */,
-				9A4F113F1ACC9051000A04B0 /* StopsRowController.m */,
-			);
-			path = Stops;
-			sourceTree = "<group>";
-		};
 		9A5AB0E41AD5DC6100F52D75 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -312,49 +231,130 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		9AB381C41A55ED4E00AB8AD0 /* AppleWatchSBB WatchKit Extension */ = {
+		9AACF7331ADAD76B00EEAB18 /* AppleWatchSBB WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				9AC28E611ADA9E6B00D07881 /* AppleWatchSBB WatchKit Extension.entitlements */,
-				9A4F111D1ACC9051000A04B0 /* ConnectionDetail */,
-				9A4F11221ACC9051000A04B0 /* Connections */,
-				9A4F11271ACC9051000A04B0 /* Departures */,
-				9A4F112C1ACC9051000A04B0 /* Helper */,
-				9A4F112F1ACC9051000A04B0 /* Images.xcassets */,
-				9A4F11301ACC9051000A04B0 /* Main */,
-				9A4F11331ACC9051000A04B0 /* Map */,
-				9A4F11361ACC9051000A04B0 /* Stations */,
-				9A4F113B1ACC9051000A04B0 /* Stops */,
-				9AB381CA1A55ED4E00AB8AD0 /* Images.xcassets */,
-				9AB381C51A55ED4E00AB8AD0 /* Supporting Files */,
+				9A3157A61ADADA45006FB9D8 /* AppleWatchSBB WatchKit Extension.entitlements */,
+				9AACF7741ADAD7E400EEAB18 /* ConnectionDetail */,
+				9AACF7791ADAD7E400EEAB18 /* Connections */,
+				9AACF77E1ADAD7E400EEAB18 /* Departures */,
+				9AACF7831ADAD7E400EEAB18 /* Helper */,
+				9AACF7861ADAD7E400EEAB18 /* Main */,
+				9AACF7891ADAD7E400EEAB18 /* Map */,
+				9AACF78C1ADAD7E400EEAB18 /* Stations */,
+				9AACF7911ADAD7E400EEAB18 /* Stops */,
+				9AACF7A31ADAD7F100EEAB18 /* Images.xcassets */,
+				9AACF7341ADAD76B00EEAB18 /* Supporting Files */,
 			);
 			path = "AppleWatchSBB WatchKit Extension";
 			sourceTree = "<group>";
 		};
-		9AB381C51A55ED4E00AB8AD0 /* Supporting Files */ = {
+		9AACF7341ADAD76B00EEAB18 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9AB381C61A55ED4E00AB8AD0 /* Info.plist */,
+				9A02961C1ADAD82900C89BC9 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9AB381D21A55ED4E00AB8AD0 /* AppleWatchSBB WatchKit App */ = {
+		9AACF7411ADAD76C00EEAB18 /* AppleWatchSBB WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				9A9398351A573EBF009B85C8 /* Interface.storyboard */,
-				9AB381D81A55ED4E00AB8AD0 /* Images.xcassets */,
-				9AB381D31A55ED4E00AB8AD0 /* Supporting Files */,
+				9A3157A31ADAD9B2006FB9D8 /* Interface.storyboard */,
+				9AACF7471ADAD76C00EEAB18 /* Images.xcassets */,
+				9AACF7421ADAD76C00EEAB18 /* Supporting Files */,
 			);
 			path = "AppleWatchSBB WatchKit App";
 			sourceTree = "<group>";
 		};
-		9AB381D31A55ED4E00AB8AD0 /* Supporting Files */ = {
+		9AACF7421ADAD76C00EEAB18 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9AB381D41A55ED4E00AB8AD0 /* Info.plist */,
+				9AACF7431ADAD76C00EEAB18 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AACF7741ADAD7E400EEAB18 /* ConnectionDetail */ = {
+			isa = PBXGroup;
+			children = (
+				9AACF7751ADAD7E400EEAB18 /* ConnectionDetailInterfaceController.h */,
+				9AACF7761ADAD7E400EEAB18 /* ConnectionDetailInterfaceController.m */,
+				9AACF7771ADAD7E400EEAB18 /* ConnectionDetailRowController.h */,
+				9AACF7781ADAD7E400EEAB18 /* ConnectionDetailRowController.m */,
+			);
+			path = ConnectionDetail;
+			sourceTree = "<group>";
+		};
+		9AACF7791ADAD7E400EEAB18 /* Connections */ = {
+			isa = PBXGroup;
+			children = (
+				9AACF77A1ADAD7E400EEAB18 /* ConnectionsInterfaceController.h */,
+				9AACF77B1ADAD7E400EEAB18 /* ConnectionsInterfaceController.m */,
+				9AACF77C1ADAD7E400EEAB18 /* ConnectionsRowController.h */,
+				9AACF77D1ADAD7E400EEAB18 /* ConnectionsRowController.m */,
+			);
+			path = Connections;
+			sourceTree = "<group>";
+		};
+		9AACF77E1ADAD7E400EEAB18 /* Departures */ = {
+			isa = PBXGroup;
+			children = (
+				9AACF77F1ADAD7E400EEAB18 /* DeparturesInterfaceController.h */,
+				9AACF7801ADAD7E400EEAB18 /* DeparturesInterfaceController.m */,
+				9AACF7811ADAD7E400EEAB18 /* DeparturesRowController.h */,
+				9AACF7821ADAD7E400EEAB18 /* DeparturesRowController.m */,
+			);
+			path = Departures;
+			sourceTree = "<group>";
+		};
+		9AACF7831ADAD7E400EEAB18 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9AACF7841ADAD7E400EEAB18 /* IconHelper.h */,
+				9AACF7851ADAD7E400EEAB18 /* IconHelper.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		9AACF7861ADAD7E400EEAB18 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9AACF7871ADAD7E400EEAB18 /* MainInterfaceController.h */,
+				9AACF7881ADAD7E400EEAB18 /* MainInterfaceController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9AACF7891ADAD7E400EEAB18 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				9AACF78A1ADAD7E400EEAB18 /* MapInterfaceController.h */,
+				9AACF78B1ADAD7E400EEAB18 /* MapInterfaceController.m */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		9AACF78C1ADAD7E400EEAB18 /* Stations */ = {
+			isa = PBXGroup;
+			children = (
+				9AACF78D1ADAD7E400EEAB18 /* StationsInterfaceController.h */,
+				9AACF78E1ADAD7E400EEAB18 /* StationsInterfaceController.m */,
+				9AACF78F1ADAD7E400EEAB18 /* StationsRowController.h */,
+				9AACF7901ADAD7E400EEAB18 /* StationsRowController.m */,
+			);
+			path = Stations;
+			sourceTree = "<group>";
+		};
+		9AACF7911ADAD7E400EEAB18 /* Stops */ = {
+			isa = PBXGroup;
+			children = (
+				9AACF7921ADAD7E400EEAB18 /* StopsInterfaceController.h */,
+				9AACF7931ADAD7E400EEAB18 /* StopsInterfaceController.m */,
+				9AACF7941ADAD7E400EEAB18 /* StopsRowController.h */,
+				9AACF7951ADAD7E400EEAB18 /* StopsRowController.m */,
+			);
+			path = Stops;
 			sourceTree = "<group>";
 		};
 		D0055462371EF07AE2157A0F /* Pods */ = {
@@ -383,36 +383,36 @@
 			buildRules = (
 			);
 			dependencies = (
-				9A4F11141ACC8EDB000A04B0 /* PBXTargetDependency */,
+				9AACF74A1ADAD76C00EEAB18 /* PBXTargetDependency */,
 			);
 			name = AppleWatchSBB;
 			productName = AppleWatchSBB;
 			productReference = 9A20AA6D1A55E97B00BB4DEC /* AppleWatchSBB.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9A4F10FB1ACC8EDA000A04B0 /* AppleWatchSBB WatchKit Extension */ = {
+		9AACF7311ADAD76B00EEAB18 /* AppleWatchSBB WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A4F11191ACC8EDB000A04B0 /* Build configuration list for PBXNativeTarget "AppleWatchSBB WatchKit Extension" */;
+			buildConfigurationList = 9AACF74F1ADAD76C00EEAB18 /* Build configuration list for PBXNativeTarget "AppleWatchSBB WatchKit Extension" */;
 			buildPhases = (
-				9A4F10F81ACC8EDA000A04B0 /* Sources */,
-				9A4F10F91ACC8EDA000A04B0 /* Frameworks */,
-				9A4F10FA1ACC8EDA000A04B0 /* Resources */,
+				9AACF72E1ADAD76B00EEAB18 /* Sources */,
+				9AACF72F1ADAD76B00EEAB18 /* Frameworks */,
+				9AACF7301ADAD76B00EEAB18 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9A4F110A1ACC8EDA000A04B0 /* PBXTargetDependency */,
+				9AACF7401ADAD76C00EEAB18 /* PBXTargetDependency */,
 			);
 			name = "AppleWatchSBB WatchKit Extension";
 			productName = "AppleWatchSBB WatchKit Extension";
-			productReference = 9A4F10FC1ACC8EDA000A04B0 /* AppleWatchSBB WatchKit Extension.appex */;
+			productReference = 9AACF7321ADAD76B00EEAB18 /* AppleWatchSBB WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit-extension";
 		};
-		9A4F11061ACC8EDA000A04B0 /* AppleWatchSBB WatchKit App */ = {
+		9AACF73C1ADAD76B00EEAB18 /* AppleWatchSBB WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A4F11161ACC8EDB000A04B0 /* Build configuration list for PBXNativeTarget "AppleWatchSBB WatchKit App" */;
+			buildConfigurationList = 9AACF74C1ADAD76C00EEAB18 /* Build configuration list for PBXNativeTarget "AppleWatchSBB WatchKit App" */;
 			buildPhases = (
-				9A4F11051ACC8EDA000A04B0 /* Resources */,
+				9AACF73B1ADAD76B00EEAB18 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -420,7 +420,7 @@
 			);
 			name = "AppleWatchSBB WatchKit App";
 			productName = "AppleWatchSBB WatchKit App";
-			productReference = 9A4F11071ACC8EDA000A04B0 /* AppleWatchSBB WatchKit App.app */;
+			productReference = 9AACF73D1ADAD76B00EEAB18 /* AppleWatchSBB WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp";
 		};
 /* End PBXNativeTarget section */
@@ -441,8 +441,8 @@
 							};
 						};
 					};
-					9A4F10FB1ACC8EDA000A04B0 = {
-						CreatedOnToolsVersion = 6.2;
+					9AACF7311ADAD76B00EEAB18 = {
+						CreatedOnToolsVersion = 6.3;
 						DevelopmentTeam = 5EFBK52YD3;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -450,8 +450,8 @@
 							};
 						};
 					};
-					9A4F11061ACC8EDA000A04B0 = {
-						CreatedOnToolsVersion = 6.2;
+					9AACF73C1ADAD76B00EEAB18 = {
+						CreatedOnToolsVersion = 6.3;
 					};
 				};
 			};
@@ -469,8 +469,8 @@
 			projectRoot = "";
 			targets = (
 				9A20AA6C1A55E97B00BB4DEC /* AppleWatchSBB */,
-				9A4F10FB1ACC8EDA000A04B0 /* AppleWatchSBB WatchKit Extension */,
-				9A4F11061ACC8EDA000A04B0 /* AppleWatchSBB WatchKit App */,
+				9AACF7311ADAD76B00EEAB18 /* AppleWatchSBB WatchKit Extension */,
+				9AACF73C1ADAD76B00EEAB18 /* AppleWatchSBB WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -485,19 +485,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A4F10FA1ACC8EDA000A04B0 /* Resources */ = {
+		9AACF7301ADAD76B00EEAB18 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A4F11081ACC8EDA000A04B0 /* AppleWatchSBB WatchKit App.app in Resources */,
-				9A4F11471ACC9051000A04B0 /* Images.xcassets in Resources */,
+				9AACF73E1ADAD76C00EEAB18 /* AppleWatchSBB WatchKit App.app in Resources */,
+				9AACF7A41ADAD7F100EEAB18 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A4F11051ACC8EDA000A04B0 /* Resources */ = {
+		9AACF73B1ADAD76B00EEAB18 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A3157A51ADAD9B2006FB9D8 /* Interface.storyboard in Resources */,
+				9AACF7481ADAD76C00EEAB18 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,38 +551,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A4F10F81ACC8EDA000A04B0 /* Sources */ = {
+		9AACF72E1ADAD76B00EEAB18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A4F11431ACC9051000A04B0 /* ConnectionsRowController.m in Sources */,
-				9A4F114D1ACC9051000A04B0 /* StopsRowController.m in Sources */,
-				9A4F11461ACC9051000A04B0 /* IconHelper.m in Sources */,
-				9A4F11491ACC9051000A04B0 /* MapInterfaceController.m in Sources */,
-				9A4F11451ACC9051000A04B0 /* DeparturesRowController.m in Sources */,
-				9A4F114B1ACC9051000A04B0 /* StationsRowController.m in Sources */,
-				9A4F11421ACC9051000A04B0 /* ConnectionsInterfaceController.m in Sources */,
-				9A4F11401ACC9051000A04B0 /* ConnectionDetailInterfaceController.m in Sources */,
-				9A4F114A1ACC9051000A04B0 /* StationsInterfaceController.m in Sources */,
-				9A4F11441ACC9051000A04B0 /* DeparturesInterfaceController.m in Sources */,
-				9A4F11481ACC9051000A04B0 /* MainInterfaceController.m in Sources */,
-				9A4F11411ACC9051000A04B0 /* ConnectionDetailRowController.m in Sources */,
-				9A4F114C1ACC9051000A04B0 /* StopsInterfaceController.m in Sources */,
+				9AACF79E1ADAD7E400EEAB18 /* MapInterfaceController.m in Sources */,
+				9AACF79C1ADAD7E400EEAB18 /* IconHelper.m in Sources */,
+				9AACF7961ADAD7E400EEAB18 /* ConnectionDetailInterfaceController.m in Sources */,
+				9AACF79F1ADAD7E400EEAB18 /* StationsInterfaceController.m in Sources */,
+				9AACF7A21ADAD7E400EEAB18 /* StopsRowController.m in Sources */,
+				9AACF7971ADAD7E400EEAB18 /* ConnectionDetailRowController.m in Sources */,
+				9AACF7991ADAD7E400EEAB18 /* ConnectionsRowController.m in Sources */,
+				9AACF79B1ADAD7E400EEAB18 /* DeparturesRowController.m in Sources */,
+				9AACF7A01ADAD7E400EEAB18 /* StationsRowController.m in Sources */,
+				9AACF7A11ADAD7E400EEAB18 /* StopsInterfaceController.m in Sources */,
+				9AACF7981ADAD7E400EEAB18 /* ConnectionsInterfaceController.m in Sources */,
+				9AACF79A1ADAD7E400EEAB18 /* DeparturesInterfaceController.m in Sources */,
+				9AACF79D1ADAD7E400EEAB18 /* MainInterfaceController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9A4F110A1ACC8EDA000A04B0 /* PBXTargetDependency */ = {
+		9AACF7401ADAD76C00EEAB18 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9A4F11061ACC8EDA000A04B0 /* AppleWatchSBB WatchKit App */;
-			targetProxy = 9A4F11091ACC8EDA000A04B0 /* PBXContainerItemProxy */;
+			target = 9AACF73C1ADAD76B00EEAB18 /* AppleWatchSBB WatchKit App */;
+			targetProxy = 9AACF73F1ADAD76C00EEAB18 /* PBXContainerItemProxy */;
 		};
-		9A4F11141ACC8EDB000A04B0 /* PBXTargetDependency */ = {
+		9AACF74A1ADAD76C00EEAB18 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9A4F10FB1ACC8EDA000A04B0 /* AppleWatchSBB WatchKit Extension */;
-			targetProxy = 9A4F11131ACC8EDB000A04B0 /* PBXContainerItemProxy */;
+			target = 9AACF7311ADAD76B00EEAB18 /* AppleWatchSBB WatchKit Extension */;
+			targetProxy = 9AACF7491ADAD76C00EEAB18 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -591,6 +593,14 @@
 				9A20AA801A55E97B00BB4DEC /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		9A3157A31ADAD9B2006FB9D8 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A3157A41ADAD9B2006FB9D8 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -633,7 +643,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -673,7 +683,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SHARED_PRECOMPS_DIR = "";
@@ -691,9 +701,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = AppleWatchSBB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
@@ -706,16 +718,20 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = AppleWatchSBB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		9A4F11171ACC8EDB000A04B0 /* Debug */ = {
+		9AACF74D1ADAD76C00EEAB18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -730,11 +746,13 @@
 			};
 			name = Debug;
 		};
-		9A4F11181ACC8EDB000A04B0 /* Release */ = {
+		9AACF74E1ADAD76C00EEAB18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
 				IBSC_MODULE = AppleWatchSBB_WatchKit_Extension;
 				INFOPLIST_FILE = "AppleWatchSBB WatchKit App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
@@ -745,12 +763,14 @@
 			};
 			name = Release;
 		};
-		9A4F111A1ACC8EDB000A04B0 /* Debug */ = {
+		9AACF7501ADAD76C00EEAB18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "AppleWatchSBB WatchKit Extension/AppleWatchSBB WatchKit Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -764,13 +784,15 @@
 			};
 			name = Debug;
 		};
-		9A4F111B1ACC8EDB000A04B0 /* Release */ = {
+		9AACF7511ADAD76C00EEAB18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "AppleWatchSBB WatchKit Extension/AppleWatchSBB WatchKit Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "AppleWatchSBB WatchKit Extension/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -801,20 +823,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A4F11161ACC8EDB000A04B0 /* Build configuration list for PBXNativeTarget "AppleWatchSBB WatchKit App" */ = {
+		9AACF74C1ADAD76C00EEAB18 /* Build configuration list for PBXNativeTarget "AppleWatchSBB WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A4F11171ACC8EDB000A04B0 /* Debug */,
-				9A4F11181ACC8EDB000A04B0 /* Release */,
+				9AACF74D1ADAD76C00EEAB18 /* Debug */,
+				9AACF74E1ADAD76C00EEAB18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A4F11191ACC8EDB000A04B0 /* Build configuration list for PBXNativeTarget "AppleWatchSBB WatchKit Extension" */ = {
+		9AACF74F1ADAD76C00EEAB18 /* Build configuration list for PBXNativeTarget "AppleWatchSBB WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A4F111A1ACC8EDB000A04B0 /* Debug */,
-				9A4F111B1ACC8EDB000A04B0 /* Release */,
+				9AACF7501ADAD76C00EEAB18 /* Debug */,
+				9AACF7511ADAD76C00EEAB18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
