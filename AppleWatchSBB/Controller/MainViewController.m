@@ -10,11 +10,13 @@
 #import "AppleWatchSBB-Swift.h"
 #import "Station.h"
 #import <SCLAlertView-Objective-C/SCLAlertView.h>
+#import <CoreLocation/CoreLocation.h>
 
 @interface MainViewController () <AutocompleteTextFieldDelegate, NSURLConnectionDelegate, NSURLConnectionDataDelegate>
 @end
 
 @implementation MainViewController {
+    CLLocationManager* _locationManager;
     UIImageView* _bgImageView;
     UIImageView* _bgBlurImageView;
     AutocompleteTextfield *_inputField;
@@ -27,6 +29,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    // this is just to get the permission here in the app
+    // has to be an instance var, otherwise it will get released, an the alert view disappears
+    // a reason to <3 apple
+    _locationManager = [[CLLocationManager alloc] init];
+    [_locationManager requestAlwaysAuthorization];
     
     _userDefaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.dylanmarriott.applewatchsbb"];
     NSString *stationId = [_userDefaults stringForKey:@"stationId"];
