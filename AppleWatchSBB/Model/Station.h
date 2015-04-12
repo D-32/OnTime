@@ -10,7 +10,7 @@
 
 @interface Station : NSObject
 
-@property (nonatomic) NSString *title;
 @property (nonatomic) NSString *identifier;
+@property (nonatomic) NSString *title;
 
 @end
