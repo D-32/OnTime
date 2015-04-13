@@ -10,4 +10,17 @@
 
 @implementation Favourite
 
+- (id)initWithCoder:(NSCoder *)aDecoder {
+    if (self = [super init]) {
+        self.from = [aDecoder decodeObjectForKey:@"from"];
+        self.to = [aDecoder decodeObjectForKey:@"to"];
+    }
+    return self;
+}
+
+- (void)encodeWithCoder:(NSCoder *)aCoder {
+    [aCoder encodeObject:self.from forKey:@"from"];
+    [aCoder encodeObject:self.to forKey:@"to"];
+}
+
 @end

@@ -12,6 +12,7 @@
 #import <SCLAlertView-Objective-C/SCLAlertView.h>
 #import <CoreLocation/CoreLocation.h>
 #import "FavouriteViewController.h"
+#import "Favourite.h"
 
 @interface MainViewController () <AutocompleteTextFieldDelegate, NSURLConnectionDelegate, NSURLConnectionDataDelegate, UITableViewDataSource, UITableViewDelegate>
 @end
@@ -28,6 +29,7 @@
     NSUserDefaults *_userDefaults;
     UIView *_favContainer;
     BOOL _initial;
+    UITableView *_favTableView;
 }
 
 - (void)viewDidLoad {
@@ -107,13 +109,14 @@
     starLabel.textColor = [UIColor whiteColor];
     [_favContainer addSubview:starLabel];
     
-    UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(25, 60, self.view.frame.size.width - 50, _favContainer.frame.size.height - 60)];
-    tableView.backgroundColor = [UIColor clearColor];
-    tableView.dataSource = self;
-    tableView.delegate = self;
+    _favTableView = [[UITableView alloc] initWithFrame:CGRectMake(25, 60, self.view.frame.size.width - 50, _favContainer.frame.size.height - 60)];
+    _favTableView.backgroundColor = [UIColor clearColor];
+    _favTableView.dataSource = self;
+    _favTableView.delegate = self;
+    _favTableView.tableFooterView = [[UIView alloc] init];
     
-    UIView *header = [[UIView alloc] initWithFrame:CGRectMake(0, 0, tableView.frame.size.width, 50)];
-    UILabel* label = [[UILabel alloc] initWithFrame:CGRectMake(32, 0, tableView.frame.size.width, 50)];
+    UIView *header = [[UIView alloc] initWithFrame:CGRectMake(0, 0, _favTableView.frame.size.width, 45)];
+    UILabel* label = [[UILabel alloc] initWithFrame:CGRectMake(32, 0, _favTableView.frame.size.width, 45)];
     label.text = l10n(@"Create new favourite");
     label.textColor = [UIColor whiteColor];
     [header addSubview:label];
@@ -121,9 +124,9 @@
     plus.image = [UIImage imageNamed:@"plus"];
     [header addSubview:plus];
     [header addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(createNewFav:)]];
-    tableView.tableHeaderView = header;
+    _favTableView.tableHeaderView = header;
     
-    [_favContainer addSubview:tableView];
+    [_favContainer addSubview:_favTableView];
     
     
     if (stationId) {
@@ -175,6 +178,8 @@
         }
         _initial = NO;
     }
+    
+    [_favTableView reloadData];
 }
 
 - (UIStatusBarStyle)preferredStatusBarStyle {
@@ -251,11 +256,33 @@
 
 #pragma mark - UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 0;
+    return [(NSArray *)[_userDefaults codableObjectForKey:@"favs"] count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return nil;
+    UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil];
+    Favourite *fav = [_userDefaults codableObjectForKey:@"favs"][indexPath.row];
+    UILabel* label = [[UILabel alloc] initWithFrame:CGRectMake(32, 0, _favTableView.frame.size.width, 50)];
+    label.text = [NSString stringWithFormat:@"%@ - %@", fav.from.title, fav.to.title];
+    label.textColor = [UIColor whiteColor];
+    [cell.contentView addSubview:label];
+    cell.backgroundColor = [UIColor clearColor];
+    cell.separatorInset = UIEdgeInsetsMake(0, 32, 0, 0);
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    return cell;
+}
+
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
+    return YES;
+}
+
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (editingStyle == UITableViewCellEditingStyleDelete) {
+        NSMutableArray *a = [(NSArray *)[_userDefaults codableObjectForKey:@"favs"] mutableCopy];
+        [a removeObjectAtIndex:indexPath.row];
+        [_userDefaults setCodableObject:[NSArray arrayWithArray:a] forKey:@"favs"];
+        [tableView reloadData];
+    }
 }
 
 #pragma mark - UITableViewDelegate

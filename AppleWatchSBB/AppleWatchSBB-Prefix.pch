@@ -6,6 +6,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
+#import "NSUserDefaults+Codable.h"
 
 #define l10n(key) NSLocalizedString(key, nil)
 

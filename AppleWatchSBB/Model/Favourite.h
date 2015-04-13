@@ -10,10 +10,9 @@
 
 @class Station;
 
-@interface Favourite : NSObject
+@interface Favourite : NSObject <NSCoding>
 
 @property (nonatomic) Station *from;
 @property (nonatomic) Station *to;
-@property (nonatomic) NSString *icon;
 
 @end

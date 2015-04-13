@@ -78,7 +78,15 @@
     Station *station = _stations[indexPath.row];
     if (_favourite) {
         _favourite.to = station;
-        // open icon selection
+        NSUserDefaults *userDefaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.dylanmarriott.applewatchsbb"];
+        NSArray *favs = (NSArray *)[userDefaults codableObjectForKey:@"favs"];
+        if (!favs) {
+            favs = [NSArray array];
+        }
+        favs = [favs arrayByAddingObject:_favourite];
+        [userDefaults setCodableObject:favs forKey:@"favs"];
+        [userDefaults synchronize];
+        [self.navigationController popToRootViewControllerAnimated:YES];
     } else {
         _favourite = [[Favourite alloc] init];
         _favourite.from = station;

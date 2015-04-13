@@ -10,6 +10,19 @@
 
 @implementation Station
 
+- (id)initWithCoder:(NSCoder *)aDecoder {
+    if (self = [super init]) {
+        self.identifier = [aDecoder decodeObjectForKey:@"identifier"];
+        self.title = [aDecoder decodeObjectForKey:@"title"];
+    }
+    return self;
+}
+
+- (void)encodeWithCoder:(NSCoder *)aCoder {
+    [aCoder encodeObject:self.identifier forKey:@"identifier"];
+    [aCoder encodeObject:self.title forKey:@"title"];
+}
+
 - (NSString *)description {
     return [NSString stringWithFormat:@"%@ %@", self.identifier, self.title];
 }

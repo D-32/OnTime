@@ -17,6 +17,7 @@
 		9A3157A91ADAF7D9006FB9D8 /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3157A81ADAF7D9006FB9D8 /* MainNavigationController.m */; };
 		9A3157AC1ADB14E6006FB9D8 /* FavouriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3157AB1ADB14E6006FB9D8 /* FavouriteViewController.m */; };
 		9A3157AF1ADB1E0A006FB9D8 /* Favourite.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3157AE1ADB1E0A006FB9D8 /* Favourite.m */; };
+		9A3157B21ADC6CCB006FB9D8 /* NSUserDefaults+Codable.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3157B11ADC6CCB006FB9D8 /* NSUserDefaults+Codable.m */; };
 		9A5AB0E71AD5DC6100F52D75 /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5AB0E61AD5DC6100F52D75 /* Station.m */; };
 		9AACF73E1ADAD76C00EEAB18 /* AppleWatchSBB WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 9AACF73D1ADAD76B00EEAB18 /* AppleWatchSBB WatchKit App.app */; };
 		9AACF7481ADAD76C00EEAB18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AACF7471ADAD76C00EEAB18 /* Images.xcassets */; };
@@ -92,6 +93,8 @@
 		9A3157AB1ADB14E6006FB9D8 /* FavouriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavouriteViewController.m; sourceTree = "<group>"; };
 		9A3157AD1ADB1E0A006FB9D8 /* Favourite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Favourite.h; sourceTree = "<group>"; };
 		9A3157AE1ADB1E0A006FB9D8 /* Favourite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Favourite.m; sourceTree = "<group>"; };
+		9A3157B01ADC6CCB006FB9D8 /* NSUserDefaults+Codable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+Codable.h"; sourceTree = "<group>"; };
+		9A3157B11ADC6CCB006FB9D8 /* NSUserDefaults+Codable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+Codable.m"; sourceTree = "<group>"; };
 		9A5AB0E51AD5DC6100F52D75 /* Station.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Station.h; sourceTree = "<group>"; };
 		9A5AB0E61AD5DC6100F52D75 /* Station.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Station.m; sourceTree = "<group>"; };
 		9AACF7321ADAD76B00EEAB18 /* AppleWatchSBB WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AppleWatchSBB WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -217,6 +220,8 @@
 				9A5AB0E41AD5DC6100F52D75 /* Model */,
 				9A20AA741A55E97B00BB4DEC /* AppDelegate.h */,
 				9A20AA751A55E97B00BB4DEC /* AppDelegate.m */,
+				9A3157B01ADC6CCB006FB9D8 /* NSUserDefaults+Codable.h */,
+				9A3157B11ADC6CCB006FB9D8 /* NSUserDefaults+Codable.m */,
 				9A20AA7D1A55E97B00BB4DEC /* Images.xcassets */,
 				9A20AA7F1A55E97B00BB4DEC /* LaunchScreen.xib */,
 				9A20AA701A55E97B00BB4DEC /* Supporting Files */,
@@ -563,6 +568,7 @@
 				9A3157A91ADAF7D9006FB9D8 /* MainNavigationController.m in Sources */,
 				9A3157AF1ADB1E0A006FB9D8 /* Favourite.m in Sources */,
 				9A05A6A51AD5BC2200EE2651 /* AutocompleteTextfield.swift in Sources */,
+				9A3157B21ADC6CCB006FB9D8 /* NSUserDefaults+Codable.m in Sources */,
 				9A3157AC1ADB14E6006FB9D8 /* FavouriteViewController.m in Sources */,
 				9A05A6A11AD5BAFA00EE2651 /* MainViewController.m in Sources */,
 				9A20AA731A55E97B00BB4DEC /* main.m in Sources */,

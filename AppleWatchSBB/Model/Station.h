@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Station : NSObject
+@interface Station : NSObject <NSCoding>
 
 @property (nonatomic) NSString *identifier;
 @property (nonatomic) NSString *title;
