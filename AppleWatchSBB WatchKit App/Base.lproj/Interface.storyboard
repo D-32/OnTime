@@ -20,6 +20,11 @@
                                 <segue destination="PXe-OE-Z2C" kind="push" identifier="getmehome" id="uei-mv-8cM"/>
                             </connections>
                         </button>
+                        <button width="1" alignment="left" title="Favourites" id="1SV-eI-QHP">
+                            <connections>
+                                <segue destination="i1F-qP-0pT" kind="push" id="6Gf-rO-2aR"/>
+                            </connections>
+                        </button>
                         <group width="1" alignment="left" verticalAlignment="bottom" layout="vertical" id="KEo-Fd-NjC">
                             <items>
                                 <imageView width="1" alignment="left" verticalAlignment="bottom" image="train-" animationDuration="8" id="6eq-Rp-D9F"/>
@@ -123,6 +128,42 @@
                 </controller>
             </objects>
             <point key="canvasLocation" x="496" y="160"/>
+        </scene>
+        <!--Favourites-->
+        <scene sceneID="9XH-lv-ggU">
+            <objects>
+                <controller identifier="Favourites" title="Favourites" id="i1F-qP-0pT" customClass="FavouritesInterfaceController">
+                    <items>
+                        <table alignment="left" id="0cQ-rW-05O">
+                            <items>
+                                <tableRow identifier="Favourite" id="HnJ-Sq-k9W" customClass="FavouritesRowController">
+                                    <group key="rootItem" width="1" alignment="left" spacing="7" id="a0g-h2-fHh">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="From" id="o5d-a4-RWY">
+                                                <fontDescription key="font" type="system" pointSize="14"/>
+                                            </label>
+                                            <label alignment="left" verticalAlignment="center" text="-" id="bMz-uW-2iQ">
+                                                <fontDescription key="font" type="system" pointSize="14"/>
+                                            </label>
+                                            <label alignment="left" verticalAlignment="center" text="To" id="Mci-4W-xcU">
+                                                <fontDescription key="font" type="system" pointSize="14"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="fromLabel" destination="o5d-a4-RWY" id="0q4-pg-MzO"/>
+                                        <outlet property="toLabel" destination="Mci-4W-xcU" id="Bgo-lb-UXz"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="0cQ-rW-05O" id="Y4Z-Qa-KyT"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="197" y="478"/>
         </scene>
         <!--Connections-->
         <scene sceneID="CQK-Sh-yqp">

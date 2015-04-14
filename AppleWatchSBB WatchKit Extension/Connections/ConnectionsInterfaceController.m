@@ -8,6 +8,8 @@
 
 #import "ConnectionsInterfaceController.h"
 #import "ConnectionsRowController.h"
+#import "Favourite.h"
+#import "Station.h"
 
 @interface ConnectionsInterfaceController ()
 @property (weak, nonatomic) IBOutlet WKInterfaceTable *table;
@@ -21,10 +23,19 @@
 
 - (void)awakeWithContext:(id)context {
     [super awakeWithContext:context];
-    _station = context;
-    NSUserDefaults *userDefaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.dylanmarriott.applewatchsbb"];
-    NSString *fromId = _station[@"id"];
-    NSString *toId = [userDefaults objectForKey:@"stationId"];
+    NSString *fromId;
+    NSString *toId;
+    if ([context isKindOfClass:[Favourite class]]) {
+        Favourite *fav = context;
+        fromId = fav.from.identifier;
+        toId = fav.to.identifier;
+    } else {
+        _station = context;
+        NSUserDefaults *userDefaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.dylanmarriott.applewatchsbb"];
+        fromId = _station[@"id"];
+        toId = [userDefaults objectForKey:@"stationId"];
+    }
+    
     [self loadConnectionsFrom:fromId to:toId];
 }
 
@@ -72,11 +83,13 @@
 }
 
 - (IBAction)menuMap {
-    NSDictionary *coordinate = [_station objectForKey:@"coordinate"];
-    CLLocationDegrees latitude = [coordinate[@"x"] doubleValue];
-    CLLocationDegrees longitude = [coordinate[@"y"] doubleValue];
-    CLLocation *location = [[CLLocation alloc] initWithLatitude:latitude longitude:longitude];
-    [self presentControllerWithName:@"Map" context:location];
+    if (_station) {
+        NSDictionary *coordinate = [_station objectForKey:@"coordinate"];
+        CLLocationDegrees latitude = [coordinate[@"x"] doubleValue];
+        CLLocationDegrees longitude = [coordinate[@"y"] doubleValue];
+        CLLocation *location = [[CLLocation alloc] initWithLatitude:latitude longitude:longitude];
+        [self presentControllerWithName:@"Map" context:location];
+    }
 }
 
 

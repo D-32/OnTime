@@ -120,7 +120,7 @@
     label.text = l10n(@"Create new favourite");
     label.textColor = [UIColor whiteColor];
     [header addSubview:label];
-    UIImageView *plus = [[UIImageView alloc] initWithFrame:CGRectMake(0, 15, 20, 20)];
+    UIImageView *plus = [[UIImageView alloc] initWithFrame:CGRectMake(0, 12, 20, 20)];
     plus.image = [UIImage imageNamed:@"plus"];
     [header addSubview:plus];
     [header addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(createNewFav:)]];

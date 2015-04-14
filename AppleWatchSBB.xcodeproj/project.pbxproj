@@ -18,6 +18,11 @@
 		9A3157AC1ADB14E6006FB9D8 /* FavouriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3157AB1ADB14E6006FB9D8 /* FavouriteViewController.m */; };
 		9A3157AF1ADB1E0A006FB9D8 /* Favourite.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3157AE1ADB1E0A006FB9D8 /* Favourite.m */; };
 		9A3157B21ADC6CCB006FB9D8 /* NSUserDefaults+Codable.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3157B11ADC6CCB006FB9D8 /* NSUserDefaults+Codable.m */; };
+		9A33BECE1ADDBB65005D6440 /* FavouritesInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A33BECD1ADDBB65005D6440 /* FavouritesInterfaceController.m */; };
+		9A33BED11ADDBB77005D6440 /* FavouritesRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A33BED01ADDBB77005D6440 /* FavouritesRowController.m */; };
+		9A33BED21ADDBEE3005D6440 /* NSUserDefaults+Codable.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3157B11ADC6CCB006FB9D8 /* NSUserDefaults+Codable.m */; };
+		9A33BED31ADDBEE7005D6440 /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5AB0E61AD5DC6100F52D75 /* Station.m */; };
+		9A33BED41ADDBEE9005D6440 /* Favourite.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3157AE1ADB1E0A006FB9D8 /* Favourite.m */; };
 		9A5AB0E71AD5DC6100F52D75 /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5AB0E61AD5DC6100F52D75 /* Station.m */; };
 		9AACF73E1ADAD76C00EEAB18 /* AppleWatchSBB WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 9AACF73D1ADAD76B00EEAB18 /* AppleWatchSBB WatchKit App.app */; };
 		9AACF7481ADAD76C00EEAB18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AACF7471ADAD76C00EEAB18 /* Images.xcassets */; };
@@ -95,6 +100,10 @@
 		9A3157AE1ADB1E0A006FB9D8 /* Favourite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Favourite.m; sourceTree = "<group>"; };
 		9A3157B01ADC6CCB006FB9D8 /* NSUserDefaults+Codable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+Codable.h"; sourceTree = "<group>"; };
 		9A3157B11ADC6CCB006FB9D8 /* NSUserDefaults+Codable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+Codable.m"; sourceTree = "<group>"; };
+		9A33BECC1ADDBB65005D6440 /* FavouritesInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavouritesInterfaceController.h; sourceTree = "<group>"; };
+		9A33BECD1ADDBB65005D6440 /* FavouritesInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavouritesInterfaceController.m; sourceTree = "<group>"; };
+		9A33BECF1ADDBB77005D6440 /* FavouritesRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavouritesRowController.h; sourceTree = "<group>"; };
+		9A33BED01ADDBB77005D6440 /* FavouritesRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavouritesRowController.m; sourceTree = "<group>"; };
 		9A5AB0E51AD5DC6100F52D75 /* Station.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Station.h; sourceTree = "<group>"; };
 		9A5AB0E61AD5DC6100F52D75 /* Station.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Station.m; sourceTree = "<group>"; };
 		9AACF7321ADAD76B00EEAB18 /* AppleWatchSBB WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AppleWatchSBB WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -240,6 +249,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9A33BECB1ADDBB54005D6440 /* Favourites */ = {
+			isa = PBXGroup;
+			children = (
+				9A33BECC1ADDBB65005D6440 /* FavouritesInterfaceController.h */,
+				9A33BECD1ADDBB65005D6440 /* FavouritesInterfaceController.m */,
+				9A33BECF1ADDBB77005D6440 /* FavouritesRowController.h */,
+				9A33BED01ADDBB77005D6440 /* FavouritesRowController.m */,
+			);
+			path = Favourites;
+			sourceTree = "<group>";
+		};
 		9A5AB0E41AD5DC6100F52D75 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,6 +278,7 @@
 				9AACF7741ADAD7E400EEAB18 /* ConnectionDetail */,
 				9AACF7791ADAD7E400EEAB18 /* Connections */,
 				9AACF77E1ADAD7E400EEAB18 /* Departures */,
+				9A33BECB1ADDBB54005D6440 /* Favourites */,
 				9AACF7831ADAD7E400EEAB18 /* Helper */,
 				9AACF7861ADAD7E400EEAB18 /* Main */,
 				9AACF7891ADAD7E400EEAB18 /* Map */,
@@ -579,12 +600,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A33BED21ADDBEE3005D6440 /* NSUserDefaults+Codable.m in Sources */,
 				9AACF79E1ADAD7E400EEAB18 /* MapInterfaceController.m in Sources */,
 				9AACF79C1ADAD7E400EEAB18 /* IconHelper.m in Sources */,
 				9AACF7961ADAD7E400EEAB18 /* ConnectionDetailInterfaceController.m in Sources */,
 				9AACF79F1ADAD7E400EEAB18 /* StationsInterfaceController.m in Sources */,
+				9A33BED11ADDBB77005D6440 /* FavouritesRowController.m in Sources */,
 				9AACF7A21ADAD7E400EEAB18 /* StopsRowController.m in Sources */,
+				9A33BED41ADDBEE9005D6440 /* Favourite.m in Sources */,
+				9A33BECE1ADDBB65005D6440 /* FavouritesInterfaceController.m in Sources */,
 				9AACF7971ADAD7E400EEAB18 /* ConnectionDetailRowController.m in Sources */,
+				9A33BED31ADDBEE7005D6440 /* Station.m in Sources */,
 				9AACF7991ADAD7E400EEAB18 /* ConnectionsRowController.m in Sources */,
 				9AACF79B1ADAD7E400EEAB18 /* DeparturesRowController.m in Sources */,
 				9AACF7A01ADAD7E400EEAB18 /* StationsRowController.m in Sources */,
