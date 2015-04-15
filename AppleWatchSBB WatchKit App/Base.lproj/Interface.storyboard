@@ -10,17 +10,45 @@
             <objects>
                 <controller identifier="Main" title="SBB" id="7i8-EH-URM" customClass="MainInterfaceController">
                     <items>
-                        <button width="1" alignment="left" title="Nearby" id="s5b-Dp-K1d">
+                        <button alignment="left" id="s5b-Dp-K1d">
+                            <group key="contentGroup" width="1" height="36" alignment="left" spacing="5" id="WSf-xj-JH6">
+                                <items>
+                                    <imageView alignment="left" verticalAlignment="center" image="circle_red" id="shl-Ja-pSa"/>
+                                    <label alignment="left" verticalAlignment="center" text="Nearby" id="yGb-dt-oVz">
+                                        <fontDescription key="font" type="system" pointSize="15"/>
+                                    </label>
+                                </items>
+                                <color key="backgroundColor" white="0.12096422697368424" alpha="1" colorSpace="calibratedWhite"/>
+                                <edgeInsets key="margins" left="5" right="0.0" top="0.0" bottom="0.0"/>
+                            </group>
                             <connections>
                                 <segue destination="PXe-OE-Z2C" kind="push" identifier="nearby" id="39n-bC-LEc"/>
                             </connections>
                         </button>
-                        <button width="1" alignment="left" title="Get Me Home" id="D2Q-PR-fCZ">
+                        <button alignment="left" id="D2Q-PR-fCZ">
+                            <group key="contentGroup" width="1" height="36" alignment="left" spacing="5" id="MHB-LX-bwy">
+                                <items>
+                                    <imageView alignment="left" verticalAlignment="center" image="circle_green" id="jkv-FK-jPH"/>
+                                    <label alignment="left" verticalAlignment="center" text="Get Me Home" id="f4f-FH-8RB">
+                                        <fontDescription key="font" type="system" pointSize="15"/>
+                                    </label>
+                                </items>
+                                <color key="backgroundColor" white="0.12096422699999999" alpha="1" colorSpace="calibratedWhite"/>
+                                <edgeInsets key="margins" left="5" right="0.0" top="0.0" bottom="0.0"/>
+                            </group>
                             <connections>
                                 <segue destination="PXe-OE-Z2C" kind="push" identifier="getmehome" id="uei-mv-8cM"/>
                             </connections>
                         </button>
-                        <button width="1" alignment="left" title="Favourites" id="1SV-eI-QHP">
+                        <button alignment="left" id="1SV-eI-QHP">
+                            <group key="contentGroup" width="1" height="36" alignment="left" spacing="5" id="sE2-Dr-ynS">
+                                <items>
+                                    <imageView alignment="left" verticalAlignment="center" image="circle_blue" id="YNA-Rb-b5l"/>
+                                    <label alignment="left" verticalAlignment="center" text="Favourites" id="cvK-Wh-YY0"/>
+                                </items>
+                                <color key="backgroundColor" white="0.12096422699999999" alpha="1" colorSpace="calibratedWhite"/>
+                                <edgeInsets key="margins" left="5" right="0.0" top="0.0" bottom="0.0"/>
+                            </group>
                             <connections>
                                 <segue destination="i1F-qP-0pT" kind="push" id="6Gf-rO-2aR"/>
                             </connections>
@@ -352,4 +380,5 @@
     <inferredMetricsTieBreakers>
         <segue reference="uei-mv-8cM"/>
     </inferredMetricsTieBreakers>
+    <color key="tintColor" red="1" green="0.13049845029866114" blue="0.11569471173893975" alpha="1" colorSpace="calibratedRGB"/>
 </document>
