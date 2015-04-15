@@ -6,11 +6,12 @@
   Copyright (c) 2015 Dylan Marriott. All rights reserved.
 */
 
-"To" = "Von";
-"From" = "Bis";
+"To" = "Ankunft";
+"From" = "Abfahrt";
 "Home Station" = "Zuhause";
 "Search for a station..." = "Bahnhof suchen...";
 "Favourites" = "Favoriten";
 "Create new favourite" = "Neuer Favorit erstellen";
 "Success" = "Erfolg";
 "Now open SBB Watch on your Apple Watch and travel safely." = "Öffne jetzt SBB Watch auf deiner Apple Watch und gute Reise.";
+"To provide you with the closest stations we need to know your location." = "Deine Position wird benötigt um Bahnhöfe in deiner Umgebung anzuzeigen.";
