@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  AppleWatchSBB
+
+  Created by Dylan Marriott on 15.04.15.
+  Copyright (c) 2015 Dylan Marriott. All rights reserved.
+*/
+
+"To" = "Von";
+"From" = "Bis";
+"Home Station" = "Zuhause";
+"Search for a station..." = "Bahnhof suchen...";
+"Favourites" = "Favoriten";
+"Create new favourite" = "Neuer Favorit erstellen";
+"Success" = "Erfolg";
+"Now open SBB Watch on your Apple Watch and travel safely." = "Öffne jetzt SBB Watch auf deiner Apple Watch und gute Reise.";

@@ -24,6 +24,9 @@
 		9A33BED31ADDBEE7005D6440 /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5AB0E61AD5DC6100F52D75 /* Station.m */; };
 		9A33BED41ADDBEE9005D6440 /* Favourite.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3157AE1ADB1E0A006FB9D8 /* Favourite.m */; };
 		9A5AB0E71AD5DC6100F52D75 /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5AB0E61AD5DC6100F52D75 /* Station.m */; };
+		9A984EFC1ADEFC040038D36A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A984F001ADEFC040038D36A /* Localizable.strings */; };
+		9A984EFD1ADEFC040038D36A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A984F001ADEFC040038D36A /* Localizable.strings */; };
+		9A984EFE1ADEFC040038D36A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A984F001ADEFC040038D36A /* Localizable.strings */; };
 		9AACF73E1ADAD76C00EEAB18 /* AppleWatchSBB WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 9AACF73D1ADAD76B00EEAB18 /* AppleWatchSBB WatchKit App.app */; };
 		9AACF7481ADAD76C00EEAB18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AACF7471ADAD76C00EEAB18 /* Images.xcassets */; };
 		9AACF74B1ADAD76C00EEAB18 /* AppleWatchSBB WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9AACF7321ADAD76B00EEAB18 /* AppleWatchSBB WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -106,6 +109,10 @@
 		9A33BED01ADDBB77005D6440 /* FavouritesRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavouritesRowController.m; sourceTree = "<group>"; };
 		9A5AB0E51AD5DC6100F52D75 /* Station.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Station.h; sourceTree = "<group>"; };
 		9A5AB0E61AD5DC6100F52D75 /* Station.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Station.m; sourceTree = "<group>"; };
+		9A984EF61ADEF85C0038D36A /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Interface.strings; sourceTree = "<group>"; };
+		9A984EFF1ADEFC040038D36A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9A984F011ADEFC050038D36A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9A984F021ADEFC060038D36A /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9AACF7321ADAD76B00EEAB18 /* AppleWatchSBB WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AppleWatchSBB WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AACF73D1ADAD76B00EEAB18 /* AppleWatchSBB WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleWatchSBB WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AACF7431ADAD76C00EEAB18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -234,6 +241,7 @@
 				9A20AA7D1A55E97B00BB4DEC /* Images.xcassets */,
 				9A20AA7F1A55E97B00BB4DEC /* LaunchScreen.xib */,
 				9A20AA701A55E97B00BB4DEC /* Supporting Files */,
+				9A984F001ADEFC040038D36A /* Localizable.strings */,
 			);
 			path = AppleWatchSBB;
 			sourceTree = "<group>";
@@ -503,6 +511,7 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
 			);
 			mainGroup = 9A20AA641A55E97B00BB4DEC;
 			productRefGroup = 9A20AA6E1A55E97B00BB4DEC /* Products */;
@@ -522,6 +531,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A20AA811A55E97B00BB4DEC /* LaunchScreen.xib in Resources */,
+				9A984EFC1ADEFC040038D36A /* Localizable.strings in Resources */,
 				9A20AA7E1A55E97B00BB4DEC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -531,6 +541,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AACF73E1ADAD76C00EEAB18 /* AppleWatchSBB WatchKit App.app in Resources */,
+				9A984EFD1ADEFC040038D36A /* Localizable.strings in Resources */,
 				9AACF7A41ADAD7F100EEAB18 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -540,6 +551,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A3157A51ADAD9B2006FB9D8 /* Interface.storyboard in Resources */,
+				9A984EFE1ADEFC040038D36A /* Localizable.strings in Resources */,
 				9AACF7481ADAD76C00EEAB18 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -649,8 +661,19 @@
 			isa = PBXVariantGroup;
 			children = (
 				9A3157A41ADAD9B2006FB9D8 /* Base */,
+				9A984EF61ADEF85C0038D36A /* de */,
 			);
 			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		9A984F001ADEFC040038D36A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A984EFF1ADEFC040038D36A /* Base */,
+				9A984F011ADEFC050038D36A /* en */,
+				9A984F021ADEFC060038D36A /* de */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
