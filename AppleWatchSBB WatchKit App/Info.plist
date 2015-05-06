@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>SBB Watch</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -15,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
@@ -27,8 +29,6 @@
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
 	<string>com.dylanmarriott.AppleWatchSBB</string>
-	<key>CFBundleDisplayName</key>
-	<string>SBB Watch</string>
 	<key>WKWatchKitApp</key>
 	<true/>
 </dict>
