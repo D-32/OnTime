@@ -2,12 +2,18 @@
 
 A simple app for the coming Apple Watch to access the SBB (Swiss railway) timetable information. Quickly look at departures of nearby stations or get a connection to get directly home.  
 
+Website: [**sbb.watch**](http://sbb.watch)  
+App Store: [**SBB Watch**](http://appstore.com/sbbwatch)  
+  
+There's also a Pebble version: [**PebbleSBB**](http://github.com/D-32/PebbleSBB)
+
 Features
 ---
 - Nearby stations & departures
 - Connection detail
 - 'Get Me Home'
 - Map to find station
+- Favourites
 - Train animation
 
 Contact
