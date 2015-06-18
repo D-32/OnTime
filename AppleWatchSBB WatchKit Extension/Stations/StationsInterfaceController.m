@@ -36,6 +36,7 @@
 
 - (void)loadStations {
     NSMutableString *url = [NSMutableString stringWithFormat:@"http://transport.opendata.ch/v1/locations?x=%f&y=%f&type=station", _currentLocation.coordinate.latitude, _currentLocation.coordinate.longitude];
+    [url appendString:@"&fields[]=stations/id"];
     [url appendString:@"&fields[]=stations/name"];
     [url appendString:@"&fields[]=stations/distance"];
     [url appendString:@"&fields[]=stations/coordinate/x"];
