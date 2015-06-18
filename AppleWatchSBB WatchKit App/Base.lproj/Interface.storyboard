@@ -11,7 +11,7 @@
                 <controller identifier="Main" title="SBB" id="7i8-EH-URM" customClass="MainInterfaceController">
                     <items>
                         <button alignment="left" id="s5b-Dp-K1d">
-                            <group key="contentGroup" width="1" height="36" alignment="left" spacing="5" id="WSf-xj-JH6">
+                            <group key="contentGroup" width="1" height="32" alignment="left" spacing="5" id="WSf-xj-JH6">
                                 <items>
                                     <imageView alignment="left" verticalAlignment="center" image="circle_red" id="shl-Ja-pSa"/>
                                     <label alignment="left" verticalAlignment="center" text="Nearby" id="yGb-dt-oVz">
@@ -20,13 +20,14 @@
                                 </items>
                                 <color key="backgroundColor" white="0.12096422697368424" alpha="1" colorSpace="calibratedWhite"/>
                                 <edgeInsets key="margins" left="5" right="0.0" top="0.0" bottom="0.0"/>
+                                <variation key="device=watch42mm" height="36"/>
                             </group>
                             <connections>
                                 <segue destination="PXe-OE-Z2C" kind="push" identifier="nearby" id="39n-bC-LEc"/>
                             </connections>
                         </button>
                         <button alignment="left" id="D2Q-PR-fCZ">
-                            <group key="contentGroup" width="1" height="36" alignment="left" spacing="5" id="MHB-LX-bwy">
+                            <group key="contentGroup" width="1" height="32" alignment="left" spacing="5" id="MHB-LX-bwy">
                                 <items>
                                     <imageView alignment="left" verticalAlignment="center" image="circle_green" id="jkv-FK-jPH"/>
                                     <label alignment="left" verticalAlignment="center" text="Get Me Home" id="f4f-FH-8RB">
@@ -35,24 +36,33 @@
                                 </items>
                                 <color key="backgroundColor" white="0.12096422699999999" alpha="1" colorSpace="calibratedWhite"/>
                                 <edgeInsets key="margins" left="5" right="0.0" top="0.0" bottom="0.0"/>
+                                <variation key="device=watch42mm" height="36"/>
                             </group>
                             <connections>
                                 <segue destination="PXe-OE-Z2C" kind="push" identifier="getmehome" id="uei-mv-8cM"/>
                             </connections>
                         </button>
                         <button alignment="left" id="1SV-eI-QHP">
-                            <group key="contentGroup" width="1" height="36" alignment="left" spacing="5" id="sE2-Dr-ynS">
+                            <group key="contentGroup" width="1" height="32" alignment="left" spacing="5" id="sE2-Dr-ynS">
                                 <items>
                                     <imageView alignment="left" verticalAlignment="center" image="circle_blue" id="YNA-Rb-b5l"/>
                                     <label alignment="left" verticalAlignment="center" text="Favourites" id="cvK-Wh-YY0"/>
                                 </items>
                                 <color key="backgroundColor" white="0.12096422699999999" alpha="1" colorSpace="calibratedWhite"/>
                                 <edgeInsets key="margins" left="5" right="0.0" top="0.0" bottom="0.0"/>
+                                <variation key="device=watch42mm" height="36"/>
                             </group>
                             <connections>
                                 <segue destination="i1F-qP-0pT" kind="push" id="6Gf-rO-2aR"/>
                             </connections>
                         </button>
+                        <label width="1" alignment="left" text="Force Touch to see more!" textAlignment="center" id="PTJ-cI-Xqn">
+                            <color key="textColor" white="0.28000000000000003" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="font" type="system" pointSize="10"/>
+                            <variation key="device=watch42mm">
+                                <fontDescription key="font" type="system" pointSize="12"/>
+                            </variation>
+                        </label>
                         <group width="1" alignment="left" verticalAlignment="bottom" layout="vertical" id="KEo-Fd-NjC">
                             <items>
                                 <imageView width="1" alignment="left" verticalAlignment="bottom" image="train-" animationDuration="8" id="6eq-Rp-D9F"/>
@@ -108,27 +118,28 @@
                                 <tableRow identifier="Departure" id="jZZ-Vs-TmB" customClass="DeparturesRowController">
                                     <group key="rootItem" width="1" height="0.0" alignment="left" id="OTx-el-orD">
                                         <items>
-                                            <group width="30" alignment="left" layout="vertical" spacing="5" id="6SZ-nc-bFP">
+                                            <group width="34" alignment="left" layout="vertical" spacing="5" id="6SZ-nc-bFP">
                                                 <items>
-                                                    <label alignment="left" text="Time" id="Bwp-yn-6oC">
+                                                    <imageView width="24" height="24" alignment="center" id="rsT-x9-g8N"/>
+                                                    <label alignment="center" text="Time" id="Bwp-yn-6oC">
                                                         <fontDescription key="font" type="system" pointSize="10"/>
                                                     </label>
-                                                    <imageView width="24" height="24" alignment="left" verticalAlignment="center" id="rsT-x9-g8N"/>
                                                 </items>
+                                                <edgeInsets key="margins" left="0.0" right="0.0" top="3" bottom="0.0"/>
                                             </group>
                                             <group width="1" widthAdjustment="-30" alignment="left" layout="vertical" id="aWJ-hY-u2h">
                                                 <items>
                                                     <label width="1" alignment="left" text="Name" textAlignment="left" id="ur9-ss-YUO">
                                                         <fontDescription key="font" type="system" pointSize="13"/>
                                                     </label>
-                                                    <separator alignment="left" id="6Xw-50-Rob"/>
+                                                    <separator alignment="left" alpha="0.29999999999999999" id="6Xw-50-Rob"/>
                                                     <label width="1" alignment="left" text="Destination" textAlignment="left" numberOfLines="2" id="U8J-k1-wx2">
                                                         <fontDescription key="font" type="system" pointSize="13"/>
                                                     </label>
                                                 </items>
                                             </group>
                                         </items>
-                                        <edgeInsets key="margins" left="7" right="7" top="3" bottom="3"/>
+                                        <edgeInsets key="margins" left="3" right="7" top="3" bottom="3"/>
                                     </group>
                                     <connections>
                                         <outlet property="destinationLabel" destination="U8J-k1-wx2" id="Zu3-qN-JQ4"/>
@@ -200,7 +211,7 @@
                                 <tableRow identifier="ConnectionHeader" selectable="NO" id="4f9-Xb-cFq">
                                     <group key="rootItem" width="1" height="25" alignment="left" layout="vertical" id="iNp-JW-mHD">
                                         <items>
-                                            <group width="1" alignment="left" spacing="8" id="jbf-35-XDm">
+                                            <group width="1" alignment="left" spacing="5" id="jbf-35-XDm">
                                                 <items>
                                                     <label width="40" alignment="left" verticalAlignment="center" text="Dep" id="v1R-Kj-dk2">
                                                         <fontDescription key="font" type="system" pointSize="14"/>
@@ -212,7 +223,7 @@
                                                         <fontDescription key="font" type="system" pointSize="14"/>
                                                     </label>
                                                 </items>
-                                                <variation key="device=watch38mm" spacing="5"/>
+                                                <variation key="device=watch42mm" spacing="8"/>
                                             </group>
                                             <separator alignment="left" alpha="0.19999999999999968" id="2XR-6d-zF0"/>
                                         </items>
@@ -220,7 +231,7 @@
                                     </group>
                                 </tableRow>
                                 <tableRow identifier="Connection" id="lkC-iu-nh2" customClass="ConnectionsRowController">
-                                    <group key="rootItem" width="1" alignment="left" spacing="8" id="mge-SQ-0mJ">
+                                    <group key="rootItem" width="1" alignment="left" spacing="5" id="mge-SQ-0mJ">
                                         <items>
                                             <label width="40" alignment="left" verticalAlignment="center" text="Time" id="9uQ-a7-yvB">
                                                 <fontDescription key="font" type="system" pointSize="14"/>
@@ -232,7 +243,7 @@
                                                 <fontDescription key="font" type="system" pointSize="14"/>
                                             </label>
                                         </items>
-                                        <variation key="device=watch38mm" spacing="5"/>
+                                        <variation key="device=watch42mm" spacing="9"/>
                                     </group>
                                     <connections>
                                         <outlet property="arrivalTimeLabel" destination="9uQ-a7-yvB" id="4kU-kp-EhG"/>
@@ -270,7 +281,7 @@
                                 <tableRow identifier="ConnectionDetail" selectable="NO" id="Ock-eM-DR6" customClass="ConnectionDetailRowController">
                                     <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="MT7-GA-V01">
                                         <items>
-                                            <group width="1" alignment="left" id="QOj-aP-MOG">
+                                            <group width="1" alignment="left" spacing="5" id="QOj-aP-MOG">
                                                 <items>
                                                     <imageView width="24" height="24" alignment="left" id="T4x-7M-bTJ"/>
                                                     <label alignment="left" verticalAlignment="center" text="Name" id="f3A-U6-ggs">
@@ -281,7 +292,7 @@
                                                     </label>
                                                 </items>
                                             </group>
-                                            <separator alignment="left" id="jAh-Lc-BEt"/>
+                                            <separator alignment="left" alpha="0.29999999999999999" id="jAh-Lc-BEt"/>
                                             <group width="1" alignment="left" layout="vertical" id="dAy-lo-a8U">
                                                 <items>
                                                     <group width="1" alignment="left" id="9RK-R7-mrh">
@@ -355,26 +366,30 @@
                         <table alignment="left" id="rFt-12-Uas">
                             <items>
                                 <tableRow identifier="Stop" selectable="NO" id="euR-Hp-zzW" customClass="StopsRowController">
-                                    <group key="rootItem" width="1" alignment="left" layout="vertical" id="md2-Gd-uns">
+                                    <group key="rootItem" width="1" alignment="left" spacing="5" id="md2-Gd-uns">
                                         <items>
-                                            <label width="1" alignment="left" text="Name" id="ZCi-ya-wqf">
-                                                <fontDescription key="font" type="system" pointSize="13"/>
-                                            </label>
-                                            <group width="120" alignment="left" id="znG-ir-3o2">
+                                            <group width="38" alignment="left" layout="vertical" id="tRa-FS-JU1">
                                                 <items>
-                                                    <label alignment="left" text="Ar" id="7KP-rm-x5o">
+                                                    <imageView width="8" height="8" alignment="center" alpha="0.59999999999999998" image="dot" id="fTO-L0-5Dq"/>
+                                                    <label alignment="center" text="Ar" id="7KP-rm-x5o">
                                                         <fontDescription key="font" type="system" pointSize="11"/>
                                                     </label>
-                                                    <label alignment="left" text="De" id="Y9i-pN-zoA">
-                                                        <fontDescription key="font" type="system" pointSize="11"/>
+                                                </items>
+                                                <edgeInsets key="margins" left="0.0" right="0.0" top="2" bottom="0.0"/>
+                                            </group>
+                                            <group width="1" alignment="left" id="CbJ-bD-8TJ">
+                                                <items>
+                                                    <label width="1" widthAdjustment="-40" alignment="left" text="Name" numberOfLines="3" id="ZCi-ya-wqf">
+                                                        <fontDescription key="font" type="system" pointSize="13"/>
                                                     </label>
                                                 </items>
                                             </group>
                                         </items>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
                                     </group>
                                     <connections>
                                         <outlet property="arrivalLabel" destination="7KP-rm-x5o" id="WhU-Hl-UmR"/>
-                                        <outlet property="departureLabel" destination="Y9i-pN-zoA" id="5hi-uW-95U"/>
                                         <outlet property="nameLabel" destination="ZCi-ya-wqf" id="WbY-Tu-Yee"/>
                                     </connections>
                                 </tableRow>
