@@ -40,7 +40,20 @@
 }
 
 - (void)loadConnectionsFrom:(NSString *)from to:(NSString *)to {
-    NSString *url = [NSString stringWithFormat:@"http://transport.opendata.ch/v1/connections?from=%@&to=%@", from, to];
+    NSMutableString *url = [NSMutableString stringWithFormat:@"http://transport.opendata.ch/v1/connections?from=%@&to=%@", from, to];
+    [url appendString:@"&fields[]=connections/from/departure"];
+    [url appendString:@"&fields[]=connections/to/arrival"];
+    [url appendString:@"&fields[]=connections/transfers"];
+    [url appendString:@"&fields[]=connections/sections/journey/name"];
+    [url appendString:@"&fields[]=connections/sections/journey/categoryCode"];
+    [url appendString:@"&fields[]=connections/sections/walk/duration"];
+    [url appendString:@"&fields[]=connections/sections/departure/platform"];
+    [url appendString:@"&fields[]=connections/sections/departure/departure"];
+    [url appendString:@"&fields[]=connections/sections/departure/station/name"];
+    [url appendString:@"&fields[]=connections/sections/arrival/platform"];
+    [url appendString:@"&fields[]=connections/sections/arrival/arrival"];
+    [url appendString:@"&fields[]=connections/sections/arrival/station/name"];
+    NSLog(@"url: %@", url);
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:url]];
     [NSURLConnection sendAsynchronousRequest:request
                                        queue:[NSOperationQueue mainQueue]
@@ -71,10 +84,9 @@
         ConnectionsRowController *rowController = [self.table rowControllerAtIndex:i];
         NSDictionary *connection = _connections[i];
         NSRange range = {11, 5};
-        rowController.arrivalNameLabel.text = connection[@"from"][@"station"][@"name"];
         rowController.arrivalTimeLabel.text = [connection[@"from"][@"departure"] substringWithRange:range];
-        rowController.departureNameLabel.text = connection[@"to"][@"station"][@"name"];
         rowController.departureTimeLabel.text = [connection[@"to"][@"arrival"] substringWithRange:range];
+        rowController.changesLabel.text = [NSString stringWithFormat:@"%lu", [connection[@"transfers"] integerValue]];
     }
 }
 

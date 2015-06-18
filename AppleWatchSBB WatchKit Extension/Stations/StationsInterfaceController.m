@@ -35,7 +35,11 @@
 }
 
 - (void)loadStations {
-    NSString *url = [NSString stringWithFormat:@"http://transport.opendata.ch/v1/locations?x=%f&y=%f&type=station", _currentLocation.coordinate.latitude, _currentLocation.coordinate.longitude];
+    NSMutableString *url = [NSMutableString stringWithFormat:@"http://transport.opendata.ch/v1/locations?x=%f&y=%f&type=station", _currentLocation.coordinate.latitude, _currentLocation.coordinate.longitude];
+    [url appendString:@"&fields[]=stations/name"];
+    [url appendString:@"&fields[]=stations/distance"];
+    [url appendString:@"&fields[]=stations/coordinate/x"];
+    [url appendString:@"&fields[]=stations/coordinate/y"];
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:url]];
     [NSURLConnection sendAsynchronousRequest:request
                                        queue:[NSOperationQueue mainQueue]

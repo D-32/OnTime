@@ -28,7 +28,15 @@
 }
 
 - (void)loadDepartures {
-    NSString *url = [NSString stringWithFormat:@"http://transport.opendata.ch/v1/stationboard?id=%li&limit=20",[_station[@"id"] integerValue]];
+    NSMutableString *url = [NSMutableString stringWithFormat:@"http://transport.opendata.ch/v1/stationboard?id=%li&limit=20",[_station[@"id"] integerValue]];
+    [url appendString:@"&fields[]=stationboard/name"];
+    [url appendString:@"&fields[]=stationboard/stop/departure"];
+    [url appendString:@"&fields[]=stationboard/to"];
+    [url appendString:@"&fields[]=stationboard/categoryCode"];
+    [url appendString:@"&fields[]=stationboard/passList/station/name"];
+    [url appendString:@"&fields[]=stationboard/passList/arrival"];
+    [url appendString:@"&fields[]=stationboard/passList/departure"];
+    [url appendString:@"&fields[]=stationboard/passList/platform"];
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:url]];
     [NSURLConnection sendAsynchronousRequest:request
                                        queue:[NSOperationQueue mainQueue]

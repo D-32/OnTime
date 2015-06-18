@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14D131" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7i8-EH-URM">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7i8-EH-URM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
     </dependencies>
     <scenes>
         <!--SBB-->
@@ -198,34 +198,22 @@
                         <table alignment="left" id="NAg-6d-OKO">
                             <items>
                                 <tableRow identifier="Connection" id="lkC-iu-nh2" customClass="ConnectionsRowController">
-                                    <group key="rootItem" width="1" alignment="left" id="mge-SQ-0mJ">
+                                    <group key="rootItem" width="1" alignment="left" spacing="8" id="mge-SQ-0mJ">
                                         <items>
-                                            <group width="1" widthAdjustment="-40" alignment="left" layout="vertical" id="1oo-0I-sgQ">
-                                                <items>
-                                                    <label alignment="left" text="Arrival" id="Pfl-Co-fjW">
-                                                        <fontDescription key="font" type="system" pointSize="14"/>
-                                                    </label>
-                                                    <label alignment="left" text="Departure" id="Wk0-di-TGZ">
-                                                        <fontDescription key="font" type="system" pointSize="14"/>
-                                                    </label>
-                                                </items>
-                                            </group>
-                                            <group width="40" alignment="left" layout="vertical" id="0G1-yf-ydA">
-                                                <items>
-                                                    <label alignment="right" text="Time" id="9uQ-a7-yvB">
-                                                        <fontDescription key="font" type="system" pointSize="14"/>
-                                                    </label>
-                                                    <label alignment="right" text="Time" id="h7m-Ur-pdw">
-                                                        <fontDescription key="font" type="system" pointSize="14"/>
-                                                    </label>
-                                                </items>
-                                            </group>
+                                            <label alignment="left" verticalAlignment="center" text="Time" id="9uQ-a7-yvB">
+                                                <fontDescription key="font" type="system" pointSize="14"/>
+                                            </label>
+                                            <label alignment="left" verticalAlignment="center" text="Time" id="h7m-Ur-pdw">
+                                                <fontDescription key="font" type="system" pointSize="14"/>
+                                            </label>
+                                            <label alignment="right" verticalAlignment="center" text="Label" textAlignment="right" id="1f1-uA-jmP">
+                                                <fontDescription key="font" type="system" pointSize="14"/>
+                                            </label>
                                         </items>
                                     </group>
                                     <connections>
-                                        <outlet property="arrivalNameLabel" destination="Pfl-Co-fjW" id="T7B-FB-nXK"/>
                                         <outlet property="arrivalTimeLabel" destination="9uQ-a7-yvB" id="4kU-kp-EhG"/>
-                                        <outlet property="departureNameLabel" destination="Wk0-di-TGZ" id="wy3-pp-0gs"/>
+                                        <outlet property="changesLabel" destination="1f1-uA-jmP" id="thu-8Z-wlM"/>
                                         <outlet property="departureTimeLabel" destination="h7m-Ur-pdw" id="ITW-vr-aDJ"/>
                                         <segue destination="fab-GJ-0oY" kind="push" id="6Pz-V3-i5X"/>
                                     </connections>

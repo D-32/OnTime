@@ -10,9 +10,8 @@
 #import <WatchKit/WatchKit.h>
 
 @interface ConnectionsRowController : NSObject
-@property (weak, nonatomic) IBOutlet WKInterfaceLabel *arrivalNameLabel;
-@property (weak, nonatomic) IBOutlet WKInterfaceLabel *departureNameLabel;
 @property (weak, nonatomic) IBOutlet WKInterfaceLabel *arrivalTimeLabel;
 @property (weak, nonatomic) IBOutlet WKInterfaceLabel *departureTimeLabel;
+@property (weak, nonatomic) IBOutlet WKInterfaceLabel *changesLabel;
 
 @end
