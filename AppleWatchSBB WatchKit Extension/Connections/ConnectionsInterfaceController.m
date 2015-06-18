@@ -53,7 +53,6 @@
     [url appendString:@"&fields[]=connections/sections/arrival/platform"];
     [url appendString:@"&fields[]=connections/sections/arrival/arrival"];
     [url appendString:@"&fields[]=connections/sections/arrival/station/name"];
-    NSLog(@"url: %@", url);
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:url]];
     [NSURLConnection sendAsynchronousRequest:request
                                        queue:[NSOperationQueue mainQueue]
@@ -79,9 +78,16 @@
 }
 
 - (void)updateTable {
-    [self.table setNumberOfRows:_connections.count withRowType:@"Connection"];
+    // first a header row & then a normal row for each connection
+    // weird code...
+    NSMutableArray *rowTypes = [NSMutableArray arrayWithObject:@"ConnectionHeader"];
     for (int i = 0; i < _connections.count; i++) {
-        ConnectionsRowController *rowController = [self.table rowControllerAtIndex:i];
+        [rowTypes addObject:@"Connection"];
+    }
+    [self.table setRowTypes:rowTypes];
+    
+    for (int i = 0; i < _connections.count; i++) {
+        ConnectionsRowController *rowController = [self.table rowControllerAtIndex:(i + 1)]; // #0 is a header cell
         NSDictionary *connection = _connections[i];
         NSRange range = {11, 5};
         rowController.arrivalTimeLabel.text = [connection[@"from"][@"departure"] substringWithRange:range];
@@ -91,7 +97,7 @@
 }
 
 - (id)contextForSegueWithIdentifier:(NSString *)segueIdentifier inTable:(WKInterfaceTable *)table rowIndex:(NSInteger)rowIndex {
-    return _connections[rowIndex];
+    return _connections[rowIndex + 1]; // #0 is a header cell
 }
 
 - (IBAction)menuMap {

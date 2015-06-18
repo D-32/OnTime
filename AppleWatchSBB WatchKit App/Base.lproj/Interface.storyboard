@@ -197,19 +197,42 @@
                     <items>
                         <table alignment="left" id="NAg-6d-OKO">
                             <items>
+                                <tableRow identifier="ConnectionHeader" selectable="NO" id="4f9-Xb-cFq">
+                                    <group key="rootItem" width="1" height="25" alignment="left" layout="vertical" id="iNp-JW-mHD">
+                                        <items>
+                                            <group width="1" alignment="left" spacing="8" id="jbf-35-XDm">
+                                                <items>
+                                                    <label width="40" alignment="left" verticalAlignment="center" text="Dep" id="v1R-Kj-dk2">
+                                                        <fontDescription key="font" type="system" pointSize="14"/>
+                                                    </label>
+                                                    <label width="40" alignment="left" verticalAlignment="center" text="Arr" id="fMA-nr-B1m">
+                                                        <fontDescription key="font" type="system" pointSize="14"/>
+                                                    </label>
+                                                    <label alignment="right" verticalAlignment="center" text="Chg." textAlignment="right" id="Gm5-gG-gZM">
+                                                        <fontDescription key="font" type="system" pointSize="14"/>
+                                                    </label>
+                                                </items>
+                                                <variation key="device=watch38mm" spacing="5"/>
+                                            </group>
+                                            <separator alignment="left" alpha="0.19999999999999968" id="2XR-6d-zF0"/>
+                                        </items>
+                                        <color key="backgroundColor" white="0.45985814144736842" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </group>
+                                </tableRow>
                                 <tableRow identifier="Connection" id="lkC-iu-nh2" customClass="ConnectionsRowController">
                                     <group key="rootItem" width="1" alignment="left" spacing="8" id="mge-SQ-0mJ">
                                         <items>
-                                            <label alignment="left" verticalAlignment="center" text="Time" id="9uQ-a7-yvB">
+                                            <label width="40" alignment="left" verticalAlignment="center" text="Time" id="9uQ-a7-yvB">
                                                 <fontDescription key="font" type="system" pointSize="14"/>
                                             </label>
-                                            <label alignment="left" verticalAlignment="center" text="Time" id="h7m-Ur-pdw">
+                                            <label width="40" alignment="left" verticalAlignment="center" text="Time" id="h7m-Ur-pdw">
                                                 <fontDescription key="font" type="system" pointSize="14"/>
                                             </label>
-                                            <label alignment="right" verticalAlignment="center" text="Label" textAlignment="right" id="1f1-uA-jmP">
+                                            <label alignment="right" verticalAlignment="center" text="0" textAlignment="right" id="1f1-uA-jmP">
                                                 <fontDescription key="font" type="system" pointSize="14"/>
                                             </label>
                                         </items>
+                                        <variation key="device=watch38mm" spacing="5"/>
                                     </group>
                                     <connections>
                                         <outlet property="arrivalTimeLabel" destination="9uQ-a7-yvB" id="4kU-kp-EhG"/>
@@ -259,24 +282,28 @@
                                                 </items>
                                             </group>
                                             <separator alignment="left" id="jAh-Lc-BEt"/>
-                                            <group width="1" alignment="left" id="dAy-lo-a8U">
+                                            <group width="1" alignment="left" layout="vertical" id="dAy-lo-a8U">
                                                 <items>
-                                                    <group width="1" widthAdjustment="-40" alignment="left" layout="vertical" id="tsH-1F-QqI">
+                                                    <group width="1" alignment="left" id="9RK-R7-mrh">
                                                         <items>
-                                                            <label alignment="left" text="Departure" id="7Vw-SX-hys">
+                                                            <label width="90" alignment="left" verticalAlignment="center" text="Departure" numberOfLines="2" id="7Vw-SX-hys">
                                                                 <fontDescription key="font" type="system" pointSize="14"/>
+                                                                <variation key="device=watch38mm" width="72"/>
+                                                                <variation key="device=watch42mm" width="90"/>
                                                             </label>
-                                                            <label alignment="left" text="Arrival" id="2VF-EU-T2V">
+                                                            <label alignment="right" verticalAlignment="center" text="Time" id="mf5-F5-SLw">
                                                                 <fontDescription key="font" type="system" pointSize="14"/>
                                                             </label>
                                                         </items>
                                                     </group>
-                                                    <group width="40" alignment="left" layout="vertical" id="J7a-OK-PN4">
+                                                    <group width="1" alignment="left" id="qeD-SG-fk4">
                                                         <items>
-                                                            <label alignment="right" text="Time" id="mf5-F5-SLw">
+                                                            <label width="90" alignment="left" verticalAlignment="center" text="Arrival" numberOfLines="2" id="2VF-EU-T2V">
                                                                 <fontDescription key="font" type="system" pointSize="14"/>
+                                                                <variation key="device=watch38mm" width="72"/>
+                                                                <variation key="device=watch42mm" width="90"/>
                                                             </label>
-                                                            <label alignment="right" text="Time" id="v8v-uf-tL9">
+                                                            <label alignment="right" verticalAlignment="center" text="Time" id="v8v-uf-tL9">
                                                                 <fontDescription key="font" type="system" pointSize="14"/>
                                                             </label>
                                                         </items>
