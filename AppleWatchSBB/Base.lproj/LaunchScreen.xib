@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -10,21 +10,18 @@
             <rect key="frame" x="0.0" y="0.0" width="550" height="739"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="8dW-2b-0Mz">
-                    <rect key="frame" x="0.0" y="0.0" width="535" height="624"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="XI5-to-wut">
+                    <rect key="frame" x="184" y="78" width="182" height="224"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="480" id="We6-Jb-TuT"/>
+                        <constraint firstAttribute="width" constant="182" id="Eu3-ye-znC"/>
+                        <constraint firstAttribute="height" constant="224" id="t3l-nQ-Hq8"/>
                     </constraints>
-                    <variation key="default">
-                        <mask key="constraints">
-                            <exclude reference="We6-Jb-TuT"/>
-                        </mask>
-                    </variation>
                 </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="8dW-2b-0Mz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="vrE-4E-iBw"/>
+                <constraint firstItem="XI5-to-wut" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="78" id="4qt-YL-BrG"/>
+                <constraint firstItem="XI5-to-wut" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="QRj-WO-cbI"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -32,6 +29,6 @@
         </view>
     </objects>
     <resources>
-        <image name="bg" width="414" height="736"/>
+        <image name="bg" width="297" height="364"/>
     </resources>
 </document>

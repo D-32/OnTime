@@ -101,7 +101,7 @@ import UIKit
   //MARK: Initialization
   func initialize(){
     
-    autoCompleteAttributes = [NSForegroundColorAttributeName:UIColor.whiteColor()]
+    autoCompleteAttributes = [NSForegroundColorAttributeName:UIColor.darkGrayColor()]
     autoCompleteAttributes![NSFontAttributeName] = UIFont(name: "HelveticaNeue-Bold", size: 12)
   }
   

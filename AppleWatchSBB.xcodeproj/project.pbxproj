@@ -24,6 +24,7 @@
 		9A33BED31ADDBEE7005D6440 /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5AB0E61AD5DC6100F52D75 /* Station.m */; };
 		9A33BED41ADDBEE9005D6440 /* Favourite.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3157AE1ADB1E0A006FB9D8 /* Favourite.m */; };
 		9A5AB0E71AD5DC6100F52D75 /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5AB0E61AD5DC6100F52D75 /* Station.m */; };
+		9A76E24E1B34C728006F8780 /* HomeScreenItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A76E24D1B34C728006F8780 /* HomeScreenItem.m */; };
 		9A984EFC1ADEFC040038D36A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A984F001ADEFC040038D36A /* Localizable.strings */; };
 		9A984EFD1ADEFC040038D36A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A984F001ADEFC040038D36A /* Localizable.strings */; };
 		9A984EFE1ADEFC040038D36A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A984F001ADEFC040038D36A /* Localizable.strings */; };
@@ -109,6 +110,8 @@
 		9A33BED01ADDBB77005D6440 /* FavouritesRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavouritesRowController.m; sourceTree = "<group>"; };
 		9A5AB0E51AD5DC6100F52D75 /* Station.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Station.h; sourceTree = "<group>"; };
 		9A5AB0E61AD5DC6100F52D75 /* Station.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Station.m; sourceTree = "<group>"; };
+		9A76E24C1B34C728006F8780 /* HomeScreenItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreenItem.h; sourceTree = "<group>"; };
+		9A76E24D1B34C728006F8780 /* HomeScreenItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScreenItem.m; sourceTree = "<group>"; };
 		9A984EFF1ADEFC040038D36A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9A984F011ADEFC050038D36A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9A984F021ADEFC060038D36A /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -234,6 +237,7 @@
 				9A05A69D1AD5BAB400EE2651 /* Controller */,
 				9A05A69E1AD5BAB400EE2651 /* Libs */,
 				9A5AB0E41AD5DC6100F52D75 /* Model */,
+				9A76E24B1B34C6FF006F8780 /* View */,
 				9A20AA741A55E97B00BB4DEC /* AppDelegate.h */,
 				9A20AA751A55E97B00BB4DEC /* AppDelegate.m */,
 				9A3157B01ADC6CCB006FB9D8 /* NSUserDefaults+Codable.h */,
@@ -277,6 +281,15 @@
 				9A3157AE1ADB1E0A006FB9D8 /* Favourite.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		9A76E24B1B34C6FF006F8780 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A76E24C1B34C728006F8780 /* HomeScreenItem.h */,
+				9A76E24D1B34C728006F8780 /* HomeScreenItem.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		9AACF7331ADAD76B00EEAB18 /* AppleWatchSBB WatchKit Extension */ = {
@@ -604,6 +617,7 @@
 				9A05A6A51AD5BC2200EE2651 /* AutocompleteTextfield.swift in Sources */,
 				9A3157B21ADC6CCB006FB9D8 /* NSUserDefaults+Codable.m in Sources */,
 				9A3157AC1ADB14E6006FB9D8 /* FavouriteViewController.m in Sources */,
+				9A76E24E1B34C728006F8780 /* HomeScreenItem.m in Sources */,
 				9A05A6A11AD5BAFA00EE2651 /* MainViewController.m in Sources */,
 				9A20AA731A55E97B00BB4DEC /* main.m in Sources */,
 			);

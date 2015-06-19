@@ -13,14 +13,13 @@
 #import <CoreLocation/CoreLocation.h>
 #import "FavouriteViewController.h"
 #import "Favourite.h"
+#import "HomeScreenItem.h"
 
-@interface MainViewController () <AutocompleteTextFieldDelegate, NSURLConnectionDelegate, NSURLConnectionDataDelegate, UITableViewDataSource, UITableViewDelegate>
+@interface MainViewController () <AutocompleteTextFieldDelegate, NSURLConnectionDelegate, NSURLConnectionDataDelegate>
 @end
 
 @implementation MainViewController {
     CLLocationManager* _locationManager;
-    UIImageView* _bgImageView;
-    UIImageView* _bgBlurImageView;
     AutocompleteTextfield *_inputField;
     NSURLConnection *_connection;
     NSMutableData *_data;
@@ -29,7 +28,6 @@
     NSUserDefaults *_userDefaults;
     UIView *_favContainer;
     BOOL _initial;
-    UITableView *_favTableView;
 }
 
 - (void)viewDidLoad {
@@ -47,35 +45,28 @@
     NSString *stationId = [_userDefaults stringForKey:@"stationId"];
     NSString *stationName = [_userDefaults stringForKey:@"stationName"];
     
-    _bgImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bg"]];
-    _bgImageView.contentMode = UIViewContentModeCenter;
-    [self.view addSubview:_bgImageView];
-    
-    _bgBlurImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bg-blur"]];
-    _bgBlurImageView.contentMode = UIViewContentModeCenter;
-    _bgBlurImageView.alpha = 0.0;
-    [self.view addSubview:_bgBlurImageView];
-    
-    _container = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 50)];
+    _container = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 140)];
     [self.view addSubview:_container];
     
     UIImageView *house = [[UIImageView alloc] initWithImage:[[UIImage imageNamed:@"house"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate]];
-    house.tintColor = [UIColor whiteColor];
+    house.tintColor = [UIColor colorWithWhite:0.7 alpha:1.0];
     [house setFrame:CGRectMake(25, 10, 32, 32)];
     [_container addSubview:house];
     
     UILabel *homeLabel = [[UILabel alloc] initWithFrame:CGRectMake(70, 18, 200, 30)];
     homeLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:20];
     homeLabel.text = l10n(@"Home Station");
-    homeLabel.textColor = [UIColor whiteColor];
+    homeLabel.textColor = [UIColor grayColor];
     [_container addSubview:homeLabel];
     
     
-    _inputField = [[AutocompleteTextfield alloc] initWithFrame:CGRectMake(25, 100, self.view.frame.size.width - 50, 30)];
+    _inputField = [[AutocompleteTextfield alloc] initWithFrame:CGRectMake(25, 80, self.view.frame.size.width - 50, 38)];
     _inputField.autoCompleteDelegate = self;
-    _inputField.autoCompleteTextColor = [UIColor colorWithWhite:1.0 alpha:1.0];
+    _inputField.autoCompleteTextColor = [UIColor grayColor];
     _inputField.backgroundColor = [UIColor whiteColor];
     _inputField.layer.cornerRadius = 4;
+    _inputField.layer.borderColor = [UIColor colorWithWhite:0.9 alpha:1.0].CGColor;
+    _inputField.layer.borderWidth = 1.0f;
     _inputField.placeholder = l10n(@"Search for a station...");
     _inputField.autoCompleteCellHeight = 44.0;
     _inputField.maximumAutoCompleteCount = 10;
@@ -83,7 +74,7 @@
     _inputField.hideWhenSelected = YES;
     _inputField.enableAttributedText = YES;
     _inputField.returnKeyType = UIReturnKeySearch;
-    UIView *spacerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 6, 0)];
+    UIView *spacerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 8, 0)];
     [_inputField setLeftViewMode:UITextFieldViewModeAlways];
     [_inputField setLeftView:spacerView];
     [self.view addSubview:_inputField];
@@ -98,35 +89,14 @@
     _favContainer.alpha = 0.0;
     [self.view addSubview:_favContainer];
     
-    UIImageView *star = [[UIImageView alloc] initWithImage:[[UIImage imageNamed:@"star"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate]];
-    star.tintColor = [UIColor whiteColor];
-    [star setFrame:CGRectMake(25, 10, 32, 32)];
-    [_favContainer addSubview:star];
+    HomeScreenItem *pushItem = [[HomeScreenItem alloc] initWithFrame:CGRectMake(25, 0, self.view.frame.size.width - 50, 50) title:@"Push Connection" subtitle:@"Handoff a connection to your watch."];
+    [_favContainer addSubview:pushItem];
     
-    UILabel *starLabel = [[UILabel alloc] initWithFrame:CGRectMake(70, 18, 200, 30)];
-    starLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:20];
-    starLabel.text = l10n(@"Favourites");
-    starLabel.textColor = [UIColor whiteColor];
-    [_favContainer addSubview:starLabel];
+    HomeScreenItem *favItem = [[HomeScreenItem alloc] initWithFrame:CGRectMake(25, 70, self.view.frame.size.width - 50, 50) title:@"Favourites" subtitle:@"Set up connections for quick access."];
+    [_favContainer addSubview:favItem];
     
-    _favTableView = [[UITableView alloc] initWithFrame:CGRectMake(25, 60, self.view.frame.size.width - 50, _favContainer.frame.size.height - 60)];
-    _favTableView.backgroundColor = [UIColor clearColor];
-    _favTableView.dataSource = self;
-    _favTableView.delegate = self;
-    _favTableView.tableFooterView = [[UIView alloc] init];
-    
-    UIView *header = [[UIView alloc] initWithFrame:CGRectMake(0, 0, _favTableView.frame.size.width, 45)];
-    UILabel* label = [[UILabel alloc] initWithFrame:CGRectMake(32, 0, _favTableView.frame.size.width, 45)];
-    label.text = l10n(@"Create new favourite");
-    label.textColor = [UIColor whiteColor];
-    [header addSubview:label];
-    UIImageView *plus = [[UIImageView alloc] initWithFrame:CGRectMake(0, 12, 20, 20)];
-    plus.image = [UIImage imageNamed:@"plus"];
-    [header addSubview:plus];
-    [header addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(createNewFav:)]];
-    _favTableView.tableHeaderView = header;
-    
-    [_favContainer addSubview:_favTableView];
+    HomeScreenItem *rssItem = [[HomeScreenItem alloc] initWithFrame:CGRectMake(25, 140, self.view.frame.size.width - 50, 50) title:@"Configure RSS Feed" subtitle:@"Setup rail traffic information feed."];
+    [_favContainer addSubview:rssItem];
     
     
     if (stationId) {
@@ -136,36 +106,31 @@
         _favContainer.hidden = YES;
     }
     
-    self.view.backgroundColor = [UIColor blackColor];
+    self.title = @"SBB Watch";
+    self.view.backgroundColor = [UIColor whiteColor];
+    self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
-    [self.navigationController setNavigationBarHidden:YES animated:YES];
-    
     if (_initial) {
-        [UIView animateWithDuration:1.5 animations:^{
-            _bgBlurImageView.alpha = 1.0;
-        }];
-        
-        
         CGRect inputFieldframe = _inputField.frame;
-        inputFieldframe.origin.y = -30;
+        inputFieldframe.origin.y = -40;
         [_inputField setFrame:inputFieldframe];
         [UIView animateWithDuration:0.5 delay:1.0 options:0 animations:^{
             CGRect inputFieldframe = _inputField.frame;
-            inputFieldframe.origin.y = 100;
+            inputFieldframe.origin.y = 80;
             [_inputField setFrame:inputFieldframe];
         } completion:^(BOOL finished) {
         }];
         
         CGRect containerframe = _container.frame;
-        containerframe.origin.y = -90;
+        containerframe.origin.y = -140;
         [_container setFrame:containerframe];
         [UIView animateWithDuration:0.5 delay:1.0 options:0 animations:^{
             CGRect containerframe = _container.frame;
-            containerframe.origin.y = 40;
+            containerframe.origin.y = 20;
             [_container setFrame:containerframe];
         } completion:^(BOOL finished) {
         }];
@@ -178,12 +143,6 @@
         }
         _initial = NO;
     }
-    
-    [_favTableView reloadData];
-}
-
-- (UIStatusBarStyle)preferredStatusBarStyle {
-    return UIStatusBarStyleLightContent;
 }
 
 - (void)createNewFav:(id)sender {
@@ -199,7 +158,7 @@
     [_userDefaults setObject:station.title forKey:@"stationName"];
     [_userDefaults synchronize];
     
-    SCLAlertView *alert = [[SCLAlertView alloc] init];
+    SCLAlertView *alert = [[SCLAlertView alloc] initWithNewWindow];
     alert.showAnimationType = SlideInToCenter;
     [alert addButton:@"Got It" actionBlock:^{
         _favContainer.hidden = NO;
@@ -252,42 +211,6 @@
         [_stations addObject:s];
     }
     _inputField.autoCompleteStrings = results;
-}
-
-#pragma mark - UITableViewDataSource
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return [(NSArray *)[_userDefaults codableObjectForKey:@"favs"] count];
-}
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil];
-    Favourite *fav = [_userDefaults codableObjectForKey:@"favs"][indexPath.row];
-    UILabel* label = [[UILabel alloc] initWithFrame:CGRectMake(32, 0, _favTableView.frame.size.width, 50)];
-    label.text = [NSString stringWithFormat:@"%@ - %@", fav.from.title, fav.to.title];
-    label.textColor = [UIColor whiteColor];
-    [cell.contentView addSubview:label];
-    cell.backgroundColor = [UIColor clearColor];
-    cell.separatorInset = UIEdgeInsetsMake(0, 32, 0, 0);
-    cell.selectionStyle = UITableViewCellSelectionStyleNone;
-    return cell;
-}
-
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    return YES;
-}
-
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        NSMutableArray *a = [(NSArray *)[_userDefaults codableObjectForKey:@"favs"] mutableCopy];
-        [a removeObjectAtIndex:indexPath.row];
-        [_userDefaults setCodableObject:[NSArray arrayWithArray:a] forKey:@"favs"];
-        [tableView reloadData];
-    }
-}
-
-#pragma mark - UITableViewDelegate
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 50;
 }
 
 @end
