@@ -166,7 +166,7 @@
         CGRect inputFieldframe = _inputField.frame;
         inputFieldframe.origin.y = -40;
         [_inputField setFrame:inputFieldframe];
-        [UIView animateWithDuration:0.5 delay:1.0 options:0 animations:^{
+        [UIView animateWithDuration:0.5 delay:0.0 options:0 animations:^{
             CGRect inputFieldframe = _inputField.frame;
             inputFieldframe.origin.y = 80;
             [_inputField setFrame:inputFieldframe];
@@ -176,7 +176,7 @@
         CGRect containerframe = _container.frame;
         containerframe.origin.y = -140;
         [_container setFrame:containerframe];
-        [UIView animateWithDuration:0.5 delay:1.0 options:0 animations:^{
+        [UIView animateWithDuration:0.5 delay:0.0 options:0 animations:^{
             CGRect containerframe = _container.frame;
             containerframe.origin.y = 20;
             [_container setFrame:containerframe];
@@ -184,7 +184,7 @@
         }];
         
         if (!_favContainer.hidden) {
-            [UIView animateWithDuration:0.3 delay:1.3 options:0 animations:^{
+            [UIView animateWithDuration:0.3 delay:0.3 options:0 animations:^{
                 _favContainer.alpha = 1.0;
             } completion:^(BOOL finished) {
             }];
