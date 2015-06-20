@@ -16,6 +16,8 @@
 #import "HomeScreenItem.h"
 #import "PremiumViewController.h"
 #import "FavouriteListViewController.h"
+#import "PushViewController.h"
+#import "RssConfigViewController.h"
 
 @interface MainViewController () <AutocompleteTextFieldDelegate, NSURLConnectionDelegate, NSURLConnectionDataDelegate>
 @end
@@ -93,6 +95,7 @@
     [self.view addSubview:_favContainer];
     
     HomeScreenItem *pushItem = [[HomeScreenItem alloc] initWithFrame:CGRectMake(25, 0, self.view.frame.size.width - 50, 50) title:l10n(@"Push Connection") subtitle:l10n(@"Handoff a connection to your watch.")];
+    [pushItem addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(actionPush)]];
     [_favContainer addSubview:pushItem];
     
     HomeScreenItem *favItem = [[HomeScreenItem alloc] initWithFrame:CGRectMake(25, 70, self.view.frame.size.width - 50, 50) title:l10n(@"Favourites") subtitle:l10n(@"Set up connections for quick access.")];
@@ -100,6 +103,7 @@
     [_favContainer addSubview:favItem];
     
     HomeScreenItem *rssItem = [[HomeScreenItem alloc] initWithFrame:CGRectMake(25, 140, self.view.frame.size.width - 50, 50) title:l10n(@"Configure RSS Feed") subtitle:l10n(@"Setup rail traffic information feed.")];
+    [rssItem addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(actionRss)]];
     [_favContainer addSubview:rssItem];
     
     
@@ -193,8 +197,22 @@
 }
 
 - (void)actionFav {
-    if (![_userDefaults boolForKey:@"premium"]) {
+    if ([_userDefaults boolForKey:@"premium"]) {
         FavouriteListViewController *vc = [[FavouriteListViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    } else {
+        [self showPremiumController];
+    }
+}
+
+- (void)actionPush {
+    PushViewController *vc = [[PushViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (void)actionRss {
+    if ([_userDefaults boolForKey:@"premium"]) {
+        RssConfigViewController *vc = [[RssConfigViewController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
     } else {
         [self showPremiumController];

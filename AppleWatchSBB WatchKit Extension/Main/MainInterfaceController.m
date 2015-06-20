@@ -7,11 +7,28 @@
 //
 
 #import "MainInterfaceController.h"
+#import "Connection.h"
+#import "Favourite.h"
 
-@implementation MainInterfaceController
+@implementation MainInterfaceController {
+    NSUserDefaults *_userDefaults;
+}
 
 - (id)contextForSegueWithIdentifier:(NSString *)segueIdentifier {
     return segueIdentifier;
+}
+
+- (void)willActivate {
+    [super willActivate];
+    _userDefaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.dylanmarriott.applewatchsbb"];
+    Connection *connection = (Connection *)[_userDefaults codableObjectForKey:@"pushConnection"];
+    if (connection) {
+        [_userDefaults removeObjectForKey:@"pushConnection"];
+        Favourite *f = [[Favourite alloc] init];
+        f.from = connection.from;
+        f.to = connection.to;
+        [self pushControllerWithName:@"Connections" context:f];
+    }
 }
 
 @end

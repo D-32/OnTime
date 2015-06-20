@@ -24,6 +24,10 @@
 		9A33BED31ADDBEE7005D6440 /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5AB0E61AD5DC6100F52D75 /* Station.m */; };
 		9A33BED41ADDBEE9005D6440 /* Favourite.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3157AE1ADB1E0A006FB9D8 /* Favourite.m */; };
 		9A5AB0E71AD5DC6100F52D75 /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5AB0E61AD5DC6100F52D75 /* Station.m */; };
+		9A5B7BB41B35F4EC00C025D2 /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B7BB31B35F4EC00C025D2 /* Connection.m */; };
+		9A5B7BB71B35F5E300C025D2 /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B7BB61B35F5E300C025D2 /* PushViewController.m */; };
+		9A5B7BB81B35FE5500C025D2 /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B7BB31B35F4EC00C025D2 /* Connection.m */; };
+		9A5B7BBB1B36042D00C025D2 /* RssConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B7BBA1B36042D00C025D2 /* RssConfigViewController.m */; };
 		9A76E24E1B34C728006F8780 /* HomeScreenItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A76E24D1B34C728006F8780 /* HomeScreenItem.m */; };
 		9A76E2501B34D79D006F8780 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A76E24F1B34D79D006F8780 /* StoreKit.framework */; };
 		9A76E2531B357E1D006F8780 /* PremiumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A76E2521B357E1D006F8780 /* PremiumViewController.m */; };
@@ -115,6 +119,12 @@
 		9A33BED01ADDBB77005D6440 /* FavouritesRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavouritesRowController.m; sourceTree = "<group>"; };
 		9A5AB0E51AD5DC6100F52D75 /* Station.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Station.h; sourceTree = "<group>"; };
 		9A5AB0E61AD5DC6100F52D75 /* Station.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Station.m; sourceTree = "<group>"; };
+		9A5B7BB21B35F4EC00C025D2 /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+		9A5B7BB31B35F4EC00C025D2 /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
+		9A5B7BB51B35F5E300C025D2 /* PushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
+		9A5B7BB61B35F5E300C025D2 /* PushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
+		9A5B7BB91B36042D00C025D2 /* RssConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RssConfigViewController.h; sourceTree = "<group>"; };
+		9A5B7BBA1B36042D00C025D2 /* RssConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RssConfigViewController.m; sourceTree = "<group>"; };
 		9A76E24C1B34C728006F8780 /* HomeScreenItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreenItem.h; sourceTree = "<group>"; };
 		9A76E24D1B34C728006F8780 /* HomeScreenItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScreenItem.m; sourceTree = "<group>"; };
 		9A76E24F1B34D79D006F8780 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
@@ -208,6 +218,10 @@
 				9A76E25B1B35C203006F8780 /* FavouriteListViewController.m */,
 				9A76E2511B357E1D006F8780 /* PremiumViewController.h */,
 				9A76E2521B357E1D006F8780 /* PremiumViewController.m */,
+				9A5B7BB51B35F5E300C025D2 /* PushViewController.h */,
+				9A5B7BB61B35F5E300C025D2 /* PushViewController.m */,
+				9A5B7BB91B36042D00C025D2 /* RssConfigViewController.h */,
+				9A5B7BBA1B36042D00C025D2 /* RssConfigViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -297,6 +311,8 @@
 		9A5AB0E41AD5DC6100F52D75 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9A5B7BB21B35F4EC00C025D2 /* Connection.h */,
+				9A5B7BB31B35F4EC00C025D2 /* Connection.m */,
 				9A5AB0E51AD5DC6100F52D75 /* Station.h */,
 				9A5AB0E61AD5DC6100F52D75 /* Station.m */,
 				9A3157AD1ADB1E0A006FB9D8 /* Favourite.h */,
@@ -638,6 +654,7 @@
 				9A5AB0E71AD5DC6100F52D75 /* Station.m in Sources */,
 				9A3157A91ADAF7D9006FB9D8 /* MainNavigationController.m in Sources */,
 				9A76E2591B35B0A3006F8780 /* UIBAlertView.m in Sources */,
+				9A5B7BBB1B36042D00C025D2 /* RssConfigViewController.m in Sources */,
 				9A3157AF1ADB1E0A006FB9D8 /* Favourite.m in Sources */,
 				9A05A6A51AD5BC2200EE2651 /* AutocompleteTextfield.swift in Sources */,
 				9A3157B21ADC6CCB006FB9D8 /* NSUserDefaults+Codable.m in Sources */,
@@ -648,6 +665,8 @@
 				9A76E24E1B34C728006F8780 /* HomeScreenItem.m in Sources */,
 				9A05A6A11AD5BAFA00EE2651 /* MainViewController.m in Sources */,
 				9A20AA731A55E97B00BB4DEC /* main.m in Sources */,
+				9A5B7BB71B35F5E300C025D2 /* PushViewController.m in Sources */,
+				9A5B7BB41B35F4EC00C025D2 /* Connection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -655,6 +674,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A5B7BB81B35FE5500C025D2 /* Connection.m in Sources */,
 				9A33BED21ADDBEE3005D6440 /* NSUserDefaults+Codable.m in Sources */,
 				9AACF79E1ADAD7E400EEAB18 /* MapInterfaceController.m in Sources */,
 				9AACF79C1ADAD7E400EEAB18 /* IconHelper.m in Sources */,
