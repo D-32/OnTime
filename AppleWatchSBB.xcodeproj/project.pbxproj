@@ -25,6 +25,11 @@
 		9A33BED41ADDBEE9005D6440 /* Favourite.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3157AE1ADB1E0A006FB9D8 /* Favourite.m */; };
 		9A5AB0E71AD5DC6100F52D75 /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5AB0E61AD5DC6100F52D75 /* Station.m */; };
 		9A76E24E1B34C728006F8780 /* HomeScreenItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A76E24D1B34C728006F8780 /* HomeScreenItem.m */; };
+		9A76E2501B34D79D006F8780 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A76E24F1B34D79D006F8780 /* StoreKit.framework */; };
+		9A76E2531B357E1D006F8780 /* PremiumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A76E2521B357E1D006F8780 /* PremiumViewController.m */; };
+		9A76E2561B359A76006F8780 /* PremiumItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A76E2551B359A76006F8780 /* PremiumItem.m */; };
+		9A76E2591B35B0A3006F8780 /* UIBAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A76E2581B35B0A3006F8780 /* UIBAlertView.m */; };
+		9A76E25C1B35C203006F8780 /* FavouriteListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A76E25B1B35C203006F8780 /* FavouriteListViewController.m */; };
 		9A984EFC1ADEFC040038D36A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A984F001ADEFC040038D36A /* Localizable.strings */; };
 		9A984EFD1ADEFC040038D36A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A984F001ADEFC040038D36A /* Localizable.strings */; };
 		9A984EFE1ADEFC040038D36A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A984F001ADEFC040038D36A /* Localizable.strings */; };
@@ -112,6 +117,15 @@
 		9A5AB0E61AD5DC6100F52D75 /* Station.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Station.m; sourceTree = "<group>"; };
 		9A76E24C1B34C728006F8780 /* HomeScreenItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreenItem.h; sourceTree = "<group>"; };
 		9A76E24D1B34C728006F8780 /* HomeScreenItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScreenItem.m; sourceTree = "<group>"; };
+		9A76E24F1B34D79D006F8780 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		9A76E2511B357E1D006F8780 /* PremiumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PremiumViewController.h; sourceTree = "<group>"; };
+		9A76E2521B357E1D006F8780 /* PremiumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PremiumViewController.m; sourceTree = "<group>"; };
+		9A76E2541B359A76006F8780 /* PremiumItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PremiumItem.h; sourceTree = "<group>"; };
+		9A76E2551B359A76006F8780 /* PremiumItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PremiumItem.m; sourceTree = "<group>"; };
+		9A76E2571B35B0A3006F8780 /* UIBAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBAlertView.h; sourceTree = "<group>"; };
+		9A76E2581B35B0A3006F8780 /* UIBAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBAlertView.m; sourceTree = "<group>"; };
+		9A76E25A1B35C203006F8780 /* FavouriteListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavouriteListViewController.h; sourceTree = "<group>"; };
+		9A76E25B1B35C203006F8780 /* FavouriteListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavouriteListViewController.m; sourceTree = "<group>"; };
 		9A984EFF1ADEFC040038D36A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9A984F011ADEFC050038D36A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9A984F021ADEFC060038D36A /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -157,6 +171,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A76E2501B34D79D006F8780 /* StoreKit.framework in Frameworks */,
 				ACDEB86B46CD1F39E1CB0F81 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,6 +189,7 @@
 		8A218E1DD208E0426477AE7E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9A76E24F1B34D79D006F8780 /* StoreKit.framework */,
 				DFF5C617F75E0FF7A7F97C31 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -188,6 +204,10 @@
 				9A3157A81ADAF7D9006FB9D8 /* MainNavigationController.m */,
 				9A3157AA1ADB14E6006FB9D8 /* FavouriteViewController.h */,
 				9A3157AB1ADB14E6006FB9D8 /* FavouriteViewController.m */,
+				9A76E25A1B35C203006F8780 /* FavouriteListViewController.h */,
+				9A76E25B1B35C203006F8780 /* FavouriteListViewController.m */,
+				9A76E2511B357E1D006F8780 /* PremiumViewController.h */,
+				9A76E2521B357E1D006F8780 /* PremiumViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -196,6 +216,8 @@
 			isa = PBXGroup;
 			children = (
 				9A05A6A31AD5BC2200EE2651 /* AutocompleteTextfield */,
+				9A76E2571B35B0A3006F8780 /* UIBAlertView.h */,
+				9A76E2581B35B0A3006F8780 /* UIBAlertView.m */,
 			);
 			path = Libs;
 			sourceTree = "<group>";
@@ -288,6 +310,8 @@
 			children = (
 				9A76E24C1B34C728006F8780 /* HomeScreenItem.h */,
 				9A76E24D1B34C728006F8780 /* HomeScreenItem.m */,
+				9A76E2541B359A76006F8780 /* PremiumItem.h */,
+				9A76E2551B359A76006F8780 /* PremiumItem.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -613,9 +637,13 @@
 				9A20AA761A55E97B00BB4DEC /* AppDelegate.m in Sources */,
 				9A5AB0E71AD5DC6100F52D75 /* Station.m in Sources */,
 				9A3157A91ADAF7D9006FB9D8 /* MainNavigationController.m in Sources */,
+				9A76E2591B35B0A3006F8780 /* UIBAlertView.m in Sources */,
 				9A3157AF1ADB1E0A006FB9D8 /* Favourite.m in Sources */,
 				9A05A6A51AD5BC2200EE2651 /* AutocompleteTextfield.swift in Sources */,
 				9A3157B21ADC6CCB006FB9D8 /* NSUserDefaults+Codable.m in Sources */,
+				9A76E2561B359A76006F8780 /* PremiumItem.m in Sources */,
+				9A76E25C1B35C203006F8780 /* FavouriteListViewController.m in Sources */,
+				9A76E2531B357E1D006F8780 /* PremiumViewController.m in Sources */,
 				9A3157AC1ADB14E6006FB9D8 /* FavouriteViewController.m in Sources */,
 				9A76E24E1B34C728006F8780 /* HomeScreenItem.m in Sources */,
 				9A05A6A11AD5BAFA00EE2651 /* MainViewController.m in Sources */,

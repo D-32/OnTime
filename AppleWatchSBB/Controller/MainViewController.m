@@ -14,6 +14,7 @@
 #import "FavouriteViewController.h"
 #import "Favourite.h"
 #import "HomeScreenItem.h"
+#import "PremiumViewController.h"
 
 @interface MainViewController () <AutocompleteTextFieldDelegate, NSURLConnectionDelegate, NSURLConnectionDataDelegate>
 @end
@@ -28,6 +29,7 @@
     NSUserDefaults *_userDefaults;
     UIView *_favContainer;
     BOOL _initial;
+    UIView *_premiumContainer;
 }
 
 - (void)viewDidLoad {
@@ -89,13 +91,14 @@
     _favContainer.alpha = 0.0;
     [self.view addSubview:_favContainer];
     
-    HomeScreenItem *pushItem = [[HomeScreenItem alloc] initWithFrame:CGRectMake(25, 0, self.view.frame.size.width - 50, 50) title:@"Push Connection" subtitle:@"Handoff a connection to your watch."];
+    HomeScreenItem *pushItem = [[HomeScreenItem alloc] initWithFrame:CGRectMake(25, 0, self.view.frame.size.width - 50, 50) title:l10n(@"Push Connection") subtitle:l10n(@"Handoff a connection to your watch.")];
     [_favContainer addSubview:pushItem];
     
-    HomeScreenItem *favItem = [[HomeScreenItem alloc] initWithFrame:CGRectMake(25, 70, self.view.frame.size.width - 50, 50) title:@"Favourites" subtitle:@"Set up connections for quick access."];
+    HomeScreenItem *favItem = [[HomeScreenItem alloc] initWithFrame:CGRectMake(25, 70, self.view.frame.size.width - 50, 50) title:l10n(@"Favourites") subtitle:l10n(@"Set up connections for quick access.")];
+    [favItem addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(actionFav)]];
     [_favContainer addSubview:favItem];
     
-    HomeScreenItem *rssItem = [[HomeScreenItem alloc] initWithFrame:CGRectMake(25, 140, self.view.frame.size.width - 50, 50) title:@"Configure RSS Feed" subtitle:@"Setup rail traffic information feed."];
+    HomeScreenItem *rssItem = [[HomeScreenItem alloc] initWithFrame:CGRectMake(25, 140, self.view.frame.size.width - 50, 50) title:l10n(@"Configure RSS Feed") subtitle:l10n(@"Setup rail traffic information feed.")];
     [_favContainer addSubview:rssItem];
     
     
@@ -106,9 +109,47 @@
         _favContainer.hidden = YES;
     }
     
+    
+    UILabel *premiumLabel = [[UILabel alloc] init];
+    premiumLabel.font = [UIFont systemFontOfSize:18];
+    premiumLabel.text = l10n(@"Activate Premium");
+    premiumLabel.textColor = [UIColor colorWithWhite:0.4 alpha:1.0];
+    CGSize size = [premiumLabel.text sizeWithAttributes:@{NSFontAttributeName:premiumLabel.font}];
+    premiumLabel.frame = CGRectMake(16, 65, size.width, size.height);
+    
+    _premiumContainer = [[UIView alloc] initWithFrame:CGRectMake(self.view.frame.size.width / 2 - ((premiumLabel.frame.size.width + 32) / 2), _favContainer.frame.size.height - 200, premiumLabel.frame.size.width + 32, premiumLabel.frame.size.height + 32 + 45)];
+    _premiumContainer.backgroundColor = [UIColor whiteColor];
+    [_premiumContainer addSubview:premiumLabel];
+    _premiumContainer.layer.cornerRadius = 12;
+    _premiumContainer.layer.borderWidth = 1.0f;
+    _premiumContainer.layer.borderColor = [UIColor colorWithWhite:0.9 alpha:1.0].CGColor;
+    [_premiumContainer addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(showPremiumController)]];
+    [_favContainer addSubview:_premiumContainer];
+    
+    UIImageView *premiumBadge = [[UIImageView alloc] initWithImage:[[UIImage imageNamed:@"premium"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate]];
+    premiumBadge.frame = CGRectMake(_premiumContainer.frame.size.width / 2 - 24, 10, 48, 48);
+    premiumBadge.tintColor = [UIColor colorWithRed:0.78 green:0.08 blue:0.09 alpha:1.00];
+    [_premiumContainer addSubview:premiumBadge];
+    
+    
     self.title = @"SBB Watch";
     self.view.backgroundColor = [UIColor whiteColor];
     self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
+    
+ 
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(defaultsChanged:)
+                                                 name:NSUserDefaultsDidChangeNotification
+                                               object:nil];
+    [self defaultsChanged:self];
+}
+
+- (void)dealloc {
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
+- (void)defaultsChanged:(id)sender {
+    _premiumContainer.hidden = [_userDefaults boolForKey:@"premium"];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -148,6 +189,19 @@
 - (void)createNewFav:(id)sender {
     FavouriteViewController *vc = [[FavouriteViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (void)showPremiumController {
+    PremiumViewController *vc = [[PremiumViewController alloc] init];
+    [self presentViewController:vc animated:NO completion:nil];
+}
+
+- (void)actionFav {
+    if ([_userDefaults boolForKey:@"premium"]) {
+        
+    } else {
+        [self showPremiumController];
+    }
 }
 
 #pragma mark - AutocompleteTextFieldDelegate
