@@ -141,6 +141,8 @@
     self.view.backgroundColor = [UIColor whiteColor];
     self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
     
+    UIBarButtonItem *infoItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"info"] landscapeImagePhone:nil style:UIBarButtonItemStylePlain target:self action:@selector(showInfo)];
+    self.navigationItem.rightBarButtonItem = infoItem;
  
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(defaultsChanged:)
@@ -189,6 +191,15 @@
         }
         _initial = NO;
     }
+}
+
+- (void)showInfo {
+    SCLAlertView *alert = [[SCLAlertView alloc] initWithNewWindow];
+    alert.showAnimationType = SlideInToCenter;
+    [alert addButton:@"Close" actionBlock:^{
+        
+    }];
+    [alert showCustom:self image:[UIImage imageNamed:@"infoWhite"] color:[UIColor colorWithRed:0.78 green:0.08 blue:0.09 alpha:1.00] title:l10n(@"SBB Watch") subTitle:l10n(@"Created by Dylan Marriott\nEmail: info@d-32.com\nTwitter: @dylan36032\nwww.d-32.com\n\nThanks to Charles Vass for the awesome art work.\n\nAlso special thanks to Opendata.ch for providing such a great API.") closeButtonTitle:nil duration:0];
 }
 
 - (void)showPremiumController {
