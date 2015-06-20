@@ -44,7 +44,7 @@
         self.title = l10n(@"From");
     }
     
-    _inputField = [[AutocompleteTextfield alloc] initWithFrame:CGRectMake(25, 90, self.view.frame.size.width - 50, 30)];
+    _inputField = [[AutocompleteTextfield alloc] initWithFrame:CGRectMake(25, 20, self.view.frame.size.width - 50, 30)];
     _inputField.autoCompleteDelegate = self;
     _inputField.autoCompleteTextColor = [UIColor colorWithWhite:0.1 alpha:1.0];
     _inputField.autoCompleteAttributes = @{NSForegroundColorAttributeName: [UIColor colorWithWhite:0.1 alpha:1.0], NSFontAttributeName: [UIFont fontWithName:@"HelveticaNeue-Bold" size:12]};
@@ -86,7 +86,7 @@
         favs = [favs arrayByAddingObject:_favourite];
         [userDefaults setCodableObject:favs forKey:@"favs"];
         [userDefaults synchronize];
-        [self.navigationController popToRootViewControllerAnimated:YES];
+        [self.navigationController popToViewController:self.navigationController.viewControllers[1] animated:YES];
     } else {
         _favourite = [[Favourite alloc] init];
         _favourite.from = station;

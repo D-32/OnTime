@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface FavouriteListViewController : NSObject
+@interface FavouriteListViewController : UITableViewController
 
 @end

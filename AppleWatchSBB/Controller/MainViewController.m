@@ -15,6 +15,7 @@
 #import "Favourite.h"
 #import "HomeScreenItem.h"
 #import "PremiumViewController.h"
+#import "FavouriteListViewController.h"
 
 @interface MainViewController () <AutocompleteTextFieldDelegate, NSURLConnectionDelegate, NSURLConnectionDataDelegate>
 @end
@@ -186,19 +187,15 @@
     }
 }
 
-- (void)createNewFav:(id)sender {
-    FavouriteViewController *vc = [[FavouriteViewController alloc] init];
-    [self.navigationController pushViewController:vc animated:YES];
-}
-
 - (void)showPremiumController {
     PremiumViewController *vc = [[PremiumViewController alloc] init];
     [self presentViewController:vc animated:NO completion:nil];
 }
 
 - (void)actionFav {
-    if ([_userDefaults boolForKey:@"premium"]) {
-        
+    if (![_userDefaults boolForKey:@"premium"]) {
+        FavouriteListViewController *vc = [[FavouriteListViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
     } else {
         [self showPremiumController];
     }
