@@ -31,6 +31,11 @@
     }
 }
 
+- (IBAction)openRss {
+    [self pushControllerWithName:@"RSS" context:nil];
+//    [self presentControllerWithName:@"RSS" context:nil];
+}
+
 @end
 
 

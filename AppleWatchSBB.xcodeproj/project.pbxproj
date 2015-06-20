@@ -28,6 +28,9 @@
 		9A5B7BB71B35F5E300C025D2 /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B7BB61B35F5E300C025D2 /* PushViewController.m */; };
 		9A5B7BB81B35FE5500C025D2 /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B7BB31B35F4EC00C025D2 /* Connection.m */; };
 		9A5B7BBB1B36042D00C025D2 /* RssConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B7BBA1B36042D00C025D2 /* RssConfigViewController.m */; };
+		9A5B7BBF1B361C4000C025D2 /* RssInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B7BBE1B361C4000C025D2 /* RssInterfaceController.m */; };
+		9A5B7BC21B36213600C025D2 /* RssRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B7BC11B36213600C025D2 /* RssRowController.m */; };
+		9A5B7BC51B3622F600C025D2 /* RssDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B7BC41B3622F600C025D2 /* RssDetailController.m */; };
 		9A76E24E1B34C728006F8780 /* HomeScreenItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A76E24D1B34C728006F8780 /* HomeScreenItem.m */; };
 		9A76E2501B34D79D006F8780 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A76E24F1B34D79D006F8780 /* StoreKit.framework */; };
 		9A76E2531B357E1D006F8780 /* PremiumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A76E2521B357E1D006F8780 /* PremiumViewController.m */; };
@@ -54,7 +57,9 @@
 		9AACF7A11ADAD7E400EEAB18 /* StopsInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AACF7931ADAD7E400EEAB18 /* StopsInterfaceController.m */; };
 		9AACF7A21ADAD7E400EEAB18 /* StopsRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AACF7951ADAD7E400EEAB18 /* StopsRowController.m */; };
 		9AACF7A41ADAD7F100EEAB18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AACF7A31ADAD7F100EEAB18 /* Images.xcassets */; };
+		A4063502490DBE7A15478EB5 /* libPods-AppleWatchSBB WatchKit Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A95E12F7319C7285A00D650A /* libPods-AppleWatchSBB WatchKit Extension.a */; };
 		ACDEB86B46CD1F39E1CB0F81 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF5C617F75E0FF7A7F97C31 /* libPods.a */; };
+		B27528A96224DD4A9597D28D /* libPods-AppleWatchSBB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1114AFE01899B4667826E7F0 /* libPods-AppleWatchSBB.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +94,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1114AFE01899B4667826E7F0 /* libPods-AppleWatchSBB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppleWatchSBB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43CC187BC4A5BA5DBB9DCF9A /* Pods-AppleWatchSBB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleWatchSBB.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppleWatchSBB/Pods-AppleWatchSBB.release.xcconfig"; sourceTree = "<group>"; };
 		4FEDAD7306539F28AF6C9DC3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		9A02961C1ADAD82900C89BC9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A05A69F1AD5BAFA00EE2651 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -125,6 +132,12 @@
 		9A5B7BB61B35F5E300C025D2 /* PushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
 		9A5B7BB91B36042D00C025D2 /* RssConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RssConfigViewController.h; sourceTree = "<group>"; };
 		9A5B7BBA1B36042D00C025D2 /* RssConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RssConfigViewController.m; sourceTree = "<group>"; };
+		9A5B7BBD1B361C4000C025D2 /* RssInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RssInterfaceController.h; sourceTree = "<group>"; };
+		9A5B7BBE1B361C4000C025D2 /* RssInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RssInterfaceController.m; sourceTree = "<group>"; };
+		9A5B7BC01B36213600C025D2 /* RssRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RssRowController.h; sourceTree = "<group>"; };
+		9A5B7BC11B36213600C025D2 /* RssRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RssRowController.m; sourceTree = "<group>"; };
+		9A5B7BC31B3622F600C025D2 /* RssDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RssDetailController.h; sourceTree = "<group>"; };
+		9A5B7BC41B3622F600C025D2 /* RssDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RssDetailController.m; sourceTree = "<group>"; };
 		9A76E24C1B34C728006F8780 /* HomeScreenItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreenItem.h; sourceTree = "<group>"; };
 		9A76E24D1B34C728006F8780 /* HomeScreenItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScreenItem.m; sourceTree = "<group>"; };
 		9A76E24F1B34D79D006F8780 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
@@ -173,7 +186,11 @@
 		9AACF7A31ADAD7F100EEAB18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9AC1AC6E1ADA89DB004B84EF /* AppleWatchSBB.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AppleWatchSBB.entitlements; sourceTree = "<group>"; };
 		A92B56B601965C74DDC66BB8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A95E12F7319C7285A00D650A /* libPods-AppleWatchSBB WatchKit Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppleWatchSBB WatchKit Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5999E40F81337D4FFFB6610 /* Pods-AppleWatchSBB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleWatchSBB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppleWatchSBB/Pods-AppleWatchSBB.debug.xcconfig"; sourceTree = "<group>"; };
 		DFF5C617F75E0FF7A7F97C31 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDFA25BFFAC62FB002064405 /* Pods-AppleWatchSBB WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleWatchSBB WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppleWatchSBB WatchKit Extension/Pods-AppleWatchSBB WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		F4A42353574F706C2DFB2D75 /* Pods-AppleWatchSBB WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleWatchSBB WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppleWatchSBB WatchKit Extension/Pods-AppleWatchSBB WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +200,7 @@
 			files = (
 				9A76E2501B34D79D006F8780 /* StoreKit.framework in Frameworks */,
 				ACDEB86B46CD1F39E1CB0F81 /* libPods.a in Frameworks */,
+				B27528A96224DD4A9597D28D /* libPods-AppleWatchSBB.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +208,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4063502490DBE7A15478EB5 /* libPods-AppleWatchSBB WatchKit Extension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +220,8 @@
 			children = (
 				9A76E24F1B34D79D006F8780 /* StoreKit.framework */,
 				DFF5C617F75E0FF7A7F97C31 /* libPods.a */,
+				A95E12F7319C7285A00D650A /* libPods-AppleWatchSBB WatchKit Extension.a */,
+				1114AFE01899B4667826E7F0 /* libPods-AppleWatchSBB.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -321,6 +342,19 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		9A5B7BBC1B361C3500C025D2 /* RSS */ = {
+			isa = PBXGroup;
+			children = (
+				9A5B7BBD1B361C4000C025D2 /* RssInterfaceController.h */,
+				9A5B7BBE1B361C4000C025D2 /* RssInterfaceController.m */,
+				9A5B7BC01B36213600C025D2 /* RssRowController.h */,
+				9A5B7BC11B36213600C025D2 /* RssRowController.m */,
+				9A5B7BC31B3622F600C025D2 /* RssDetailController.h */,
+				9A5B7BC41B3622F600C025D2 /* RssDetailController.m */,
+			);
+			path = RSS;
+			sourceTree = "<group>";
+		};
 		9A76E24B1B34C6FF006F8780 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -343,6 +377,7 @@
 				9AACF7831ADAD7E400EEAB18 /* Helper */,
 				9AACF7861ADAD7E400EEAB18 /* Main */,
 				9AACF7891ADAD7E400EEAB18 /* Map */,
+				9A5B7BBC1B361C3500C025D2 /* RSS */,
 				9AACF78C1ADAD7E400EEAB18 /* Stations */,
 				9AACF7911ADAD7E400EEAB18 /* Stops */,
 				9AACF7A31ADAD7F100EEAB18 /* Images.xcassets */,
@@ -464,6 +499,10 @@
 			children = (
 				4FEDAD7306539F28AF6C9DC3 /* Pods.debug.xcconfig */,
 				A92B56B601965C74DDC66BB8 /* Pods.release.xcconfig */,
+				F4A42353574F706C2DFB2D75 /* Pods-AppleWatchSBB WatchKit Extension.debug.xcconfig */,
+				EDFA25BFFAC62FB002064405 /* Pods-AppleWatchSBB WatchKit Extension.release.xcconfig */,
+				B5999E40F81337D4FFFB6610 /* Pods-AppleWatchSBB.debug.xcconfig */,
+				43CC187BC4A5BA5DBB9DCF9A /* Pods-AppleWatchSBB.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -496,9 +535,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AACF74F1ADAD76C00EEAB18 /* Build configuration list for PBXNativeTarget "AppleWatchSBB WatchKit Extension" */;
 			buildPhases = (
+				7E671F9E3180051A0AC031A3 /* Check Pods Manifest.lock */,
 				9AACF72E1ADAD76B00EEAB18 /* Sources */,
 				9AACF72F1ADAD76B00EEAB18 /* Frameworks */,
 				9AACF7301ADAD76B00EEAB18 /* Resources */,
+				041ED7D33C35D58336B1C02D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -625,7 +666,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppleWatchSBB/Pods-AppleWatchSBB-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		041ED7D33C35D58336B1C02D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppleWatchSBB WatchKit Extension/Pods-AppleWatchSBB WatchKit Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E671F9E3180051A0AC031A3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		9965F0E7DF1CEC1B21F8F8E8 /* Check Pods Manifest.lock */ = {
@@ -674,6 +745,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A5B7BBF1B361C4000C025D2 /* RssInterfaceController.m in Sources */,
+				9A5B7BC51B3622F600C025D2 /* RssDetailController.m in Sources */,
 				9A5B7BB81B35FE5500C025D2 /* Connection.m in Sources */,
 				9A33BED21ADDBEE3005D6440 /* NSUserDefaults+Codable.m in Sources */,
 				9AACF79E1ADAD7E400EEAB18 /* MapInterfaceController.m in Sources */,
@@ -690,6 +763,7 @@
 				9AACF79B1ADAD7E400EEAB18 /* DeparturesRowController.m in Sources */,
 				9AACF7A01ADAD7E400EEAB18 /* StationsRowController.m in Sources */,
 				9AACF7A11ADAD7E400EEAB18 /* StopsInterfaceController.m in Sources */,
+				9A5B7BC21B36213600C025D2 /* RssRowController.m in Sources */,
 				9AACF7981ADAD7E400EEAB18 /* ConnectionsInterfaceController.m in Sources */,
 				9AACF79A1ADAD7E400EEAB18 /* DeparturesInterfaceController.m in Sources */,
 				9AACF79D1ADAD7E400EEAB18 /* MainInterfaceController.m in Sources */,
@@ -830,7 +904,7 @@
 		};
 		9A20AA911A55E97C00BB4DEC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4FEDAD7306539F28AF6C9DC3 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = B5999E40F81337D4FFFB6610 /* Pods-AppleWatchSBB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = AppleWatchSBB/AppleWatchSBB.entitlements;
@@ -848,7 +922,7 @@
 		};
 		9A20AA921A55E97C00BB4DEC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A92B56B601965C74DDC66BB8 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 43CC187BC4A5BA5DBB9DCF9A /* Pods-AppleWatchSBB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = AppleWatchSBB/AppleWatchSBB.entitlements;
@@ -911,6 +985,7 @@
 		};
 		9AACF7501ADAD76C00EEAB18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4A42353574F706C2DFB2D75 /* Pods-AppleWatchSBB WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "AppleWatchSBB WatchKit Extension/AppleWatchSBB WatchKit Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -933,6 +1008,7 @@
 		};
 		9AACF7511ADAD76C00EEAB18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDFA25BFFAC62FB002064405 /* Pods-AppleWatchSBB WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "AppleWatchSBB WatchKit Extension/AppleWatchSBB WatchKit Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";

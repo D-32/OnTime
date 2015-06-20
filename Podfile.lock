@@ -1,10 +1,36 @@
 PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - MediaRSSParser (1.0.1):
+    - AFNetworking (~> 2.0)
   - SCLAlertView-Objective-C (0.7.0)
 
 DEPENDENCIES:
+  - MediaRSSParser (~> 1.0)
   - SCLAlertView-Objective-C (~> 0.7.0)
 
 SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  MediaRSSParser: 5d73c6a4278448b7f56fba73c97b5ffaf4ead72c
   SCLAlertView-Objective-C: 0491ea966dba9b3713178e2ffbcd0a148dc5b271
 
-COCOAPODS: 0.35.0
+COCOAPODS: 0.37.2

@@ -70,6 +70,15 @@
                             <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="2"/>
                         </group>
                     </items>
+                    <menu key="menu" id="oNT-a0-HyK">
+                        <items>
+                            <menuItem title="RSS" image="rss" id="HTZ-5s-hTX">
+                                <connections>
+                                    <action selector="openRss" destination="7i8-EH-URM" id="puI-6I-ua4"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
                 </controller>
             </objects>
             <point key="canvasLocation" x="77" y="160"/>
@@ -343,6 +352,55 @@
                 </controller>
             </objects>
             <point key="canvasLocation" x="711" y="414"/>
+        </scene>
+        <!--RSS-->
+        <scene sceneID="ywO-9g-hJo">
+            <objects>
+                <controller identifier="RSS" title="RSS" id="1HV-Nb-E6S" customClass="RssInterfaceController">
+                    <items>
+                        <table alignment="left" id="gR5-zX-VEl">
+                            <items>
+                                <tableRow identifier="RSSItem" id="Ddw-z6-yFU" customClass="RssRowController">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" id="JFR-9b-TMf">
+                                        <items>
+                                            <label width="1" alignment="left" text="Label" numberOfLines="0" id="3jZ-Yu-ttp">
+                                                <fontDescription key="font" type="system" pointSize="14"/>
+                                            </label>
+                                        </items>
+                                        <edgeInsets key="margins" left="8" right="8" top="5" bottom="5"/>
+                                    </group>
+                                    <connections>
+                                        <outlet property="titleLabel" destination="3jZ-Yu-ttp" id="dHO-De-QbT"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="gR5-zX-VEl" id="w2S-7F-7ae"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="118" y="-193"/>
+        </scene>
+        <!--Detail-->
+        <scene sceneID="JIU-wc-QSz">
+            <objects>
+                <controller identifier="RSSDetail" title="Detail" id="GnV-Zk-Ivz" customClass="RssDetailController">
+                    <items>
+                        <group width="1" alignment="left" id="eUN-sD-SuO">
+                            <items>
+                                <label alignment="left" text="Label" numberOfLines="0" id="0UC-K0-8oT"/>
+                            </items>
+                            <edgeInsets key="margins" left="8" right="8" top="5" bottom="5"/>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="descLabel" destination="0UC-K0-8oT" id="Zh4-ID-C4V"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="280" y="-193"/>
         </scene>
         <!--Map-->
         <scene sceneID="HuM-9r-TfK">
