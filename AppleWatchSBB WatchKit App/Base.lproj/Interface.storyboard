@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
     </dependencies>
     <scenes>
-        <!--SBB-->
+        <!--SBB Watch-->
         <scene sceneID="Dra-TA-CWw">
             <objects>
-                <controller identifier="Main" title="SBB" id="7i8-EH-URM" customClass="MainInterfaceController">
+                <controller identifier="Main" title="SBB Watch" id="7i8-EH-URM" customClass="MainInterfaceController">
                     <items>
                         <button alignment="left" id="s5b-Dp-K1d">
                             <group key="contentGroup" width="1" height="32" alignment="left" spacing="5" id="WSf-xj-JH6">
