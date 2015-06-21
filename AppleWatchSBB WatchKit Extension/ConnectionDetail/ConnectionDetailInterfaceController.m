@@ -66,14 +66,14 @@
         
         if (![journey isKindOfClass:[NSNull class]]) {
             if (prev) {
-                NSString *message = [NSString stringWithFormat:@"Time to get off! Your next connection is '%@' and leaves at %@", journey[@"name"], section[@"departure"][@"departure"]];
+                NSString *message = [NSString stringWithFormat:NSLocalizedString(@"Time to get off! Your next connection is '%@' and leaves at %@", nil), journey[@"name"], section[@"departure"][@"departure"]];
                 [_notifications addObject:@{@"time":prev, @"message":message}];
             }
             prev = section[@"arrival"][@"arrival"];
         }
     }
     if (prev) {
-        [_notifications addObject:@{@"time":prev, @"message":@"You have reached your destination."}];
+        [_notifications addObject:@{@"time":prev, @"message":NSLocalizedString(@"You have reached your destination.", nil)}];
     }
 }
 

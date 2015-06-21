@@ -89,7 +89,7 @@
         
         SCLAlertView *alert = [[SCLAlertView alloc] initWithNewWindow];
         alert.showAnimationType = SlideInToCenter;
-        [alert addButton:@"Got It" actionBlock:^{
+        [alert addButton:l10n(@"Got It") actionBlock:^{
             [self.navigationController popToRootViewControllerAnimated:YES];
         }];
         [alert showCustom:self image:[UIImage imageNamed:@"watch"] color:[UIColor colorWithRed:0.46 green:0.71 blue:0.19 alpha:1.00] title:l10n(@"Success") subTitle:l10n(@"Open the watch app and if needed, navigate to the main menu. Your connection should open automatically.") closeButtonTitle:nil duration:0];

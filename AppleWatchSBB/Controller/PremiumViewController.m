@@ -47,16 +47,16 @@
     _container.clipsToBounds = YES;
     [self.view addSubview:_container];
     
-    PremiumItem *swissItem = [[PremiumItem alloc] initWithFrame:CGRectMake(0, 0, _container.frame.size.width, 85) icon:[UIImage imageNamed:@"premiumFlag"] title:@"Swiss Developer" desc:@"Suppert a local swiss developer.\nApps aren't free to develop."];
+    PremiumItem *swissItem = [[PremiumItem alloc] initWithFrame:CGRectMake(0, 0, _container.frame.size.width, 85) icon:[UIImage imageNamed:@"premiumFlag"] title:l10n(@"Swiss Developer") desc:l10n(@"Suppert a local swiss developer.\nApps aren't free to develop.")];
     [_container addSubview:swissItem];
     
-    PremiumItem *favItem = [[PremiumItem alloc] initWithFrame:CGRectMake(0, 85, _container.frame.size.width, 85) icon:[UIImage imageNamed:@"premiumFav"] title:@"Favourites" desc:@"Favourites offer a quick access to your most used connections."];
+    PremiumItem *favItem = [[PremiumItem alloc] initWithFrame:CGRectMake(0, 85, _container.frame.size.width, 85) icon:[UIImage imageNamed:@"premiumFav"] title:l10n(@"Favourites") desc:l10n(@"Favourites offer a quick access to your most used connections.")];
     [_container addSubview:favItem];
     
-    PremiumItem *rssItem = [[PremiumItem alloc] initWithFrame:CGRectMake(0, 170, _container.frame.size.width, 85) icon:[UIImage imageNamed:@"premiumRss"] title:@"RSS" desc:@"Configure which region you want to include for the rail traffic info."];
+    PremiumItem *rssItem = [[PremiumItem alloc] initWithFrame:CGRectMake(0, 170, _container.frame.size.width, 85) icon:[UIImage imageNamed:@"premiumRss"] title:l10n(@"RSS") desc:l10n(@"Configure which region you want to include for the rail traffic info.")];
     [_container addSubview:rssItem];
     
-    PremiumItem *notificationItem = [[PremiumItem alloc] initWithFrame:CGRectMake(0, 255, _container.frame.size.width, 85) icon:[UIImage imageNamed:@"premiumNotification"] title:@"Notifications" desc:@"Get notifications with connection info when changing trains."];
+    PremiumItem *notificationItem = [[PremiumItem alloc] initWithFrame:CGRectMake(0, 255, _container.frame.size.width, 85) icon:[UIImage imageNamed:@"premiumNotification"] title:l10n(@"Notifications") desc:l10n(@"Get notifications with connection info when changing trains.")];
     [_container addSubview:notificationItem];
     
     UIView *buyContainer = [[UIView alloc] initWithFrame:CGRectMake(25, 380, _container.frame.size.width - 50, 50)];
@@ -99,12 +99,12 @@
 }
 
 - (void)resetBuyLabel {
-    _buyLabel.text = @"Activate for 2 CHF";
+    _buyLabel.text = l10n(@"Activate for 2 CHF");
     _tapGesture.enabled = YES;
 }
 
 - (void)startProcess {
-    _buyLabel.text = @"Processing...";
+    _buyLabel.text = l10n(@"Processing...");
     _tapGesture.enabled = NO;
     if ([SKPaymentQueue canMakePayments]) {
         NSLog(@"User can make payments");

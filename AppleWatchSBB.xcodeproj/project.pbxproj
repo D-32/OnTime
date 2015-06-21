@@ -23,6 +23,7 @@
 		9A33BED21ADDBEE3005D6440 /* NSUserDefaults+Codable.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3157B11ADC6CCB006FB9D8 /* NSUserDefaults+Codable.m */; };
 		9A33BED31ADDBEE7005D6440 /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5AB0E61AD5DC6100F52D75 /* Station.m */; };
 		9A33BED41ADDBEE9005D6440 /* Favourite.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3157AE1ADB1E0A006FB9D8 /* Favourite.m */; };
+		9A388AD81B370084008D285B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A388ADA1B370084008D285B /* Localizable.strings */; };
 		9A5AB0E71AD5DC6100F52D75 /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5AB0E61AD5DC6100F52D75 /* Station.m */; };
 		9A5B7BB41B35F4EC00C025D2 /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B7BB31B35F4EC00C025D2 /* Connection.m */; };
 		9A5B7BB71B35F5E300C025D2 /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B7BB61B35F5E300C025D2 /* PushViewController.m */; };
@@ -124,6 +125,10 @@
 		9A33BECD1ADDBB65005D6440 /* FavouritesInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavouritesInterfaceController.m; sourceTree = "<group>"; };
 		9A33BECF1ADDBB77005D6440 /* FavouritesRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavouritesRowController.h; sourceTree = "<group>"; };
 		9A33BED01ADDBB77005D6440 /* FavouritesRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavouritesRowController.m; sourceTree = "<group>"; };
+		9A388ACE1B36FBD9008D285B /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Interface.strings; sourceTree = "<group>"; };
+		9A388AD91B370084008D285B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9A388ADB1B370086008D285B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9A388ADC1B370086008D285B /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9A5AB0E51AD5DC6100F52D75 /* Station.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Station.h; sourceTree = "<group>"; };
 		9A5AB0E61AD5DC6100F52D75 /* Station.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Station.m; sourceTree = "<group>"; };
 		9A5B7BB21B35F4EC00C025D2 /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
@@ -152,7 +157,6 @@
 		9A984EFF1ADEFC040038D36A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9A984F011ADEFC050038D36A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9A984F021ADEFC060038D36A /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
-		9A984F091ADF13530038D36A /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Interface.strings; sourceTree = "<group>"; };
 		9AACF7321ADAD76B00EEAB18 /* AppleWatchSBB WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AppleWatchSBB WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AACF73D1ADAD76B00EEAB18 /* AppleWatchSBB WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleWatchSBB WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AACF7431ADAD76C00EEAB18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -382,6 +386,7 @@
 				9AACF7911ADAD7E400EEAB18 /* Stops */,
 				9AACF7A31ADAD7F100EEAB18 /* Images.xcassets */,
 				9AACF7341ADAD76B00EEAB18 /* Supporting Files */,
+				9A388ADA1B370084008D285B /* Localizable.strings */,
 			);
 			path = "AppleWatchSBB WatchKit Extension";
 			sourceTree = "<group>";
@@ -636,6 +641,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AACF73E1ADAD76C00EEAB18 /* AppleWatchSBB WatchKit App.app in Resources */,
+				9A388AD81B370084008D285B /* Localizable.strings in Resources */,
 				9A984EFD1ADEFC040038D36A /* Localizable.strings in Resources */,
 				9AACF7A41ADAD7F100EEAB18 /* Images.xcassets in Resources */,
 			);
@@ -798,9 +804,19 @@
 			isa = PBXVariantGroup;
 			children = (
 				9A3157A41ADAD9B2006FB9D8 /* Base */,
-				9A984F091ADF13530038D36A /* de */,
+				9A388ACE1B36FBD9008D285B /* de */,
 			);
 			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		9A388ADA1B370084008D285B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A388AD91B370084008D285B /* Base */,
+				9A388ADB1B370086008D285B /* en */,
+				9A388ADC1B370086008D285B /* de */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 		9A984F001ADEFC040038D36A /* Localizable.strings */ = {

@@ -196,7 +196,7 @@
 - (void)showInfo {
     SCLAlertView *alert = [[SCLAlertView alloc] initWithNewWindow];
     alert.showAnimationType = SlideInToCenter;
-    [alert addButton:@"Close" actionBlock:^{
+    [alert addButton:l10n(@"Close") actionBlock:^{
         
     }];
     [alert showCustom:self image:[UIImage imageNamed:@"infoWhite"] color:[UIColor colorWithRed:0.78 green:0.08 blue:0.09 alpha:1.00] title:l10n(@"SBB Watch") subTitle:l10n(@"Created by Dylan Marriott\nEmail: info@d-32.com\nTwitter: @dylan36032\nwww.d-32.com\n\nThanks to Charles Vass for the awesome art work.\n\nAlso special thanks to Opendata.ch for providing such a great API.") closeButtonTitle:nil duration:0];
@@ -240,7 +240,7 @@
     
     SCLAlertView *alert = [[SCLAlertView alloc] initWithNewWindow];
     alert.showAnimationType = SlideInToCenter;
-    [alert addButton:@"Got It" actionBlock:^{
+    [alert addButton:l10n(@"Got It") actionBlock:^{
         _favContainer.hidden = NO;
         [UIView animateWithDuration:0.3 animations:^{
             _favContainer.alpha = 1.0;

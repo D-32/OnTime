@@ -1,21 +1,36 @@
 
+/* Class = "WKInterfaceLabel"; text = "Label"; ObjectID = "0UC-K0-8oT"; */
+"0UC-K0-8oT.text" = "Label";
+
 /* Class = "WKInterfaceLabel"; text = "Distance"; ObjectID = "0lM-9q-Eg8"; */
-"0lM-9q-Eg8.text" = "Distance";
+"0lM-9q-Eg8.text" = "Distanz";
+
+/* Class = "WKInterfaceController"; title = "RSS"; ObjectID = "1HV-Nb-E6S"; */
+"1HV-Nb-E6S.title" = "RSS";
+
+/* Class = "WKInterfaceLabel"; text = "0"; ObjectID = "1f1-uA-jmP"; */
+"1f1-uA-jmP.text" = "0";
 
 /* Class = "WKInterfaceLabel"; text = "Arrival"; ObjectID = "2VF-EU-T2V"; */
-"2VF-EU-T2V.text" = "Arrival";
+"2VF-EU-T2V.text" = "Ankunft";
 
 /* Class = "WKInterfaceMenuItem"; title = "Map"; ObjectID = "3cX-qa-iV6"; */
-"3cX-qa-iV6.title" = "Map";
+"3cX-qa-iV6.title" = "Karte";
+
+/* Class = "WKInterfaceLabel"; text = "Label"; ObjectID = "3jZ-Yu-ttp"; */
+"3jZ-Yu-ttp.text" = "Label";
 
 /* Class = "WKInterfaceLabel"; text = "Ar"; ObjectID = "7KP-rm-x5o"; */
-"7KP-rm-x5o.text" = "Ar";
+"7KP-rm-x5o.text" = "An";
 
 /* Class = "WKInterfaceLabel"; text = "Departure"; ObjectID = "7Vw-SX-hys"; */
 "7Vw-SX-hys.text" = "Abfahrten";
 
 /* Class = "WKInterfaceController"; title = "SBB"; ObjectID = "7i8-EH-URM"; */
 "7i8-EH-URM.title" = "SBB";
+
+/* Class = "WKInterfaceMenuItem"; title = "Notify"; ObjectID = "8i9-QP-9eu"; */
+"8i9-QP-9eu.title" = "Benachrichtigen";
 
 /* Class = "WKInterfaceLabel"; text = "Time"; ObjectID = "9uQ-a7-yvB"; */
 "9uQ-a7-yvB.text" = "Time";
@@ -26,35 +41,44 @@
 /* Class = "WKInterfaceController"; title = "Connections"; ObjectID = "Cg4-Ts-sEA"; */
 "Cg4-Ts-sEA.title" = "Verbindungen";
 
+/* Class = "WKInterfaceLabel"; text = "Chg."; ObjectID = "Gm5-gG-gZM"; */
+"Gm5-gG-gZM.text" = "Umst.";
+
+/* Class = "WKInterfaceController"; title = "Detail"; ObjectID = "GnV-Zk-Ivz"; */
+"GnV-Zk-Ivz.title" = "Detail";
+
+/* Class = "WKInterfaceMenuItem"; title = "RSS"; ObjectID = "HTZ-5s-hTX"; */
+"HTZ-5s-hTX.title" = "RSS";
+
 /* Class = "WKInterfaceMenuItem"; title = "Map"; ObjectID = "Jz6-KO-xX1"; */
 "Jz6-KO-xX1.title" = "Karte";
 
 /* Class = "WKInterfaceLabel"; text = "To"; ObjectID = "Mci-4W-xcU"; */
-"Mci-4W-xcU.text" = "To";
+"Mci-4W-xcU.text" = "Nach";
+
+/* Class = "WKInterfaceLabel"; text = "Force Touch to see more!"; ObjectID = "PTJ-cI-Xqn"; */
+"PTJ-cI-Xqn.text" = "Force Touch für mehr!";
 
 /* Class = "WKInterfaceController"; title = "Stations"; ObjectID = "PXe-OE-Z2C"; */
 "PXe-OE-Z2C.title" = "Stationen";
 
-/* Class = "WKInterfaceLabel"; text = "Arrival"; ObjectID = "Pfl-Co-fjW"; */
-"Pfl-Co-fjW.text" = "Arrival";
+/* Class = "WKInterfaceLabel"; text = "This is a premium feature. Please upgrade on your phone."; ObjectID = "QZN-Pl-28i"; */
+"QZN-Pl-28i.text" = "Dies ist eine Premium Funktionalität. Bitte auf dem Phone aktivieren.";
+
+/* Class = "WKInterfaceLabel"; text = "Force Touch to add a notification"; ObjectID = "Qv8-nG-Wdo"; */
+"Qv8-nG-Wdo.text" = "Force Touch für Benachrichtungen";
 
 /* Class = "WKInterfaceLabel"; text = "Destination"; ObjectID = "U8J-k1-wx2"; */
 "U8J-k1-wx2.text" = "Destination";
 
-/* Class = "WKInterfaceLabel"; text = "Departure"; ObjectID = "Wk0-di-TGZ"; */
-"Wk0-di-TGZ.text" = "Departure";
-
-/* Class = "WKInterfaceLabel"; text = "De"; ObjectID = "Y9i-pN-zoA"; */
-"Y9i-pN-zoA.text" = "De";
-
 /* Class = "WKInterfaceLabel"; text = "Name"; ObjectID = "ZCi-ya-wqf"; */
 "ZCi-ya-wqf.text" = "Name";
 
-/* Class = "WKInterfaceLabel"; text = "-"; ObjectID = "bMz-uW-2iQ"; */
-"bMz-uW-2iQ.text" = "-";
-
 /* Class = "WKInterfaceController"; title = "Stops"; ObjectID = "brI-Uh-FKU"; */
-"brI-Uh-FKU.title" = "Fahrplan";
+"brI-Uh-FKU.title" = "Infos";
+
+/* Class = "WKInterfaceController"; title = "Premium"; ObjectID = "cML-GA-zFX"; */
+"cML-GA-zFX.title" = "Premium";
 
 /* Class = "WKInterfaceLabel"; text = "Favourites"; ObjectID = "cvK-Wh-YY0"; */
 "cvK-Wh-YY0.text" = "Favoriten";
@@ -65,11 +89,14 @@
 /* Class = "WKInterfaceLabel"; text = "Get Me Home"; ObjectID = "f4f-FH-8RB"; */
 "f4f-FH-8RB.text" = "Nach Hause";
 
+/* Class = "WKInterfaceLabel"; text = "Arr"; ObjectID = "fMA-nr-B1m"; */
+"fMA-nr-B1m.text" = "An";
+
 /* Class = "WKInterfaceController"; title = "Connection"; ObjectID = "fab-GJ-0oY"; */
 "fab-GJ-0oY.title" = "Verbindung";
 
 /* Class = "WKInterfaceLabel"; text = "Time"; ObjectID = "h7m-Ur-pdw"; */
-"h7m-Ur-pdw.text" = "Time";
+"h7m-Ur-pdw.text" = "Zeit";
 
 /* Class = "WKInterfaceController"; title = "Favourites"; ObjectID = "i1F-qP-0pT"; */
 "i1F-qP-0pT.title" = "Favoriten";
@@ -81,13 +108,13 @@
 "m4Z-Cd-ayA.text" = "0";
 
 /* Class = "WKInterfaceLabel"; text = "Time"; ObjectID = "mf5-F5-SLw"; */
-"mf5-F5-SLw.text" = "Time";
+"mf5-F5-SLw.text" = "Zeit";
 
 /* Class = "WKInterfaceController"; title = "Map"; ObjectID = "n9G-ka-iMI"; */
-"n9G-ka-iMI.title" = "Map";
+"n9G-ka-iMI.title" = "Karte";
 
 /* Class = "WKInterfaceLabel"; text = "From"; ObjectID = "o5d-a4-RWY"; */
-"o5d-a4-RWY.text" = "From";
+"o5d-a4-RWY.text" = "Von";
 
 /* Class = "WKInterfaceController"; title = "Departures"; ObjectID = "t0m-ap-8WE"; */
 "t0m-ap-8WE.title" = "Abfahrten";
@@ -95,8 +122,14 @@
 /* Class = "WKInterfaceLabel"; text = "Name"; ObjectID = "ur9-ss-YUO"; */
 "ur9-ss-YUO.text" = "Name";
 
+/* Class = "WKInterfaceLabel"; text = "Dep"; ObjectID = "v1R-Kj-dk2"; */
+"v1R-Kj-dk2.text" = "Ab";
+
 /* Class = "WKInterfaceLabel"; text = "Time"; ObjectID = "v8v-uf-tL9"; */
-"v8v-uf-tL9.text" = "Time";
+"v8v-uf-tL9.text" = "Zeit";
 
 /* Class = "WKInterfaceLabel"; text = "Nearby"; ObjectID = "yGb-dt-oVz"; */
 "yGb-dt-oVz.text" = "In der Nähe";
+
+/* Class = "WKInterfaceMenuItem"; title = "Clear"; ObjectID = "z0Z-Pr-eEl"; */
+"z0Z-Pr-eEl.title" = "Löschen";
