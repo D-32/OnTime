@@ -1,7 +1,10 @@
 inhibit_all_warnings!
 source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, :deployment_target => '8.2'
 
 link_with 'AppleWatchSBB', 'AppleWatchSBB WatchKit Extension'
+
+pod 'UICocoapodsLib'
 
 target :'AppleWatchSBB' do
     pod 'SCLAlertView-Objective-C', '~> 0.7.0'

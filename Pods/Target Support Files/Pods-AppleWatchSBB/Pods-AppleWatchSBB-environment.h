@@ -12,6 +12,12 @@
 #define COCOAPODS_VERSION_MINOR_SCLAlertView_Objective_C 7
 #define COCOAPODS_VERSION_PATCH_SCLAlertView_Objective_C 0
 
+// UICocoapodsLib
+#define COCOAPODS_POD_AVAILABLE_UICocoapodsLib
+#define COCOAPODS_VERSION_MAJOR_UICocoapodsLib 0
+#define COCOAPODS_VERSION_MINOR_UICocoapodsLib 1
+#define COCOAPODS_VERSION_PATCH_UICocoapodsLib 0
+
 // Debug build configuration
 #ifdef DEBUG
 

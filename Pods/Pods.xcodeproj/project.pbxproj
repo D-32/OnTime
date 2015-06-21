@@ -7,760 +7,892 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01B41B7E73D2A81530E09C60 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A9B7789AA2B20CB0AA0B2D /* UIActivityIndicatorView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		029EBCE73EFEF328DBB09C66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E852D06BCA185CED953D22A0 /* UIKit.framework */; };
-		0FA6A3138F73A301E33AECE4 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E4F0CE1EFA69E4D4B311EA /* AFNetworkReachabilityManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		112CBD9D52FB037FAACF82F7 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DC47901AF0A629CD6169206 /* AFURLRequestSerialization.h */; };
-		12CA88E09D5E61D54304C8C3 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4644C94EAD0D741309A44F /* AFSecurityPolicy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		1355A1743E50D013A28ADD6D /* SDStatusBarOverriderPost8_3.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D6F8521A2963A352BD8747A /* SDStatusBarOverriderPost8_3.h */; };
-		14922E5E1306D26BF11AEEC7 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B9FE58B39B8416D06CDF8807 /* UIActivityIndicatorView+AFNetworking.h */; };
-		156163D6260659A965558D25 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2105FEF2629667263E18F7D0 /* AFURLSessionManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		174B35E57C6668134A18F737 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A12A64DFF27931637A26799E /* AFHTTPSessionManager.h */; };
-		1DF5D3E07D87E3A20EEAB4E1 /* SDStatusBarOverriderPre8_3.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D356C493ED61A729491ECCB /* SDStatusBarOverriderPre8_3.h */; };
-		200F8B8CD0BFD13989EE25D4 /* RSSParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DF911F24C6A659383F8BA5A9 /* RSSParser.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		25A5CA1D165DA283B78B4A2A /* SCLButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DFC3DD7CD326D30CDF21B9E /* SCLButton.h */; };
-		262FD59B587C1C800FF5C4CE /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A066510AC6CAB427729ACBE6 /* UIImageView+AFNetworking.h */; };
-		30287958D79C93AAF62C5E2E /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DDC781C3FABD9258498C25 /* AFURLRequestSerialization.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		328C54A33183374AD44F6B8A /* Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4483BBAA3A322B29B91233 /* Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser-dummy.m */; };
-		3300EBBC5D92E6F42A1E121A /* Pods-AppleWatchSBB WatchKit Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1487F77C8EE7F5DD605074A4 /* Pods-AppleWatchSBB WatchKit Extension-dummy.m */; };
-		332FC2259FA23DCF51083100 /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B80E889C34C6DE79171CE02 /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking-dummy.m */; };
-		33BDF762B98DA9754562844C /* SCLAlertViewResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF956747226B8DB7117B85D /* SCLAlertViewResponder.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		3464B966488F61F9660666EB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0310C6CF617653E9C0DD262 /* Security.framework */; };
-		3C10F2EFBC04D3D0C9551287 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F49FE9D6D933921A57ADE714 /* AFHTTPRequestOperationManager.h */; };
-		3D8B6A2AE82A300407A17F9C /* SDStatusBarManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 821CB02947EE59AA969A75CF /* SDStatusBarManager.h */; };
-		3E87A3D891061F9268255F45 /* SDStatusBarOverriderPre8_3.m in Sources */ = {isa = PBXBuildFile; fileRef = D26B522530FAFC0B33D65B42 /* SDStatusBarOverriderPre8_3.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		3ED6DA38F7370296F76485DA /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CE04175947ADB9579911D3 /* UIRefreshControl+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		409576A1F4D58309B5BDEED0 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F5200B149438D64A990ADF05 /* UIAlertView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		4379F3E8C7036ED2CE128FA5 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A2FCB3F54C17A14C877FE2D /* UIWebView+AFNetworking.h */; };
-		44E33685176D434D012C593D /* SCLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E6FA357E318D9D2A516FCF /* SCLButton.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		5223A5CF9657BB6DB8391022 /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = AB6B0E297CF3DC75BEB43D01 /* UIImage+ImageEffects.h */; };
-		52643355C4713EBA3F7F884B /* RSSMediaContent.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CA5B58986D883318808C52 /* RSSMediaContent.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		54536BD2AEE88FDA987BB64D /* Pods-AppleWatchSBB-SimulatorStatusMagic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 489B82418255CFBA96658134 /* Pods-AppleWatchSBB-SimulatorStatusMagic-dummy.m */; };
-		584A4F054228ECFE8A1EF7E8 /* SDStatusBarOverriderPost8_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6459BDFB1AFE7AC392DE7B /* SDStatusBarOverriderPost8_3.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		5986132594BD9AA4ABA83659 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B2A24D3145ED3B928EF63A5 /* AFNetworkReachabilityManager.h */; };
-		5B8C4B79B53C92984B10F45C /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 43FDC23ED064A56E3A327BA0 /* AFHTTPRequestOperation.h */; };
-		5C74AC27EC078D050E7F40A3 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 85614699F6744E7B24D61C57 /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		5D62040049A594D05411DC42 /* SCLAlertViewStyleKit.h in Headers */ = {isa = PBXBuildFile; fileRef = ADFC9C64851A761B5E798402 /* SCLAlertViewStyleKit.h */; };
-		609F81EC0281A434278380A1 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = D54D90D58BEB05421808EBBA /* AFURLResponseSerialization.h */; };
-		616F525CFD52DEFFDCC6B50F /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C4C67F553C5A3F6671CCDCEB /* AFURLSessionManager.h */; };
-		63BA2D3B3C9A9B1FC1151055 /* SCLAlertViewResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F6FDE95F3FC32E8D0468668 /* SCLAlertViewResponder.h */; };
-		67DAD7521D6DE4C0A6EC5389 /* Pods-AppleWatchSBB-SCLAlertView-Objective-C-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47316B2706F125BB41DBC74A /* Pods-AppleWatchSBB-SCLAlertView-Objective-C-dummy.m */; };
-		6B44E53841949C6484E0C295 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF05BDFBEDDCDAA2C5EDECB0 /* AFHTTPSessionManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		6E0891D82F6E8AB13C71B516 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C6FE8709D5D432F259BD5A41 /* AFNetworkActivityIndicatorManager.h */; };
-		727E0A3BC3CD4CD87306B077 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A1ED04D2BEFEABD6648E44A /* UIRefreshControl+AFNetworking.h */; };
-		7EA944C7059F7C958E0C06C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF19C3E14AE478A46BEFDCBC /* Foundation.framework */; };
-		8096E827C9685BA8880B0D31 /* SDStatusBarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F5F736C598B4175B55EDEF /* SDStatusBarManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		80CF039B187DF105F9C883D2 /* RSSMediaCredit.h in Headers */ = {isa = PBXBuildFile; fileRef = 18C59B2B80DF47005859B5F8 /* RSSMediaCredit.h */; };
-		81EB24785F917F963415A393 /* RSSParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2314B2DE22396BF332A72B3E /* RSSParser.h */; };
-		8340ADF793EB7B8A6664E2AA /* Pods-AppleWatchSBB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A757B3A57996D51CF4B4D7 /* Pods-AppleWatchSBB-dummy.m */; };
-		86108C368B9542096075381B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9B71B52B45613C8DEC561F /* MobileCoreServices.framework */; };
-		8AF475CB0DCDE8ECF819CDF5 /* SCLAlertViewStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A9B6055E8F3F19C7818EC3 /* SCLAlertViewStyleKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		8DAE0ED36264C06A24882605 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7FB2A90501D4A0060069EA /* AFURLResponseSerialization.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		90FA18D9EB12558876FD0476 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF8C685CEB2973BECA0318D /* UIWebView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		911E1CB61CAC0AAB4BEFAC25 /* SCLAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = FA37B6E8663241D1206DC18E /* SCLAlertView.h */; };
-		91C2A4A3E7CA9B0E31091D7D /* SCLMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = C5F752E853395AA2BCDE7449 /* SCLMacros.h */; };
-		96ADA251236BB2D6688C99AC /* MediaRSSParser.h in Headers */ = {isa = PBXBuildFile; fileRef = B4E6DC166FEA45DECE1E7ADF /* MediaRSSParser.h */; };
-		972E860D6679B8EF9870D9C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF19C3E14AE478A46BEFDCBC /* Foundation.framework */; };
-		98F3E156BBBFC449E7EDA24C /* RSSMediaCredit.m in Sources */ = {isa = PBXBuildFile; fileRef = F40CF45496ED2BB5F206E3D5 /* RSSMediaCredit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		A02711CAACFF21CDF30A59A5 /* MediaRSSModels.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDCE04934E4A99472FDBB31 /* MediaRSSModels.h */; };
-		A1980A30D3237E2AFE73D000 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = DB3C9215ECB0D4339AAA5573 /* UIButton+AFNetworking.h */; };
-		A5AB96F66F5E29D734E815DD /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ED1D6DC49A85EAD2C047C99 /* UIKit+AFNetworking.h */; };
-		A63517FC80876A17D8BBDF1D /* RSSMediaThumbnail.h in Headers */ = {isa = PBXBuildFile; fileRef = 33437B95A8F51D07E44292C8 /* RSSMediaThumbnail.h */; };
-		A6855505D7772CDAFC4B8DA9 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 54ADBBF5A93AF0DC423A4765 /* AFHTTPRequestOperationManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		A9681BD64D4F1BDF32E8F3D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF19C3E14AE478A46BEFDCBC /* Foundation.framework */; };
-		AB29820FDBC4A4666E33F751 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 56964F9D709ABCDE3F4831F9 /* NSString+HTML.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		B153AF3904BA98915F8E0E3E /* SDStatusBarOverrider.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EAD14BC74A25DC0A5E7D9D1 /* SDStatusBarOverrider.h */; };
-		B4EF5CCB49D97895E47DB664 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EA727EE77641ED87DEF0F5 /* GTMNSString+HTML.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		B55DF62FBF02D35C9B79DC17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47894E98959955D741DF2E87 /* CoreGraphics.framework */; };
-		B648B4C752DDAC9B9F5ECCB2 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B36329A958EB17421DF81EF1 /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		B9733F5AA68DAC10A8C1BCF8 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BFAA7A29AC308B8178BBE9 /* UIProgressView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		C0A41C65B71A89FED63A94CD /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 45001C64EABF746AF6BE1717 /* AFNetworking.h */; };
-		C1389D1E380AC0F05179E5A2 /* RSSMediaThumbnail.m in Sources */ = {isa = PBXBuildFile; fileRef = A227A79614820DA1664C9D7E /* RSSMediaThumbnail.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		C263E3A80514FCB13220AD9E /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D7C8B9D66DC87A67E089FD /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		C78FC2A9A4853D656FD5A32C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF19C3E14AE478A46BEFDCBC /* Foundation.framework */; };
-		CA1C58E2F072552EEE65193A /* RSSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB301FDCC5D6AF59664D79D /* RSSItem.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		CBC56A04ADDC96727BE6B1A3 /* RSSMediaContent.h in Headers */ = {isa = PBXBuildFile; fileRef = CC199E074F0F2BE16F90415C /* RSSMediaContent.h */; };
-		CDB6A6E43155EE9A506F4FB4 /* RSSItem.h in Headers */ = {isa = PBXBuildFile; fileRef = BA60246A5CFF8CD5A86000AF /* RSSItem.h */; };
-		CE1C33888D339755C48BF5F3 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E458867CFE3D5C25A9895677 /* UIProgressView+AFNetworking.h */; };
-		D3BB21CC697830164D361FDD /* NSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = CB15E9290FF209D6E3C95022 /* NSString+HTML.h */; };
-		D870CF182BAA55A7BB1C4558 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A3A8237F61AFB61D29D304 /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		DE9CFEFB1A99EA9059D3A309 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690C87349833882A793EFF77 /* SystemConfiguration.framework */; };
-		E54A66C186C824782E6A4675 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF19C3E14AE478A46BEFDCBC /* Foundation.framework */; };
-		E61B7A214A513B1771E3C58A /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6566405C0377ED7E6E745DBB /* UIButton+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		E73D32FA2AEC117B1E70354F /* GTMNSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A41DA9CE9519E6A49CB0D02 /* GTMNSString+HTML.h */; };
-		EBCD6FB5BFFF934B35A1C5DA /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C3ADCAB43320EB13F838ECA /* UIAlertView+AFNetworking.h */; };
-		EDC78BE73093FF01DF20192C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF19C3E14AE478A46BEFDCBC /* Foundation.framework */; };
-		EED4B5B29FEAC9AFA02C3A01 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2306219C00769B2BC9DC61BC /* AFURLConnectionOperation.h */; };
-		F3BD7BF7F91ED255D6E5DC7C /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DC81CA7054F994071AA3D9B /* AFSecurityPolicy.h */; };
-		F3D246AADA4B55E3BDD09418 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = F112EF1340617C9A22ECA1AB /* UIImage+ImageEffects.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		F8435AD38F3D569282BAD3F4 /* RSSChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = FC60DC724E99B49CA745BD38 /* RSSChannel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		FA2050F0F7FB2ECC7568A2EA /* RSSParser_Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A867474C9A281E2F6EFB54 /* RSSParser_Protected.h */; };
-		FC287139AFF8B3C23B2FA3D0 /* SCLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE86F8699D96739FA0D21C /* SCLAlertView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
-		FF2C56DE0D0181182F35A9B5 /* RSSChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 51F67ABA45668437B1B0815F /* RSSChannel.h */; };
+		0406820A995DDB12A9E13CB9 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EFC3B7ED2AB00783551394 /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		07FB87081BEA8C5FF54EE641 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D87AA13E375F600EECAB240 /* Pods-dummy.m */; };
+		089C2E91510D937C5A00148E /* SCLAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = A7EB461B4B6F6C699F4C34E6 /* SCLAlertView.h */; };
+		0CE5C5147AF9CB7E0ACFB924 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B8F545AE901581F9A4D4CC /* UIRefreshControl+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		108026A556F16D29244CFD29 /* Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0CF24F760933E19B8B014D /* Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser-dummy.m */; };
+		12A947ED7F61CDA84C278E1B /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E4615217AB4113261E3619B4 /* UIRefreshControl+AFNetworking.h */; };
+		13C80AEB4F56465E782C90DF /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A4AB4584B3E424F4E1DEE3 /* AFHTTPSessionManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		1428C453263446EB0AED65DB /* Pods-AppleWatchSBB-SCLAlertView-Objective-C-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8679AA7A5A60CDC0FF4DECCB /* Pods-AppleWatchSBB-SCLAlertView-Objective-C-dummy.m */; };
+		1592224555DCB01AD308E66B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2B3FFE77E5F06A280B8107 /* UIKit.framework */; };
+		15C6546D00458E42D6CE501F /* SCLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4681B09230D319D212CAAB3 /* SCLAlertView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		1BD79A3423099108F5898DF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96DAC47E4D7AC6F6ED708A38 /* Foundation.framework */; };
+		1C6F3D7CCA8325BAFC549359 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96DAC47E4D7AC6F6ED708A38 /* Foundation.framework */; };
+		1D42D392296AF5831A93073A /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1FE1156B9EA47A733FE359 /* UIButton+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		208B51F12A0E1DCC95CB4048 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D294412C9A55CB9557CE55 /* AFHTTPRequestOperation.h */; };
+		21C8B1B4E81797113A3E0B87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96DAC47E4D7AC6F6ED708A38 /* Foundation.framework */; };
+		2684346FDC3196CFDB479455 /* SDStatusBarManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 154459B2DF224F97CD25F3E8 /* SDStatusBarManager.h */; };
+		26BAC8CE46923EE13BA26463 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 9368DFCCE0D6F66720422546 /* AFURLRequestSerialization.h */; };
+		26E45857B0A3A97C20380F0E /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = BB45A2EB05687336777DCC53 /* AFNetworking.h */; };
+		2B4C73FB432FC810A584C891 /* MediaRSSModels.h in Headers */ = {isa = PBXBuildFile; fileRef = DA309803CB282070E49551F6 /* MediaRSSModels.h */; };
+		2BD3B250186EA07B2911A4A5 /* RSSChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = E47587D286EE3CE061A9B3C3 /* RSSChannel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		2E7F366D8573D084497F1AFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96DAC47E4D7AC6F6ED708A38 /* Foundation.framework */; };
+		386CB278C6DACF27C051E032 /* Pods-AppleWatchSBB WatchKit Extension-UICocoapodsLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED00F8CFF7E537A5B84721 /* Pods-AppleWatchSBB WatchKit Extension-UICocoapodsLib-dummy.m */; };
+		39DA89604FC11DCFA53CF4B9 /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D52799D8C90233C4E78ECC23 /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking-dummy.m */; };
+		39FFC485EABB05DFAB422705 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FC08CF77CCA8BF98BD6853F /* UIProgressView+AFNetworking.h */; };
+		3A9B2401AFECDBE1BCB96CF5 /* RSSChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = DC6FBB0F73373E46216FDBD5 /* RSSChannel.h */; };
+		3FB375E53E4DA8BFA86B8C7C /* SDStatusBarOverrider.h in Headers */ = {isa = PBXBuildFile; fileRef = 0434985724C543318E51D070 /* SDStatusBarOverrider.h */; };
+		44C682B1D4342A6E3F81BAFB /* RSSItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 46880F7DDB9A9EF1FA6E7BF6 /* RSSItem.h */; };
+		4874995B0AFECDCCECE79DDB /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = FA2BCF0C3E2CDB6A06EBB5A3 /* AFSecurityPolicy.h */; };
+		4EF2FD5FA01BFD75C4AA3C71 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1565C283AEA235A8122D09 /* AFURLSessionManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		4F668AC6817C07FE358694B9 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2E1B61A89EF2377BCDBF43 /* NSString+HTML.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		58A505C52752EE324108A1F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96DAC47E4D7AC6F6ED708A38 /* Foundation.framework */; };
+		661CCCB4C960CA19C1865CD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96DAC47E4D7AC6F6ED708A38 /* Foundation.framework */; };
+		667DADF0DD3BF0CB1310B809 /* UICocoapodsLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C9BADF296D6419802B90CC /* UICocoapodsLib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		672F9A05A50F0E74C80ED76D /* Pods-UICocoapodsLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E78E4DED8743E615DDCEB0AC /* Pods-UICocoapodsLib-dummy.m */; };
+		696F6897FD188FD3085284E6 /* RSSMediaThumbnail.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA30407C15C685CD3C43664 /* RSSMediaThumbnail.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		6AE8CB44256FC9C31F369EF4 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAD368DDC85736CA9057DBC /* AFHTTPRequestOperationManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		6BCD5922DED5C58DEA93F7DF /* UICocoapodsLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C9BADF296D6419802B90CC /* UICocoapodsLib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		70AF06602A4D7BE8B43E9F1C /* SDStatusBarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E76719D93E93A65FA5F09F4 /* SDStatusBarManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		7242D5D2BEA68A0EF7E506FE /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 52C0C8B55337A5B1BC61BAF1 /* AFURLSessionManager.h */; };
+		7287E2488CF7718F8E53919C /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8514D6FA74919231EC280DF6 /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		78909F3E4E1113D7C84DE39B /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 2814F39D185EC2462FAB5D95 /* AFURLResponseSerialization.h */; };
+		79A8DFF58CBBAE9D2B9A5860 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FD77CDF88602A4358D5D45 /* MobileCoreServices.framework */; };
+		7A03D7FD03CB43B457256547 /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7DC20236A250C65C2A2D2F /* UIAlertView+AFNetworking.h */; };
+		7BADBDC0F704FC023712E43A /* Pods-AppleWatchSBB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A86238299BE4F32FE489A654 /* Pods-AppleWatchSBB-dummy.m */; };
+		7D760621C82A64DD91C08DCF /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CAD755937E961EE933990CAA /* UIActivityIndicatorView+AFNetworking.h */; };
+		7F106FDC47EC98435B3E345C /* SDStatusBarOverriderPost8_3.h in Headers */ = {isa = PBXBuildFile; fileRef = FCBE817A4CD11052227FFE1B /* SDStatusBarOverriderPost8_3.h */; };
+		7F2F64BE595863A6256ADF6F /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2DC0FE624C5462949140C1 /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		80221BA49CEF6C2FB817684C /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BBD778BECF2410B51DC1CB14 /* AFNetworkReachabilityManager.h */; };
+		8456E387B4D4B91E16CB87BE /* SCLAlertViewStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D7784421F7578ED8332B49DC /* SCLAlertViewStyleKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		86586F34A90E7E5571F0859B /* UICocoapodsLib.h in Headers */ = {isa = PBXBuildFile; fileRef = DC17D2BD21D08E63F123A8F6 /* UICocoapodsLib.h */; };
+		87D8789DAE8F0224BF184E31 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4778D222BB8D086DE1580746 /* AFSecurityPolicy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		8984797F20BCA14098176C5A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86FB4702EABC1806B493F856 /* SystemConfiguration.framework */; };
+		8C51CC54AD2C96756D88083E /* RSSParser_Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 3282763A1C17398B2B4B3234 /* RSSParser_Protected.h */; };
+		8C7F39C2991248054B5ACB67 /* Pods-AppleWatchSBB-SimulatorStatusMagic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BAC5F678B805B09D14E3A5 /* Pods-AppleWatchSBB-SimulatorStatusMagic-dummy.m */; };
+		8D440CB77B5BF945E20F465E /* RSSMediaCredit.h in Headers */ = {isa = PBXBuildFile; fileRef = 906DB3AE97A0FB03DD439175 /* RSSMediaCredit.h */; };
+		91230C875F241882BA44A946 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 03892D0B713B5222C6A4B7A3 /* UIActivityIndicatorView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		92C9C1881F5FDFC34C986A1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96DAC47E4D7AC6F6ED708A38 /* Foundation.framework */; };
+		96E6C65842AF190A76F1B901 /* RSSMediaContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 673A6ED5A3D7ED76979BEE6E /* RSSMediaContent.h */; };
+		9737E85E7D9C431E57C0D8FF /* RSSMediaCredit.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2EF0187FC2D4C6358BB141 /* RSSMediaCredit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		974BE22300651C923F73E4FC /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C636BF92FE6F131FE5B6EB6C /* AFURLRequestSerialization.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		97774656DB4A3F0E7BD2B423 /* SCLAlertViewStyleKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 50EAD91950AD743A347AFE42 /* SCLAlertViewStyleKit.h */; };
+		98F6A5DF343CF4292EB3F419 /* SCLButton.h in Headers */ = {isa = PBXBuildFile; fileRef = CE8C3CCA4FDFF8AFD8E1DDF5 /* SCLButton.h */; };
+		9B89073076ACEAA7A76D3B33 /* GTMNSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3B0EB2E11AB5803985C4C1 /* GTMNSString+HTML.h */; };
+		9F7FDC30E0894BABB3D248BB /* SCLMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0D7F43DAA3BFF46CDE9325 /* SCLMacros.h */; };
+		A0E63112E172069560DD81C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96DAC47E4D7AC6F6ED708A38 /* Foundation.framework */; };
+		A5D2A9DB36B7087FDDBFC8ED /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = F4315C0EF12C3501FD8A46D7 /* UIImage+ImageEffects.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		AA2BA6DAE45255F7A8876923 /* MediaRSSParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AA41BDDD79E6843727E7C9C /* MediaRSSParser.h */; };
+		AA7FF3F4B89DEA83370715D8 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0661EFC169FE12A93ACAF462 /* UIWebView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		ABDEDDAA649BD449D36933C0 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = AAF9AF7C5607D19DA5F425DB /* UIKit+AFNetworking.h */; };
+		AE87B45468669D7F5EA846D3 /* UICocoapodsLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C9BADF296D6419802B90CC /* UICocoapodsLib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		B154672FD32951E8A61EB83F /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 039C66C295E68EABCF7A6791 /* UIImage+ImageEffects.h */; };
+		B2AC37FA6309AD62696E16D6 /* RSSMediaContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FED203F76EB1CD3E3BC4AC3 /* RSSMediaContent.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		B675BFD3AE94D65823B646F9 /* SCLAlertViewResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4148105878BAA3166A095881 /* SCLAlertViewResponder.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		B99E3C40B3C7AC4911ADF3AD /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B2374A828F5BFF1471C6620D /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		BCBC41E91E0875E870769EF1 /* RSSParser.h in Headers */ = {isa = PBXBuildFile; fileRef = F135CADA322BA0E3E78FA341 /* RSSParser.h */; };
+		BDD9F0E91C5F9AF24786344C /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F01A5E7F1F324A272D98BEA /* AFHTTPRequestOperationManager.h */; };
+		BEB9915D66423DF1707A2DEF /* RSSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E10F9F36E9183B9B4AD6AAC /* RSSItem.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		BF4701CC9BDBBC8907C268ED /* SDStatusBarOverriderPre8_3.h in Headers */ = {isa = PBXBuildFile; fileRef = E59B38C62FB226E1123631F9 /* SDStatusBarOverriderPre8_3.h */; };
+		C1986CA85D383E8DED5B087E /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8787075E90474E2CC2D222C5 /* UIImageView+AFNetworking.h */; };
+		C27899AB641B14F2C8511BAC /* Pods-AppleWatchSBB WatchKit Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD9EBA2A5EAD0C36A667E2C /* Pods-AppleWatchSBB WatchKit Extension-dummy.m */; };
+		C27DC67B12F7CBB30F7B1E85 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1B3C7709F7BABBD4DA70D3 /* GTMNSString+HTML.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		C4E4962A99DFFC2F2F29B6DE /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8749FCD8B831BE54A767B6C9 /* UIProgressView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		CC1D4EC28A5BF05E0EB87F32 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 99AB3ABA1BACB170FEFB3462 /* UIButton+AFNetworking.h */; };
+		CF00A0D4A7506A5ED4A0DC28 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E7B82C83EB334790CF2A71 /* UIAlertView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		D2AC5DB4C89C4BC7DD3D4D59 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C08D59F130BBCD1FD1EF302 /* AFURLConnectionOperation.h */; };
+		D687542B18B5D189C588496A /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CD91F0D052CE168D895DC188 /* AFHTTPSessionManager.h */; };
+		D747B783C6F9555DEFD26E32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96DAC47E4D7AC6F6ED708A38 /* Foundation.framework */; };
+		D8A07C1AD01BABC9130E01B3 /* Pods-AppleWatchSBB-UICocoapodsLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C495745606D89352A0BE2192 /* Pods-AppleWatchSBB-UICocoapodsLib-dummy.m */; };
+		D8FFFA99C907C8CE86BEBE7B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F564DB7D323DDA6AEF7934 /* Security.framework */; };
+		DB3C2779906047B68BDEC939 /* UICocoapodsLib.h in Headers */ = {isa = PBXBuildFile; fileRef = DC17D2BD21D08E63F123A8F6 /* UICocoapodsLib.h */; };
+		DCE0E838A1B676D2DB64FC25 /* RSSMediaThumbnail.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B93E8FB8DB7F8BA26124E7 /* RSSMediaThumbnail.h */; };
+		E0B59B59E48366A00FB5D2FA /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AF61895151BCA988200E45 /* AFNetworkReachabilityManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		E0B9E70F3EBA205C7AF10B35 /* RSSParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 652A10E93F586B14C0FDC84A /* RSSParser.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		E0E69A13301CF3DB5F0447CA /* SCLAlertViewResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = 81E0CC062FF247BE326D7FC3 /* SCLAlertViewResponder.h */; };
+		E3C35C6FF0314190E386FAD2 /* NSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = EF722C84D8330288564C01BF /* NSString+HTML.h */; };
+		E662E64A34712009CF292D19 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9704B1BCDAD443F470ADCB /* CoreGraphics.framework */; };
+		E7540422C06380C91B37B986 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B2A68A596FE5150E2B4F39 /* UIWebView+AFNetworking.h */; };
+		E86AAF1D98E44C9E869D5E37 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BD970857D4CD382F192CBF /* AFURLResponseSerialization.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		EE497B58249BDD762303C5AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96DAC47E4D7AC6F6ED708A38 /* Foundation.framework */; };
+		EECC66D5DCAF04771377B0F9 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D0C247D97A375425DB7A4ED /* AFNetworkActivityIndicatorManager.h */; };
+		EF5614C31A69DBB34A028699 /* SDStatusBarOverriderPre8_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 72455A1822DF772D457325BD /* SDStatusBarOverriderPre8_3.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		F313B544A1635EDFDFC8CC88 /* UICocoapodsLib.h in Headers */ = {isa = PBXBuildFile; fileRef = DC17D2BD21D08E63F123A8F6 /* UICocoapodsLib.h */; };
+		F86C281F406603A00923770F /* SDStatusBarOverriderPost8_3.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD5A815F756A4BE4200ACBE /* SDStatusBarOverriderPost8_3.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
+		FF117178D87911C2C77B3C61 /* SCLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DC51A12D4A3788D3E2D24979 /* SCLButton.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0474BC92C10FF916D7B24F16 /* PBXContainerItemProxy */ = {
+		4C51B95D6ACA8263B4C74A8C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C8A4A0EA045A32CE4E09F93F /* Project object */;
+			containerPortal = A8BDD79D248002E7663C2E8C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8BEC53B5563790860C84F14D;
+			remoteGlobalIDString = 508B63988E1D100614B37268;
 			remoteInfo = "Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser";
 		};
-		0D3BCD192ADB1C9AFD92C084 /* PBXContainerItemProxy */ = {
+		5A58F95E4C129584A039E18E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C8A4A0EA045A32CE4E09F93F /* Project object */;
+			containerPortal = A8BDD79D248002E7663C2E8C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2D26EFFDE1C40EE295C6AA4B;
-			remoteInfo = "Pods-AppleWatchSBB WatchKit Extension-AFNetworking";
-		};
-		3CBAC4D0D5BE3E9D9C62D67C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C8A4A0EA045A32CE4E09F93F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D47E1FBFE4AE8A98A050FD00;
+			remoteGlobalIDString = 4F0BCC5EF071BBD7EA85E654;
 			remoteInfo = "Pods-AppleWatchSBB-SCLAlertView-Objective-C";
 		};
-		43AD2F0D2D86FC19F11DC7E5 /* PBXContainerItemProxy */ = {
+		85877F5A21A400D83DB17A17 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C8A4A0EA045A32CE4E09F93F /* Project object */;
+			containerPortal = A8BDD79D248002E7663C2E8C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D9A12ED90378AA006A238ABA;
+			remoteGlobalIDString = C1BDDF139611770E44999EB0;
+			remoteInfo = "Pods-AppleWatchSBB WatchKit Extension-UICocoapodsLib";
+		};
+		99C06A4CF5CAF2FF2D11F451 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8BDD79D248002E7663C2E8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0093675B0A5146446D5FC79C;
+			remoteInfo = "Pods-AppleWatchSBB-UICocoapodsLib";
+		};
+		A3CD2A9F1652FBE743F2660B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8BDD79D248002E7663C2E8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E58F1AEB48C81E2A075767E1;
+			remoteInfo = "Pods-AppleWatchSBB WatchKit Extension-AFNetworking";
+		};
+		C8D0739075CAEF16729D71D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8BDD79D248002E7663C2E8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D5E847FA077679261618775;
+			remoteInfo = "Pods-UICocoapodsLib";
+		};
+		D1BE6615179BCFA28E9B2490 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8BDD79D248002E7663C2E8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58558158203EEB939A986517;
 			remoteInfo = "Pods-AppleWatchSBB-SimulatorStatusMagic";
 		};
-		55112D8843D701742A2A71E1 /* PBXContainerItemProxy */ = {
+		EB286863325690943DA8738C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C8A4A0EA045A32CE4E09F93F /* Project object */;
+			containerPortal = A8BDD79D248002E7663C2E8C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2D26EFFDE1C40EE295C6AA4B;
+			remoteGlobalIDString = E58F1AEB48C81E2A075767E1;
 			remoteInfo = "Pods-AppleWatchSBB WatchKit Extension-AFNetworking";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05CE04175947ADB9579911D3 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
-		0A2FCB3F54C17A14C877FE2D /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
-		0A41DA9CE9519E6A49CB0D02 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSString+HTML.h"; path = "MediaRSSParser/GTMNSString+HTML.h"; sourceTree = "<group>"; };
-		0AFB1589C930BC4406343FFE /* libPods-AppleWatchSBB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppleWatchSBB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B80E889C34C6DE79171CE02 /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppleWatchSBB WatchKit Extension-AFNetworking-dummy.m"; sourceTree = "<group>"; };
-		0E8FC57BCB721351498973BB /* Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser-Private.xcconfig"; sourceTree = "<group>"; };
-		0EAD14BC74A25DC0A5E7D9D1 /* SDStatusBarOverrider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarOverrider.h; path = SDStatusBarManager/SDStatusBarOverrider.h; sourceTree = "<group>"; };
-		12F5F736C598B4175B55EDEF /* SDStatusBarManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarManager.m; path = SDStatusBarManager/SDStatusBarManager.m; sourceTree = "<group>"; };
-		13CD49F08DECEBC93546511E /* libPods-AppleWatchSBB-SimulatorStatusMagic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppleWatchSBB-SimulatorStatusMagic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1487F77C8EE7F5DD605074A4 /* Pods-AppleWatchSBB WatchKit Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppleWatchSBB WatchKit Extension-dummy.m"; sourceTree = "<group>"; };
-		184D63D00E5F92C18F610E34 /* Pods-AppleWatchSBB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleWatchSBB.release.xcconfig"; sourceTree = "<group>"; };
-		18C59B2B80DF47005859B5F8 /* RSSMediaCredit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSSMediaCredit.h; path = MediaRSSParser/RSSMediaCredit.h; sourceTree = "<group>"; };
-		19E4F0CE1EFA69E4D4B311EA /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		20E70FA2180F6849F00D6007 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2105FEF2629667263E18F7D0 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
-		2306219C00769B2BC9DC61BC /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
-		2314B2DE22396BF332A72B3E /* RSSParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSSParser.h; path = MediaRSSParser/RSSParser.h; sourceTree = "<group>"; };
-		25AAE66DC3ACA314F58AF85E /* Pods-AppleWatchSBB-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppleWatchSBB-environment.h"; sourceTree = "<group>"; };
-		26FC5324D014A780392A21B8 /* Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser-prefix.pch"; sourceTree = "<group>"; };
-		270465E058FB08DB6360113E /* Pods-AppleWatchSBB-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppleWatchSBB-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2B4644C94EAD0D741309A44F /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
-		2EF956747226B8DB7117B85D /* SCLAlertViewResponder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLAlertViewResponder.m; path = SCLAlertView/SCLAlertViewResponder.m; sourceTree = "<group>"; };
-		31BD93721799219A0942EFCE /* libPods-AppleWatchSBB WatchKit Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppleWatchSBB WatchKit Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		33437B95A8F51D07E44292C8 /* RSSMediaThumbnail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSSMediaThumbnail.h; path = MediaRSSParser/RSSMediaThumbnail.h; sourceTree = "<group>"; };
-		3B2A24D3145ED3B928EF63A5 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		3BA9178B7C50414A462E91C5 /* Pods-AppleWatchSBB WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleWatchSBB WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
-		3CB60C6A007CC538F7BC7872 /* libPods-AppleWatchSBB-SCLAlertView-Objective-C.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppleWatchSBB-SCLAlertView-Objective-C.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D6459BDFB1AFE7AC392DE7B /* SDStatusBarOverriderPost8_3.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarOverriderPost8_3.m; path = SDStatusBarManager/SDStatusBarOverriderPost8_3.m; sourceTree = "<group>"; };
-		3DC47901AF0A629CD6169206 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		40BFAA7A29AC308B8178BBE9 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
-		43FDC23ED064A56E3A327BA0 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
-		45001C64EABF746AF6BE1717 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
-		47316B2706F125BB41DBC74A /* Pods-AppleWatchSBB-SCLAlertView-Objective-C-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppleWatchSBB-SCLAlertView-Objective-C-dummy.m"; sourceTree = "<group>"; };
-		47894E98959955D741DF2E87 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		489B82418255CFBA96658134 /* Pods-AppleWatchSBB-SimulatorStatusMagic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppleWatchSBB-SimulatorStatusMagic-dummy.m"; sourceTree = "<group>"; };
-		4C3ADCAB43320EB13F838ECA /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
-		4DC81CA7054F994071AA3D9B /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
-		51F67ABA45668437B1B0815F /* RSSChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSSChannel.h; path = MediaRSSParser/RSSChannel.h; sourceTree = "<group>"; };
-		54ADBBF5A93AF0DC423A4765 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
-		56964F9D709ABCDE3F4831F9 /* NSString+HTML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+HTML.m"; path = "MediaRSSParser/NSString+HTML.m"; sourceTree = "<group>"; };
-		5D356C493ED61A729491ECCB /* SDStatusBarOverriderPre8_3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarOverriderPre8_3.h; path = SDStatusBarManager/SDStatusBarOverriderPre8_3.h; sourceTree = "<group>"; };
-		6566405C0377ED7E6E745DBB /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
-		67A757B3A57996D51CF4B4D7 /* Pods-AppleWatchSBB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppleWatchSBB-dummy.m"; sourceTree = "<group>"; };
-		690C87349833882A793EFF77 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		69AECE5407258881FC92C891 /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleWatchSBB WatchKit Extension-AFNetworking.xcconfig"; sourceTree = "<group>"; };
-		6D6F8521A2963A352BD8747A /* SDStatusBarOverriderPost8_3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarOverriderPost8_3.h; path = SDStatusBarManager/SDStatusBarOverriderPost8_3.h; sourceTree = "<group>"; };
-		6EDCE04934E4A99472FDBB31 /* MediaRSSModels.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MediaRSSModels.h; path = MediaRSSParser/MediaRSSModels.h; sourceTree = "<group>"; };
-		73D7C8B9D66DC87A67E089FD /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
-		751F94DA7459D0205773DD50 /* Pods-AppleWatchSBB WatchKit Extension-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppleWatchSBB WatchKit Extension-environment.h"; sourceTree = "<group>"; };
-		7923971E4C14D1A9403BFC1E /* Pods-AppleWatchSBB-SCLAlertView-Objective-C-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppleWatchSBB-SCLAlertView-Objective-C-prefix.pch"; sourceTree = "<group>"; };
-		7DEE86F8699D96739FA0D21C /* SCLAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLAlertView.m; path = SCLAlertView/SCLAlertView.m; sourceTree = "<group>"; };
-		7DFC3DD7CD326D30CDF21B9E /* SCLButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLButton.h; path = SCLAlertView/SCLButton.h; sourceTree = "<group>"; };
-		821CB02947EE59AA969A75CF /* SDStatusBarManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarManager.h; path = SDStatusBarManager/SDStatusBarManager.h; sourceTree = "<group>"; };
-		85614699F6744E7B24D61C57 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
-		89E3D3F65C699553247C6D41 /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppleWatchSBB WatchKit Extension-AFNetworking-prefix.pch"; sourceTree = "<group>"; };
-		8A1ED04D2BEFEABD6648E44A /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
-		8A2F62A263E4E5F8B0294091 /* Pods-AppleWatchSBB-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppleWatchSBB-acknowledgements.plist"; sourceTree = "<group>"; };
-		8ED1D6DC49A85EAD2C047C99 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
-		8F4483BBAA3A322B29B91233 /* Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser-dummy.m"; sourceTree = "<group>"; };
-		96E6FA357E318D9D2A516FCF /* SCLButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLButton.m; path = SCLAlertView/SCLButton.m; sourceTree = "<group>"; };
-		973FF2E8E2E91259D88D6FCB /* Pods-AppleWatchSBB-SCLAlertView-Objective-C.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleWatchSBB-SCLAlertView-Objective-C.xcconfig"; sourceTree = "<group>"; };
-		9DB301FDCC5D6AF59664D79D /* RSSItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSSItem.m; path = MediaRSSParser/RSSItem.m; sourceTree = "<group>"; };
-		9F6FDE95F3FC32E8D0468668 /* SCLAlertViewResponder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLAlertViewResponder.h; path = SCLAlertView/SCLAlertViewResponder.h; sourceTree = "<group>"; };
-		A0310C6CF617653E9C0DD262 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		A066510AC6CAB427729ACBE6 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		A12A64DFF27931637A26799E /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		A227A79614820DA1664C9D7E /* RSSMediaThumbnail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSSMediaThumbnail.m; path = MediaRSSParser/RSSMediaThumbnail.m; sourceTree = "<group>"; };
-		A3EB2F48E620C38912B6FF18 /* Pods-AppleWatchSBB-SimulatorStatusMagic.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleWatchSBB-SimulatorStatusMagic.xcconfig"; sourceTree = "<group>"; };
-		A4419E6C89E85DE257155839 /* libPods-AppleWatchSBB WatchKit Extension-AFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppleWatchSBB WatchKit Extension-AFNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A63E3B30F18E9FC1B8D37538 /* Pods-AppleWatchSBB WatchKit Extension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AppleWatchSBB WatchKit Extension-resources.sh"; sourceTree = "<group>"; };
-		A89BEDF54DBAD0A7116F9324 /* Pods-AppleWatchSBB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleWatchSBB.debug.xcconfig"; sourceTree = "<group>"; };
-		A95CE0B129A2FD7220F21975 /* Pods-AppleWatchSBB-SimulatorStatusMagic-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleWatchSBB-SimulatorStatusMagic-Private.xcconfig"; sourceTree = "<group>"; };
-		AB6B0E297CF3DC75BEB43D01 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "SCLAlertView/UIImage+ImageEffects.h"; sourceTree = "<group>"; };
-		ADFC9C64851A761B5E798402 /* SCLAlertViewStyleKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLAlertViewStyleKit.h; path = SCLAlertView/SCLAlertViewStyleKit.h; sourceTree = "<group>"; };
-		AF19C3E14AE478A46BEFDCBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		B2A9B6055E8F3F19C7818EC3 /* SCLAlertViewStyleKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLAlertViewStyleKit.m; path = SCLAlertView/SCLAlertViewStyleKit.m; sourceTree = "<group>"; };
-		B36329A958EB17421DF81EF1 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
-		B4E6DC166FEA45DECE1E7ADF /* MediaRSSParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MediaRSSParser.h; path = MediaRSSParser/MediaRSSParser.h; sourceTree = "<group>"; };
-		B9A3A8237F61AFB61D29D304 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
-		B9FE58B39B8416D06CDF8807 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
-		BA60246A5CFF8CD5A86000AF /* RSSItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSSItem.h; path = MediaRSSParser/RSSItem.h; sourceTree = "<group>"; };
-		C3EA727EE77641ED87DEF0F5 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSString+HTML.m"; path = "MediaRSSParser/GTMNSString+HTML.m"; sourceTree = "<group>"; };
-		C4C67F553C5A3F6671CCDCEB /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
-		C5F752E853395AA2BCDE7449 /* SCLMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLMacros.h; path = SCLAlertView/SCLMacros.h; sourceTree = "<group>"; };
-		C6657B1C8B4D8648556A803D /* Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser.xcconfig"; sourceTree = "<group>"; };
-		C6FE8709D5D432F259BD5A41 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
-		CB15E9290FF209D6E3C95022 /* NSString+HTML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+HTML.h"; path = "MediaRSSParser/NSString+HTML.h"; sourceTree = "<group>"; };
-		CC199E074F0F2BE16F90415C /* RSSMediaContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSSMediaContent.h; path = MediaRSSParser/RSSMediaContent.h; sourceTree = "<group>"; };
-		D05FDB4F3066C34F67490E01 /* Pods-AppleWatchSBB-SCLAlertView-Objective-C-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleWatchSBB-SCLAlertView-Objective-C-Private.xcconfig"; sourceTree = "<group>"; };
-		D26B522530FAFC0B33D65B42 /* SDStatusBarOverriderPre8_3.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarOverriderPre8_3.m; path = SDStatusBarManager/SDStatusBarOverriderPre8_3.m; sourceTree = "<group>"; };
-		D2DDC781C3FABD9258498C25 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		D54D90D58BEB05421808EBBA /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		D9A867474C9A281E2F6EFB54 /* RSSParser_Protected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSSParser_Protected.h; path = MediaRSSParser/RSSParser_Protected.h; sourceTree = "<group>"; };
-		D9CA5B58986D883318808C52 /* RSSMediaContent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSSMediaContent.m; path = MediaRSSParser/RSSMediaContent.m; sourceTree = "<group>"; };
-		DB3C9215ECB0D4339AAA5573 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
-		DF911F24C6A659383F8BA5A9 /* RSSParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSSParser.m; path = MediaRSSParser/RSSParser.m; sourceTree = "<group>"; };
-		E458867CFE3D5C25A9895677 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
-		E6DC3CDD4D90B89F99751799 /* Pods-AppleWatchSBB-SimulatorStatusMagic-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppleWatchSBB-SimulatorStatusMagic-prefix.pch"; sourceTree = "<group>"; };
-		E7E7A1FE1FAEA9D7F674E16A /* Pods-AppleWatchSBB WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleWatchSBB WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
-		E852D06BCA185CED953D22A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		EB7FB2A90501D4A0060069EA /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		EC20F47D4ADC1E61F20EA01C /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleWatchSBB WatchKit Extension-AFNetworking-Private.xcconfig"; sourceTree = "<group>"; };
-		EE9B71B52B45613C8DEC561F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		EF05BDFBEDDCDAA2C5EDECB0 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		EF1234E96F16C54FC6084813 /* Pods-AppleWatchSBB WatchKit Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppleWatchSBB WatchKit Extension-acknowledgements.plist"; sourceTree = "<group>"; };
-		F112EF1340617C9A22ECA1AB /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageEffects.m"; path = "SCLAlertView/UIImage+ImageEffects.m"; sourceTree = "<group>"; };
-		F40CF45496ED2BB5F206E3D5 /* RSSMediaCredit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSSMediaCredit.m; path = MediaRSSParser/RSSMediaCredit.m; sourceTree = "<group>"; };
-		F49FE9D6D933921A57ADE714 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
-		F5200B149438D64A990ADF05 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
-		F52F0F247D2B3BAEB2291E5B /* Pods-AppleWatchSBB WatchKit Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppleWatchSBB WatchKit Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F73361978320746F75FF110F /* Pods-AppleWatchSBB-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AppleWatchSBB-resources.sh"; sourceTree = "<group>"; };
-		F9A9B7789AA2B20CB0AA0B2D /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
-		FA37B6E8663241D1206DC18E /* SCLAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLAlertView.h; path = SCLAlertView/SCLAlertView.h; sourceTree = "<group>"; };
-		FC60DC724E99B49CA745BD38 /* RSSChannel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSSChannel.m; path = MediaRSSParser/RSSChannel.m; sourceTree = "<group>"; };
-		FEF8C685CEB2973BECA0318D /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
-		FEF985C9515FA08DA199BA38 /* libPods-AppleWatchSBB WatchKit Extension-MediaRSSParser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppleWatchSBB WatchKit Extension-MediaRSSParser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		004B6E9C121D9B28AE2B39D2 /* libPods-UICocoapodsLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UICocoapodsLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		005068D4897E70D548B461EF /* libPods-AppleWatchSBB WatchKit Extension-UICocoapodsLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppleWatchSBB WatchKit Extension-UICocoapodsLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03892D0B713B5222C6A4B7A3 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		039C66C295E68EABCF7A6791 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "SCLAlertView/UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		0434985724C543318E51D070 /* SDStatusBarOverrider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarOverrider.h; path = SDStatusBarManager/SDStatusBarOverrider.h; sourceTree = "<group>"; };
+		0661EFC169FE12A93ACAF462 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		073E9EC209CBCBC1258ED557 /* Pods-AppleWatchSBB WatchKit Extension-UICocoapodsLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppleWatchSBB WatchKit Extension-UICocoapodsLib-prefix.pch"; sourceTree = "<group>"; };
+		0A8F9CE628ED6A569F0F21FC /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppleWatchSBB WatchKit Extension-AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		0F01A5E7F1F324A272D98BEA /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		154459B2DF224F97CD25F3E8 /* SDStatusBarManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarManager.h; path = SDStatusBarManager/SDStatusBarManager.h; sourceTree = "<group>"; };
+		15F1F37F6828CB98B4B29A39 /* Pods-AppleWatchSBB-SCLAlertView-Objective-C-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppleWatchSBB-SCLAlertView-Objective-C-prefix.pch"; sourceTree = "<group>"; };
+		17655EA485793789EDCEB39D /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleWatchSBB WatchKit Extension-AFNetworking.xcconfig"; sourceTree = "<group>"; };
+		17A4AB4584B3E424F4E1DEE3 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		1B24C546035946B5B9956F43 /* Pods-AppleWatchSBB-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppleWatchSBB-environment.h"; sourceTree = "<group>"; };
+		1D0C247D97A375425DB7A4ED /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		1DFBC5A28630FB606F712009 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1FD9EBA2A5EAD0C36A667E2C /* Pods-AppleWatchSBB WatchKit Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppleWatchSBB WatchKit Extension-dummy.m"; sourceTree = "<group>"; };
+		22B2A68A596FE5150E2B4F39 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		25C9BADF296D6419802B90CC /* UICocoapodsLib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UICocoapodsLib.m; path = UILib/UICocoapodsLib.m; sourceTree = "<group>"; };
+		25EC08BB3BC424D7B48A60F6 /* Pods-UICocoapodsLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UICocoapodsLib.xcconfig"; path = "../Pods-UICocoapodsLib/Pods-UICocoapodsLib.xcconfig"; sourceTree = "<group>"; };
+		2814F39D185EC2462FAB5D95 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		292247C8783D0FAFF5E09420 /* Pods-AppleWatchSBB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleWatchSBB.release.xcconfig"; sourceTree = "<group>"; };
+		29BD970857D4CD382F192CBF /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		2AA41BDDD79E6843727E7C9C /* MediaRSSParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MediaRSSParser.h; path = MediaRSSParser/MediaRSSParser.h; sourceTree = "<group>"; };
+		2B2E1B61A89EF2377BCDBF43 /* NSString+HTML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+HTML.m"; path = "MediaRSSParser/NSString+HTML.m"; sourceTree = "<group>"; };
+		2C2DC0FE624C5462949140C1 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		2D87AA13E375F600EECAB240 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		2FED203F76EB1CD3E3BC4AC3 /* RSSMediaContent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSSMediaContent.m; path = MediaRSSParser/RSSMediaContent.m; sourceTree = "<group>"; };
+		3282763A1C17398B2B4B3234 /* RSSParser_Protected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSSParser_Protected.h; path = MediaRSSParser/RSSParser_Protected.h; sourceTree = "<group>"; };
+		34C82748E36EE8000B711FFC /* Pods-UICocoapodsLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-UICocoapodsLib-prefix.pch"; path = "../Pods-UICocoapodsLib/Pods-UICocoapodsLib-prefix.pch"; sourceTree = "<group>"; };
+		34EFC3B7ED2AB00783551394 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		35C0AB465DE7A16D8B2A41AD /* Pods-AppleWatchSBB WatchKit Extension-UICocoapodsLib-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleWatchSBB WatchKit Extension-UICocoapodsLib-Private.xcconfig"; sourceTree = "<group>"; };
+		36982AC6881F1C5B9EB1D855 /* Pods-AppleWatchSBB WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleWatchSBB WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		39E7B82C83EB334790CF2A71 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		39F564DB7D323DDA6AEF7934 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		3B1565C283AEA235A8122D09 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		3B1981A05AA9B2A10DB03A94 /* Pods-AppleWatchSBB-SCLAlertView-Objective-C.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleWatchSBB-SCLAlertView-Objective-C.xcconfig"; sourceTree = "<group>"; };
+		3C1000937B18EBB66416711C /* libPods-AppleWatchSBB WatchKit Extension-AFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppleWatchSBB WatchKit Extension-AFNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D25A19FC6C96B96269EC4D5 /* Pods-AppleWatchSBB-UICocoapodsLib-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleWatchSBB-UICocoapodsLib-Private.xcconfig"; path = "../Pods-AppleWatchSBB-UICocoapodsLib/Pods-AppleWatchSBB-UICocoapodsLib-Private.xcconfig"; sourceTree = "<group>"; };
+		40B8F545AE901581F9A4D4CC /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		4148105878BAA3166A095881 /* SCLAlertViewResponder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLAlertViewResponder.m; path = SCLAlertView/SCLAlertViewResponder.m; sourceTree = "<group>"; };
+		46880F7DDB9A9EF1FA6E7BF6 /* RSSItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSSItem.h; path = MediaRSSParser/RSSItem.h; sourceTree = "<group>"; };
+		4778D222BB8D086DE1580746 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		47AF61895151BCA988200E45 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		4B545043F0328B8A4DCC4D06 /* Pods-AppleWatchSBB WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleWatchSBB WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		4CB402B8B0F188B1BADB25C3 /* Pods-UICocoapodsLib-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UICocoapodsLib-Private.xcconfig"; path = "../Pods-UICocoapodsLib/Pods-UICocoapodsLib-Private.xcconfig"; sourceTree = "<group>"; };
+		50BC94A3F92FE47F805C9DED /* libPods-AppleWatchSBB-SCLAlertView-Objective-C.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppleWatchSBB-SCLAlertView-Objective-C.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50EAD91950AD743A347AFE42 /* SCLAlertViewStyleKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLAlertViewStyleKit.h; path = SCLAlertView/SCLAlertViewStyleKit.h; sourceTree = "<group>"; };
+		51237C158A67CD18C1153D23 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		51B4A6049E0C7B4AA3F50FF8 /* Pods-AppleWatchSBB-SimulatorStatusMagic-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppleWatchSBB-SimulatorStatusMagic-prefix.pch"; sourceTree = "<group>"; };
+		52C0C8B55337A5B1BC61BAF1 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		5E10F9F36E9183B9B4AD6AAC /* RSSItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSSItem.m; path = MediaRSSParser/RSSItem.m; sourceTree = "<group>"; };
+		646A9AFCE76DBDBA66BF89C1 /* libPods-AppleWatchSBB-SimulatorStatusMagic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppleWatchSBB-SimulatorStatusMagic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		652A10E93F586B14C0FDC84A /* RSSParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSSParser.m; path = MediaRSSParser/RSSParser.m; sourceTree = "<group>"; };
+		673A6ED5A3D7ED76979BEE6E /* RSSMediaContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSSMediaContent.h; path = MediaRSSParser/RSSMediaContent.h; sourceTree = "<group>"; };
+		679E373BBC88D90FAAC5C51B /* Pods-AppleWatchSBB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleWatchSBB.debug.xcconfig"; sourceTree = "<group>"; };
+		6AC52A0F8942DA4A6A464EC9 /* Pods-AppleWatchSBB WatchKit Extension-UICocoapodsLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleWatchSBB WatchKit Extension-UICocoapodsLib.xcconfig"; sourceTree = "<group>"; };
+		6EE88773FC9AFB572D17F4AB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FC08CF77CCA8BF98BD6853F /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		70B93E8FB8DB7F8BA26124E7 /* RSSMediaThumbnail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSSMediaThumbnail.h; path = MediaRSSParser/RSSMediaThumbnail.h; sourceTree = "<group>"; };
+		72455A1822DF772D457325BD /* SDStatusBarOverriderPre8_3.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarOverriderPre8_3.m; path = SDStatusBarManager/SDStatusBarOverriderPre8_3.m; sourceTree = "<group>"; };
+		76356DC23997E3ADCA5CB493 /* libPods-AppleWatchSBB-UICocoapodsLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppleWatchSBB-UICocoapodsLib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AD64FF933D3F05C381267F8 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		7E76719D93E93A65FA5F09F4 /* SDStatusBarManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarManager.m; path = SDStatusBarManager/SDStatusBarManager.m; sourceTree = "<group>"; };
+		811301A320CC20FD566C0A1B /* Pods-AppleWatchSBB-SCLAlertView-Objective-C-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleWatchSBB-SCLAlertView-Objective-C-Private.xcconfig"; sourceTree = "<group>"; };
+		81E0CC062FF247BE326D7FC3 /* SCLAlertViewResponder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLAlertViewResponder.h; path = SCLAlertView/SCLAlertViewResponder.h; sourceTree = "<group>"; };
+		8514D6FA74919231EC280DF6 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		8679AA7A5A60CDC0FF4DECCB /* Pods-AppleWatchSBB-SCLAlertView-Objective-C-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppleWatchSBB-SCLAlertView-Objective-C-dummy.m"; sourceTree = "<group>"; };
+		86FB4702EABC1806B493F856 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		8749FCD8B831BE54A767B6C9 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		8778065B5B5FA859ECC4F0A4 /* Pods-AppleWatchSBB WatchKit Extension-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppleWatchSBB WatchKit Extension-environment.h"; sourceTree = "<group>"; };
+		8787075E90474E2CC2D222C5 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		8E4B516C743F39B58D299FB1 /* libPods-AppleWatchSBB WatchKit Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppleWatchSBB WatchKit Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		906DB3AE97A0FB03DD439175 /* RSSMediaCredit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSSMediaCredit.h; path = MediaRSSParser/RSSMediaCredit.h; sourceTree = "<group>"; };
+		9242F75D09DF813EBDB9F872 /* Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser-Private.xcconfig"; sourceTree = "<group>"; };
+		9348120BBEF4D18F493363C7 /* Pods-AppleWatchSBB WatchKit Extension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AppleWatchSBB WatchKit Extension-resources.sh"; sourceTree = "<group>"; };
+		9368DFCCE0D6F66720422546 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		94E93FEC86333D5B6EAB1FA3 /* Pods-AppleWatchSBB-UICocoapodsLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleWatchSBB-UICocoapodsLib.xcconfig"; path = "../Pods-AppleWatchSBB-UICocoapodsLib/Pods-AppleWatchSBB-UICocoapodsLib.xcconfig"; sourceTree = "<group>"; };
+		96DAC47E4D7AC6F6ED708A38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		99AB3ABA1BACB170FEFB3462 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		9C08D59F130BBCD1FD1EF302 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		9D0D7F43DAA3BFF46CDE9325 /* SCLMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLMacros.h; path = SCLAlertView/SCLMacros.h; sourceTree = "<group>"; };
+		9DD5A815F756A4BE4200ACBE /* SDStatusBarOverriderPost8_3.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDStatusBarOverriderPost8_3.m; path = SDStatusBarManager/SDStatusBarOverriderPost8_3.m; sourceTree = "<group>"; };
+		9F7DC20236A250C65C2A2D2F /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		A3BAC5F678B805B09D14E3A5 /* Pods-AppleWatchSBB-SimulatorStatusMagic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppleWatchSBB-SimulatorStatusMagic-dummy.m"; sourceTree = "<group>"; };
+		A747D3EA2E63DA9400D6C98B /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		A75D9868B16C2D2E7A46B5DE /* Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser.xcconfig"; sourceTree = "<group>"; };
+		A7EB461B4B6F6C699F4C34E6 /* SCLAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLAlertView.h; path = SCLAlertView/SCLAlertView.h; sourceTree = "<group>"; };
+		A86238299BE4F32FE489A654 /* Pods-AppleWatchSBB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppleWatchSBB-dummy.m"; sourceTree = "<group>"; };
+		AA3B0EB2E11AB5803985C4C1 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSString+HTML.h"; path = "MediaRSSParser/GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		AAF9AF7C5607D19DA5F425DB /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		AB2EF0187FC2D4C6358BB141 /* RSSMediaCredit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSSMediaCredit.m; path = MediaRSSParser/RSSMediaCredit.m; sourceTree = "<group>"; };
+		B0ED00F8CFF7E537A5B84721 /* Pods-AppleWatchSBB WatchKit Extension-UICocoapodsLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppleWatchSBB WatchKit Extension-UICocoapodsLib-dummy.m"; sourceTree = "<group>"; };
+		B2374A828F5BFF1471C6620D /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		B4EEB2CC15F4FB1598762BE3 /* libPods-AppleWatchSBB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppleWatchSBB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B87E80A9C99DA8B9A6F869FD /* Pods-AppleWatchSBB-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppleWatchSBB-acknowledgements.plist"; sourceTree = "<group>"; };
+		BB45A2EB05687336777DCC53 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		BBD778BECF2410B51DC1CB14 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		BF8F26B3935B435427B6083F /* libPods-AppleWatchSBB WatchKit Extension-MediaRSSParser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppleWatchSBB WatchKit Extension-MediaRSSParser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C495745606D89352A0BE2192 /* Pods-AppleWatchSBB-UICocoapodsLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-AppleWatchSBB-UICocoapodsLib-dummy.m"; path = "../Pods-AppleWatchSBB-UICocoapodsLib/Pods-AppleWatchSBB-UICocoapodsLib-dummy.m"; sourceTree = "<group>"; };
+		C636BF92FE6F131FE5B6EB6C /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		C6D294412C9A55CB9557CE55 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		CAD755937E961EE933990CAA /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		CB0CF24F760933E19B8B014D /* Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser-dummy.m"; sourceTree = "<group>"; };
+		CC1FE1156B9EA47A733FE359 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		CD91F0D052CE168D895DC188 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		CE8C3CCA4FDFF8AFD8E1DDF5 /* SCLButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SCLButton.h; path = SCLAlertView/SCLButton.h; sourceTree = "<group>"; };
+		D0E67221037A89F37B725960 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		D137FDC81D888E10220EA46E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		D52799D8C90233C4E78ECC23 /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppleWatchSBB WatchKit Extension-AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		D7784421F7578ED8332B49DC /* SCLAlertViewStyleKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLAlertViewStyleKit.m; path = SCLAlertView/SCLAlertViewStyleKit.m; sourceTree = "<group>"; };
+		D7DC5017FB265B35A1AC8521 /* Pods-AppleWatchSBB-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AppleWatchSBB-resources.sh"; sourceTree = "<group>"; };
+		D9FD77CDF88602A4358D5D45 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		DA309803CB282070E49551F6 /* MediaRSSModels.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MediaRSSModels.h; path = MediaRSSParser/MediaRSSModels.h; sourceTree = "<group>"; };
+		DC17D2BD21D08E63F123A8F6 /* UICocoapodsLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UICocoapodsLib.h; path = UILib/UICocoapodsLib.h; sourceTree = "<group>"; };
+		DC51A12D4A3788D3E2D24979 /* SCLButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLButton.m; path = SCLAlertView/SCLButton.m; sourceTree = "<group>"; };
+		DC6FBB0F73373E46216FDBD5 /* RSSChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSSChannel.h; path = MediaRSSParser/RSSChannel.h; sourceTree = "<group>"; };
+		DD57ADD6893056379E9F8C72 /* Pods-AppleWatchSBB-SimulatorStatusMagic.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleWatchSBB-SimulatorStatusMagic.xcconfig"; sourceTree = "<group>"; };
+		DDAD368DDC85736CA9057DBC /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		E4615217AB4113261E3619B4 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		E4681B09230D319D212CAAB3 /* SCLAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SCLAlertView.m; path = SCLAlertView/SCLAlertView.m; sourceTree = "<group>"; };
+		E47587D286EE3CE061A9B3C3 /* RSSChannel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSSChannel.m; path = MediaRSSParser/RSSChannel.m; sourceTree = "<group>"; };
+		E4795C90E22D2E0EAC4D6B1D /* Pods-AppleWatchSBB-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppleWatchSBB-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E55D62220F7E8918FEC2156F /* Pods-AppleWatchSBB WatchKit Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppleWatchSBB WatchKit Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		E59B38C62FB226E1123631F9 /* SDStatusBarOverriderPre8_3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarOverriderPre8_3.h; path = SDStatusBarManager/SDStatusBarOverriderPre8_3.h; sourceTree = "<group>"; };
+		E78E4DED8743E615DDCEB0AC /* Pods-UICocoapodsLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-UICocoapodsLib-dummy.m"; path = "../Pods-UICocoapodsLib/Pods-UICocoapodsLib-dummy.m"; sourceTree = "<group>"; };
+		E92787657F42399A7071854E /* Pods-AppleWatchSBB-SimulatorStatusMagic-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleWatchSBB-SimulatorStatusMagic-Private.xcconfig"; sourceTree = "<group>"; };
+		EB3612A2F140CDD550364C54 /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppleWatchSBB WatchKit Extension-AFNetworking-Private.xcconfig"; sourceTree = "<group>"; };
+		EC1B3C7709F7BABBD4DA70D3 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSString+HTML.m"; path = "MediaRSSParser/GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		ED2B3FFE77E5F06A280B8107 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EF722C84D8330288564C01BF /* NSString+HTML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+HTML.h"; path = "MediaRSSParser/NSString+HTML.h"; sourceTree = "<group>"; };
+		F135CADA322BA0E3E78FA341 /* RSSParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSSParser.h; path = MediaRSSParser/RSSParser.h; sourceTree = "<group>"; };
+		F4315C0EF12C3501FD8A46D7 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageEffects.m"; path = "SCLAlertView/UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		F51BEA1701A70753C7FEA5E7 /* Pods-AppleWatchSBB WatchKit Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppleWatchSBB WatchKit Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F776A79FB12D93FC7715C724 /* Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser-prefix.pch"; sourceTree = "<group>"; };
+		FA2BCF0C3E2CDB6A06EBB5A3 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		FAA30407C15C685CD3C43664 /* RSSMediaThumbnail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSSMediaThumbnail.m; path = MediaRSSParser/RSSMediaThumbnail.m; sourceTree = "<group>"; };
+		FB225F8C40A22771F9B62183 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		FCBE817A4CD11052227FFE1B /* SDStatusBarOverriderPost8_3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDStatusBarOverriderPost8_3.h; path = SDStatusBarManager/SDStatusBarOverriderPost8_3.h; sourceTree = "<group>"; };
+		FD9704B1BCDAD443F470ADCB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		FE88F924EE349B531AB1F9E3 /* Pods-AppleWatchSBB-UICocoapodsLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-AppleWatchSBB-UICocoapodsLib-prefix.pch"; path = "../Pods-AppleWatchSBB-UICocoapodsLib/Pods-AppleWatchSBB-UICocoapodsLib-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		31A3FEB25B97D8E38C8ADE15 /* Frameworks */ = {
+		1D1CA1D2FE5E187F6DBB5174 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EA944C7059F7C958E0C06C2 /* Foundation.framework in Frameworks */,
-				029EBCE73EFEF328DBB09C66 /* UIKit.framework in Frameworks */,
+				E662E64A34712009CF292D19 /* CoreGraphics.framework in Frameworks */,
+				661CCCB4C960CA19C1865CD1 /* Foundation.framework in Frameworks */,
+				79A8DFF58CBBAE9D2B9A5860 /* MobileCoreServices.framework in Frameworks */,
+				D8FFFA99C907C8CE86BEBE7B /* Security.framework in Frameworks */,
+				8984797F20BCA14098176C5A /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		49856E1EE27E272C0647236D /* Frameworks */ = {
+		27B2B783132797956E5E432D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9681BD64D4F1BDF32E8F3D8 /* Foundation.framework in Frameworks */,
+				D747B783C6F9555DEFD26E32 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9E22A7DFA190C6D46576A517 /* Frameworks */ = {
+		2FF3362C93ECAD9119C8A256 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B55DF62FBF02D35C9B79DC17 /* CoreGraphics.framework in Frameworks */,
-				EDC78BE73093FF01DF20192C /* Foundation.framework in Frameworks */,
-				86108C368B9542096075381B /* MobileCoreServices.framework in Frameworks */,
-				3464B966488F61F9660666EB /* Security.framework in Frameworks */,
-				DE9CFEFB1A99EA9059D3A309 /* SystemConfiguration.framework in Frameworks */,
+				2E7F366D8573D084497F1AFE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B603A8D7251D8CB06B5191BC /* Frameworks */ = {
+		3024803E54F0B9A2762CB075 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C78FC2A9A4853D656FD5A32C /* Foundation.framework in Frameworks */,
+				EE497B58249BDD762303C5AA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA82A783CF4EFC11DF5D793A /* Frameworks */ = {
+		357AA1C062C2FD1B698E6DAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E54A66C186C824782E6A4675 /* Foundation.framework in Frameworks */,
+				58A505C52752EE324108A1F7 /* Foundation.framework in Frameworks */,
+				1592224555DCB01AD308E66B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD39DC7807E33FBDA3F1D84D /* Frameworks */ = {
+		850FAE7C9B87F3930C46853D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				972E860D6679B8EF9870D9C8 /* Foundation.framework in Frameworks */,
+				1C6F3D7CCA8325BAFC549359 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF575C8B39D75679534818D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E63112E172069560DD81C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C721076354E2573907713FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD79A3423099108F5898DF2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0F6674F78CC63E76143A8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C8B1B4E81797113A3E0B87 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2F434FA27671AD1EFCD253 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C9C1881F5FDFC34C986A1A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		026E1BCA8E49EE707D50DC6E /* Reachability */ = {
+		04031C1450868905992C03D5 /* Pods-AppleWatchSBB */ = {
 			isa = PBXGroup;
 			children = (
-				3B2A24D3145ED3B928EF63A5 /* AFNetworkReachabilityManager.h */,
-				19E4F0CE1EFA69E4D4B311EA /* AFNetworkReachabilityManager.m */,
-			);
-			name = Reachability;
-			sourceTree = "<group>";
-		};
-		056656545EDABB3DFD5FF4B6 /* Serialization */ = {
-			isa = PBXGroup;
-			children = (
-				3DC47901AF0A629CD6169206 /* AFURLRequestSerialization.h */,
-				D2DDC781C3FABD9258498C25 /* AFURLRequestSerialization.m */,
-				D54D90D58BEB05421808EBBA /* AFURLResponseSerialization.h */,
-				EB7FB2A90501D4A0060069EA /* AFURLResponseSerialization.m */,
-			);
-			name = Serialization;
-			sourceTree = "<group>";
-		};
-		0CD0F695F1CE90B300E81AC3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C6657B1C8B4D8648556A803D /* Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser.xcconfig */,
-				0E8FC57BCB721351498973BB /* Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser-Private.xcconfig */,
-				8F4483BBAA3A322B29B91233 /* Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser-dummy.m */,
-				26FC5324D014A780392A21B8 /* Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser";
-			sourceTree = "<group>";
-		};
-		16CB89DA79E6A2F46CB8E725 /* NSURLConnection */ = {
-			isa = PBXGroup;
-			children = (
-				43FDC23ED064A56E3A327BA0 /* AFHTTPRequestOperation.h */,
-				B36329A958EB17421DF81EF1 /* AFHTTPRequestOperation.m */,
-				F49FE9D6D933921A57ADE714 /* AFHTTPRequestOperationManager.h */,
-				54ADBBF5A93AF0DC423A4765 /* AFHTTPRequestOperationManager.m */,
-				2306219C00769B2BC9DC61BC /* AFURLConnectionOperation.h */,
-				B9A3A8237F61AFB61D29D304 /* AFURLConnectionOperation.m */,
-			);
-			name = NSURLConnection;
-			sourceTree = "<group>";
-		};
-		6170EB263A1C22514F396749 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0AFB1589C930BC4406343FFE /* libPods-AppleWatchSBB.a */,
-				31BD93721799219A0942EFCE /* libPods-AppleWatchSBB WatchKit Extension.a */,
-				A4419E6C89E85DE257155839 /* libPods-AppleWatchSBB WatchKit Extension-AFNetworking.a */,
-				FEF985C9515FA08DA199BA38 /* libPods-AppleWatchSBB WatchKit Extension-MediaRSSParser.a */,
-				3CB60C6A007CC538F7BC7872 /* libPods-AppleWatchSBB-SCLAlertView-Objective-C.a */,
-				13CD49F08DECEBC93546511E /* libPods-AppleWatchSBB-SimulatorStatusMagic.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		62A25B2EB949CF97E89272DE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A3EB2F48E620C38912B6FF18 /* Pods-AppleWatchSBB-SimulatorStatusMagic.xcconfig */,
-				A95CE0B129A2FD7220F21975 /* Pods-AppleWatchSBB-SimulatorStatusMagic-Private.xcconfig */,
-				489B82418255CFBA96658134 /* Pods-AppleWatchSBB-SimulatorStatusMagic-dummy.m */,
-				E6DC3CDD4D90B89F99751799 /* Pods-AppleWatchSBB-SimulatorStatusMagic-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-AppleWatchSBB-SimulatorStatusMagic";
-			sourceTree = "<group>";
-		};
-		6FBBD64FAE92B1B52DADEAE4 /* SimulatorStatusMagic */ = {
-			isa = PBXGroup;
-			children = (
-				821CB02947EE59AA969A75CF /* SDStatusBarManager.h */,
-				12F5F736C598B4175B55EDEF /* SDStatusBarManager.m */,
-				0EAD14BC74A25DC0A5E7D9D1 /* SDStatusBarOverrider.h */,
-				6D6F8521A2963A352BD8747A /* SDStatusBarOverriderPost8_3.h */,
-				3D6459BDFB1AFE7AC392DE7B /* SDStatusBarOverriderPost8_3.m */,
-				5D356C493ED61A729491ECCB /* SDStatusBarOverriderPre8_3.h */,
-				D26B522530FAFC0B33D65B42 /* SDStatusBarOverriderPre8_3.m */,
-				62A25B2EB949CF97E89272DE /* Support Files */,
-			);
-			path = SimulatorStatusMagic;
-			sourceTree = "<group>";
-		};
-		7053704BFDE708F09A8BEE1E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				69AECE5407258881FC92C891 /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking.xcconfig */,
-				EC20F47D4ADC1E61F20EA01C /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking-Private.xcconfig */,
-				0B80E889C34C6DE79171CE02 /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking-dummy.m */,
-				89E3D3F65C699553247C6D41 /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-AppleWatchSBB WatchKit Extension-AFNetworking";
-			sourceTree = "<group>";
-		};
-		7398563146CC2E9A7CD241EF /* Pods-AppleWatchSBB */ = {
-			isa = PBXGroup;
-			children = (
-				270465E058FB08DB6360113E /* Pods-AppleWatchSBB-acknowledgements.markdown */,
-				8A2F62A263E4E5F8B0294091 /* Pods-AppleWatchSBB-acknowledgements.plist */,
-				67A757B3A57996D51CF4B4D7 /* Pods-AppleWatchSBB-dummy.m */,
-				25AAE66DC3ACA314F58AF85E /* Pods-AppleWatchSBB-environment.h */,
-				F73361978320746F75FF110F /* Pods-AppleWatchSBB-resources.sh */,
-				A89BEDF54DBAD0A7116F9324 /* Pods-AppleWatchSBB.debug.xcconfig */,
-				184D63D00E5F92C18F610E34 /* Pods-AppleWatchSBB.release.xcconfig */,
+				E4795C90E22D2E0EAC4D6B1D /* Pods-AppleWatchSBB-acknowledgements.markdown */,
+				B87E80A9C99DA8B9A6F869FD /* Pods-AppleWatchSBB-acknowledgements.plist */,
+				A86238299BE4F32FE489A654 /* Pods-AppleWatchSBB-dummy.m */,
+				1B24C546035946B5B9956F43 /* Pods-AppleWatchSBB-environment.h */,
+				D7DC5017FB265B35A1AC8521 /* Pods-AppleWatchSBB-resources.sh */,
+				679E373BBC88D90FAAC5C51B /* Pods-AppleWatchSBB.debug.xcconfig */,
+				292247C8783D0FAFF5E09420 /* Pods-AppleWatchSBB.release.xcconfig */,
 			);
 			name = "Pods-AppleWatchSBB";
 			path = "Target Support Files/Pods-AppleWatchSBB";
 			sourceTree = "<group>";
 		};
-		769815DB8039EEE658D19D2E /* iOS */ = {
+		24D79347B2F3497EA294027C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				47894E98959955D741DF2E87 /* CoreGraphics.framework */,
-				AF19C3E14AE478A46BEFDCBC /* Foundation.framework */,
-				EE9B71B52B45613C8DEC561F /* MobileCoreServices.framework */,
-				A0310C6CF617653E9C0DD262 /* Security.framework */,
-				690C87349833882A793EFF77 /* SystemConfiguration.framework */,
-				E852D06BCA185CED953D22A0 /* UIKit.framework */,
+				DD57ADD6893056379E9F8C72 /* Pods-AppleWatchSBB-SimulatorStatusMagic.xcconfig */,
+				E92787657F42399A7071854E /* Pods-AppleWatchSBB-SimulatorStatusMagic-Private.xcconfig */,
+				A3BAC5F678B805B09D14E3A5 /* Pods-AppleWatchSBB-SimulatorStatusMagic-dummy.m */,
+				51B4A6049E0C7B4AA3F50FF8 /* Pods-AppleWatchSBB-SimulatorStatusMagic-prefix.pch */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "../Target Support Files/Pods-AppleWatchSBB-SimulatorStatusMagic";
 			sourceTree = "<group>";
 		};
-		81820A2C3B3C85F1E6F9D32C /* SCLAlertView-Objective-C */ = {
+		2A47792CEAE74361DEF6030B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FA37B6E8663241D1206DC18E /* SCLAlertView.h */,
-				7DEE86F8699D96739FA0D21C /* SCLAlertView.m */,
-				9F6FDE95F3FC32E8D0468668 /* SCLAlertViewResponder.h */,
-				2EF956747226B8DB7117B85D /* SCLAlertViewResponder.m */,
-				ADFC9C64851A761B5E798402 /* SCLAlertViewStyleKit.h */,
-				B2A9B6055E8F3F19C7818EC3 /* SCLAlertViewStyleKit.m */,
-				7DFC3DD7CD326D30CDF21B9E /* SCLButton.h */,
-				96E6FA357E318D9D2A516FCF /* SCLButton.m */,
-				C5F752E853395AA2BCDE7449 /* SCLMacros.h */,
-				AB6B0E297CF3DC75BEB43D01 /* UIImage+ImageEffects.h */,
-				F112EF1340617C9A22ECA1AB /* UIImage+ImageEffects.m */,
-				DBE5DFE40966DFD6FFA3A50B /* Support Files */,
+				51237C158A67CD18C1153D23 /* Pods-acknowledgements.markdown */,
+				A747D3EA2E63DA9400D6C98B /* Pods-acknowledgements.plist */,
+				2D87AA13E375F600EECAB240 /* Pods-dummy.m */,
+				D0E67221037A89F37B725960 /* Pods-environment.h */,
+				7AD64FF933D3F05C381267F8 /* Pods-resources.sh */,
+				FB225F8C40A22771F9B62183 /* Pods.debug.xcconfig */,
+				D137FDC81D888E10220EA46E /* Pods.release.xcconfig */,
 			);
-			path = "SCLAlertView-Objective-C";
+			name = Pods;
+			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
-		97593BE6214471997BCD5106 /* NSURLSession */ = {
+		2EDAF6B6B0C8D5F4DC1346D3 /* NSURLConnection */ = {
 			isa = PBXGroup;
 			children = (
-				A12A64DFF27931637A26799E /* AFHTTPSessionManager.h */,
-				EF05BDFBEDDCDAA2C5EDECB0 /* AFHTTPSessionManager.m */,
-				C4C67F553C5A3F6671CCDCEB /* AFURLSessionManager.h */,
-				2105FEF2629667263E18F7D0 /* AFURLSessionManager.m */,
+				C6D294412C9A55CB9557CE55 /* AFHTTPRequestOperation.h */,
+				B2374A828F5BFF1471C6620D /* AFHTTPRequestOperation.m */,
+				0F01A5E7F1F324A272D98BEA /* AFHTTPRequestOperationManager.h */,
+				DDAD368DDC85736CA9057DBC /* AFHTTPRequestOperationManager.m */,
+				9C08D59F130BBCD1FD1EF302 /* AFURLConnectionOperation.h */,
+				8514D6FA74919231EC280DF6 /* AFURLConnectionOperation.m */,
 			);
-			name = NSURLSession;
+			name = NSURLConnection;
 			sourceTree = "<group>";
 		};
-		9E54309F1843B620BB129B40 = {
+		414703989DD691BEC8218175 /* Serialization */ = {
 			isa = PBXGroup;
 			children = (
-				20E70FA2180F6849F00D6007 /* Podfile */,
-				B7A054B419AD84A383D1E153 /* Frameworks */,
-				F11C21EE24B20A7B7EE41C16 /* Pods */,
-				6170EB263A1C22514F396749 /* Products */,
-				F2ADADC0286559028B904587 /* Targets Support Files */,
+				9368DFCCE0D6F66720422546 /* AFURLRequestSerialization.h */,
+				C636BF92FE6F131FE5B6EB6C /* AFURLRequestSerialization.m */,
+				2814F39D185EC2462FAB5D95 /* AFURLResponseSerialization.h */,
+				29BD970857D4CD382F192CBF /* AFURLResponseSerialization.m */,
 			);
+			name = Serialization;
 			sourceTree = "<group>";
 		};
-		A5C97F43E8F829F0556CDB05 /* UIKit */ = {
+		49A0FF750602562A9C273DC4 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				C6FE8709D5D432F259BD5A41 /* AFNetworkActivityIndicatorManager.h */,
-				73D7C8B9D66DC87A67E089FD /* AFNetworkActivityIndicatorManager.m */,
-				B9FE58B39B8416D06CDF8807 /* UIActivityIndicatorView+AFNetworking.h */,
-				F9A9B7789AA2B20CB0AA0B2D /* UIActivityIndicatorView+AFNetworking.m */,
-				4C3ADCAB43320EB13F838ECA /* UIAlertView+AFNetworking.h */,
-				F5200B149438D64A990ADF05 /* UIAlertView+AFNetworking.m */,
-				DB3C9215ECB0D4339AAA5573 /* UIButton+AFNetworking.h */,
-				6566405C0377ED7E6E745DBB /* UIButton+AFNetworking.m */,
-				A066510AC6CAB427729ACBE6 /* UIImageView+AFNetworking.h */,
-				85614699F6744E7B24D61C57 /* UIImageView+AFNetworking.m */,
-				8ED1D6DC49A85EAD2C047C99 /* UIKit+AFNetworking.h */,
-				E458867CFE3D5C25A9895677 /* UIProgressView+AFNetworking.h */,
-				40BFAA7A29AC308B8178BBE9 /* UIProgressView+AFNetworking.m */,
-				8A1ED04D2BEFEABD6648E44A /* UIRefreshControl+AFNetworking.h */,
-				05CE04175947ADB9579911D3 /* UIRefreshControl+AFNetworking.m */,
-				0A2FCB3F54C17A14C877FE2D /* UIWebView+AFNetworking.h */,
-				FEF8C685CEB2973BECA0318D /* UIWebView+AFNetworking.m */,
+				1D0C247D97A375425DB7A4ED /* AFNetworkActivityIndicatorManager.h */,
+				2C2DC0FE624C5462949140C1 /* AFNetworkActivityIndicatorManager.m */,
+				CAD755937E961EE933990CAA /* UIActivityIndicatorView+AFNetworking.h */,
+				03892D0B713B5222C6A4B7A3 /* UIActivityIndicatorView+AFNetworking.m */,
+				9F7DC20236A250C65C2A2D2F /* UIAlertView+AFNetworking.h */,
+				39E7B82C83EB334790CF2A71 /* UIAlertView+AFNetworking.m */,
+				99AB3ABA1BACB170FEFB3462 /* UIButton+AFNetworking.h */,
+				CC1FE1156B9EA47A733FE359 /* UIButton+AFNetworking.m */,
+				8787075E90474E2CC2D222C5 /* UIImageView+AFNetworking.h */,
+				34EFC3B7ED2AB00783551394 /* UIImageView+AFNetworking.m */,
+				AAF9AF7C5607D19DA5F425DB /* UIKit+AFNetworking.h */,
+				6FC08CF77CCA8BF98BD6853F /* UIProgressView+AFNetworking.h */,
+				8749FCD8B831BE54A767B6C9 /* UIProgressView+AFNetworking.m */,
+				E4615217AB4113261E3619B4 /* UIRefreshControl+AFNetworking.h */,
+				40B8F545AE901581F9A4D4CC /* UIRefreshControl+AFNetworking.m */,
+				22B2A68A596FE5150E2B4F39 /* UIWebView+AFNetworking.h */,
+				0661EFC169FE12A93ACAF462 /* UIWebView+AFNetworking.m */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
 		};
-		B7A054B419AD84A383D1E153 /* Frameworks */ = {
+		4C1C103AAEFAAFD148A40A98 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				769815DB8039EEE658D19D2E /* iOS */,
+				6EE88773FC9AFB572D17F4AB /* libPods.a */,
+				B4EEB2CC15F4FB1598762BE3 /* libPods-AppleWatchSBB.a */,
+				8E4B516C743F39B58D299FB1 /* libPods-AppleWatchSBB WatchKit Extension.a */,
+				3C1000937B18EBB66416711C /* libPods-AppleWatchSBB WatchKit Extension-AFNetworking.a */,
+				BF8F26B3935B435427B6083F /* libPods-AppleWatchSBB WatchKit Extension-MediaRSSParser.a */,
+				005068D4897E70D548B461EF /* libPods-AppleWatchSBB WatchKit Extension-UICocoapodsLib.a */,
+				50BC94A3F92FE47F805C9DED /* libPods-AppleWatchSBB-SCLAlertView-Objective-C.a */,
+				646A9AFCE76DBDBA66BF89C1 /* libPods-AppleWatchSBB-SimulatorStatusMagic.a */,
+				76356DC23997E3ADCA5CB493 /* libPods-AppleWatchSBB-UICocoapodsLib.a */,
+				004B6E9C121D9B28AE2B39D2 /* libPods-UICocoapodsLib.a */,
 			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		D87FE71010D831B09A49696F /* Security */ = {
+		4C5FCCAB7E077EAF43E44862 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4DC81CA7054F994071AA3D9B /* AFSecurityPolicy.h */,
-				2B4644C94EAD0D741309A44F /* AFSecurityPolicy.m */,
+				A75D9868B16C2D2E7A46B5DE /* Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser.xcconfig */,
+				9242F75D09DF813EBDB9F872 /* Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser-Private.xcconfig */,
+				CB0CF24F760933E19B8B014D /* Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser-dummy.m */,
+				F776A79FB12D93FC7715C724 /* Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser";
+			sourceTree = "<group>";
+		};
+		55F92CFE933F50EF5074BD8A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FD9704B1BCDAD443F470ADCB /* CoreGraphics.framework */,
+				96DAC47E4D7AC6F6ED708A38 /* Foundation.framework */,
+				D9FD77CDF88602A4358D5D45 /* MobileCoreServices.framework */,
+				39F564DB7D323DDA6AEF7934 /* Security.framework */,
+				86FB4702EABC1806B493F856 /* SystemConfiguration.framework */,
+				ED2B3FFE77E5F06A280B8107 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		59783F84E7CCD49B33670C33 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AC52A0F8942DA4A6A464EC9 /* Pods-AppleWatchSBB WatchKit Extension-UICocoapodsLib.xcconfig */,
+				35C0AB465DE7A16D8B2A41AD /* Pods-AppleWatchSBB WatchKit Extension-UICocoapodsLib-Private.xcconfig */,
+				B0ED00F8CFF7E537A5B84721 /* Pods-AppleWatchSBB WatchKit Extension-UICocoapodsLib-dummy.m */,
+				073E9EC209CBCBC1258ED557 /* Pods-AppleWatchSBB WatchKit Extension-UICocoapodsLib-prefix.pch */,
+				94E93FEC86333D5B6EAB1FA3 /* Pods-AppleWatchSBB-UICocoapodsLib.xcconfig */,
+				3D25A19FC6C96B96269EC4D5 /* Pods-AppleWatchSBB-UICocoapodsLib-Private.xcconfig */,
+				C495745606D89352A0BE2192 /* Pods-AppleWatchSBB-UICocoapodsLib-dummy.m */,
+				FE88F924EE349B531AB1F9E3 /* Pods-AppleWatchSBB-UICocoapodsLib-prefix.pch */,
+				25EC08BB3BC424D7B48A60F6 /* Pods-UICocoapodsLib.xcconfig */,
+				4CB402B8B0F188B1BADB25C3 /* Pods-UICocoapodsLib-Private.xcconfig */,
+				E78E4DED8743E615DDCEB0AC /* Pods-UICocoapodsLib-dummy.m */,
+				34C82748E36EE8000B711FFC /* Pods-UICocoapodsLib-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-AppleWatchSBB WatchKit Extension-UICocoapodsLib";
+			sourceTree = "<group>";
+		};
+		7E48258062B6B3E85FDB6DDD /* MediaRSSParser */ = {
+			isa = PBXGroup;
+			children = (
+				AA3B0EB2E11AB5803985C4C1 /* GTMNSString+HTML.h */,
+				EC1B3C7709F7BABBD4DA70D3 /* GTMNSString+HTML.m */,
+				DA309803CB282070E49551F6 /* MediaRSSModels.h */,
+				2AA41BDDD79E6843727E7C9C /* MediaRSSParser.h */,
+				EF722C84D8330288564C01BF /* NSString+HTML.h */,
+				2B2E1B61A89EF2377BCDBF43 /* NSString+HTML.m */,
+				DC6FBB0F73373E46216FDBD5 /* RSSChannel.h */,
+				E47587D286EE3CE061A9B3C3 /* RSSChannel.m */,
+				46880F7DDB9A9EF1FA6E7BF6 /* RSSItem.h */,
+				5E10F9F36E9183B9B4AD6AAC /* RSSItem.m */,
+				673A6ED5A3D7ED76979BEE6E /* RSSMediaContent.h */,
+				2FED203F76EB1CD3E3BC4AC3 /* RSSMediaContent.m */,
+				906DB3AE97A0FB03DD439175 /* RSSMediaCredit.h */,
+				AB2EF0187FC2D4C6358BB141 /* RSSMediaCredit.m */,
+				70B93E8FB8DB7F8BA26124E7 /* RSSMediaThumbnail.h */,
+				FAA30407C15C685CD3C43664 /* RSSMediaThumbnail.m */,
+				F135CADA322BA0E3E78FA341 /* RSSParser.h */,
+				652A10E93F586B14C0FDC84A /* RSSParser.m */,
+				3282763A1C17398B2B4B3234 /* RSSParser_Protected.h */,
+				4C5FCCAB7E077EAF43E44862 /* Support Files */,
+			);
+			path = MediaRSSParser;
+			sourceTree = "<group>";
+		};
+		8932BD6E64DB828D164C689E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A47792CEAE74361DEF6030B /* Pods */,
+				04031C1450868905992C03D5 /* Pods-AppleWatchSBB */,
+				B6C43303E015428BBFEB01DE /* Pods-AppleWatchSBB WatchKit Extension */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8F75E9AD189ED4B881A65464 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA1DA5D6A3729423CB1AF578 /* AFNetworking */,
+				7E48258062B6B3E85FDB6DDD /* MediaRSSParser */,
+				B6A171A46F93E26C504A564A /* SCLAlertView-Objective-C */,
+				ADEB10860798E89604FFF12F /* SimulatorStatusMagic */,
+				9D2FF32F8D9AF67EB9E266BE /* UICocoapodsLib */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D2FF32F8D9AF67EB9E266BE /* UICocoapodsLib */ = {
+			isa = PBXGroup;
+			children = (
+				DC17D2BD21D08E63F123A8F6 /* UICocoapodsLib.h */,
+				25C9BADF296D6419802B90CC /* UICocoapodsLib.m */,
+				59783F84E7CCD49B33670C33 /* Support Files */,
+			);
+			path = UICocoapodsLib;
+			sourceTree = "<group>";
+		};
+		9F820A3B8195D35CCAE10FED = {
+			isa = PBXGroup;
+			children = (
+				1DFBC5A28630FB606F712009 /* Podfile */,
+				D46652B316D9B99FDD2ED662 /* Frameworks */,
+				8F75E9AD189ED4B881A65464 /* Pods */,
+				4C1C103AAEFAAFD148A40A98 /* Products */,
+				8932BD6E64DB828D164C689E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A3A6E842622054676B943758 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				FA2BCF0C3E2CDB6A06EBB5A3 /* AFSecurityPolicy.h */,
+				4778D222BB8D086DE1580746 /* AFSecurityPolicy.m */,
 			);
 			name = Security;
 			sourceTree = "<group>";
 		};
-		DBE5DFE40966DFD6FFA3A50B /* Support Files */ = {
+		AAFB6370BB74F738B1A5A0A7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				973FF2E8E2E91259D88D6FCB /* Pods-AppleWatchSBB-SCLAlertView-Objective-C.xcconfig */,
-				D05FDB4F3066C34F67490E01 /* Pods-AppleWatchSBB-SCLAlertView-Objective-C-Private.xcconfig */,
-				47316B2706F125BB41DBC74A /* Pods-AppleWatchSBB-SCLAlertView-Objective-C-dummy.m */,
-				7923971E4C14D1A9403BFC1E /* Pods-AppleWatchSBB-SCLAlertView-Objective-C-prefix.pch */,
+				3B1981A05AA9B2A10DB03A94 /* Pods-AppleWatchSBB-SCLAlertView-Objective-C.xcconfig */,
+				811301A320CC20FD566C0A1B /* Pods-AppleWatchSBB-SCLAlertView-Objective-C-Private.xcconfig */,
+				8679AA7A5A60CDC0FF4DECCB /* Pods-AppleWatchSBB-SCLAlertView-Objective-C-dummy.m */,
+				15F1F37F6828CB98B4B29A39 /* Pods-AppleWatchSBB-SCLAlertView-Objective-C-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-AppleWatchSBB-SCLAlertView-Objective-C";
 			sourceTree = "<group>";
 		};
-		E570AA2FE9CFCAD5A8AA4418 /* Pods-AppleWatchSBB WatchKit Extension */ = {
+		ADEB10860798E89604FFF12F /* SimulatorStatusMagic */ = {
 			isa = PBXGroup;
 			children = (
-				F52F0F247D2B3BAEB2291E5B /* Pods-AppleWatchSBB WatchKit Extension-acknowledgements.markdown */,
-				EF1234E96F16C54FC6084813 /* Pods-AppleWatchSBB WatchKit Extension-acknowledgements.plist */,
-				1487F77C8EE7F5DD605074A4 /* Pods-AppleWatchSBB WatchKit Extension-dummy.m */,
-				751F94DA7459D0205773DD50 /* Pods-AppleWatchSBB WatchKit Extension-environment.h */,
-				A63E3B30F18E9FC1B8D37538 /* Pods-AppleWatchSBB WatchKit Extension-resources.sh */,
-				E7E7A1FE1FAEA9D7F674E16A /* Pods-AppleWatchSBB WatchKit Extension.debug.xcconfig */,
-				3BA9178B7C50414A462E91C5 /* Pods-AppleWatchSBB WatchKit Extension.release.xcconfig */,
+				154459B2DF224F97CD25F3E8 /* SDStatusBarManager.h */,
+				7E76719D93E93A65FA5F09F4 /* SDStatusBarManager.m */,
+				0434985724C543318E51D070 /* SDStatusBarOverrider.h */,
+				FCBE817A4CD11052227FFE1B /* SDStatusBarOverriderPost8_3.h */,
+				9DD5A815F756A4BE4200ACBE /* SDStatusBarOverriderPost8_3.m */,
+				E59B38C62FB226E1123631F9 /* SDStatusBarOverriderPre8_3.h */,
+				72455A1822DF772D457325BD /* SDStatusBarOverriderPre8_3.m */,
+				24D79347B2F3497EA294027C /* Support Files */,
+			);
+			path = SimulatorStatusMagic;
+			sourceTree = "<group>";
+		};
+		AFCB77C816E7BD2C655FFEF5 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				CD91F0D052CE168D895DC188 /* AFHTTPSessionManager.h */,
+				17A4AB4584B3E424F4E1DEE3 /* AFHTTPSessionManager.m */,
+				52C0C8B55337A5B1BC61BAF1 /* AFURLSessionManager.h */,
+				3B1565C283AEA235A8122D09 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		B6A171A46F93E26C504A564A /* SCLAlertView-Objective-C */ = {
+			isa = PBXGroup;
+			children = (
+				A7EB461B4B6F6C699F4C34E6 /* SCLAlertView.h */,
+				E4681B09230D319D212CAAB3 /* SCLAlertView.m */,
+				81E0CC062FF247BE326D7FC3 /* SCLAlertViewResponder.h */,
+				4148105878BAA3166A095881 /* SCLAlertViewResponder.m */,
+				50EAD91950AD743A347AFE42 /* SCLAlertViewStyleKit.h */,
+				D7784421F7578ED8332B49DC /* SCLAlertViewStyleKit.m */,
+				CE8C3CCA4FDFF8AFD8E1DDF5 /* SCLButton.h */,
+				DC51A12D4A3788D3E2D24979 /* SCLButton.m */,
+				9D0D7F43DAA3BFF46CDE9325 /* SCLMacros.h */,
+				039C66C295E68EABCF7A6791 /* UIImage+ImageEffects.h */,
+				F4315C0EF12C3501FD8A46D7 /* UIImage+ImageEffects.m */,
+				AAFB6370BB74F738B1A5A0A7 /* Support Files */,
+			);
+			path = "SCLAlertView-Objective-C";
+			sourceTree = "<group>";
+		};
+		B6C43303E015428BBFEB01DE /* Pods-AppleWatchSBB WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F51BEA1701A70753C7FEA5E7 /* Pods-AppleWatchSBB WatchKit Extension-acknowledgements.markdown */,
+				E55D62220F7E8918FEC2156F /* Pods-AppleWatchSBB WatchKit Extension-acknowledgements.plist */,
+				1FD9EBA2A5EAD0C36A667E2C /* Pods-AppleWatchSBB WatchKit Extension-dummy.m */,
+				8778065B5B5FA859ECC4F0A4 /* Pods-AppleWatchSBB WatchKit Extension-environment.h */,
+				9348120BBEF4D18F493363C7 /* Pods-AppleWatchSBB WatchKit Extension-resources.sh */,
+				36982AC6881F1C5B9EB1D855 /* Pods-AppleWatchSBB WatchKit Extension.debug.xcconfig */,
+				4B545043F0328B8A4DCC4D06 /* Pods-AppleWatchSBB WatchKit Extension.release.xcconfig */,
 			);
 			name = "Pods-AppleWatchSBB WatchKit Extension";
 			path = "Target Support Files/Pods-AppleWatchSBB WatchKit Extension";
 			sourceTree = "<group>";
 		};
-		EDE63C65ECD0113C3A0F4FA1 /* AFNetworking */ = {
+		BA1DA5D6A3729423CB1AF578 /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				45001C64EABF746AF6BE1717 /* AFNetworking.h */,
-				16CB89DA79E6A2F46CB8E725 /* NSURLConnection */,
-				97593BE6214471997BCD5106 /* NSURLSession */,
-				026E1BCA8E49EE707D50DC6E /* Reachability */,
-				D87FE71010D831B09A49696F /* Security */,
-				056656545EDABB3DFD5FF4B6 /* Serialization */,
-				7053704BFDE708F09A8BEE1E /* Support Files */,
-				A5C97F43E8F829F0556CDB05 /* UIKit */,
+				BB45A2EB05687336777DCC53 /* AFNetworking.h */,
+				2EDAF6B6B0C8D5F4DC1346D3 /* NSURLConnection */,
+				AFCB77C816E7BD2C655FFEF5 /* NSURLSession */,
+				BD585AD90AF81F46D4398C71 /* Reachability */,
+				A3A6E842622054676B943758 /* Security */,
+				414703989DD691BEC8218175 /* Serialization */,
+				E2552ADAF330AC542820DB5F /* Support Files */,
+				49A0FF750602562A9C273DC4 /* UIKit */,
 			);
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
-		F11C21EE24B20A7B7EE41C16 /* Pods */ = {
+		BD585AD90AF81F46D4398C71 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				EDE63C65ECD0113C3A0F4FA1 /* AFNetworking */,
-				F61A0E86579495C9126DBF96 /* MediaRSSParser */,
-				81820A2C3B3C85F1E6F9D32C /* SCLAlertView-Objective-C */,
-				6FBBD64FAE92B1B52DADEAE4 /* SimulatorStatusMagic */,
+				BBD778BECF2410B51DC1CB14 /* AFNetworkReachabilityManager.h */,
+				47AF61895151BCA988200E45 /* AFNetworkReachabilityManager.m */,
 			);
-			name = Pods;
+			name = Reachability;
 			sourceTree = "<group>";
 		};
-		F2ADADC0286559028B904587 /* Targets Support Files */ = {
+		D46652B316D9B99FDD2ED662 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7398563146CC2E9A7CD241EF /* Pods-AppleWatchSBB */,
-				E570AA2FE9CFCAD5A8AA4418 /* Pods-AppleWatchSBB WatchKit Extension */,
+				55F92CFE933F50EF5074BD8A /* iOS */,
 			);
-			name = "Targets Support Files";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F61A0E86579495C9126DBF96 /* MediaRSSParser */ = {
+		E2552ADAF330AC542820DB5F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0A41DA9CE9519E6A49CB0D02 /* GTMNSString+HTML.h */,
-				C3EA727EE77641ED87DEF0F5 /* GTMNSString+HTML.m */,
-				6EDCE04934E4A99472FDBB31 /* MediaRSSModels.h */,
-				B4E6DC166FEA45DECE1E7ADF /* MediaRSSParser.h */,
-				CB15E9290FF209D6E3C95022 /* NSString+HTML.h */,
-				56964F9D709ABCDE3F4831F9 /* NSString+HTML.m */,
-				51F67ABA45668437B1B0815F /* RSSChannel.h */,
-				FC60DC724E99B49CA745BD38 /* RSSChannel.m */,
-				BA60246A5CFF8CD5A86000AF /* RSSItem.h */,
-				9DB301FDCC5D6AF59664D79D /* RSSItem.m */,
-				CC199E074F0F2BE16F90415C /* RSSMediaContent.h */,
-				D9CA5B58986D883318808C52 /* RSSMediaContent.m */,
-				18C59B2B80DF47005859B5F8 /* RSSMediaCredit.h */,
-				F40CF45496ED2BB5F206E3D5 /* RSSMediaCredit.m */,
-				33437B95A8F51D07E44292C8 /* RSSMediaThumbnail.h */,
-				A227A79614820DA1664C9D7E /* RSSMediaThumbnail.m */,
-				2314B2DE22396BF332A72B3E /* RSSParser.h */,
-				DF911F24C6A659383F8BA5A9 /* RSSParser.m */,
-				D9A867474C9A281E2F6EFB54 /* RSSParser_Protected.h */,
-				0CD0F695F1CE90B300E81AC3 /* Support Files */,
+				17655EA485793789EDCEB39D /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking.xcconfig */,
+				EB3612A2F140CDD550364C54 /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking-Private.xcconfig */,
+				D52799D8C90233C4E78ECC23 /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking-dummy.m */,
+				0A8F9CE628ED6A569F0F21FC /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking-prefix.pch */,
 			);
-			path = MediaRSSParser;
+			name = "Support Files";
+			path = "../Target Support Files/Pods-AppleWatchSBB WatchKit Extension-AFNetworking";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1046AA9E48DDE8CCC6EA2922 /* Headers */ = {
+		1530311557D10174687C19B0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E73D32FA2AEC117B1E70354F /* GTMNSString+HTML.h in Headers */,
-				A02711CAACFF21CDF30A59A5 /* MediaRSSModels.h in Headers */,
-				96ADA251236BB2D6688C99AC /* MediaRSSParser.h in Headers */,
-				D3BB21CC697830164D361FDD /* NSString+HTML.h in Headers */,
-				FF2C56DE0D0181182F35A9B5 /* RSSChannel.h in Headers */,
-				CDB6A6E43155EE9A506F4FB4 /* RSSItem.h in Headers */,
-				CBC56A04ADDC96727BE6B1A3 /* RSSMediaContent.h in Headers */,
-				80CF039B187DF105F9C883D2 /* RSSMediaCredit.h in Headers */,
-				A63517FC80876A17D8BBDF1D /* RSSMediaThumbnail.h in Headers */,
-				81EB24785F917F963415A393 /* RSSParser.h in Headers */,
-				FA2050F0F7FB2ECC7568A2EA /* RSSParser_Protected.h in Headers */,
+				F313B544A1635EDFDFC8CC88 /* UICocoapodsLib.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		69982DDB07404FDD790AEEDC /* Headers */ = {
+		3C1DAD8EC192E75DCF468D41 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D8B6A2AE82A300407A17F9C /* SDStatusBarManager.h in Headers */,
-				B153AF3904BA98915F8E0E3E /* SDStatusBarOverrider.h in Headers */,
-				1355A1743E50D013A28ADD6D /* SDStatusBarOverriderPost8_3.h in Headers */,
-				1DF5D3E07D87E3A20EEAB4E1 /* SDStatusBarOverriderPre8_3.h in Headers */,
+				2684346FDC3196CFDB479455 /* SDStatusBarManager.h in Headers */,
+				3FB375E53E4DA8BFA86B8C7C /* SDStatusBarOverrider.h in Headers */,
+				7F106FDC47EC98435B3E345C /* SDStatusBarOverriderPost8_3.h in Headers */,
+				BF4701CC9BDBBC8907C268ED /* SDStatusBarOverriderPre8_3.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7B5019332F82A8599918AA5 /* Headers */ = {
+		BC1B6ED447FEDBF5E71B07A5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B8C4B79B53C92984B10F45C /* AFHTTPRequestOperation.h in Headers */,
-				3C10F2EFBC04D3D0C9551287 /* AFHTTPRequestOperationManager.h in Headers */,
-				174B35E57C6668134A18F737 /* AFHTTPSessionManager.h in Headers */,
-				6E0891D82F6E8AB13C71B516 /* AFNetworkActivityIndicatorManager.h in Headers */,
-				5986132594BD9AA4ABA83659 /* AFNetworkReachabilityManager.h in Headers */,
-				C0A41C65B71A89FED63A94CD /* AFNetworking.h in Headers */,
-				F3BD7BF7F91ED255D6E5DC7C /* AFSecurityPolicy.h in Headers */,
-				EED4B5B29FEAC9AFA02C3A01 /* AFURLConnectionOperation.h in Headers */,
-				112CBD9D52FB037FAACF82F7 /* AFURLRequestSerialization.h in Headers */,
-				609F81EC0281A434278380A1 /* AFURLResponseSerialization.h in Headers */,
-				616F525CFD52DEFFDCC6B50F /* AFURLSessionManager.h in Headers */,
-				14922E5E1306D26BF11AEEC7 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
-				EBCD6FB5BFFF934B35A1C5DA /* UIAlertView+AFNetworking.h in Headers */,
-				A1980A30D3237E2AFE73D000 /* UIButton+AFNetworking.h in Headers */,
-				262FD59B587C1C800FF5C4CE /* UIImageView+AFNetworking.h in Headers */,
-				A5AB96F66F5E29D734E815DD /* UIKit+AFNetworking.h in Headers */,
-				CE1C33888D339755C48BF5F3 /* UIProgressView+AFNetworking.h in Headers */,
-				727E0A3BC3CD4CD87306B077 /* UIRefreshControl+AFNetworking.h in Headers */,
-				4379F3E8C7036ED2CE128FA5 /* UIWebView+AFNetworking.h in Headers */,
+				208B51F12A0E1DCC95CB4048 /* AFHTTPRequestOperation.h in Headers */,
+				BDD9F0E91C5F9AF24786344C /* AFHTTPRequestOperationManager.h in Headers */,
+				D687542B18B5D189C588496A /* AFHTTPSessionManager.h in Headers */,
+				EECC66D5DCAF04771377B0F9 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				80221BA49CEF6C2FB817684C /* AFNetworkReachabilityManager.h in Headers */,
+				26E45857B0A3A97C20380F0E /* AFNetworking.h in Headers */,
+				4874995B0AFECDCCECE79DDB /* AFSecurityPolicy.h in Headers */,
+				D2AC5DB4C89C4BC7DD3D4D59 /* AFURLConnectionOperation.h in Headers */,
+				26BAC8CE46923EE13BA26463 /* AFURLRequestSerialization.h in Headers */,
+				78909F3E4E1113D7C84DE39B /* AFURLResponseSerialization.h in Headers */,
+				7242D5D2BEA68A0EF7E506FE /* AFURLSessionManager.h in Headers */,
+				7D760621C82A64DD91C08DCF /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				7A03D7FD03CB43B457256547 /* UIAlertView+AFNetworking.h in Headers */,
+				CC1D4EC28A5BF05E0EB87F32 /* UIButton+AFNetworking.h in Headers */,
+				C1986CA85D383E8DED5B087E /* UIImageView+AFNetworking.h in Headers */,
+				ABDEDDAA649BD449D36933C0 /* UIKit+AFNetworking.h in Headers */,
+				39FFC485EABB05DFAB422705 /* UIProgressView+AFNetworking.h in Headers */,
+				12A947ED7F61CDA84C278E1B /* UIRefreshControl+AFNetworking.h in Headers */,
+				E7540422C06380C91B37B986 /* UIWebView+AFNetworking.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F364833BF7A50F8AF50A2546 /* Headers */ = {
+		C2A3A51D2FBB75E36E67C2B0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				911E1CB61CAC0AAB4BEFAC25 /* SCLAlertView.h in Headers */,
-				63BA2D3B3C9A9B1FC1151055 /* SCLAlertViewResponder.h in Headers */,
-				5D62040049A594D05411DC42 /* SCLAlertViewStyleKit.h in Headers */,
-				25A5CA1D165DA283B78B4A2A /* SCLButton.h in Headers */,
-				91C2A4A3E7CA9B0E31091D7D /* SCLMacros.h in Headers */,
-				5223A5CF9657BB6DB8391022 /* UIImage+ImageEffects.h in Headers */,
+				86586F34A90E7E5571F0859B /* UICocoapodsLib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2004BB5322CAD87F3DC371 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089C2E91510D937C5A00148E /* SCLAlertView.h in Headers */,
+				E0E69A13301CF3DB5F0447CA /* SCLAlertViewResponder.h in Headers */,
+				97774656DB4A3F0E7BD2B423 /* SCLAlertViewStyleKit.h in Headers */,
+				98F6A5DF343CF4292EB3F419 /* SCLButton.h in Headers */,
+				9F7FDC30E0894BABB3D248BB /* SCLMacros.h in Headers */,
+				B154672FD32951E8A61EB83F /* UIImage+ImageEffects.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC07DA613E0913628966E2BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B89073076ACEAA7A76D3B33 /* GTMNSString+HTML.h in Headers */,
+				2B4C73FB432FC810A584C891 /* MediaRSSModels.h in Headers */,
+				AA2BA6DAE45255F7A8876923 /* MediaRSSParser.h in Headers */,
+				E3C35C6FF0314190E386FAD2 /* NSString+HTML.h in Headers */,
+				3A9B2401AFECDBE1BCB96CF5 /* RSSChannel.h in Headers */,
+				44C682B1D4342A6E3F81BAFB /* RSSItem.h in Headers */,
+				96E6C65842AF190A76F1B901 /* RSSMediaContent.h in Headers */,
+				8D440CB77B5BF945E20F465E /* RSSMediaCredit.h in Headers */,
+				DCE0E838A1B676D2DB64FC25 /* RSSMediaThumbnail.h in Headers */,
+				BCBC41E91E0875E870769EF1 /* RSSParser.h in Headers */,
+				8C51CC54AD2C96756D88083E /* RSSParser_Protected.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A2636608DD805536E1CD2F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3C2779906047B68BDEC939 /* UICocoapodsLib.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2D26EFFDE1C40EE295C6AA4B /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking */ = {
+		0093675B0A5146446D5FC79C /* Pods-AppleWatchSBB-UICocoapodsLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E2E0B98750E17A8428C56EB0 /* Build configuration list for PBXNativeTarget "Pods-AppleWatchSBB WatchKit Extension-AFNetworking" */;
+			buildConfigurationList = 2473AA78D4A448005472ABA1 /* Build configuration list for PBXNativeTarget "Pods-AppleWatchSBB-UICocoapodsLib" */;
 			buildPhases = (
-				26B276E819157CF10885ACAE /* Sources */,
-				9E22A7DFA190C6D46576A517 /* Frameworks */,
-				C7B5019332F82A8599918AA5 /* Headers */,
+				0DC58B7A1C7B62D51B5F0FD5 /* Sources */,
+				ACF575C8B39D75679534818D /* Frameworks */,
+				1530311557D10174687C19B0 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-AppleWatchSBB WatchKit Extension-AFNetworking";
-			productName = "Pods-AppleWatchSBB WatchKit Extension-AFNetworking";
-			productReference = A4419E6C89E85DE257155839 /* libPods-AppleWatchSBB WatchKit Extension-AFNetworking.a */;
+			name = "Pods-AppleWatchSBB-UICocoapodsLib";
+			productName = "Pods-AppleWatchSBB-UICocoapodsLib";
+			productReference = 76356DC23997E3ADCA5CB493 /* libPods-AppleWatchSBB-UICocoapodsLib.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		3B0C75EF3ED16772171D0A98 /* Pods-AppleWatchSBB WatchKit Extension */ = {
+		4AD61077CCDCF0EE3EC4968E /* Pods-AppleWatchSBB WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43349414B40A204F28E9ECF9 /* Build configuration list for PBXNativeTarget "Pods-AppleWatchSBB WatchKit Extension" */;
+			buildConfigurationList = 1E1884C6C4CC55C95AE924A0 /* Build configuration list for PBXNativeTarget "Pods-AppleWatchSBB WatchKit Extension" */;
 			buildPhases = (
-				8C98127C2CB5F40D317184CB /* Sources */,
-				CD39DC7807E33FBDA3F1D84D /* Frameworks */,
+				B26E5592BDB22DE1AEB6F35E /* Sources */,
+				27B2B783132797956E5E432D /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				24C0794C7114B7CA74BD6731 /* PBXTargetDependency */,
-				9C36B58215E7D223A86BFC98 /* PBXTargetDependency */,
+				D49FC12792EC993890BFF09A /* PBXTargetDependency */,
+				C902340F73DDCB48CDEE029B /* PBXTargetDependency */,
+				AA816A5DC7FF646EC39721E9 /* PBXTargetDependency */,
 			);
 			name = "Pods-AppleWatchSBB WatchKit Extension";
 			productName = "Pods-AppleWatchSBB WatchKit Extension";
-			productReference = 31BD93721799219A0942EFCE /* libPods-AppleWatchSBB WatchKit Extension.a */;
+			productReference = 8E4B516C743F39B58D299FB1 /* libPods-AppleWatchSBB WatchKit Extension.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		8BEC53B5563790860C84F14D /* Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser */ = {
+		4F0BCC5EF071BBD7EA85E654 /* Pods-AppleWatchSBB-SCLAlertView-Objective-C */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE3F7182FA716A69C5CF2FB6 /* Build configuration list for PBXNativeTarget "Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser" */;
+			buildConfigurationList = 4A81005929A6442DB77E8AA8 /* Build configuration list for PBXNativeTarget "Pods-AppleWatchSBB-SCLAlertView-Objective-C" */;
 			buildPhases = (
-				26D9915A43E1A3D9D507CB7C /* Sources */,
-				49856E1EE27E272C0647236D /* Frameworks */,
-				1046AA9E48DDE8CCC6EA2922 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0FE51914B160E3DECF8E020A /* PBXTargetDependency */,
-			);
-			name = "Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser";
-			productName = "Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser";
-			productReference = FEF985C9515FA08DA199BA38 /* libPods-AppleWatchSBB WatchKit Extension-MediaRSSParser.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		BD7D4B3B8C34C5FD15A7490F /* Pods-AppleWatchSBB */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A98A949599ABEE6EFD05E745 /* Build configuration list for PBXNativeTarget "Pods-AppleWatchSBB" */;
-			buildPhases = (
-				38DFDD6E03883509576A1ED2 /* Sources */,
-				CA82A783CF4EFC11DF5D793A /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7DD4444A9B657AB37024208D /* PBXTargetDependency */,
-				5312B0164757F1C4BAE4603E /* PBXTargetDependency */,
-			);
-			name = "Pods-AppleWatchSBB";
-			productName = "Pods-AppleWatchSBB";
-			productReference = 0AFB1589C930BC4406343FFE /* libPods-AppleWatchSBB.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		D47E1FBFE4AE8A98A050FD00 /* Pods-AppleWatchSBB-SCLAlertView-Objective-C */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D5ACBEBD2E32E59E8BCBB163 /* Build configuration list for PBXNativeTarget "Pods-AppleWatchSBB-SCLAlertView-Objective-C" */;
-			buildPhases = (
-				52CA033D874D1C2933A21E30 /* Sources */,
-				B603A8D7251D8CB06B5191BC /* Frameworks */,
-				F364833BF7A50F8AF50A2546 /* Headers */,
+				448FAEB6539FD4DF5A8D6980 /* Sources */,
+				850FAE7C9B87F3930C46853D /* Frameworks */,
+				CF2004BB5322CAD87F3DC371 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -768,16 +900,34 @@
 			);
 			name = "Pods-AppleWatchSBB-SCLAlertView-Objective-C";
 			productName = "Pods-AppleWatchSBB-SCLAlertView-Objective-C";
-			productReference = 3CB60C6A007CC538F7BC7872 /* libPods-AppleWatchSBB-SCLAlertView-Objective-C.a */;
+			productReference = 50BC94A3F92FE47F805C9DED /* libPods-AppleWatchSBB-SCLAlertView-Objective-C.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		D9A12ED90378AA006A238ABA /* Pods-AppleWatchSBB-SimulatorStatusMagic */ = {
+		508B63988E1D100614B37268 /* Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE53A55E6262DB423EB995EE /* Build configuration list for PBXNativeTarget "Pods-AppleWatchSBB-SimulatorStatusMagic" */;
+			buildConfigurationList = 32A1C076A60956558212FED8 /* Build configuration list for PBXNativeTarget "Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser" */;
 			buildPhases = (
-				14BA5DB10338AA3DD89EA4A8 /* Sources */,
-				31A3FEB25B97D8E38C8ADE15 /* Frameworks */,
-				69982DDB07404FDD790AEEDC /* Headers */,
+				2A845FBD77269C3D5FB44BFE /* Sources */,
+				FA2F434FA27671AD1EFCD253 /* Frameworks */,
+				DC07DA613E0913628966E2BD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DD348D826F53DAD12956A80 /* PBXTargetDependency */,
+			);
+			name = "Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser";
+			productName = "Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser";
+			productReference = BF8F26B3935B435427B6083F /* libPods-AppleWatchSBB WatchKit Extension-MediaRSSParser.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		58558158203EEB939A986517 /* Pods-AppleWatchSBB-SimulatorStatusMagic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F170897510131C1CDB7398F /* Build configuration list for PBXNativeTarget "Pods-AppleWatchSBB-SimulatorStatusMagic" */;
+			buildPhases = (
+				A7BE5CFEF25B559CA0E222F8 /* Sources */,
+				357AA1C062C2FD1B698E6DAC /* Frameworks */,
+				3C1DAD8EC192E75DCF468D41 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -785,164 +935,308 @@
 			);
 			name = "Pods-AppleWatchSBB-SimulatorStatusMagic";
 			productName = "Pods-AppleWatchSBB-SimulatorStatusMagic";
-			productReference = 13CD49F08DECEBC93546511E /* libPods-AppleWatchSBB-SimulatorStatusMagic.a */;
+			productReference = 646A9AFCE76DBDBA66BF89C1 /* libPods-AppleWatchSBB-SimulatorStatusMagic.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		68EBDADB7B45A13FD06D2CFF /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FEB91B354264DADB11FEDF2 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				6621B1B7F6CB9415DCDC9831 /* Sources */,
+				EF0F6674F78CC63E76143A8C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A0B705F2946797D021CAFEB /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 6EE88773FC9AFB572D17F4AB /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7D5E847FA077679261618775 /* Pods-UICocoapodsLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBFD149285803204EA76D7E8 /* Build configuration list for PBXNativeTarget "Pods-UICocoapodsLib" */;
+			buildPhases = (
+				2D2AC702E113A399B196FE1B /* Sources */,
+				3024803E54F0B9A2762CB075 /* Frameworks */,
+				F3A2636608DD805536E1CD2F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-UICocoapodsLib";
+			productName = "Pods-UICocoapodsLib";
+			productReference = 004B6E9C121D9B28AE2B39D2 /* libPods-UICocoapodsLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		85C37BE49F159BAB85C91A5D /* Pods-AppleWatchSBB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71E13A5B716445B0F3B63B5D /* Build configuration list for PBXNativeTarget "Pods-AppleWatchSBB" */;
+			buildPhases = (
+				A5AAB333B7F1FFA264210E0B /* Sources */,
+				C721076354E2573907713FCE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08D572053761FADC621FD931 /* PBXTargetDependency */,
+				6E31C34BF8D0DFDA7401377E /* PBXTargetDependency */,
+				1663C8569D3D2BA1552D8817 /* PBXTargetDependency */,
+			);
+			name = "Pods-AppleWatchSBB";
+			productName = "Pods-AppleWatchSBB";
+			productReference = B4EEB2CC15F4FB1598762BE3 /* libPods-AppleWatchSBB.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C1BDDF139611770E44999EB0 /* Pods-AppleWatchSBB WatchKit Extension-UICocoapodsLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36B79AC5D030A17EE74CE449 /* Build configuration list for PBXNativeTarget "Pods-AppleWatchSBB WatchKit Extension-UICocoapodsLib" */;
+			buildPhases = (
+				83E3FEE462AB35F47A34B09D /* Sources */,
+				2FF3362C93ECAD9119C8A256 /* Frameworks */,
+				C2A3A51D2FBB75E36E67C2B0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AppleWatchSBB WatchKit Extension-UICocoapodsLib";
+			productName = "Pods-AppleWatchSBB WatchKit Extension-UICocoapodsLib";
+			productReference = 005068D4897E70D548B461EF /* libPods-AppleWatchSBB WatchKit Extension-UICocoapodsLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E58F1AEB48C81E2A075767E1 /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95FAE3D700D924469BDF4214 /* Build configuration list for PBXNativeTarget "Pods-AppleWatchSBB WatchKit Extension-AFNetworking" */;
+			buildPhases = (
+				53F30721C5237F5CEC824F3F /* Sources */,
+				1D1CA1D2FE5E187F6DBB5174 /* Frameworks */,
+				BC1B6ED447FEDBF5E71B07A5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AppleWatchSBB WatchKit Extension-AFNetworking";
+			productName = "Pods-AppleWatchSBB WatchKit Extension-AFNetworking";
+			productReference = 3C1000937B18EBB66416711C /* libPods-AppleWatchSBB WatchKit Extension-AFNetworking.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C8A4A0EA045A32CE4E09F93F /* Project object */ = {
+		A8BDD79D248002E7663C2E8C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = 0FC1BF39925C23ABD49790B6 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 6ADC6EE8ECCC4C7DA70BD152 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 9E54309F1843B620BB129B40;
-			productRefGroup = 6170EB263A1C22514F396749 /* Products */;
+			mainGroup = 9F820A3B8195D35CCAE10FED;
+			productRefGroup = 4C1C103AAEFAAFD148A40A98 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BD7D4B3B8C34C5FD15A7490F /* Pods-AppleWatchSBB */,
-				3B0C75EF3ED16772171D0A98 /* Pods-AppleWatchSBB WatchKit Extension */,
-				2D26EFFDE1C40EE295C6AA4B /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking */,
-				8BEC53B5563790860C84F14D /* Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser */,
-				D47E1FBFE4AE8A98A050FD00 /* Pods-AppleWatchSBB-SCLAlertView-Objective-C */,
-				D9A12ED90378AA006A238ABA /* Pods-AppleWatchSBB-SimulatorStatusMagic */,
+				68EBDADB7B45A13FD06D2CFF /* Pods */,
+				85C37BE49F159BAB85C91A5D /* Pods-AppleWatchSBB */,
+				4AD61077CCDCF0EE3EC4968E /* Pods-AppleWatchSBB WatchKit Extension */,
+				E58F1AEB48C81E2A075767E1 /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking */,
+				508B63988E1D100614B37268 /* Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser */,
+				C1BDDF139611770E44999EB0 /* Pods-AppleWatchSBB WatchKit Extension-UICocoapodsLib */,
+				4F0BCC5EF071BBD7EA85E654 /* Pods-AppleWatchSBB-SCLAlertView-Objective-C */,
+				58558158203EEB939A986517 /* Pods-AppleWatchSBB-SimulatorStatusMagic */,
+				0093675B0A5146446D5FC79C /* Pods-AppleWatchSBB-UICocoapodsLib */,
+				7D5E847FA077679261618775 /* Pods-UICocoapodsLib */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		14BA5DB10338AA3DD89EA4A8 /* Sources */ = {
+		0DC58B7A1C7B62D51B5F0FD5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54536BD2AEE88FDA987BB64D /* Pods-AppleWatchSBB-SimulatorStatusMagic-dummy.m in Sources */,
-				8096E827C9685BA8880B0D31 /* SDStatusBarManager.m in Sources */,
-				584A4F054228ECFE8A1EF7E8 /* SDStatusBarOverriderPost8_3.m in Sources */,
-				3E87A3D891061F9268255F45 /* SDStatusBarOverriderPre8_3.m in Sources */,
+				D8A07C1AD01BABC9130E01B3 /* Pods-AppleWatchSBB-UICocoapodsLib-dummy.m in Sources */,
+				667DADF0DD3BF0CB1310B809 /* UICocoapodsLib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26B276E819157CF10885ACAE /* Sources */ = {
+		2A845FBD77269C3D5FB44BFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B648B4C752DDAC9B9F5ECCB2 /* AFHTTPRequestOperation.m in Sources */,
-				A6855505D7772CDAFC4B8DA9 /* AFHTTPRequestOperationManager.m in Sources */,
-				6B44E53841949C6484E0C295 /* AFHTTPSessionManager.m in Sources */,
-				C263E3A80514FCB13220AD9E /* AFNetworkActivityIndicatorManager.m in Sources */,
-				0FA6A3138F73A301E33AECE4 /* AFNetworkReachabilityManager.m in Sources */,
-				12CA88E09D5E61D54304C8C3 /* AFSecurityPolicy.m in Sources */,
-				D870CF182BAA55A7BB1C4558 /* AFURLConnectionOperation.m in Sources */,
-				30287958D79C93AAF62C5E2E /* AFURLRequestSerialization.m in Sources */,
-				8DAE0ED36264C06A24882605 /* AFURLResponseSerialization.m in Sources */,
-				156163D6260659A965558D25 /* AFURLSessionManager.m in Sources */,
-				332FC2259FA23DCF51083100 /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking-dummy.m in Sources */,
-				01B41B7E73D2A81530E09C60 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
-				409576A1F4D58309B5BDEED0 /* UIAlertView+AFNetworking.m in Sources */,
-				E61B7A214A513B1771E3C58A /* UIButton+AFNetworking.m in Sources */,
-				5C74AC27EC078D050E7F40A3 /* UIImageView+AFNetworking.m in Sources */,
-				B9733F5AA68DAC10A8C1BCF8 /* UIProgressView+AFNetworking.m in Sources */,
-				3ED6DA38F7370296F76485DA /* UIRefreshControl+AFNetworking.m in Sources */,
-				90FA18D9EB12558876FD0476 /* UIWebView+AFNetworking.m in Sources */,
+				C27DC67B12F7CBB30F7B1E85 /* GTMNSString+HTML.m in Sources */,
+				4F668AC6817C07FE358694B9 /* NSString+HTML.m in Sources */,
+				108026A556F16D29244CFD29 /* Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser-dummy.m in Sources */,
+				2BD3B250186EA07B2911A4A5 /* RSSChannel.m in Sources */,
+				BEB9915D66423DF1707A2DEF /* RSSItem.m in Sources */,
+				B2AC37FA6309AD62696E16D6 /* RSSMediaContent.m in Sources */,
+				9737E85E7D9C431E57C0D8FF /* RSSMediaCredit.m in Sources */,
+				696F6897FD188FD3085284E6 /* RSSMediaThumbnail.m in Sources */,
+				E0B9E70F3EBA205C7AF10B35 /* RSSParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26D9915A43E1A3D9D507CB7C /* Sources */ = {
+		2D2AC702E113A399B196FE1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4EF5CCB49D97895E47DB664 /* GTMNSString+HTML.m in Sources */,
-				AB29820FDBC4A4666E33F751 /* NSString+HTML.m in Sources */,
-				328C54A33183374AD44F6B8A /* Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser-dummy.m in Sources */,
-				F8435AD38F3D569282BAD3F4 /* RSSChannel.m in Sources */,
-				CA1C58E2F072552EEE65193A /* RSSItem.m in Sources */,
-				52643355C4713EBA3F7F884B /* RSSMediaContent.m in Sources */,
-				98F3E156BBBFC449E7EDA24C /* RSSMediaCredit.m in Sources */,
-				C1389D1E380AC0F05179E5A2 /* RSSMediaThumbnail.m in Sources */,
-				200F8B8CD0BFD13989EE25D4 /* RSSParser.m in Sources */,
+				672F9A05A50F0E74C80ED76D /* Pods-UICocoapodsLib-dummy.m in Sources */,
+				AE87B45468669D7F5EA846D3 /* UICocoapodsLib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		38DFDD6E03883509576A1ED2 /* Sources */ = {
+		448FAEB6539FD4DF5A8D6980 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8340ADF793EB7B8A6664E2AA /* Pods-AppleWatchSBB-dummy.m in Sources */,
+				1428C453263446EB0AED65DB /* Pods-AppleWatchSBB-SCLAlertView-Objective-C-dummy.m in Sources */,
+				15C6546D00458E42D6CE501F /* SCLAlertView.m in Sources */,
+				B675BFD3AE94D65823B646F9 /* SCLAlertViewResponder.m in Sources */,
+				8456E387B4D4B91E16CB87BE /* SCLAlertViewStyleKit.m in Sources */,
+				FF117178D87911C2C77B3C61 /* SCLButton.m in Sources */,
+				A5D2A9DB36B7087FDDBFC8ED /* UIImage+ImageEffects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52CA033D874D1C2933A21E30 /* Sources */ = {
+		53F30721C5237F5CEC824F3F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67DAD7521D6DE4C0A6EC5389 /* Pods-AppleWatchSBB-SCLAlertView-Objective-C-dummy.m in Sources */,
-				FC287139AFF8B3C23B2FA3D0 /* SCLAlertView.m in Sources */,
-				33BDF762B98DA9754562844C /* SCLAlertViewResponder.m in Sources */,
-				8AF475CB0DCDE8ECF819CDF5 /* SCLAlertViewStyleKit.m in Sources */,
-				44E33685176D434D012C593D /* SCLButton.m in Sources */,
-				F3D246AADA4B55E3BDD09418 /* UIImage+ImageEffects.m in Sources */,
+				B99E3C40B3C7AC4911ADF3AD /* AFHTTPRequestOperation.m in Sources */,
+				6AE8CB44256FC9C31F369EF4 /* AFHTTPRequestOperationManager.m in Sources */,
+				13C80AEB4F56465E782C90DF /* AFHTTPSessionManager.m in Sources */,
+				7F2F64BE595863A6256ADF6F /* AFNetworkActivityIndicatorManager.m in Sources */,
+				E0B59B59E48366A00FB5D2FA /* AFNetworkReachabilityManager.m in Sources */,
+				87D8789DAE8F0224BF184E31 /* AFSecurityPolicy.m in Sources */,
+				7287E2488CF7718F8E53919C /* AFURLConnectionOperation.m in Sources */,
+				974BE22300651C923F73E4FC /* AFURLRequestSerialization.m in Sources */,
+				E86AAF1D98E44C9E869D5E37 /* AFURLResponseSerialization.m in Sources */,
+				4EF2FD5FA01BFD75C4AA3C71 /* AFURLSessionManager.m in Sources */,
+				39DA89604FC11DCFA53CF4B9 /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking-dummy.m in Sources */,
+				91230C875F241882BA44A946 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				CF00A0D4A7506A5ED4A0DC28 /* UIAlertView+AFNetworking.m in Sources */,
+				1D42D392296AF5831A93073A /* UIButton+AFNetworking.m in Sources */,
+				0406820A995DDB12A9E13CB9 /* UIImageView+AFNetworking.m in Sources */,
+				C4E4962A99DFFC2F2F29B6DE /* UIProgressView+AFNetworking.m in Sources */,
+				0CE5C5147AF9CB7E0ACFB924 /* UIRefreshControl+AFNetworking.m in Sources */,
+				AA7FF3F4B89DEA83370715D8 /* UIWebView+AFNetworking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C98127C2CB5F40D317184CB /* Sources */ = {
+		6621B1B7F6CB9415DCDC9831 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3300EBBC5D92E6F42A1E121A /* Pods-AppleWatchSBB WatchKit Extension-dummy.m in Sources */,
+				07FB87081BEA8C5FF54EE641 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E3FEE462AB35F47A34B09D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386CB278C6DACF27C051E032 /* Pods-AppleWatchSBB WatchKit Extension-UICocoapodsLib-dummy.m in Sources */,
+				6BCD5922DED5C58DEA93F7DF /* UICocoapodsLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5AAB333B7F1FFA264210E0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BADBDC0F704FC023712E43A /* Pods-AppleWatchSBB-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7BE5CFEF25B559CA0E222F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7F39C2991248054B5ACB67 /* Pods-AppleWatchSBB-SimulatorStatusMagic-dummy.m in Sources */,
+				70AF06602A4D7BE8B43E9F1C /* SDStatusBarManager.m in Sources */,
+				F86C281F406603A00923770F /* SDStatusBarOverriderPost8_3.m in Sources */,
+				EF5614C31A69DBB34A028699 /* SDStatusBarOverriderPre8_3.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B26E5592BDB22DE1AEB6F35E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27899AB641B14F2C8511BAC /* Pods-AppleWatchSBB WatchKit Extension-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0FE51914B160E3DECF8E020A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-AppleWatchSBB WatchKit Extension-AFNetworking";
-			target = 2D26EFFDE1C40EE295C6AA4B /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking */;
-			targetProxy = 0D3BCD192ADB1C9AFD92C084 /* PBXContainerItemProxy */;
-		};
-		24C0794C7114B7CA74BD6731 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-AppleWatchSBB WatchKit Extension-AFNetworking";
-			target = 2D26EFFDE1C40EE295C6AA4B /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking */;
-			targetProxy = 55112D8843D701742A2A71E1 /* PBXContainerItemProxy */;
-		};
-		5312B0164757F1C4BAE4603E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-AppleWatchSBB-SimulatorStatusMagic";
-			target = D9A12ED90378AA006A238ABA /* Pods-AppleWatchSBB-SimulatorStatusMagic */;
-			targetProxy = 43AD2F0D2D86FC19F11DC7E5 /* PBXContainerItemProxy */;
-		};
-		7DD4444A9B657AB37024208D /* PBXTargetDependency */ = {
+		08D572053761FADC621FD931 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-AppleWatchSBB-SCLAlertView-Objective-C";
-			target = D47E1FBFE4AE8A98A050FD00 /* Pods-AppleWatchSBB-SCLAlertView-Objective-C */;
-			targetProxy = 3CBAC4D0D5BE3E9D9C62D67C /* PBXContainerItemProxy */;
+			target = 4F0BCC5EF071BBD7EA85E654 /* Pods-AppleWatchSBB-SCLAlertView-Objective-C */;
+			targetProxy = 5A58F95E4C129584A039E18E /* PBXContainerItemProxy */;
 		};
-		9C36B58215E7D223A86BFC98 /* PBXTargetDependency */ = {
+		0A0B705F2946797D021CAFEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UICocoapodsLib";
+			target = 7D5E847FA077679261618775 /* Pods-UICocoapodsLib */;
+			targetProxy = C8D0739075CAEF16729D71D0 /* PBXContainerItemProxy */;
+		};
+		1663C8569D3D2BA1552D8817 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AppleWatchSBB-UICocoapodsLib";
+			target = 0093675B0A5146446D5FC79C /* Pods-AppleWatchSBB-UICocoapodsLib */;
+			targetProxy = 99C06A4CF5CAF2FF2D11F451 /* PBXContainerItemProxy */;
+		};
+		4DD348D826F53DAD12956A80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AppleWatchSBB WatchKit Extension-AFNetworking";
+			target = E58F1AEB48C81E2A075767E1 /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking */;
+			targetProxy = EB286863325690943DA8738C /* PBXContainerItemProxy */;
+		};
+		6E31C34BF8D0DFDA7401377E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AppleWatchSBB-SimulatorStatusMagic";
+			target = 58558158203EEB939A986517 /* Pods-AppleWatchSBB-SimulatorStatusMagic */;
+			targetProxy = D1BE6615179BCFA28E9B2490 /* PBXContainerItemProxy */;
+		};
+		AA816A5DC7FF646EC39721E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AppleWatchSBB WatchKit Extension-UICocoapodsLib";
+			target = C1BDDF139611770E44999EB0 /* Pods-AppleWatchSBB WatchKit Extension-UICocoapodsLib */;
+			targetProxy = 85877F5A21A400D83DB17A17 /* PBXContainerItemProxy */;
+		};
+		C902340F73DDCB48CDEE029B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser";
-			target = 8BEC53B5563790860C84F14D /* Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser */;
-			targetProxy = 0474BC92C10FF916D7B24F16 /* PBXContainerItemProxy */;
+			target = 508B63988E1D100614B37268 /* Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser */;
+			targetProxy = 4C51B95D6ACA8263B4C74A8C /* PBXContainerItemProxy */;
+		};
+		D49FC12792EC993890BFF09A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AppleWatchSBB WatchKit Extension-AFNetworking";
+			target = E58F1AEB48C81E2A075767E1 /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking */;
+			targetProxy = A3CD2A9F1652FBE743F2660B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0D1417B6BFC0E0E1E5BA418A /* Release */ = {
+		02726B88092FCC9CF98A5F0A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E8FC57BCB721351498973BB /* Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser-Private.xcconfig */;
+			baseConfigurationReference = 4CB402B8B0F188B1BADB25C3 /* Pods-UICocoapodsLib-Private.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser/Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UICocoapodsLib/Pods-UICocoapodsLib-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -953,180 +1247,7 @@
 			};
 			name = Release;
 		};
-		1341C2315D5FE56B7035FEDA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7E7A1FE1FAEA9D7F674E16A /* Pods-AppleWatchSBB WatchKit Extension.debug.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		2CEE424AA8AB7AC0FB9B13AF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC20F47D4ADC1E61F20EA01C /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking-Private.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-AppleWatchSBB WatchKit Extension-AFNetworking/Pods-AppleWatchSBB WatchKit Extension-AFNetworking-prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
-					"AF_APP_EXTENSIONS=1",
-				);
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		4531DD42BA19188381BC0DA7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC20F47D4ADC1E61F20EA01C /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking-Private.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-AppleWatchSBB WatchKit Extension-AFNetworking/Pods-AppleWatchSBB WatchKit Extension-AFNetworking-prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
-					"AF_APP_EXTENSIONS=1",
-				);
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		4E0A1FC4E8DC151C08F40637 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A95CE0B129A2FD7220F21975 /* Pods-AppleWatchSBB-SimulatorStatusMagic-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-AppleWatchSBB-SimulatorStatusMagic/Pods-AppleWatchSBB-SimulatorStatusMagic-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		679E28899216B0DE9614FA5B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BA9178B7C50414A462E91C5 /* Pods-AppleWatchSBB WatchKit Extension.release.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		73C97A3B8076AEE41A1B0643 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A89BEDF54DBAD0A7116F9324 /* Pods-AppleWatchSBB.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		8D41053EABA244988E47DC3E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D05FDB4F3066C34F67490E01 /* Pods-AppleWatchSBB-SCLAlertView-Objective-C-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-AppleWatchSBB-SCLAlertView-Objective-C/Pods-AppleWatchSBB-SCLAlertView-Objective-C-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		C609679CA2929E20085943A7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D05FDB4F3066C34F67490E01 /* Pods-AppleWatchSBB-SCLAlertView-Objective-C-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-AppleWatchSBB-SCLAlertView-Objective-C/Pods-AppleWatchSBB-SCLAlertView-Objective-C-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		D0BCB7421F54F23EE820B7C5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E8FC57BCB721351498973BB /* Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser-Private.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser/Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		D3E638E471CFDBB239371FE9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A95CE0B129A2FD7220F21975 /* Pods-AppleWatchSBB-SimulatorStatusMagic-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-AppleWatchSBB-SimulatorStatusMagic/Pods-AppleWatchSBB-SimulatorStatusMagic-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		D4062B2765FA6F8DFB3BD5AB /* Debug */ = {
+		2B4070EA8953BADBE7C5FEDF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1165,7 +1286,246 @@
 			};
 			name = Debug;
 		};
-		E32C96731DE8499EC1D8C647 /* Release */ = {
+		3A1EF769CB2C9A0D03906897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB3612A2F140CDD550364C54 /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AppleWatchSBB WatchKit Extension-AFNetworking/Pods-AppleWatchSBB WatchKit Extension-AFNetworking-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"AF_APP_EXTENSIONS=1",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		437394DDBDEFD2B3869C693B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 292247C8783D0FAFF5E09420 /* Pods-AppleWatchSBB.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		472B1C7F023E759A09FAA130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB3612A2F140CDD550364C54 /* Pods-AppleWatchSBB WatchKit Extension-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AppleWatchSBB WatchKit Extension-AFNetworking/Pods-AppleWatchSBB WatchKit Extension-AFNetworking-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"AF_APP_EXTENSIONS=1",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		479BB0493F0DD652B2C15468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 679E373BBC88D90FAAC5C51B /* Pods-AppleWatchSBB.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4B0635079275AE688C45CC2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CB402B8B0F188B1BADB25C3 /* Pods-UICocoapodsLib-Private.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-UICocoapodsLib/Pods-UICocoapodsLib-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4CBA7F7E4BAECE3CBFF6B277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9242F75D09DF813EBDB9F872 /* Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser-Private.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser/Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4CEE2C25B642EFD0490C6FBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B545043F0328B8A4DCC4D06 /* Pods-AppleWatchSBB WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		57F55DD1DC0E112AAFB1706C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E92787657F42399A7071854E /* Pods-AppleWatchSBB-SimulatorStatusMagic-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AppleWatchSBB-SimulatorStatusMagic/Pods-AppleWatchSBB-SimulatorStatusMagic-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5A5EBE720AAF868B99AB905D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 811301A320CC20FD566C0A1B /* Pods-AppleWatchSBB-SCLAlertView-Objective-C-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AppleWatchSBB-SCLAlertView-Objective-C/Pods-AppleWatchSBB-SCLAlertView-Objective-C-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		691CDC3BCA93137BA6673EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB225F8C40A22771F9B62183 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6BB8AF2ED84FBABC67D05246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D25A19FC6C96B96269EC4D5 /* Pods-AppleWatchSBB-UICocoapodsLib-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AppleWatchSBB-UICocoapodsLib/Pods-AppleWatchSBB-UICocoapodsLib-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		715EFBF3D5689F228FADDD48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E92787657F42399A7071854E /* Pods-AppleWatchSBB-SimulatorStatusMagic-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AppleWatchSBB-SimulatorStatusMagic/Pods-AppleWatchSBB-SimulatorStatusMagic-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		86975447D83A3E846F00E3DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35C0AB465DE7A16D8B2A41AD /* Pods-AppleWatchSBB WatchKit Extension-UICocoapodsLib-Private.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AppleWatchSBB WatchKit Extension-UICocoapodsLib/Pods-AppleWatchSBB WatchKit Extension-UICocoapodsLib-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		98875913E3AE691B94EB91C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 811301A320CC20FD566C0A1B /* Pods-AppleWatchSBB-SCLAlertView-Objective-C-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AppleWatchSBB-SCLAlertView-Objective-C/Pods-AppleWatchSBB-SCLAlertView-Objective-C-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9B1AF469D85A990C2FEBBC68 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1199,10 +1559,61 @@
 			};
 			name = Release;
 		};
-		E4CA01A148C2224A0A3A1248 /* Release */ = {
+		A930C199496EFDCE7742520A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 184D63D00E5F92C18F610E34 /* Pods-AppleWatchSBB.release.xcconfig */;
+			baseConfigurationReference = 9242F75D09DF813EBDB9F872 /* Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser-Private.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser/Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B215CB259B7E0FB6348C37F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D25A19FC6C96B96269EC4D5 /* Pods-AppleWatchSBB-UICocoapodsLib-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AppleWatchSBB-UICocoapodsLib/Pods-AppleWatchSBB-UICocoapodsLib-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C00783973948C6FE3B3E12BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35C0AB465DE7A16D8B2A41AD /* Pods-AppleWatchSBB WatchKit Extension-UICocoapodsLib-Private.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AppleWatchSBB WatchKit Extension-UICocoapodsLib/Pods-AppleWatchSBB WatchKit Extension-UICocoapodsLib-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C9D102AD081591D933702B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D137FDC81D888E10220EA46E /* Pods.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -1215,73 +1626,126 @@
 			};
 			name = Release;
 		};
+		E5BCCBD4D371232F49DA115D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36982AC6881F1C5B9EB1D855 /* Pods-AppleWatchSBB WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0FC1BF39925C23ABD49790B6 /* Build configuration list for PBXProject "Pods" */ = {
+		0F170897510131C1CDB7398F /* Build configuration list for PBXNativeTarget "Pods-AppleWatchSBB-SimulatorStatusMagic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D4062B2765FA6F8DFB3BD5AB /* Debug */,
-				E32C96731DE8499EC1D8C647 /* Release */,
+				57F55DD1DC0E112AAFB1706C /* Debug */,
+				715EFBF3D5689F228FADDD48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43349414B40A204F28E9ECF9 /* Build configuration list for PBXNativeTarget "Pods-AppleWatchSBB WatchKit Extension" */ = {
+		1E1884C6C4CC55C95AE924A0 /* Build configuration list for PBXNativeTarget "Pods-AppleWatchSBB WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1341C2315D5FE56B7035FEDA /* Debug */,
-				679E28899216B0DE9614FA5B /* Release */,
+				E5BCCBD4D371232F49DA115D /* Debug */,
+				4CEE2C25B642EFD0490C6FBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A98A949599ABEE6EFD05E745 /* Build configuration list for PBXNativeTarget "Pods-AppleWatchSBB" */ = {
+		2473AA78D4A448005472ABA1 /* Build configuration list for PBXNativeTarget "Pods-AppleWatchSBB-UICocoapodsLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				73C97A3B8076AEE41A1B0643 /* Debug */,
-				E4CA01A148C2224A0A3A1248 /* Release */,
+				B215CB259B7E0FB6348C37F9 /* Debug */,
+				6BB8AF2ED84FBABC67D05246 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE3F7182FA716A69C5CF2FB6 /* Build configuration list for PBXNativeTarget "Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser" */ = {
+		32A1C076A60956558212FED8 /* Build configuration list for PBXNativeTarget "Pods-AppleWatchSBB WatchKit Extension-MediaRSSParser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D0BCB7421F54F23EE820B7C5 /* Debug */,
-				0D1417B6BFC0E0E1E5BA418A /* Release */,
+				A930C199496EFDCE7742520A /* Debug */,
+				4CBA7F7E4BAECE3CBFF6B277 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE53A55E6262DB423EB995EE /* Build configuration list for PBXNativeTarget "Pods-AppleWatchSBB-SimulatorStatusMagic" */ = {
+		36B79AC5D030A17EE74CE449 /* Build configuration list for PBXNativeTarget "Pods-AppleWatchSBB WatchKit Extension-UICocoapodsLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3E638E471CFDBB239371FE9 /* Debug */,
-				4E0A1FC4E8DC151C08F40637 /* Release */,
+				86975447D83A3E846F00E3DF /* Debug */,
+				C00783973948C6FE3B3E12BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5ACBEBD2E32E59E8BCBB163 /* Build configuration list for PBXNativeTarget "Pods-AppleWatchSBB-SCLAlertView-Objective-C" */ = {
+		4A81005929A6442DB77E8AA8 /* Build configuration list for PBXNativeTarget "Pods-AppleWatchSBB-SCLAlertView-Objective-C" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D41053EABA244988E47DC3E /* Debug */,
-				C609679CA2929E20085943A7 /* Release */,
+				5A5EBE720AAF868B99AB905D /* Debug */,
+				98875913E3AE691B94EB91C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E2E0B98750E17A8428C56EB0 /* Build configuration list for PBXNativeTarget "Pods-AppleWatchSBB WatchKit Extension-AFNetworking" */ = {
+		6ADC6EE8ECCC4C7DA70BD152 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4531DD42BA19188381BC0DA7 /* Debug */,
-				2CEE424AA8AB7AC0FB9B13AF /* Release */,
+				2B4070EA8953BADBE7C5FEDF /* Debug */,
+				9B1AF469D85A990C2FEBBC68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71E13A5B716445B0F3B63B5D /* Build configuration list for PBXNativeTarget "Pods-AppleWatchSBB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				479BB0493F0DD652B2C15468 /* Debug */,
+				437394DDBDEFD2B3869C693B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FEB91B354264DADB11FEDF2 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691CDC3BCA93137BA6673EC5 /* Debug */,
+				C9D102AD081591D933702B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95FAE3D700D924469BDF4214 /* Build configuration list for PBXNativeTarget "Pods-AppleWatchSBB WatchKit Extension-AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A1EF769CB2C9A0D03906897 /* Debug */,
+				472B1C7F023E759A09FAA130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBFD149285803204EA76D7E8 /* Build configuration list for PBXNativeTarget "Pods-UICocoapodsLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B0635079275AE688C45CC2E /* Debug */,
+				02726B88092FCC9CF98A5F0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C8A4A0EA045A32CE4E09F93F /* Project object */;
+	rootObject = A8BDD79D248002E7663C2E8C /* Project object */;
 }

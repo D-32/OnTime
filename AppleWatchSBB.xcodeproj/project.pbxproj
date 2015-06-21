@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2989FB54FA97A9F129102F5F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF5C617F75E0FF7A7F97C31 /* libPods.a */; };
 		9A05A6A11AD5BAFA00EE2651 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A05A6A01AD5BAFA00EE2651 /* MainViewController.m */; };
 		9A05A6A51AD5BC2200EE2651 /* AutocompleteTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A05A6A41AD5BC2200EE2651 /* AutocompleteTextfield.swift */; };
 		9A20AA731A55E97B00BB4DEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A20AA721A55E97B00BB4DEC /* main.m */; };
@@ -216,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4063502490DBE7A15478EB5 /* libPods-AppleWatchSBB WatchKit Extension.a in Frameworks */,
+				2989FB54FA97A9F129102F5F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

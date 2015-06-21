@@ -1,6 +1,6 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/MediaRSSParser" "${PODS_ROOT}/Headers/Public/SCLAlertView-Objective-C" "${PODS_ROOT}/Headers/Public/SimulatorStatusMagic" "${PODS_ROOT}/Headers/Public/UICocoapodsLib"
 OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/MediaRSSParser" -isystem "${PODS_ROOT}/Headers/Public/SCLAlertView-Objective-C" -isystem "${PODS_ROOT}/Headers/Public/SimulatorStatusMagic" -isystem "${PODS_ROOT}/Headers/Public/UICocoapodsLib"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-AppleWatchSBB-SCLAlertView-Objective-C" -l"Pods-AppleWatchSBB-UICocoapodsLib"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-UICocoapodsLib"
 OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
 PODS_ROOT = ${SRCROOT}/Pods

@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_AppleWatchSBB_WatchKit_Extension_UICocoapodsLib : NSObject
+@end
+@implementation PodsDummy_Pods_AppleWatchSBB_WatchKit_Extension_UICocoapodsLib
+@end
