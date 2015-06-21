@@ -66,7 +66,7 @@
         
         if (![journey isKindOfClass:[NSNull class]]) {
             if (prev) {
-                NSString *message = [NSString stringWithFormat:NSLocalizedString(@"Time to get off! Your next connection is '%@' and leaves at %@", nil), journey[@"name"], section[@"departure"][@"departure"]];
+                NSString *message = [NSString stringWithFormat:NSLocalizedString(@"Time to get off! Your next connection is '%@' and leaves at %@", nil), journey[@"name"], [section[@"departure"][@"departure"] substringWithRange:range]];
                 [_notifications addObject:@{@"time":prev, @"message":message}];
             }
             prev = section[@"arrival"][@"arrival"];
