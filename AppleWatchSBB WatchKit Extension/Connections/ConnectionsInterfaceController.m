@@ -45,6 +45,7 @@
     [url appendString:@"&fields[]=connections/to/arrival"];
     [url appendString:@"&fields[]=connections/transfers"];
     [url appendString:@"&fields[]=connections/sections/journey/name"];
+    [url appendString:@"&fields[]=connections/sections/journey/number"];
     [url appendString:@"&fields[]=connections/sections/journey/categoryCode"];
     [url appendString:@"&fields[]=connections/sections/walk/duration"];
     [url appendString:@"&fields[]=connections/sections/departure/platform"];

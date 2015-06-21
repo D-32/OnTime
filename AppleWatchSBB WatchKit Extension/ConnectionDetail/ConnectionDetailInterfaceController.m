@@ -43,8 +43,14 @@
         
         NSDictionary *journey = section[@"journey"];
         NSDictionary *walk = section[@"walk"];
+        NSString *journeyName = nil;
         if (![journey isKindOfClass:[NSNull class]]) {
-            rowController.nameLabel.text = journey[@"name"];
+            NSString *name = journey[@"name"];
+            NSString *number = journey[@"number"];
+            if (number.length > 0 && [name hasSuffix:number]) {
+                journeyName = [name substringToIndex:name.length - number.length - 1];
+            }
+            rowController.nameLabel.text = journeyName;
             NSInteger categoryCode = [journey[@"categoryCode"] integerValue];
             [rowController.icon setImageNamed:[IconHelper imageNameForCode:categoryCode]];
         } else if (![walk isKindOfClass:[NSNull class]]) {
@@ -64,9 +70,15 @@
         rowController.departureTimeLabel.text = [section[@"departure"][@"departure"] substringWithRange:range];
         rowController.arrivalTimeLabel.text = [section[@"arrival"][@"arrival"] substringWithRange:range];
         
-        if (![journey isKindOfClass:[NSNull class]]) {
+        if (journeyName) {
             if (prev) {
-                NSString *message = [NSString stringWithFormat:NSLocalizedString(@"Time to get off! Your next connection is '%@' and leaves at %@", nil), journey[@"name"], [section[@"departure"][@"departure"] substringWithRange:range]];
+                NSString *message = [NSString stringWithFormat:NSLocalizedString(@"Time to get off! Your next connection is '%@' and leaves at %@", nil), journeyName, [section[@"departure"][@"departure"] substringWithRange:range]];
+                NSString *track = section[@"departure"][@"platform"];
+                if (track.length > 0) {
+                    message = [[message stringByAppendingString:@" "] stringByAppendingString:[NSString stringWithFormat:NSLocalizedString(@"on track %@.", nil), track]];
+                } else {
+                    message = [message stringByAppendingString:@"."];
+                }
                 [_notifications addObject:@{@"time":prev, @"message":message}];
             }
             prev = section[@"arrival"][@"arrival"];
