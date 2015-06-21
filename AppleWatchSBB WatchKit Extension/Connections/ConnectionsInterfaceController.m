@@ -97,7 +97,7 @@
 }
 
 - (id)contextForSegueWithIdentifier:(NSString *)segueIdentifier inTable:(WKInterfaceTable *)table rowIndex:(NSInteger)rowIndex {
-    return _connections[rowIndex + 1]; // #0 is a header cell
+    return _connections[rowIndex - 1]; // #0 is a header cell
 }
 
 - (IBAction)menuMap {
