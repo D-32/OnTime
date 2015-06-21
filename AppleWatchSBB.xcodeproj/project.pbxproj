@@ -24,6 +24,7 @@
 		9A33BED31ADDBEE7005D6440 /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5AB0E61AD5DC6100F52D75 /* Station.m */; };
 		9A33BED41ADDBEE9005D6440 /* Favourite.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3157AE1ADB1E0A006FB9D8 /* Favourite.m */; };
 		9A388AD81B370084008D285B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A388ADA1B370084008D285B /* Localizable.strings */; };
+		9A388ADF1B3733A4008D285B /* NotificationSuccessInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A388ADE1B3733A4008D285B /* NotificationSuccessInterfaceController.m */; };
 		9A5AB0E71AD5DC6100F52D75 /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5AB0E61AD5DC6100F52D75 /* Station.m */; };
 		9A5B7BB41B35F4EC00C025D2 /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B7BB31B35F4EC00C025D2 /* Connection.m */; };
 		9A5B7BB71B35F5E300C025D2 /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B7BB61B35F5E300C025D2 /* PushViewController.m */; };
@@ -125,10 +126,12 @@
 		9A33BECD1ADDBB65005D6440 /* FavouritesInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavouritesInterfaceController.m; sourceTree = "<group>"; };
 		9A33BECF1ADDBB77005D6440 /* FavouritesRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavouritesRowController.h; sourceTree = "<group>"; };
 		9A33BED01ADDBB77005D6440 /* FavouritesRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavouritesRowController.m; sourceTree = "<group>"; };
-		9A388ACE1B36FBD9008D285B /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Interface.strings; sourceTree = "<group>"; };
 		9A388AD91B370084008D285B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9A388ADB1B370086008D285B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9A388ADC1B370086008D285B /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9A388ADD1B3733A4008D285B /* NotificationSuccessInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationSuccessInterfaceController.h; sourceTree = "<group>"; };
+		9A388ADE1B3733A4008D285B /* NotificationSuccessInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationSuccessInterfaceController.m; sourceTree = "<group>"; };
+		9A388AE21B37356E008D285B /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Interface.strings; sourceTree = "<group>"; };
 		9A5AB0E51AD5DC6100F52D75 /* Station.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Station.h; sourceTree = "<group>"; };
 		9A5AB0E61AD5DC6100F52D75 /* Station.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Station.m; sourceTree = "<group>"; };
 		9A5B7BB21B35F4EC00C025D2 /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
@@ -424,6 +427,8 @@
 				9AACF7761ADAD7E400EEAB18 /* ConnectionDetailInterfaceController.m */,
 				9AACF7771ADAD7E400EEAB18 /* ConnectionDetailRowController.h */,
 				9AACF7781ADAD7E400EEAB18 /* ConnectionDetailRowController.m */,
+				9A388ADD1B3733A4008D285B /* NotificationSuccessInterfaceController.h */,
+				9A388ADE1B3733A4008D285B /* NotificationSuccessInterfaceController.m */,
 			);
 			path = ConnectionDetail;
 			sourceTree = "<group>";
@@ -751,6 +756,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A388ADF1B3733A4008D285B /* NotificationSuccessInterfaceController.m in Sources */,
 				9A5B7BBF1B361C4000C025D2 /* RssInterfaceController.m in Sources */,
 				9A5B7BC51B3622F600C025D2 /* RssDetailController.m in Sources */,
 				9A5B7BB81B35FE5500C025D2 /* Connection.m in Sources */,
@@ -804,7 +810,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				9A3157A41ADAD9B2006FB9D8 /* Base */,
-				9A388ACE1B36FBD9008D285B /* de */,
+				9A388AE21B37356E008D285B /* de */,
 			);
 			name = Interface.storyboard;
 			sourceTree = "<group>";

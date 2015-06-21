@@ -404,6 +404,33 @@
             </objects>
             <point key="canvasLocation" x="610" y="664"/>
         </scene>
+        <!--Success-->
+        <scene sceneID="tht-pS-FZ9">
+            <objects>
+                <controller identifier="Success" title="Success" id="zRe-cK-3Aa" customClass="NotificationSuccessInterfaceController">
+                    <items>
+                        <group width="1" height="1" alignment="left" layout="vertical" id="ybj-ZQ-1OR">
+                            <items>
+                                <imageView alignment="center" image="notifySuccess" id="wjF-ll-SQk"/>
+                                <label alignment="center" text="Notification has been set." textAlignment="center" numberOfLines="0" id="8Ti-Ng-EMs">
+                                    <fontDescription key="font" type="system" pointSize="13"/>
+                                </label>
+                                <button width="1" alignment="left" verticalAlignment="bottom" title="Close" id="UOh-jj-HTA">
+                                    <connections>
+                                        <action selector="actionClose" destination="zRe-cK-3Aa" id="ax5-HH-XC1"/>
+                                    </connections>
+                                </button>
+                            </items>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="4" bottom="0.0"/>
+                            <variation key="device=watch42mm" spacing="10">
+                                <edgeInsets key="margins" left="5" right="5" top="10" bottom="0.0"/>
+                            </variation>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="759" y="664"/>
+        </scene>
         <!--RSS-->
         <scene sceneID="ywO-9g-hJo">
             <objects>

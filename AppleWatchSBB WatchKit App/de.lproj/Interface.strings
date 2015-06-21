@@ -29,6 +29,9 @@
 /* Class = "WKInterfaceController"; title = "SBB"; ObjectID = "7i8-EH-URM"; */
 "7i8-EH-URM.title" = "SBB";
 
+/* Class = "WKInterfaceLabel"; text = "Notification has been set."; ObjectID = "8Ti-Ng-EMs"; */
+"8Ti-Ng-EMs.text" = "Benachrichtigungen wurden registriert.";
+
 /* Class = "WKInterfaceMenuItem"; title = "Notify"; ObjectID = "8i9-QP-9eu"; */
 "8i9-QP-9eu.title" = "Benachrichtigen";
 
@@ -70,6 +73,9 @@
 
 /* Class = "WKInterfaceLabel"; text = "Destination"; ObjectID = "U8J-k1-wx2"; */
 "U8J-k1-wx2.text" = "Destination";
+
+/* Class = "WKInterfaceButton"; title = "Close"; ObjectID = "UOh-jj-HTA"; */
+"UOh-jj-HTA.title" = "Schliessen";
 
 /* Class = "WKInterfaceLabel"; text = "Name"; ObjectID = "ZCi-ya-wqf"; */
 "ZCi-ya-wqf.text" = "Name";
@@ -133,3 +139,6 @@
 
 /* Class = "WKInterfaceMenuItem"; title = "Clear"; ObjectID = "z0Z-Pr-eEl"; */
 "z0Z-Pr-eEl.title" = "Löschen";
+
+/* Class = "WKInterfaceController"; title = "Success"; ObjectID = "zRe-cK-3Aa"; */
+"zRe-cK-3Aa.title" = "Erfolg";

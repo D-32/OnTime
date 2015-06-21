@@ -39,6 +39,9 @@
             notification.alertBody = n[@"message"];
             [[UIApplication sharedApplication] scheduleLocalNotification:notification];
         }
+        if (reply) {
+            reply(nil);
+        }
     } else if ([userInfo[@"type"] isEqualToString:@"clearNotifications"]) {
         [[UIApplication sharedApplication] cancelAllLocalNotifications];
     }

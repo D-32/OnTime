@@ -49,6 +49,8 @@
             NSString *number = journey[@"number"];
             if (number.length > 0 && [name hasSuffix:number]) {
                 journeyName = [name substringToIndex:name.length - number.length - 1];
+            } else {
+                journeyName = name;
             }
             rowController.nameLabel.text = journeyName;
             NSInteger categoryCode = [journey[@"categoryCode"] integerValue];
@@ -94,7 +96,9 @@
     
     if ([userDefaults boolForKey:@"premium"]) {
         [userDefaults setBool:YES forKey:@"notifyFound"];
-        [WKInterfaceController openParentApplication:@{@"type":@"addNotifications", @"notifications":_notifications} reply:nil];
+        [WKInterfaceController openParentApplication:@{@"type":@"addNotifications", @"notifications":_notifications} reply:^(NSDictionary *replyInfo, NSError *error) {
+            [self presentControllerWithName:@"Success" context:nil];
+        }];
     } else {
         [self presentControllerWithName:@"Premium" context:nil];
     }
