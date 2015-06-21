@@ -79,6 +79,9 @@
                             </menuItem>
                         </items>
                     </menu>
+                    <connections>
+                        <outlet property="forceTouchLabel" destination="PTJ-cI-Xqn" id="j53-JE-8Ze"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="77" y="160"/>
@@ -287,6 +290,18 @@
                     <items>
                         <table alignment="left" id="XfK-BP-2tc">
                             <items>
+                                <tableRow identifier="ConnectionFT" selectable="NO" id="52n-il-n1z">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" id="sDx-3s-RIV">
+                                        <items>
+                                            <label alignment="left" text="Force Touch to add a notification" numberOfLines="0" id="Qv8-nG-Wdo">
+                                                <color key="textColor" white="0.77032791940789469" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="font" type="system" pointSize="10"/>
+                                            </label>
+                                        </items>
+                                        <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <edgeInsets key="margins" left="5" right="5" top="3" bottom="3"/>
+                                    </group>
+                                </tableRow>
                                 <tableRow identifier="ConnectionDetail" selectable="NO" id="Ock-eM-DR6" customClass="ConnectionDetailRowController">
                                     <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="MT7-GA-V01">
                                         <items>
@@ -346,12 +361,48 @@
                             </items>
                         </table>
                     </items>
+                    <menu key="menu" id="5wg-WF-Y04">
+                        <items>
+                            <menuItem title="Notify" image="notify" id="8i9-QP-9eu">
+                                <connections>
+                                    <action selector="registerNotification" destination="fab-GJ-0oY" id="uCs-fY-TY4"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Clear" image="clearNotification" id="z0Z-Pr-eEl">
+                                <connections>
+                                    <action selector="clearNotification" destination="fab-GJ-0oY" id="7Cu-g1-61B"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
                     <connections>
                         <outlet property="table" destination="XfK-BP-2tc" id="UrR-Ny-vUq"/>
                     </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="711" y="414"/>
+        </scene>
+        <!--Premium-->
+        <scene sceneID="aiU-28-Zyz">
+            <objects>
+                <controller identifier="Premium" title="Premium" id="cML-GA-zFX">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="cDc-dr-vdv">
+                            <items>
+                                <imageView alignment="center" image="premium" id="GIj-OJ-2aq"/>
+                                <label alignment="center" text="This is a premium feature. Please upgrade on your phone." textAlignment="center" numberOfLines="0" id="QZN-Pl-28i">
+                                    <fontDescription key="font" type="system" pointSize="13"/>
+                                </label>
+                            </items>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="4" bottom="0.0"/>
+                            <variation key="device=watch42mm" spacing="10">
+                                <edgeInsets key="margins" left="5" right="5" top="10" bottom="0.0"/>
+                            </variation>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="610" y="664"/>
         </scene>
         <!--RSS-->
         <scene sceneID="ywO-9g-hJo">

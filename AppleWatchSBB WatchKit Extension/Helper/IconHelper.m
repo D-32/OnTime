@@ -11,7 +11,7 @@
 @implementation IconHelper
 
 + (NSString *)imageNameForCode:(NSInteger)code {
-    if (code == 1 || code == 2 || code == 3 || code == 5 || code == 8) {
+    if (code == 0 || code == 1 || code == 2 || code == 3 || code == 5 || code == 8) {
         return @"train";
     } else if (code == 6) {
         return @"bus";

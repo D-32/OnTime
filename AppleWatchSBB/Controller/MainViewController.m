@@ -244,6 +244,11 @@
         _favContainer.hidden = NO;
         [UIView animateWithDuration:0.3 animations:^{
             _favContainer.alpha = 1.0;
+        } completion:^(BOOL finished) {
+            if ([[UIApplication sharedApplication] respondsToSelector:@selector(registerUserNotificationSettings:)]) {
+                UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAlert categories:nil];
+                [[UIApplication sharedApplication] registerUserNotificationSettings:settings];
+            }
         }];
     }];
     [alert showCustom:self image:[UIImage imageNamed:@"watch"] color:[UIColor colorWithRed:0.46 green:0.71 blue:0.19 alpha:1.00] title:l10n(@"Success") subTitle:l10n(@"Now open SBB Watch on your Apple Watch and travel safely.") closeButtonTitle:nil duration:0];

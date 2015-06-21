@@ -29,6 +29,8 @@
         f.to = connection.to;
         [self pushControllerWithName:@"Connections" context:f];
     }
+    
+    [self.forceTouchLabel setHidden:[_userDefaults boolForKey:@"rssFound"]];
 }
 
 - (IBAction)openRss {

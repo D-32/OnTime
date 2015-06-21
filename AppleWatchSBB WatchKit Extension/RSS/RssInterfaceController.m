@@ -27,6 +27,7 @@
     __weak typeof(self) weakSelf = self;
     
     NSUserDefaults *userDefaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.dylanmarriott.applewatchsbb"];
+    [userDefaults setBool:YES forKey:@"rssFound"];
     NSString *feedURLString = [userDefaults stringForKey:@"rssfeed"];
     if (!feedURLString) {
         feedURLString = @"http://fahrplan.sbb.ch/bin//help.exe/dnl?tpl=rss_feed_custom&icons=47&regions=BVI1,BVI2,BVI3,BVI4,BVI5";

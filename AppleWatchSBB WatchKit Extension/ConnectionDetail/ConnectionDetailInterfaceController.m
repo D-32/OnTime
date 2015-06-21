@@ -14,15 +14,31 @@
 @property (weak, nonatomic) IBOutlet WKInterfaceTable *table;
 @end
 
-@implementation ConnectionDetailInterfaceController
+@implementation ConnectionDetailInterfaceController {
+    NSMutableArray *_notifications;
+}
 
 - (void)awakeWithContext:(id)context {
     [super awakeWithContext:context];
     NSArray *sections = context[@"sections"];
+    _notifications = [NSMutableArray array];
     
-    [self.table setNumberOfRows:sections.count withRowType:@"ConnectionDetail"];
+    NSUserDefaults *userDefaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.dylanmarriott.applewatchsbb"];
+    BOOL showInfo = ![userDefaults boolForKey:@"notifyFound"];
+    
+    NSMutableArray *rowTypes = [NSMutableArray array];
+    if (showInfo) {
+        [rowTypes addObject:@"ConnectionFT"];
+    }
     for (int i = 0; i < sections.count; i++) {
-        ConnectionDetailRowController *rowController = [self.table rowControllerAtIndex:i];
+        [rowTypes addObject:@"ConnectionDetail"];
+    }
+    [self.table setRowTypes:rowTypes];
+    
+    NSString *prev;
+    for (int i = 0; i < sections.count; i++) {
+        int index = showInfo ? i+1 : i;
+        ConnectionDetailRowController *rowController = [self.table rowControllerAtIndex:index];
         NSDictionary *section = sections[i];
         
         NSDictionary *journey = section[@"journey"];
@@ -47,7 +63,33 @@
         NSRange range = {11, 5};
         rowController.departureTimeLabel.text = [section[@"departure"][@"departure"] substringWithRange:range];
         rowController.arrivalTimeLabel.text = [section[@"arrival"][@"arrival"] substringWithRange:range];
+        
+        if (![journey isKindOfClass:[NSNull class]]) {
+            if (prev) {
+                NSString *message = [NSString stringWithFormat:@"Time to get off! Your next connection is '%@' and leaves at %@", journey[@"name"], section[@"departure"][@"departure"]];
+                [_notifications addObject:@{@"time":prev, @"message":message}];
+            }
+            prev = section[@"arrival"][@"arrival"];
+        }
     }
+    if (prev) {
+        [_notifications addObject:@{@"time":prev, @"message":@"You have reached your destination."}];
+    }
+}
+
+- (IBAction)registerNotification {
+    NSUserDefaults *userDefaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.dylanmarriott.applewatchsbb"];
+    
+    if ([userDefaults boolForKey:@"premium"]) {
+        [userDefaults setBool:YES forKey:@"notifyFound"];
+        [WKInterfaceController openParentApplication:@{@"type":@"addNotifications", @"notifications":_notifications} reply:nil];
+    } else {
+        [self presentControllerWithName:@"Premium" context:nil];
+    }
+}
+
+- (IBAction)clearNotification {
+    [WKInterfaceController openParentApplication:@{@"type":@"clearNotifications"} reply:nil];
 }
 
 @end

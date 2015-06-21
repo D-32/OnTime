@@ -11,4 +11,6 @@
 
 @interface MainInterfaceController : WKInterfaceController
 
+@property (weak, nonatomic) IBOutlet WKInterfaceLabel *forceTouchLabel;
+
 @end
