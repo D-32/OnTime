@@ -5,6 +5,7 @@ link_with 'AppleWatchSBB', 'AppleWatchSBB WatchKit Extension'
 
 target :'AppleWatchSBB' do
     pod 'SCLAlertView-Objective-C', '~> 0.7.0'
+    pod 'SimulatorStatusMagic', :configurations => ['Debug']
 end
 
 target :'AppleWatchSBB WatchKit Extension' do

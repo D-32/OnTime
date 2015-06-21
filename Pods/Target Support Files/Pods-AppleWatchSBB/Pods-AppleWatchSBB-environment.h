@@ -12,3 +12,13 @@
 #define COCOAPODS_VERSION_MINOR_SCLAlertView_Objective_C 7
 #define COCOAPODS_VERSION_PATCH_SCLAlertView_Objective_C 0
 
+// Debug build configuration
+#ifdef DEBUG
+
+  // SimulatorStatusMagic
+  #define COCOAPODS_POD_AVAILABLE_SimulatorStatusMagic
+  #define COCOAPODS_VERSION_MAJOR_SimulatorStatusMagic 1
+  #define COCOAPODS_VERSION_MINOR_SimulatorStatusMagic 6
+  #define COCOAPODS_VERSION_PATCH_SimulatorStatusMagic 1
+
+#endif

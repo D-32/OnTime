@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "MainViewController.h"
 #import "MainNavigationController.h"
-
+#import <SDStatusBarManager.h>
 
 @implementation AppDelegate {
     NSDateFormatter *_formatter;
@@ -19,6 +19,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    [[SDStatusBarManager sharedInstance] enableOverrides];
     
     MainNavigationController *mainViewController = [[MainNavigationController alloc] init];
     self.window.rootViewController = mainViewController;
