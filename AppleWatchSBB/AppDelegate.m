@@ -30,6 +30,21 @@
 }
 
 - (void)application:(UIApplication *)application handleWatchKitExtensionRequest:(NSDictionary *)userInfo reply:(void (^)(NSDictionary *))reply {
+    // Temporary fix, I hope.
+    // --------------------
+    __block UIBackgroundTaskIdentifier bogusWorkaroundTask;
+    bogusWorkaroundTask = [[UIApplication sharedApplication] beginBackgroundTaskWithExpirationHandler:^{
+        [[UIApplication sharedApplication] endBackgroundTask:bogusWorkaroundTask];
+    }];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [[UIApplication sharedApplication] endBackgroundTask:bogusWorkaroundTask];
+    });
+    // --------------------
+    
+    __block UIBackgroundTaskIdentifier taskIdentifier = [[UIApplication sharedApplication] beginBackgroundTaskWithExpirationHandler:^{
+        NSLog(@"background task execution run out of time");
+        [[UIApplication sharedApplication] endBackgroundTask:taskIdentifier];
+    }];
     if ([userInfo[@"type"] isEqualToString:@"addNotifications"]) {
         [[UIApplication sharedApplication] cancelAllLocalNotifications];
         NSArray *notifications = userInfo[@"notifications"];
@@ -45,6 +60,7 @@
     } else if ([userInfo[@"type"] isEqualToString:@"clearNotifications"]) {
         [[UIApplication sharedApplication] cancelAllLocalNotifications];
     }
+    [[UIApplication sharedApplication] endBackgroundTask:taskIdentifier];
 }
 
 @end
