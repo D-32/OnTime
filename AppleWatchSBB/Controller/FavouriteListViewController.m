@@ -22,7 +22,7 @@
         UIBarButtonItem *addItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(createNewFav:)];
         self.navigationItem.rightBarButtonItem = addItem;
         
-        self.title = @"Favourites";
+        self.title = l10n(@"Favourites");
     }
     return self;
 }

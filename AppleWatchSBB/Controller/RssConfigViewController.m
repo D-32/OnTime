@@ -59,7 +59,7 @@
         [_types addObject:[[RssConfig alloc] initWithIdentifier:@"TS" title:@"Störung"]];
         [_types addObject:[[RssConfig alloc] initWithIdentifier:@"TV" title:@"Verspätung"]];
         
-        self.title = @"Configure RSS";
+        self.title = l10n(@"Configure RSS");
     }
     return self;
 }
