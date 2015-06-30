@@ -137,7 +137,7 @@
     [_premiumContainer addSubview:premiumBadge];
     
     
-    self.title = @"SBB Watch";
+    self.title = @"OnTime";
     self.view.backgroundColor = [UIColor whiteColor];
     self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
     
@@ -199,7 +199,7 @@
     [alert addButton:l10n(@"Close") actionBlock:^{
         
     }];
-    [alert showCustom:self image:[UIImage imageNamed:@"infoWhite"] color:[UIColor colorWithRed:0.78 green:0.08 blue:0.09 alpha:1.00] title:l10n(@"SBB Watch") subTitle:l10n(@"Created by Dylan Marriott\nEmail: info@d-32.com\nTwitter: @dylan36032\nwww.d-32.com\n\nThanks to Charles Vass for the awesome art work.\n\nAlso special thanks to Opendata.ch for providing such a great API.") closeButtonTitle:nil duration:0];
+    [alert showCustom:self image:[UIImage imageNamed:@"infoWhite"] color:[UIColor colorWithRed:0.78 green:0.08 blue:0.09 alpha:1.00] title:l10n(@"OnTime") subTitle:l10n(@"Created by Dylan Marriott\nEmail: info@d-32.com\nTwitter: @dylan36032\nwww.d-32.com\n\nThanks to Charles Vass for the awesome art work.\n\nAlso special thanks to Opendata.ch for providing such a great API.") closeButtonTitle:nil duration:0];
 }
 
 - (void)showPremiumController {
@@ -251,7 +251,7 @@
             }
         }];
     }];
-    [alert showCustom:self image:[UIImage imageNamed:@"watch"] color:[UIColor colorWithRed:0.46 green:0.71 blue:0.19 alpha:1.00] title:l10n(@"Success") subTitle:l10n(@"Now open SBB Watch on your Apple Watch and travel safely.") closeButtonTitle:nil duration:0];
+    [alert showCustom:self image:[UIImage imageNamed:@"watch"] color:[UIColor colorWithRed:0.46 green:0.71 blue:0.19 alpha:1.00] title:l10n(@"Success") subTitle:l10n(@"Now open OnTime on your Apple Watch and travel safely.") closeButtonTitle:nil duration:0];
 }
 
 - (void)autoCompleteTextFieldDidChange:(NSString *)text {

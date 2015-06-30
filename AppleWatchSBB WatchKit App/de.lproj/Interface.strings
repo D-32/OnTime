@@ -26,8 +26,8 @@
 /* Class = "WKInterfaceLabel"; text = "Departure"; ObjectID = "7Vw-SX-hys"; */
 "7Vw-SX-hys.text" = "Abfahrten";
 
-/* Class = "WKInterfaceController"; title = "SBB Watch"; ObjectID = "7i8-EH-URM"; */
-"7i8-EH-URM.title" = "SBB Watch";
+/* Class = "WKInterfaceController"; title = "OnTime"; ObjectID = "7i8-EH-URM"; */
+"7i8-EH-URM.title" = "OnTime";
 
 /* Class = "WKInterfaceLabel"; text = "Notification has been set."; ObjectID = "8Ti-Ng-EMs"; */
 "8Ti-Ng-EMs.text" = "Benachrichtigungen wurden registriert.";
