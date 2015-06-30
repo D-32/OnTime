@@ -26,6 +26,8 @@
     [[SDStatusBarManager sharedInstance] enableOverrides];
 #endif
     
+    //[[[NSUserDefaults alloc] initWithSuiteName:@"group.dylanmarriott.applewatchsbb"] setBool:YES forKey:@"premium"];
+    
     MainNavigationController *mainViewController = [[MainNavigationController alloc] init];
     self.window.rootViewController = mainViewController;
     
