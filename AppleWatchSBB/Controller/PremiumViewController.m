@@ -59,7 +59,7 @@
     PremiumItem *notificationItem = [[PremiumItem alloc] initWithFrame:CGRectMake(0, 255, _container.frame.size.width, 85) icon:[UIImage imageNamed:@"premiumNotification"] title:l10n(@"Notifications") desc:l10n(@"Get notifications with connection info when changing trains.")];
     [_container addSubview:notificationItem];
     
-    UIView *buyContainer = [[UIView alloc] initWithFrame:CGRectMake(25, 380, _container.frame.size.width - 50, 50)];
+    UIView *buyContainer = [[UIView alloc] initWithFrame:CGRectMake(25, 350, _container.frame.size.width - 50, 50)];
     buyContainer.backgroundColor = [UIColor colorWithRed:0.78 green:0.08 blue:0.09 alpha:1.00];
     buyContainer.layer.cornerRadius = 8;
     _tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(startProcess)];
@@ -71,7 +71,17 @@
     _buyLabel.textColor = [UIColor whiteColor];
     _buyLabel.textAlignment = NSTextAlignmentCenter;
     [buyContainer addSubview:_buyLabel];
-    
+
+
+	UILabel *restoreButton = [[UILabel alloc] initWithFrame:CGRectMake(25, 410, _container.frame.size.width -50, 30)];
+	restoreButton.font = [UIFont systemFontOfSize:16];
+	restoreButton.textColor = [UIColor colorWithRed:0.78 green:0.08 blue:0.09 alpha:1.00];
+	restoreButton.textAlignment = NSTextAlignmentCenter;
+	restoreButton.text = l10n(@"Restore Purchase");
+	[restoreButton addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(actionRestore:)]];
+	restoreButton.userInteractionEnabled = YES;
+	[_container addSubview:restoreButton];
+
     [self resetBuyLabel];
 }
 
@@ -96,6 +106,11 @@
     } completion:^(BOOL finished) {
         [self dismissViewControllerAnimated:NO completion:nil];
     }];
+}
+
+- (void)actionRestore:(id)sender {
+	[[SKPaymentQueue defaultQueue] addTransactionObserver:self];
+	[[SKPaymentQueue defaultQueue] restoreCompletedTransactions];
 }
 
 - (void)resetBuyLabel {
@@ -134,7 +149,6 @@
 
 - (void)purchase:(SKProduct *)product{
     SKPayment *payment = [SKPayment paymentWithProduct:product];
-    
     [[SKPaymentQueue defaultQueue] addTransactionObserver:self];
     [[SKPaymentQueue defaultQueue] addPayment:payment];
 }
@@ -166,6 +180,15 @@
                 break;
         }
     }
+}
+
+- (void)paymentQueueRestoreCompletedTransactionsFinished:(SKPaymentQueue *)queue {
+	[self handleSuccess];
+}
+
+- (void)paymentQueue:(SKPaymentQueue *)queue restoreCompletedTransactionsFailedWithError:(NSError *)error {
+	UIAlertView *av = [[UIAlertView alloc] initWithTitle:l10n(@"Error") message:error.localizedDescription delegate:nil cancelButtonTitle:l10n(@"Okay") otherButtonTitles:nil];
+	[av show];
 }
 
 - (void)handleSuccess {

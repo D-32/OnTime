@@ -90,7 +90,7 @@
     
     
     
-    _favContainer = [[UIView alloc] initWithFrame:CGRectMake(0, 170, self.view.frame.size.width, self.view.frame.size.height - 170)];
+    _favContainer = [[UIView alloc] initWithFrame:CGRectMake(0, 140, self.view.frame.size.width, self.view.frame.size.height - 140)];
     _favContainer.alpha = 0.0;
     [self.view addSubview:_favContainer];
     

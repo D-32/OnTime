@@ -1025,7 +1025,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "${TARGET_NAME}";
-				PROVISIONING_PROFILE = "059c5de7-c568-4c91-8776-9e8cc83c1273";
+				PROVISIONING_PROFILE = "702ea1c0-b4cb-45b1-b93c-9ced48947504";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
